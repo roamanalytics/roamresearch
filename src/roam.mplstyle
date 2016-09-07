@@ -1,0 +1,39 @@
+# from http://www.huyng.com/posts/sane-color-scheme-for-matplotlib/
+
+patch.linewidth: 0.5
+patch.facecolor: 0499CC
+patch.edgecolor: EEEEEE
+patch.antialiased: True
+
+font.size: 14.0
+# text.usetex: True
+# text.latex.preamble: \usepackage{amsmath}, \boldmath
+# font.family: serif
+
+axes.facecolor: white
+axes.edgecolor: black
+axes.linewidth: 1
+axes.grid: True
+axes.titlesize: xx-large
+axes.labelsize: x-large
+axes.labelcolor: black
+axes.axisbelow: True       # grid/ticks are below elements (eg lines, text)
+
+axes.prop_cycle: cycler('color', ['0499CC', '4D8951', 'FDBA58', 'A3AF98', '8F8F43', '838A8A', '876DB5', '735E56', '607D8B', '32A8B4', '9BB8D7', '212121', 'B8B8B8', '03A9F4'])
+
+
+xtick.color: 212121
+xtick.direction: out
+xtick.major.pad: 4
+xtick.major.size: 0
+
+ytick.color: 212121
+ytick.direction: out
+ytick.major.pad: 3
+ytick.major.size: 0
+
+grid.color: B8B8B8
+grid.linestyle: -    # solid line
+
+figure.facecolor: FAFAFA
+figure.edgecolor: 0.50
