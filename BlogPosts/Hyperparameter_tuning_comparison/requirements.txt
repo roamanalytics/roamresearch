@@ -1,0 +1,17 @@
+# For portability, numpy must be installed separately before running
+#  `pip install -r requirements`. Different OSes may require different
+#  installation procedures. We leave this numpy requirement here so
+#  pip-sync does not uninstall numpy.
+numpy == 1.10.4
+
+matplotlib == 1.5.1
+pandas == 0.18.0
+scipy == 0.17.0
+
+# See the README.md for the requirements associated with
+#
+#  scikit-optimize
+#  hyperopt
+#  sklearn
+#  XGBoost
+
