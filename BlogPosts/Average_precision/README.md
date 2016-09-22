@@ -1,6 +1,6 @@
 # Average precision
 
-Author: Nick Dingwall github.com/ndingwall
+Author: Nick Dingwall [github.com/ndingwall](github.com/ndingwall)
 
 This folder contains code that details a problem in one of scikit-learn's `metrics` functions, and proposes a solution.
 
