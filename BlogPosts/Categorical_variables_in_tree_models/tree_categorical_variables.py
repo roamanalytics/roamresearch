@@ -190,7 +190,7 @@ def make_c_and_z_based_on_y(y_vals, n_levels, z_pivot=10):
     return np.array(c), z
 
 
-def get_feature_names(df, exclude_c=False):
+def get_feature_names(df, include_c):
     """
     Returns a list of feature names from a dataframe, optionally excluding
     categorical variables.
@@ -198,14 +198,14 @@ def get_feature_names(df, exclude_c=False):
     Parameters
     ----------
     df : pd.DataFrame
-    exclude_c : bool
+    include_c : bool
 
     Returns
     -------
     names : list of strings
     """
     names = [f for f in df.columns if not f.startswith('y')]
-    if exclude_c:
+    if not include_c:
         names = [f for f in names if not f.startswith('c')]
     return names
 
