@@ -1,0 +1,17 @@
+Package: outlierDetection
+Type: Package
+Title: Outlier detection in time series
+Version: 0.1.0
+Author: Ben Bernstein
+Maintainer: Ben Bernstein <bernsteinbr@gmail.com>
+Description: Performs a method of outlier detection by
+    (1) using STL decomposition to define a time series pattern, and
+    (2) applying sequential Grubbs' tests to spot points that don't fit that pattern.
+License: Apache 2.0
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports:
+    Rcpp
+RoxygenNote: 5.0.1
+Suggests: testthat
