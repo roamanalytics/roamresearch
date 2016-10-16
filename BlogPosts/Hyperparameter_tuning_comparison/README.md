@@ -5,7 +5,8 @@ Authors: Ben Bernstein and Chris Potts
 
 ## Overview
 
-Link to the blog post.
+This folder contains the supporting notebook and code for the Roam blog post
+[Optimizing the hyperparameter of which hyperparameter optimizer to use](http://roamanalytics.com/2016/09/15/optimizing-the-hyperparameter-of-which-hyperparameter-optimizer-to-use/).
 
 ## Installation
 
@@ -32,5 +33,3 @@ This code has a variety of unusual requirements; you'll probably want to work wi
 * After XGBoost is installed, the Python package can be installed using these instructions:
 
   https://xgboost.readthedocs.io/en/latest/build.html#python-package-installation
-
-   

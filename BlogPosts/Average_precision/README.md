@@ -2,7 +2,10 @@
 
 Author: Nick Dingwall [github.com/ndingwall](github.com/ndingwall)
 
-This folder contains code that details a problem in one of scikit-learn's `metrics` functions, and proposes a solution.
+This folder contains code that details a problem in one of scikit-learn's
+`metrics` functions, and proposes a solution.
+
+The corresponding blog post is [Stepping away from linear interpolation](http://roamanalytics.com/2016/09/07/stepping-away-from-linear-interpolation/).
 
 ## Files inventory
 
@@ -13,4 +16,4 @@ This folder contains code that details a problem in one of scikit-learn's `metri
 
 ## Questions?
 
-Contact us at <research@roaminsight.com>. 
+Contact us at <research@roaminsight.com>.
