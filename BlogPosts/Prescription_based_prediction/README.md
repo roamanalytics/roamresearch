@@ -2,7 +2,10 @@
 
 Author: Nick Dingwall, Chris Potts, and Devini Senaratna
 
-This folder contains the notebook and supporting code for the Roam blog post 'Prescription-based prediction'
+This folder contains the notebook and supporting code for the Roam blog post
+[Prescription-based prediction](http://roamanalytics.com/2016/09/13/prescription-based-prediction/).
+
+The dataset is [available on Kaggle](https://www.kaggle.com/roamresearch/prescriptionbasedprediction).
 
 
 ## File inventory
