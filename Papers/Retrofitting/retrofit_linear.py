@@ -85,7 +85,7 @@ def retrofit_linear(X, in_edges, out_edges, n_iter=10, alpha=None, beta=None,
         if verbose:
             print("Iteration {} of {}".format(iteration, n_iter), end='\r')
             print("Calculating B...", end='\r')
-        
+
         B = calc_B(Y_prev, A_prev, beta, in_edges, neg_edges)
         B = {r: B_prev[r] + lr*(B[r]-B_prev[r]) for r in in_edges.keys()}
         if should_calc_A:
@@ -138,7 +138,7 @@ def retrofit_linear(X, in_edges, out_edges, n_iter=10, alpha=None, beta=None,
 
 def calc_Ar(Y, b_r, beta, edges, neg_edges, lam, orthogonal=True):
     """ Calculate a new A for a single edge type r according to Equation (5)
-    
+
     Parameters
     ----------
     Y          : np.array (distributional embeddings)
@@ -204,7 +204,8 @@ def calc_A(Y, B, beta, edges, neg_edges, lam=0., orthogonal=True):
             for r in edges.keys()}
 
 
-def calc_Y(X, Y, A, b, in_edges, out_edges, neg_in_edges, neg_out_edges, alpha, beta):
+def calc_Y(X, Y, A, b, in_edges, out_edges, neg_in_edges, neg_out_edges,
+           alpha, beta):
     """ Calculates a new embedding based on Eq 6 of the paper.
 
     Parameters
@@ -231,11 +232,6 @@ def calc_Y(X, Y, A, b, in_edges, out_edges, neg_in_edges, neg_out_edges, alpha, 
         denominator = alpha(i)
         for r in in_edges.keys():
             for j in in_edges[r][i]:
-                try:
-                    numerator += beta(i,j,r)*(A[r].dot(Y[j]) + b[r])
-                except IndexError:
-                    print(j)
-                    print()
                 numerator += beta(i,j,r)*(A[r].dot(Y[j]) + b[r])
                 denominator += beta(i,j,r)
 
@@ -276,13 +272,13 @@ def calc_Br(Y, A_r, beta, in_edges_r, neg_edges_r):
     denom = 0.
     for i, neighbors in in_edges_r.items():
         for j in neighbors:
-            num += beta(i,j)*(A_r.dot(Y[j]) - Y[i])
-            denom += beta(i,j)
+            num += beta(i, j)*(A_r.dot(Y[j]) - Y[i])
+            denom += beta(i, j)
 
     for i, neighbors in neg_edges_r.items():
         for j in neighbors:
-            num -= beta(i,j)*(A_r.dot(Y[j]) - Y[i])
-            denom -= beta(i,j)
+            num -= beta(i, j)*(A_r.dot(Y[j]) - Y[i])
+            denom -= beta(i, j)
 
     return num / denom
 
@@ -302,7 +298,8 @@ def calc_B(Y, A, beta, in_edges, neg_edges):
     -------
     dict that maps edge type to np.array
     """
-    return {r: calc_Br(Y, A[r], lambda i,j: beta(i,j,r), in_edges[r], neg_edges[r]) for r in in_edges.keys()}
+    return {r: calc_Br(Y, A[r], lambda i, j: beta(i, j, r), in_edges[r], neg_edges[r])
+            for r in in_edges.keys()}
 
 
 def calc_loss(X, Y, A, B, alpha, beta, lam, in_edges, neg_edges):
@@ -318,7 +315,7 @@ def calc_loss(X, Y, A, B, alpha, beta, lam, in_edges, neg_edges):
     lam       : float regularization parameter
     in_edges  : dict that maps entity index to list of neighbors
     neg_edges : dict that maps entity index to list of non-neighbors
-    
+
     Returns
     -------
     float
@@ -327,10 +324,10 @@ def calc_loss(X, Y, A, B, alpha, beta, lam, in_edges, neg_edges):
     for r in in_edges.keys():
         for i, neighbors in in_edges[r].items():
             for j in neighbors:
-                loss += beta(i,j,r)*np.linalg.norm(A[r].dot(Y[j]) + B[r] - Y[i], ord=2)
+                loss += beta(i, j, r)*np.linalg.norm(A[r].dot(Y[j]) + B[r] - Y[i], ord=2)
         for i, neighbors in neg_edges[r].items():
             for j in neighbors:
-                loss -= beta(i,j,r)*np.linalg.norm(A[r].dot(Y[j]) + B[r] - Y[i], ord=2)
+                loss -= beta(i, j, r)*np.linalg.norm(A[r].dot(Y[j]) + B[r] - Y[i], ord=2)
 
         loss += lam*np.linalg.norm(A[r], ord=2)
 

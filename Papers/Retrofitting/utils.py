@@ -1,7 +1,9 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction import DictVectorizer
+from sklearn.manifold import TSNE
 from sklearn.preprocessing import Imputer
 
 
@@ -30,6 +32,29 @@ def load_obj(name):
     """
     with open('obj/' + name + '.pkl', 'rb') as f:
         return pickle.load(f)
+
+
+def plot_embeddings(X, title, entity_types, entity_counts, n_iter=200):
+    """ Plots TSNE embeddings. Assumes that only 2 types of entities are present.
+
+    Parameters
+    ----------
+    X : np.array of representations
+    title : str plot title
+    entity_types : list of str entity type names
+    entity_counts : list of int entity counts
+    n_iter : int maximum number of TSNE iterations to allow
+    """
+    t = TSNE(n_iter=n_iter)
+    X_tsne = t.fit_transform(X)
+    plt.scatter(X_tsne[:entity_counts[0], 0], X_tsne[:entity_counts[0], 1], color='r', marker='.')
+    plt.scatter(X_tsne[entity_counts[0]:, 0], X_tsne[entity_counts[0]:, 1], color='b', marker='.')
+    plt.legend(entity_types)
+    plt.title(title)
+    plt.xlabel("tSNE Component 1")
+    plt.ylabel("tSNE Component 2")
+    plt.show()
+
 
 def get_train_test_indices(edges, p_train=0.7, neg_sampling=1.0):
     """ Selects train and test examples.
@@ -168,7 +193,7 @@ def vectorize(co_occurrences, min_threshold=0, max_threshold=np.inf,
         row_names.append(row_name)
         C.append(features)
     row_names = np.array(row_names)
-    
+
     # Vectorize
     v = DictVectorizer(sparse=True)
     M = v.fit_transform(C)
