@@ -1,0 +1,196 @@
+\documentclass{article}
+
+\usepackage[a4paper, landscape, margin=0.5in]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usepackage{verbatim}
+\usepackage{amsfonts}
+
+\newcommand{\myexpect}{\hat{\mathbb{E}}}
+
+\begin{comment}
+:Title: Probability tree
+:Tags: Trees
+
+A simple example of a probability tree diagram.
+
+\end{comment}
+
+
+\begin{document}
+\pagestyle{empty}
+
+
+% Set the overall layout of the tree
+\tikzstyle{level 1}=[level distance=4cm, sibling distance=3.5cm]
+\tikzstyle{level 2}=[level distance=2.5cm, sibling distance=2cm]
+
+% Define styles for bags and leafs
+\tikzstyle{bag} = [text width=7em, text centered]
+\tikzstyle{end} = [circle, minimum width=3pt,fill, inner sep=0pt]
+
+% The sloped option gives rotated edge labels. Personally
+% I find sloped labels a bit difficult to read. Remove the sloped options
+% to get horizontal labels.
+\begin{tikzpicture}[grow=right, sloped]
+\node[bag] {All patients}
+    child {
+        node[bag] {Treatment 2}
+            child {
+                node[end, label=right:
+                    {$\myexpect(R\,|\,T=2) = 4.455$}] {}
+                edge from parent
+            }
+            edge from parent
+            node[above]  {$T=2$}
+    }
+    child {
+        node[bag] {Treatment 1}
+            child {
+                node[end, label=right:
+                    {$\myexpect(R\,|\,T=1) = 5.752$}] {}
+                edge from parent
+            }
+            edge from parent
+            node[above]  {$T=1$}
+    };
+\end{tikzpicture}
+
+\begin{tikzpicture}[grow=right, sloped]
+\node[bag] {All patients}
+    child {
+        node[bag] {Treatment 2}
+            child {
+                node[end, label=right:
+                    {$\myexpect(R\,|\,T=2) = 5.548$}] {}
+                edge from parent
+            }
+            edge from parent
+            node[above]  {$T=2$}
+    }
+    child {
+        node[bag] {Treatment 1}
+            child {
+                node[end, label=right:
+                    {$\myexpect(R\,|\,T=1) = 4.909$}] {}
+                edge from parent
+            }
+            edge from parent
+            node[above]  {$T=1$}
+    };
+\end{tikzpicture}
+
+% Set the overall layout of the tree
+\tikzstyle{level 1}=[level distance=4cm, sibling distance=3.5cm]
+\tikzstyle{level 2}=[level distance=5.5cm, sibling distance=2cm]
+\tikzstyle{level 3}=[level distance=2.5cm, sibling distance=2cm]
+
+\begin{tikzpicture}[grow=right, sloped]
+\node[bag] {All patients}
+    child {
+        node[bag] {Treatment 2}
+            child {
+                node[bag] {Rural,\\ treatment 2}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=2,L=\textrm{Rural}) = 3.731$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$L=\textrm{Rural}$}
+            }
+            child {
+                node[bag] {Urban, treatment 2}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=2,L=\textrm{Urban}) = 8.596$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$L=\textrm{Urban}$}
+            }
+        edge from parent
+            node[above] {$T=2$}
+    }
+    child {
+        node[bag] {Treatment 1}
+            child {
+                node[bag] {Rural,\\ treatment 1}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=1,L=\textrm{Rural}) = 2.186$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$L=\textrm{Rural}$}
+            }
+            child {
+                node[bag] {Urban, treatment 1}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=1,L=\textrm{Urban}) = 6.124$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$L=\textrm{Urban}$}
+            }
+        edge from parent
+            node[above] {$T=1$}
+    };
+\end{tikzpicture}
+
+\begin{tikzpicture}[grow=right, sloped]
+\node[bag] {All patients}
+    child {
+        node[bag] {Treatment 2}
+            child {
+                node[bag] {Non-scuba,\\ treatment 2}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=2,S=\textrm{False}) = 4.073$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$S=\textrm{False}$}
+            }
+            child {
+                node[bag] {Scuba,\\ treatment 2}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=2,S=\textrm{True}) = 5.888$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$S=\textrm{True}$}
+            }
+        edge from parent
+            node[above] {$T=2$}
+    }
+    child {
+        node[bag] {Treatment 1}
+            child {
+                node[bag] {Non-scuba,\\ treatment 1}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=1,S=\textrm{False}) = 4.690$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$S=\textrm{False}$}
+            }
+            child {
+                node[bag] {Scuba,\\ treatment 1}
+                    child {
+                        node[end, label=right:
+                            {$\myexpect(R\,|\,T=1,S=\textrm{True}) = 6.443$}] {}
+                        edge from parent
+                }
+                edge from parent
+                node[above]  {$S=\textrm{True}$}
+            }
+        edge from parent
+            node[above] {$T=1$}
+    };
+\end{tikzpicture}
+
+\end{document}
