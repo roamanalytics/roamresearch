@@ -5,3 +5,4 @@ sklearn_crfsuite>=0.3.6,<0.4
 scikit-learn>=0.18.1,<0.19
 pandas>=0.20.3,<0.21
 tensorflow==1.4
+mittens==0.1
