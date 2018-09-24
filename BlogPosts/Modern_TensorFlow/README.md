@@ -7,6 +7,9 @@ Date: 2018-09-24
 
 __TL;DR__: Recent changes to TensorFlow make it much easier to develop and productionize deep learning models. We've created a notebook full of code snippets that illustrate the new design patterns and features, including a number of tips and tricks specific to developing NLP models.
 
+* [The notebook of code snippets](modern-tensorflow.ipynb) [[nbviewer view for better formatting](http://nbviewer.jupyter.org/github/roamanalytics/roamresearch/blob/master/BlogPosts/Modern_TensorFlow/modern-tensorflow.ipynb)]
+* [Blog post version of this README](https://roamanalytics.com/good-practices-in-modern-tensorflow-for-nlp/)
+
 
 ## The evolution of deep learning libraries
 
