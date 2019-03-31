@@ -1,6 +1,6 @@
-# Drug-Disease Relations Datasets
+# Roam Drug-Disease Relations Datasets
 
-Anonymized dataset distribution for NAACL 2019 review.
+Bruno Godefroy
 
 ## Overview
 
@@ -9,7 +9,7 @@ This corpus distribution consists of two files:
 1. `drug_disease_relations-graph_examples.jsonl`: The crowdsourced annotations used in the graphs described in the paper.
 2. `drug_disease_relations-crf_train.json`: A separate expert-annotated dataset used for training a separate CRF.
 
-Upon publication, this dataset will be publicly released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0).
+Released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0).
 
 
 ## drug_disease_relations-graph_examples.jsonl
@@ -33,18 +33,18 @@ The dataset is provided under the JSON Lines format.  Each line is a valid JSON 
 
 ```
 {
-  "RXCUIs": [197947, 207073, 207074], 
-  "text": "INDICATIONS AND USAGE Methoxsalen is indicated for ...", 
+  "RXCUIs": [197947, 207073, 207074],
+  "text": "INDICATIONS AND USAGE Methoxsalen is indicated for ...",
   "disease_mentions": {
     "psoriasis": {
-       "ICD10s": ["L40", "L403", "L409"], 
-       "text_offsets": [[159, 168]], 
+       "ICD10s": ["L40", "L403", "L409"],
+       "text_offsets": [[159, 168]],
        "relation": "TREATS",
-       "agreement": 0.8, 
+       "agreement": 0.8,
        "judgments": [
-         {"worker_id": 2, "response": "TREATS"}, 
-         {"worker_id": 4, "response": "TREATS"}, 
-         {"worker_id": 11, "response": "PREVENTS"}, 
+         {"worker_id": 2, "response": "TREATS"},
+         {"worker_id": 4, "response": "TREATS"},
+         {"worker_id": 11, "response": "PREVENTS"},
          {"worker_id": 80, "response": "TREATS"},
          {"worker_id": 81, "response": "TREATS"}
        ]
@@ -60,7 +60,7 @@ Additional details on the fields:
  - `text`: content of the "indications and usage" section in the drug label.
  - `disease_mentions`: the disease mentions matched in the text.
  - `ICD10s`: a list of ICD10 codes identifying the disease.
- - `text_offsets`: the locations of mentions of the disease in text; for each location, the first value is the start index (included) and the second values is the end index (excluded). 
+ - `text_offsets`: the locations of mentions of the disease in text; for each location, the first value is the start index (included) and the second values is the end index (excluded).
  - `relation`: the drug-disease relation inferred from the judgments collected.
  - `agreement`: the agreement between the judgments and the inferred label.
  - `judgments`: the 5 judgments collected via crowdsourcing.
@@ -85,7 +85,7 @@ This step consists in inferring a unique label for each drug-disease relation, b
 
 For each drug-disease pair, this process was performed in 2 steps:
 
-1. Decide whether the drug is approved for the disease, ie. whether the true label is in the set of labels ('TREATS', 'TREATS_OUTCOMES', 'PREVENTS') or in 
+1. Decide whether the drug is approved for the disease, ie. whether the true label is in the set of labels ('TREATS', 'TREATS_OUTCOMES', 'PREVENTS') or in
 the set of labels ('OTHER', 'NOT_ESTABLISHED', 'NOT_RECOMMENDED').
 2. Decide which label is the most appropriate in the set of labels selected at  the previous step.
 
@@ -96,8 +96,8 @@ For step 1, we applied Expectation Maximization (EM), essentially as in Dawid an
 
 Agreement after step 1:
 
-Relations      | Agreement     
--------------- | ------------- 
+Relations      | Agreement
+-------------- | -------------
 'approved'     | 0.906
 'not approved' | 0.454
 
@@ -185,6 +185,3 @@ Steps for data preparation:
 4. Remove duplicate sentences
 5. Filter out very short sentences (less than 20 characters)
 6. Sample 2K of these sentences
-
-
-
