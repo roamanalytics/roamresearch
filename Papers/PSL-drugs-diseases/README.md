@@ -12,6 +12,16 @@ This corpus distribution consists of two files:
 Released under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0).
 
 
+## Citation
+
+```
+@unpublished{Godefroy:Potts:2019,
+  Author = {Godefroy, Bruno  and  Potts, Christopher},
+  Note = {Ms., Roam Analytics and Stanford University. arXiv:1904.00313},
+  Title = {Modeling Drug--Disease Relations with Linguistic and Knowledge Graph Constraints},
+  Year = {2019}}
+```
+
 ## drug_disease_relations-graph_examples.jsonl
 
 This dataset contains 8,612 drug-disease relations, labelled using crowdsourcing. Relations are drawn from a subset of 2,434 drug label texts, representative of all the drugs labels released by the FDA. For each drug-disease relation, we collected judgments from 5 independent contributors. All the individual judgments are provided as well as a unique label for each drug-disease relation, inferred from the judgments using Expectation Maximization.
