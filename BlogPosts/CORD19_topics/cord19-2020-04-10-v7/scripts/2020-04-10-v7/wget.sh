@@ -1,0 +1,9 @@
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/cord-19.readme
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-03-13/all_sources_metadata_2020-03-13.readme
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/changelog
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/metadata.csv
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/comm_use_subset.tar.gz
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/noncomm_use_subset.tar.gz
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/custom_license.tar.gz
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/biorxiv_medrxiv.tar.gz
+wget https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/2020-04-10/cord19_specter_embeddings_2020-04-10.tar.gz
