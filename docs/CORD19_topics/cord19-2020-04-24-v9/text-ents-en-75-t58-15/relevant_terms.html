@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 58</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>model</td>
+      <td>transmission</td>
+      <td>virus</td>
+      <td>indoor</td>
+      <td>particle</td>
+      <td>wind</td>
+      <td>humidity</td>
+      <td>pollution</td>
+      <td>isolation</td>
+      <td>mask</td>
+      <td>aeruginosa</td>
+      <td>temperature</td>
+      <td>cabin</td>
+      <td>sars-cov-2</td>
+      <td>energy</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ventilation</td>
+      <td>droplets</td>
+      <td>sampling</td>
+      <td>health</td>
+      <td>particles</td>
+      <td>building</td>
+      <td>lag</td>
+      <td>air pollution</td>
+      <td>hospital</td>
+      <td>ventilator</td>
+      <td>ffrs</td>
+      <td>fever</td>
+      <td>passengers</td>
+      <td>toilet</td>
+      <td>dehumidification</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>contaminant</td>
+      <td>infection</td>
+      <td>collection</td>
+      <td>sources</td>
+      <td>size</td>
+      <td>buildings</td>
+      <td>%</td>
+      <td>PM</td>
+      <td>door</td>
+      <td>lung</td>
+      <td>CF</td>
+      <td>infrared</td>
+      <td>aircraft</td>
+      <td>samples</td>
+      <td>acclimation</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>source</td>
+      <td>droplet</td>
+      <td>sampler</td>
+      <td>microbial</td>
+      <td>chamber</td>
+      <td>urban</td>
+      <td>relative</td>
+      <td>matter</td>
+      <td>rooms</td>
+      <td>smoke</td>
+      <td>EBC</td>
+      <td>screening</td>
+      <td>maximum</td>
+      <td>emissions</td>
+      <td>desiccant</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>CFD</td>
+      <td>infected</td>
+      <td>viruses</td>
+      <td>studies</td>
+      <td>filter</td>
+      <td>kong</td>
+      <td>COVID-19</td>
+      <td>visits</td>
+      <td>ward</td>
+      <td>tidal</td>
+      <td>LVB</td>
+      <td>IRT</td>
+      <td>vortex</td>
+      <td>fugitive</td>
+      <td>system</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>experimental</td>
+      <td>respiratory</td>
+      <td>bioaerosol</td>
+      <td>IAQ</td>
+      <td>particle size</td>
+      <td>hong</td>
+      <td>daily</td>
+      <td>O3</td>
+      <td>room</td>
+      <td>masks</td>
+      <td>VO(2</td>
+      <td>forehead</td>
+      <td>cabins</td>
+      <td>dust</td>
+      <td>viral infectivity</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>method</td>
+      <td>airborne</td>
+      <td>viral</td>
+      <td>review</td>
+      <td>nm</td>
+      <td>pollutant</td>
+      <td>95</td>
+      <td>air pollutants</td>
+      <td>patient</td>
+      <td>cm</td>
+      <td>age</td>
+      <td>°</td>
+      <td>m/s</td>
+      <td>toilets</td>
+      <td>limits set</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>dispersion</td>
+      <td>spread</td>
+      <td>viable</td>
+      <td>air</td>
+      <td>×</td>
+      <td>pedestrian</td>
+      <td>PM2.5</td>
+      <td>NO2</td>
+      <td>pressure</td>
+      <td>exhaled</td>
+      <td>SVCV</td>
+      <td>specificity</td>
+      <td>spatial</td>
+      <td>mg</td>
+      <td>days</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>computational</td>
+      <td>infectious</td>
+      <td>samplers</td>
+      <td>quality</td>
+      <td>UV</td>
+      <td>lift-up</td>
+      <td>relative humidity</td>
+      <td>asthma</td>
+      <td>negative</td>
+      <td>oxygen</td>
+      <td>ARG</td>
+      <td>catheter</td>
+      <td>coughs</td>
+      <td>flush</td>
+      <td>exceeding</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>paper</td>
+      <td>disease</td>
+      <td>bacteria</td>
+      <td>environment</td>
+      <td>dose</td>
+      <td>tunnel</td>
+      <td>temperature</td>
+      <td>particulate</td>
+      <td>doorway</td>
+      <td>H2O</td>
+      <td>ppm</td>
+      <td>non-contact</td>
+      <td>propagation</td>
+      <td>blade</td>
+      <td>limits</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>distribution</td>
+      <td>human</td>
+      <td>biosampler</td>
+      <td>outdoor</td>
+      <td>deposition</td>
+      <td>hong kong</td>
+      <td>meteorological</td>
+      <td>dioxide</td>
+      <td>wards</td>
+      <td>HPS</td>
+      <td>peak</td>
+      <td>ITDS</td>
+      <td>speaking</td>
+      <td>bone</td>
+      <td>fresh</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>zone</td>
+      <td>μm</td>
+      <td>impactor</td>
+      <td>research</td>
+      <td>ions</td>
+      <td>twisted</td>
+      <td>CI</td>
+      <td>PM10</td>
+      <td>doors</td>
+      <td>leakage</td>
+      <td>ozone</td>
+      <td>thermometer</td>
+      <td>airliner</td>
+      <td>PAH</td>
+      <td>cooling</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>transport</td>
+      <td>role</td>
+      <td>viability</td>
+      <td>phase</td>
+      <td>sizes</td>
+      <td>window</td>
+      <td>cases</td>
+      <td>particulate matter</td>
+      <td>HVAC</td>
+      <td>simulator</td>
+      <td>l/s</td>
+      <td>skin</td>
+      <td>channel</td>
+      <td>pahs</td>
+      <td>heat</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>flow</td>
+      <td>SARS</td>
+      <td>aerosol</td>
+      <td>effects</td>
+      <td>ultrafine</td>
+      <td>boundary</td>
+      <td>confirmed</td>
+      <td>concentrations</td>
+      <td>patients</td>
+      <td>jet</td>
+      <td>HVB</td>
+      <td>body</td>
+      <td>gaspers</td>
+      <td>fire</td>
+      <td>issues</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>air</td>
+      <td>diseases</td>
+      <td>aerosolized</td>
+      <td>parameters</td>
+      <td>aerosol particles</td>
+      <td>high-rise</td>
+      <td>china</td>
+      <td>pollutants</td>
+      <td>HCW</td>
+      <td>connected</td>
+      <td>FFR</td>
+      <td>body temperature</td>
+      <td>vuvuzela</td>
+      <td>tank</td>
+      <td>COVID-19</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>velocity</td>
+      <td>contact</td>
+      <td>liquid</td>
+      <td>related</td>
+      <td>ion</td>
+      <td>natural</td>
+      <td>increase</td>
+      <td>visibility</td>
+      <td>isolation rooms</td>
+      <td>lungs</td>
+      <td>NIPE</td>
+      <td>temperatures</td>
+      <td>crocodilians</td>
+      <td>bathroom</td>
+      <td>cities</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>dynamics</td>
+      <td>acute respiratory syndrome</td>
+      <td>samples</td>
+      <td>levels</td>
+      <td>UVGI</td>
+      <td>comfort</td>
+      <td>mortality</td>
+      <td>nitrogen</td>
+      <td>ventilation</td>
+      <td>compliance</td>
+      <td>older</td>
+      <td>heart</td>
+      <td>MS</td>
+      <td>flushing</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>simulations</td>
+      <td>syndrome</td>
+      <td>detection</td>
+      <td>children</td>
+      <td>fluorescent</td>
+      <td>street</td>
+      <td>association</td>
+      <td>p-trend</td>
+      <td>ACH</td>
+      <td>smoke particles</td>
+      <td>RM</td>
+      <td>sensitivity</td>
+      <td>derived</td>
+      <td>aerosol</td>
+      <td>fireworks</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>contaminants</td>
+      <td>aerosols</td>
+      <td>filter</td>
+      <td>health effects</td>
+      <td>germicidal</td>
+      <td>windward</td>
+      <td>factors</td>
+      <td>air</td>
+      <td>air</td>
+      <td>IPAP</td>
+      <td>dorm</td>
+      <td>handheld</td>
+      <td>DNA</td>
+      <td>dental</td>
+      <td>DDP</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>numerical</td>
+      <td>risk</td>
+      <td>adenovirus</td>
+      <td>types</td>
+      <td>aerosols</td>
+      <td>level</td>
+      <td>influenza</td>
+      <td>beijing</td>
+      <td>airflow</td>
+      <td>plane</td>
+      <td>cough aerosols</td>
+      <td>thermography</td>
+      <td>cough</td>
+      <td>counted</td>
+      <td>DOAS</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>mixing</td>
+      <td>outbreak</td>
+      <td>andersen</td>
+      <td>bioaerosols</td>
+      <td>efficiencies</td>
+      <td>speeds</td>
+      <td>2020</td>
+      <td>airport</td>
+      <td>cross-infection</td>
+      <td>head</td>
+      <td>CBS</td>
+      <td>taxi</td>
+      <td>2-D</td>
+      <td>kg−1</td>
+      <td>accelerated</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>validated</td>
+      <td>pathogen</td>
+      <td>filters</td>
+      <td>organic</td>
+      <td>diameter</td>
+      <td>flows</td>
+      <td>days</td>
+      <td>NO(2</td>
+      <td>hallway</td>
+      <td>injury</td>
+      <td>forced</td>
+      <td>forehead temperature</td>
+      <td>velocimetry</td>
+      <td>TPH</td>
+      <td>ability</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>proposed</td>
+      <td>evaporation</td>
+      <td>infectivity</td>
+      <td>nanoparticles</td>
+      <td>efficiency</td>
+      <td>floors</td>
+      <td>RR</td>
+      <td>outpatient</td>
+      <td>inpatient</td>
+      <td>patients</td>
+      <td>dormitory</td>
+      <td>wrist</td>
+      <td>passenger</td>
+      <td>produced</td>
+      <td>epidemics</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>fluid</td>
+      <td>acute</td>
+      <td>survival</td>
+      <td>filtration</td>
+      <td>disinfection</td>
+      <td>neighborhood</td>
+      <td>associated with</td>
+      <td>PM(10</td>
+      <td>care</td>
+      <td>normal</td>
+      <td>rates</td>
+      <td>tympanic</td>
+      <td>large-scale</td>
+      <td>103</td>
+      <td>science</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>thermal</td>
+      <td>transmitted</td>
+      <td>viral particles</td>
+      <td>major</td>
+      <td>inactivation</td>
+      <td>interunit</td>
+      <td>seasonal</td>
+      <td>regional</td>
+      <td>noise</td>
+      <td>distances</td>
+      <td>1</td>
+      <td>measurement</td>
+      <td>commercial</td>
+      <td>schools</td>
+      <td>narrow‐ranging</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>displacement</td>
+      <td>nuclei</td>
+      <td>glass</td>
+      <td>occupant</td>
+      <td>bacterial</td>
+      <td>area</td>
+      <td>wuhan</td>
+      <td>monoxide</td>
+      <td>AIIR</td>
+      <td>light</td>
+      <td>respirator</td>
+      <td>febrile</td>
+      <td>measure</td>
+      <td>cleaning</td>
+      <td>burning</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>room</td>
+      <td>severe</td>
+      <td>RH</td>
+      <td>portable</td>
+      <td>continuous</td>
+      <td>speed</td>
+      <td>meteorological factors</td>
+      <td>carbon monoxide</td>
+      <td>hinged</td>
+      <td>plume</td>
+      <td>min</td>
+      <td>readings</td>
+      <td>airflow</td>
+      <td>cfu/m(3</td>
+      <td>salamanders</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>computational fluid dynamics</td>
+      <td>exhaled</td>
+      <td>collect</td>
+      <td>indoor air quality</td>
+      <td>range</td>
+      <td>pedestrian-level</td>
+      <td>periods</td>
+      <td>PM(2.5</td>
+      <td>sliding</td>
+      <td>tidal volume</td>
+      <td>symptoms</td>
+      <td>participants</td>
+      <td>airplane</td>
+      <td>sawing</td>
+      <td>future</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>experimental data</td>
+      <td>cough</td>
+      <td>e. coli</td>
+      <td>volatile</td>
+      <td>irradiation</td>
+      <td>envelope</td>
+      <td>incidence</td>
+      <td>nitrogen dioxide</td>
+      <td>cubicle</td>
+      <td>18</td>
+      <td>organ</td>
+      <td>AUC</td>
+      <td>mfps</td>
+      <td>ERMI</td>
+      <td>italy</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>manikin</td>
+      <td>droplet nuclei</td>
+      <td>E.</td>
+      <td>hotel</td>
+      <td>rain</td>
+      <td>single-sided</td>
+      <td>january</td>
+      <td>emissions</td>
+      <td>MERS</td>
+      <td>adult</td>
+      <td>dormitory rooms</td>
+      <td>optotherm</td>
+      <td>m(2)/s</td>
+      <td>pcm−3</td>
+      <td>meteorological conditions</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>approach</td>
+      <td>disease transmission</td>
+      <td>coli</td>
+      <td>environmental</td>
+      <td>bends</td>
+      <td>tall</td>
+      <td>hubei</td>
+      <td>traffic</td>
+      <td>induced</td>
+      <td>visualization</td>
+      <td>air-purifying</td>
+      <td>IR</td>
+      <td>microfluidic</td>
+      <td>MF</td>
+      <td>recovery</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>particle</td>
+      <td>direct</td>
+      <td>influenza</td>
+      <td>microorganisms</td>
+      <td>HEPA</td>
+      <td>dimensions</td>
+      <td>cumulative</td>
+      <td>fatality</td>
+      <td>passage</td>
+      <td>dosage</td>
+      <td>scores</td>
+      <td>DITI</td>
+      <td>calculating</td>
+      <td>water‐damaged</td>
+      <td>exchanger</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>results</td>
+      <td>index</td>
+      <td>efficiency</td>
+      <td>pollutants</td>
+      <td>epidermidis</td>
+      <td>canyons</td>
+      <td>absolute</td>
+      <td>outpatient visits</td>
+      <td>hospitals</td>
+      <td>patient</td>
+      <td>p aeruginosa</td>
+      <td>imager</td>
+      <td>airliner cabins</td>
+      <td>springfield</td>
+      <td>society</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>system</td>
+      <td>sitting</td>
+      <td>impaction</td>
+      <td>material</td>
+      <td>number</td>
+      <td>winds</td>
+      <td>average</td>
+      <td>cardiovascular</td>
+      <td>differential</td>
+      <td>respiratory</td>
+      <td>colds</td>
+      <td>catheter area</td>
+      <td>m(2</td>
+      <td>mold</td>
+      <td>savings</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>transient</td>
+      <td>influenza</td>
+      <td>SKC</td>
+      <td>chemical</td>
+      <td>doses</td>
+      <td>leeward</td>
+      <td>UV254</td>
+      <td>65</td>
+      <td>dba</td>
+      <td>n95 mask</td>
+      <td>adolescents</td>
+      <td>thermometers</td>
+      <td>aisle</td>
+      <td>fangcang</td>
+      <td>climate change</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>gaseous</td>
+      <td>infectious disease</td>
+      <td>collected</td>
+      <td>endotoxin</td>
+      <td>concentration</td>
+      <td>environment</td>
+      <td>°</td>
+      <td>lockdown</td>
+      <td>negative-pressure</td>
+      <td>sheet</td>
+      <td>lung mechanics</td>
+      <td>subjects</td>
+      <td>palate</td>
+      <td>recorded</td>
+      <td>goals</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>location</td>
+      <td>control</td>
+      <td>bacterial</td>
+      <td>phase i</td>
+      <td>electrical</td>
+      <td>study</td>
+      <td>mumps</td>
+      <td>sulfur dioxide</td>
+      <td>staff</td>
+      <td>inspiratory</td>
+      <td>peak vo(2</td>
+      <td>measurements</td>
+      <td>sneeze</td>
+      <td>biomass</td>
+      <td>SDEATHP</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>exposure</td>
+      <td>non-invasive</td>
+      <td>gelatin</td>
+      <td>buildings</td>
+      <td>penetration</td>
+      <td>wind tunnel tests</td>
+      <td>additive</td>
+      <td>-</td>
+      <td>general</td>
+      <td>intrapulmonary</td>
+      <td>epithelial</td>
+      <td>monitoring</td>
+      <td>aisle region</td>
+      <td>articles</td>
+      <td>deepawali</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>based</td>
+      <td>size</td>
+      <td>impinger</td>
+      <td>requirements</td>
+      <td>aerosol</td>
+      <td>re-entrant</td>
+      <td>LD</td>
+      <td><</td>
+      <td>exhaust</td>
+      <td>mm</td>
+      <td>exhaled breath</td>
+      <td>microwave</td>
+      <td>healthy</td>
+      <td>PN</td>
+      <td>cope</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>rate</td>
+      <td>respiratory droplets</td>
+      <td>bioaerosol sampler</td>
+      <td>establish</td>
+      <td>%</td>
+      <td>inter-flat</td>
+      <td>μg/m3</td>
+      <td>total</td>
+      <td>airborne</td>
+      <td>scattered</td>
+      <td>2</td>
+      <td>ats</td>
+      <td>velocity</td>
+      <td>fugitively-emitted</td>
+      <td>pollution-to-human</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>DV</td>
+      <td>10μm</td>
+      <td>preservation</td>
+      <td>occupant health</td>
+      <td>airborne</td>
+      <td>FAD</td>
+      <td>seasons</td>
+      <td>ecologic</td>
+      <td>anteroom</td>
+      <td>programmed</td>
+      <td>physiologic</td>
+      <td>axillary</td>
+      <td>coughing</td>
+      <td>flushometer</td>
+      <td>intense</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>simulate</td>
+      <td>quanta</td>
+      <td>bioaerosols</td>
+      <td>exposure</td>
+      <td>adequate</td>
+      <td>cross-transmission</td>
+      <td>weeks</td>
+      <td>BC</td>
+      <td>door-opening</td>
+      <td>tidal volumes</td>
+      <td>PIF</td>
+      <td>minus</td>
+      <td>mouth</td>
+      <td>HP</td>
+      <td>saving</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>release</td>
+      <td>mucus</td>
+      <td>physical collection</td>
+      <td>building</td>
+      <td>air environments</td>
+      <td>circulation</td>
+      <td>range</td>
+      <td>short-term</td>
+      <td>8104</td>
+      <td>lung injury</td>
+      <td>elastomeric</td>
+      <td>imagers</td>
+      <td>flow</td>
+      <td>sp.</td>
+      <td>hinterland</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>dynamic</td>
+      <td>seated</td>
+      <td>ferrets</td>
+      <td>dccs</td>
+      <td>IAV</td>
+      <td>influence</td>
+      <td>flu-a</td>
+      <td>reduction</td>
+      <td>infectious</td>
+      <td>NIV</td>
+      <td>carbon</td>
+      <td>contralateral</td>
+      <td>exhalation</td>
+      <td>P<.001</td>
+      <td>average</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>modeling</td>
+      <td>study</td>
+      <td>highbiotrap</td>
+      <td>phase ii</td>
+      <td>marcescens</td>
+      <td>wind tunnel</td>
+      <td>flu-b</td>
+      <td>=</td>
+      <td>room air</td>
+      <td>increased</td>
+      <td>children</td>
+      <td>cameras</td>
+      <td>region</td>
+      <td>rest</td>
+      <td>PM10</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>ventilation systems</td>
+      <td>droplet evaporation</td>
+      <td>isolates</td>
+      <td>industry</td>
+      <td>fan</td>
+      <td>unstable</td>
+      <td>psychiatric</td>
+      <td>admission</td>
+      <td>ICU</td>
+      <td>intrapulmonary smoke</td>
+      <td>oxygen</td>
+      <td>irts</td>
+      <td>sneezes</td>
+      <td>school</td>
+      <td>pollution</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>numerically</td>
+      <td>arrangement</td>
+      <td>H3N2</td>
+      <td>GCC</td>
+      <td>PRRSV</td>
+      <td>high-density</td>
+      <td>1</td>
+      <td>rrs</td>
+      <td>sliding door</td>
+      <td>ventilators</td>
+      <td>dioxide</td>
+      <td>thorax</td>
+      <td>hybridization</td>
+      <td>idaho</td>
+      <td>species</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>found</td>
+      <td>dispersal</td>
+      <td>impingers</td>
+      <td>DCC</td>
+      <td>TIL</td>
+      <td>street canyons</td>
+      <td>ARH</td>
+      <td>1.10</td>
+      <td>field measurement</td>
+      <td>facemask</td>
+      <td>values</td>
+      <td>skin temperature</td>
+      <td>weight</td>
+      <td>renmin</td>
+      <td>learned</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>time</td>
+      <td>HTPA</td>
+      <td>airborne</td>
+      <td>human</td>
+      <td>chambers</td>
+      <td>design</td>
+      <td>ED</td>
+      <td>formation</td>
+      <td>construction</td>
+      <td>air dispersion</td>
+      <td>subjects</td>
+      <td>rois</td>
+      <td>cabin environment</td>
+      <td>LP</td>
+      <td>lessons</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>concentration</td>
+      <td>control measures</td>
+      <td>PCR</td>
+      <td>control</td>
+      <td>flow rates</td>
+      <td>areas</td>
+      <td>warm</td>
+      <td>chronic</td>
+      <td>pa</td>
+      <td>smoke concentration</td>
+      <td>=</td>
+      <td>vs.</td>
+      <td>females</td>
+      <td>biofiltration</td>
+      <td>refrigerant</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 08</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>models</td>
+      <td>COVID-19</td>
+      <td>contact</td>
+      <td>SARS</td>
+      <td>vaccination</td>
+      <td>equilibrium</td>
+      <td>model</td>
+      <td>networks</td>
+      <td>spatial</td>
+      <td>genetic</td>
+      <td>growth</td>
+      <td>strains</td>
+      <td>season</td>
+      <td>ebola</td>
+      <td>bat</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>disease</td>
+      <td>cases</td>
+      <td>size</td>
+      <td>number</td>
+      <td>strategies</td>
+      <td>formula</td>
+      <td>stochastic</td>
+      <td>network</td>
+      <td>mobility</td>
+      <td>viral</td>
+      <td>exponential</td>
+      <td>strain</td>
+      <td>detection</td>
+      <td>EVD</td>
+      <td>farms</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>infectious</td>
+      <td>china</td>
+      <td>individuals</td>
+      <td>interval</td>
+      <td>control</td>
+      <td>endemic</td>
+      <td>markov</td>
+      <td>nodes</td>
+      <td>cities</td>
+      <td>inference</td>
+      <td>growth rate</td>
+      <td>avian</td>
+      <td>seasonal</td>
+      <td>%</td>
+      <td>culling</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>data</td>
+      <td>2020</td>
+      <td>transmission</td>
+      <td>estimates</td>
+      <td>optimal</td>
+      <td>stability</td>
+      <td>carlo</td>
+      <td>spreading</td>
+      <td>spread</td>
+      <td>trees</td>
+      <td>CI</td>
+      <td>humans</td>
+      <td>ARIMA</td>
+      <td>cholera</td>
+      <td>bats</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>dynamics</td>
+      <td>countries</td>
+      <td>population</td>
+      <td>reproduction</td>
+      <td>social</td>
+      <td>0</td>
+      <td>monte</td>
+      <td>immunization</td>
+      <td>travel</td>
+      <td>sequences</td>
+      <td>exponential growth</td>
+      <td>pathogen</td>
+      <td>weekly</td>
+      <td>west africa</td>
+      <td>livestock</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>infectious diseases</td>
+      <td>number</td>
+      <td>tracing</td>
+      <td>syndrome</td>
+      <td>vaccine</td>
+      <td>numerical</td>
+      <td>equations</td>
+      <td>epidemic</td>
+      <td>locations</td>
+      <td>sequence</td>
+      <td>95</td>
+      <td>reservoir</td>
+      <td>ILI</td>
+      <td>liberia</td>
+      <td>social groups</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>epidemiological</td>
+      <td>march</td>
+      <td>contacts</td>
+      <td>estimate</td>
+      <td>reduce</td>
+      <td>system</td>
+      <td>models</td>
+      <td>degree</td>
+      <td>geographical</td>
+      <td>image</td>
+      <td>phase</td>
+      <td>host</td>
+      <td>forecasts</td>
+      <td>sierra</td>
+      <td>wikipedia</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>diseases</td>
+      <td>coronavirus</td>
+      <td>individual</td>
+      <td>respiratory</td>
+      <td>intervention</td>
+      <td>text</td>
+      <td>parameters</td>
+      <td>structure</td>
+      <td>patterns</td>
+      <td>rabies</td>
+      <td>law</td>
+      <td>human</td>
+      <td>historical data</td>
+      <td>sierra leone</td>
+      <td>2001</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>mathematical</td>
+      <td>peak</td>
+      <td>heterogeneity</td>
+      <td>generation</td>
+      <td>mitigation</td>
+      <td>bifurcation</td>
+      <td>method</td>
+      <td>information</td>
+      <td>movement</td>
+      <td>sampling</td>
+      <td>r(t</td>
+      <td>zoonotic</td>
+      <td>hospital</td>
+      <td>leone</td>
+      <td>disruption</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>infectious disease</td>
+      <td>R0</td>
+      <td>infection</td>
+      <td>reproductive</td>
+      <td>social distancing</td>
+      <td>numerical simulations</td>
+      <td>simulation</td>
+      <td>node</td>
+      <td>airborne</td>
+      <td>genome</td>
+      <td>LF</td>
+      <td>mutation</td>
+      <td>EWS</td>
+      <td>median</td>
+      <td>risk</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>understanding</td>
+      <td>italy</td>
+      <td>large</td>
+      <td>method</td>
+      <td>impact</td>
+      <td>stable</td>
+      <td>removed</td>
+      <td>propagation</td>
+      <td>urban</td>
+      <td>molecular</td>
+      <td>plant</td>
+      <td>virus</td>
+      <td>moving</td>
+      <td>prediction interval</td>
+      <td>swine</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>health</td>
+      <td>confirmed</td>
+      <td>infectious</td>
+      <td>reproductive number</td>
+      <td>effective</td>
+      <td>disease-free</td>
+      <td>deterministic</td>
+      <td>layer</td>
+      <td>transportation</td>
+      <td>phylogenetic</td>
+      <td>pigs</td>
+      <td>mutant</td>
+      <td>metrics</td>
+      <td>projections</td>
+      <td>FOI</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>mathematical models</td>
+      <td>model</td>
+      <td>mixing</td>
+      <td>serial</td>
+      <td>distancing</td>
+      <td>disease</td>
+      <td>series</td>
+      <td>social networks</td>
+      <td>city</td>
+      <td>evolutionary</td>
+      <td>curves</td>
+      <td>species</td>
+      <td>forecast</td>
+      <td>projected</td>
+      <td>associations</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>modelling</td>
+      <td>daily</td>
+      <td>rates</td>
+      <td>acute</td>
+      <td>cost</td>
+      <td>asymptotically</td>
+      <td>problem</td>
+      <td>centrality</td>
+      <td>mobile</td>
+      <td>samples</td>
+      <td>epidemic curves</td>
+      <td>infection</td>
+      <td>beds</td>
+      <td>VL</td>
+      <td>badger</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>modeling</td>
+      <td>deaths</td>
+      <td>number</td>
+      <td>severe</td>
+      <td>effectiveness</td>
+      <td><</td>
+      <td>differential</td>
+      <td>percolation</td>
+      <td>migration</td>
+      <td>genetic data</td>
+      <td>turning</td>
+      <td>virulence</td>
+      <td>specificity</td>
+      <td>ebola virus disease</td>
+      <td>sick</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>public</td>
+      <td>epidemic</td>
+      <td>final</td>
+      <td>R(0</td>
+      <td>mass</td>
+      <td>1</td>
+      <td>based</td>
+      <td>topology</td>
+      <td>air</td>
+      <td>data</td>
+      <td>ro</td>
+      <td>invasion</td>
+      <td>historical</td>
+      <td>outbreak</td>
+      <td>pedv</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>approaches</td>
+      <td>day</td>
+      <td>infected</td>
+      <td>MERS</td>
+      <td>decision</td>
+      <td>globally</td>
+      <td>SIR</td>
+      <td>connected</td>
+      <td>census</td>
+      <td>transmission</td>
+      <td>epidemic growth</td>
+      <td>bird</td>
+      <td>IHME</td>
+      <td>coverage</td>
+      <td>indirect</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>emerging</td>
+      <td>january</td>
+      <td>contact tracing</td>
+      <td>acute respiratory syndrome</td>
+      <td>pandemic</td>
+      <td>></td>
+      <td>paper</td>
+      <td>scale-free</td>
+      <td>transport</td>
+      <td>reconstruction</td>
+      <td>points</td>
+      <td>virulent</td>
+      <td>zika</td>
+      <td>2014</td>
+      <td>btb</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>approach</td>
+      <td>days</td>
+      <td>susceptible</td>
+      <td>hong</td>
+      <td>policy</td>
+      <td>conditions</td>
+      <td>probability</td>
+      <td>small-world</td>
+      <td>distance</td>
+      <td>monkeypox</td>
+      <td>$</td>
+      <td>birds</td>
+      <td>surveillance</td>
+      <td>case counts</td>
+      <td>industry</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>systems</td>
+      <td>reported</td>
+      <td>epidemic</td>
+      <td>estimated</td>
+      <td>effects</td>
+      <td>delay</td>
+      <td>process</td>
+      <td>community structure</td>
+      <td>resolution</td>
+      <td>divergence</td>
+      <td>power</td>
+      <td>poultry</td>
+      <td>filter</td>
+      <td>rt</td>
+      <td>SC</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>framework</td>
+      <td>data</td>
+      <td>variation</td>
+      <td>kong</td>
+      <td>interventions</td>
+      <td>media</td>
+      <td>parameter</td>
+      <td>neighbors</td>
+      <td>ventilation</td>
+      <td>shedding</td>
+      <td>rainfall</td>
+      <td>pathogens</td>
+      <td>alarm</td>
+      <td>forecasts</td>
+      <td>narratives</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>epidemic</td>
+      <td>2019</td>
+      <td>duration</td>
+      <td>intervals</td>
+      <td>healthcare</td>
+      <td>quarantine</td>
+      <td>time-varying</td>
+      <td>links</td>
+      <td>spatio-temporal</td>
+      <td>bayesian</td>
+      <td>shape</td>
+      <td>populations</td>
+      <td>ED</td>
+      <td>democratic</td>
+      <td>ecology</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>outbreaks</td>
+      <td>covid-19</td>
+      <td>show</td>
+      <td>estimating</td>
+      <td>measures</td>
+      <td>model</td>
+      <td>entropy</td>
+      <td>multiplex</td>
+      <td>airports</td>
+      <td>viruses</td>
+      <td>BTV</td>
+      <td>hais</td>
+      <td>aedes-transmitted</td>
+      <td>sub-epidemic</td>
+      <td>U.S.</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>epidemiology</td>
+      <td>hubei</td>
+      <td>populations</td>
+      <td>hong kong</td>
+      <td>strategy</td>
+      <td>time delay</td>
+      <td>distribution</td>
+      <td>individuals</td>
+      <td>commuting</td>
+      <td>within-host</td>
+      <td>growth models</td>
+      <td>HPAI</td>
+      <td>visits</td>
+      <td>EBOV</td>
+      <td>groups</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>recent</td>
+      <td>country</td>
+      <td>proportion</td>
+      <td>time</td>
+      <td>herd</td>
+      <td>disease-free equilibrium</td>
+      <td>environment</td>
+      <td>layers</td>
+      <td>phone</td>
+      <td>tree</td>
+      <td>linear</td>
+      <td>parasites</td>
+      <td>accuracy</td>
+      <td>democratic republic</td>
+      <td>seeking</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>future</td>
+      <td>april</td>
+      <td>homogeneous</td>
+      <td>case</td>
+      <td>isolation</td>
+      <td>equilibria</td>
+      <td>probabilistic</td>
+      <td>community</td>
+      <td>spatial spread</td>
+      <td>integration</td>
+      <td>%</td>
+      <td>mutant strain</td>
+      <td>reporting</td>
+      <td>95</td>
+      <td>neighbouring</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>key</td>
+      <td>february</td>
+      <td>level</td>
+      <td>serial interval</td>
+      <td>people</td>
+      <td>periodic</td>
+      <td>set</td>
+      <td>social</td>
+      <td>traffic</td>
+      <td>sample</td>
+      <td>exponential phase</td>
+      <td>spillover</td>
+      <td>emergency</td>
+      <td>congo</td>
+      <td>public health agencies</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>increasingly</td>
+      <td>sars-cov-2</td>
+      <td>small</td>
+      <td>cases</td>
+      <td>consequences</td>
+      <td>unity</td>
+      <td>error</td>
+      <td>connections</td>
+      <td>metapopulation</td>
+      <td>genomic</td>
+      <td>gompertz</td>
+      <td>emergence</td>
+      <td>real-time</td>
+      <td>credible</td>
+      <td>abundance</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>develop</td>
+      <td>wuhan</td>
+      <td>low</td>
+      <td>transmissibility</td>
+      <td>policies</td>
+      <td>asymptotic</td>
+      <td>function</td>
+      <td>find</td>
+      <td>population</td>
+      <td>phylodynamic</td>
+      <td>batch</td>
+      <td>persistence</td>
+      <td>department</td>
+      <td>ebola outbreaks</td>
+      <td>PEDV</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>review</td>
+      <td>measures</td>
+      <td>stages</td>
+      <td>ratio</td>
+      <td>vaccines</td>
+      <td>endemic equilibrium</td>
+      <td>standard</td>
+      <td>awareness</td>
+      <td>geo-social</td>
+      <td>RNA</td>
+      <td>andalusia</td>
+      <td>infections</td>
+      <td>hospital beds</td>
+      <td>phenomenological</td>
+      <td>averse</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>methods</td>
+      <td>based</td>
+      <td>outbreak</td>
+      <td>basic</td>
+      <td>model</td>
+      <td>existence</td>
+      <td>simulated</td>
+      <td>diffusion</td>
+      <td>geographical locations</td>
+      <td>ABC</td>
+      <td>BTV-1</td>
+      <td>pathogen strains</td>
+      <td>MSS</td>
+      <td>ebola outbreak</td>
+      <td>fruit</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>transmission</td>
+      <td>predict</td>
+      <td>epidemic size</td>
+      <td>mers-cov</td>
+      <td>costs</td>
+      <td>susceptible</td>
+      <td>system</td>
+      <td>virtual</td>
+      <td>mobile phone</td>
+      <td>statistical</td>
+      <td>rate</td>
+      <td>facility</td>
+      <td>flocks</td>
+      <td>PKDL</td>
+      <td>species</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>provide</td>
+      <td>total</td>
+      <td>infections</td>
+      <td>case fatality</td>
+      <td>ring</td>
+      <td>lyapunov</td>
+      <td>transition</td>
+      <td>network structure</td>
+      <td>influenza</td>
+      <td>inferring</td>
+      <td>profiles</td>
+      <td>A(H7N9</td>
+      <td>2016</td>
+      <td>short-term</td>
+      <td>movements</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>assess</td>
+      <td>2019-ncov</td>
+      <td>sizes</td>
+      <td>distribution</td>
+      <td>ring vaccination</td>
+      <td>α</td>
+      <td>SEIR</td>
+      <td>communities</td>
+      <td>supplementary</td>
+      <td>phylogeny</td>
+      <td>farr</td>
+      <td>perpetuation</td>
+      <td>series</td>
+      <td>counts</td>
+      <td>animal</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>tool</td>
+      <td>end</td>
+      <td>smallpox</td>
+      <td>outbreak</td>
+      <td>rates</td>
+      <td>reproduction</td>
+      <td>fluctuations</td>
+      <td>social contact</td>
+      <td>england</td>
+      <td>genomes</td>
+      <td>growth rates</td>
+      <td>avian influenza</td>
+      <td>incidence</td>
+      <td>africa</td>
+      <td>link</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>quantitative</td>
+      <td>infected</td>
+      <td>vector</td>
+      <td>2003</td>
+      <td>vaccinated</td>
+      <td>basic</td>
+      <td>ordinary</td>
+      <td>complex</td>
+      <td>density</td>
+      <td>NS5A</td>
+      <td>nigerian</td>
+      <td>VE(S</td>
+      <td>forecasting</td>
+      <td>ebola virus</td>
+      <td>ORC</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>epidemiological models</td>
+      <td>india</td>
+      <td>diseases</td>
+      <td>fatality</td>
+      <td>mitigate</td>
+      <td>threshold</td>
+      <td>dynamic</td>
+      <td>strategy</td>
+      <td>study</td>
+      <td>variation</td>
+      <td>modelers</td>
+      <td>thresholds</td>
+      <td>poor</td>
+      <td>ncovid-19</td>
+      <td>foraging</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>sources</td>
+      <td>%</td>
+      <td>assume</td>
+      <td>estimation</td>
+      <td>NPI</td>
+      <td>*</td>
+      <td>time</td>
+      <td>disease spreading</td>
+      <td>pattern</td>
+      <td>text</td>
+      <td>sub-exponential</td>
+      <td>sars‐cov</td>
+      <td>influenza-like</td>
+      <td>case count</td>
+      <td>hog</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>spread</td>
+      <td>spain</td>
+      <td>dengue</td>
+      <td>east</td>
+      <td>resource</td>
+      <td>simulations</td>
+      <td>compute</td>
+      <td>topological</td>
+      <td>spatial models</td>
+      <td>phylodynamics</td>
+      <td>exported</td>
+      <td>C.</td>
+      <td>influenza-like illness</td>
+      <td>reported</td>
+      <td>visiting</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>epidemics</td>
+      <td>lockdown</td>
+      <td>HIV</td>
+      <td>singapore</td>
+      <td>mass media</td>
+      <td>analysis</td>
+      <td>optimization</td>
+      <td>virtual layer</td>
+      <td>AIDS</td>
+      <td>genetic diversity</td>
+      <td>3</td>
+      <td>trials</td>
+      <td>RSV</td>
+      <td>short-</td>
+      <td>PED</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>important</td>
+      <td>rate</td>
+      <td>probabilities</td>
+      <td>generation interval</td>
+      <td>spread</td>
+      <td>deterministic model</td>
+      <td>financial</td>
+      <td>threshold</td>
+      <td>airline</td>
+      <td>wastewater</td>
+      <td>quantify</td>
+      <td>devil</td>
+      <td>autoregressive</td>
+      <td>indian</td>
+      <td>badgers</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>management</td>
+      <td>outbreak</td>
+      <td>classes</td>
+      <td>CFR</td>
+      <td>society</td>
+      <td>holling</td>
+      <td>proposed</td>
+      <td>lattice</td>
+      <td>wales</td>
+      <td>site-specific</td>
+      <td>initial</td>
+      <td>interference</td>
+      <td>journal</td>
+      <td>best-fit</td>
+      <td>great britain</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>human</td>
+      <td>covid-19 pandemic</td>
+      <td>disease</td>
+      <td>methods</td>
+      <td>non-pharmaceutical interventions</td>
+      <td>impulsive</td>
+      <td>approach</td>
+      <td>closeness</td>
+      <td>online version</td>
+      <td>descriptions</td>
+      <td>plants</td>
+      <td>clonal</td>
+      <td>performance</td>
+      <td>regression model</td>
+      <td>britain</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>highlight</td>
+      <td>time</td>
+      <td>dynamics</td>
+      <td>outbreaks</td>
+      <td>health</td>
+      <td>fractional</td>
+      <td>find</td>
+      <td>results</td>
+      <td>ward</td>
+      <td>dogs</td>
+      <td>foci</td>
+      <td>reservoirs</td>
+      <td>peak</td>
+      <td>rotavirus</td>
+      <td>surviving</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>threat</td>
+      <td>90</td>
+      <td>epidemics</td>
+      <td>south africa</td>
+      <td>antiviral</td>
+      <td>prey</td>
+      <td>equivalent</td>
+      <td>contact</td>
+      <td>passengers</td>
+      <td>chain size</td>
+      <td>2.24</td>
+      <td>resistance</td>
+      <td>RESULTS</td>
+      <td>refugee</td>
+      <td>roosts</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>model</td>
+      <td>pandemic</td>
+      <td>control</td>
+      <td>symptom</td>
+      <td>quarantining</td>
+      <td>rate</td>
+      <td>capable</td>
+      <td>citation</td>
+      <td>MATERIAL</td>
+      <td>coalescent</td>
+      <td>von</td>
+      <td>hosts</td>
+      <td>PE</td>
+      <td>cases</td>
+      <td>porcine</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>agent-based</td>
+      <td>iran</td>
+      <td>initially</td>
+      <td>data</td>
+      <td>workforce</td>
+      <td>chaotic</td>
+      <td>stochastic models</td>
+      <td>synchronization</td>
+      <td>domestic</td>
+      <td>environmental drivers</td>
+      <td>weibull</td>
+      <td>viral</td>
+      <td>SARIMA</td>
+      <td>vigilance</td>
+      <td>zika-related</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>fundamental</td>
+      <td>covid-19 outbreak</td>
+      <td>observable</td>
+      <td>rate</td>
+      <td>suppression</td>
+      <td>predator</td>
+      <td>stochasticity</td>
+      <td>information diffusion</td>
+      <td>indoor</td>
+      <td>kits</td>
+      <td>nigerian regions</td>
+      <td>depend</td>
+      <td>near-term</td>
+      <td>oral</td>
+      <td>poe</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>address</td>
+      <td>coronavirus disease 2019</td>
+      <td>rate</td>
+      <td>toronto</td>
+      <td>based</td>
+      <td>bifurcations</td>
+      <td>reaction</td>
+      <td>composed</td>
+      <td>ELECTRONIC</td>
+      <td>phylogenetic trees</td>
+      <td>ZIKV</td>
+      <td>influenza</td>
+      <td>ARI</td>
+      <td>camp</td>
+      <td>sickness</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>valuable</td>
+      <td>germany</td>
+      <td>faster</td>
+      <td>middle east respiratory syndrome</td>
+      <td>switching</td>
+      <td>hopf</td>
+      <td>cell</td>
+      <td>disease propagation</td>
+      <td>global</td>
+      <td>sequencing</td>
+      <td>root</td>
+      <td>resistant</td>
+      <td>influenza</td>
+      <td>DRC</td>
+      <td>biosecurity</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

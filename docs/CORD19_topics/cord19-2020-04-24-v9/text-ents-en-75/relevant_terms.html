@@ -1,0 +1,4021 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+      <th><a href="Topic_16.html" target="_blank">Topic 16</a></th>
+      <th><a href="Topic_17.html" target="_blank">Topic 17</a></th>
+      <th><a href="Topic_18.html" target="_blank">Topic 18</a></th>
+      <th><a href="Topic_19.html" target="_blank">Topic 19</a></th>
+      <th><a href="Topic_20.html" target="_blank">Topic 20</a></th>
+      <th><a href="Topic_21.html" target="_blank">Topic 21</a></th>
+      <th><a href="Topic_22.html" target="_blank">Topic 22</a></th>
+      <th><a href="Topic_23.html" target="_blank">Topic 23</a></th>
+      <th><a href="Topic_24.html" target="_blank">Topic 24</a></th>
+      <th><a href="Topic_25.html" target="_blank">Topic 25</a></th>
+      <th><a href="Topic_26.html" target="_blank">Topic 26</a></th>
+      <th><a href="Topic_27.html" target="_blank">Topic 27</a></th>
+      <th><a href="Topic_28.html" target="_blank">Topic 28</a></th>
+      <th><a href="Topic_29.html" target="_blank">Topic 29</a></th>
+      <th><a href="Topic_30.html" target="_blank">Topic 30</a></th>
+      <th><a href="Topic_31.html" target="_blank">Topic 31</a></th>
+      <th><a href="Topic_32.html" target="_blank">Topic 32</a></th>
+      <th><a href="Topic_33.html" target="_blank">Topic 33</a></th>
+      <th><a href="Topic_34.html" target="_blank">Topic 34</a></th>
+      <th><a href="Topic_35.html" target="_blank">Topic 35</a></th>
+      <th><a href="Topic_36.html" target="_blank">Topic 36</a></th>
+      <th><a href="Topic_37.html" target="_blank">Topic 37</a></th>
+      <th><a href="Topic_38.html" target="_blank">Topic 38</a></th>
+      <th><a href="Topic_39.html" target="_blank">Topic 39</a></th>
+      <th><a href="Topic_40.html" target="_blank">Topic 40</a></th>
+      <th><a href="Topic_41.html" target="_blank">Topic 41</a></th>
+      <th><a href="Topic_42.html" target="_blank">Topic 42</a></th>
+      <th><a href="Topic_43.html" target="_blank">Topic 43</a></th>
+      <th><a href="Topic_44.html" target="_blank">Topic 44</a></th>
+      <th><a href="Topic_45.html" target="_blank">Topic 45</a></th>
+      <th><a href="Topic_46.html" target="_blank">Topic 46</a></th>
+      <th><a href="Topic_47.html" target="_blank">Topic 47</a></th>
+      <th><a href="Topic_48.html" target="_blank">Topic 48</a></th>
+      <th><a href="Topic_49.html" target="_blank">Topic 49</a></th>
+      <th><a href="Topic_50.html" target="_blank">Topic 50</a></th>
+      <th><a href="Topic_51.html" target="_blank">Topic 51</a></th>
+      <th><a href="Topic_52.html" target="_blank">Topic 52</a></th>
+      <th><a href="Topic_53.html" target="_blank">Topic 53</a></th>
+      <th><a href="Topic_54.html" target="_blank">Topic 54</a></th>
+      <th><a href="Topic_55.html" target="_blank">Topic 55</a></th>
+      <th><a href="Topic_56.html" target="_blank">Topic 56</a></th>
+      <th><a href="Topic_57.html" target="_blank">Topic 57</a></th>
+      <th><a href="Topic_58.html" target="_blank">Topic 58</a></th>
+      <th><a href="Topic_59.html" target="_blank">Topic 59</a></th>
+      <th><a href="Topic_60.html" target="_blank">Topic 60</a></th>
+      <th><a href="Topic_61.html" target="_blank">Topic 61</a></th>
+      <th><a href="Topic_62.html" target="_blank">Topic 62</a></th>
+      <th><a href="Topic_63.html" target="_blank">Topic 63</a></th>
+      <th><a href="Topic_64.html" target="_blank">Topic 64</a></th>
+      <th><a href="Topic_65.html" target="_blank">Topic 65</a></th>
+      <th><a href="Topic_66.html" target="_blank">Topic 66</a></th>
+      <th><a href="Topic_67.html" target="_blank">Topic 67</a></th>
+      <th><a href="Topic_68.html" target="_blank">Topic 68</a></th>
+      <th><a href="Topic_69.html" target="_blank">Topic 69</a></th>
+      <th><a href="Topic_70.html" target="_blank">Topic 70</a></th>
+      <th><a href="Topic_71.html" target="_blank">Topic 71</a></th>
+      <th><a href="Topic_72.html" target="_blank">Topic 72</a></th>
+      <th><a href="Topic_73.html" target="_blank">Topic 73</a></th>
+      <th><a href="Topic_74.html" target="_blank">Topic 74</a></th>
+      <th><a href="Topic_75.html" target="_blank">Topic 75</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>‘</td>
+      <td>%</td>
+      <td>research</td>
+      <td>health</td>
+      <td>respiratory</td>
+      <td>infections</td>
+      <td>diseases</td>
+      <td>model</td>
+      <td>IBV</td>
+      <td>protein</td>
+      <td>immune</td>
+      <td>replication</td>
+      <td>vaccine</td>
+      <td>cells</td>
+      <td>drugs</td>
+      <td>TB</td>
+      <td>mice</td>
+      <td>COVID-19</td>
+      <td>RNA</td>
+      <td>care</td>
+      <td>assay</td>
+      <td>days</td>
+      <td>antibodies</td>
+      <td>patients</td>
+      <td>prediction</td>
+      <td>transmission</td>
+      <td>apoptosis</td>
+      <td>diagnostic</td>
+      <td>entry</td>
+      <td>bats</td>
+      <td>cells</td>
+      <td>CT</td>
+      <td>95</td>
+      <td>IFN</td>
+      <td>expression</td>
+      <td>samples</td>
+      <td>sequencing</td>
+      <td>SARS</td>
+      <td>epithelial</td>
+      <td>influenza</td>
+      <td>RESULTS</td>
+      <td>PEDV</td>
+      <td>rotavirus</td>
+      <td>students</td>
+      <td>bacterial</td>
+      <td>CNS</td>
+      <td>genetic</td>
+      <td>CRP</td>
+      <td>°</td>
+      <td>ILI</td>
+      <td>placebo</td>
+      <td>articles</td>
+      <td>hcws</td>
+      <td>activity</td>
+      <td>protease</td>
+      <td>dengue</td>
+      <td>mers-cov</td>
+      <td>air</td>
+      <td>calves</td>
+      <td>plant</td>
+      <td>tourism</td>
+      <td>MHV</td>
+      <td>recipients</td>
+      <td>nanoparticles</td>
+      <td>asthma</td>
+      <td>de</td>
+      <td>les</td>
+      <td>herpes</td>
+      <td>cats</td>
+      <td>dogs</td>
+      <td>ACE2</td>
+      <td>mental</td>
+      <td>golgi</td>
+      <td>-</td>
+      <td>HCV</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>nature</td>
+      <td>=</td>
+      <td>review</td>
+      <td>public</td>
+      <td>RSV</td>
+      <td>respiratory</td>
+      <td>infectious</td>
+      <td>epidemic</td>
+      <td>strains</td>
+      <td>binding</td>
+      <td>immune system</td>
+      <td>proteins</td>
+      <td>vaccines</td>
+      <td>cell</td>
+      <td>drug</td>
+      <td>countries</td>
+      <td>macrophages</td>
+      <td>sars-cov-2</td>
+      <td>frameshifting</td>
+      <td>emergency</td>
+      <td>detection</td>
+      <td>group</td>
+      <td>antibody</td>
+      <td>admission</td>
+      <td>data</td>
+      <td>quarantine</td>
+      <td>kinase</td>
+      <td>tests</td>
+      <td>fusion</td>
+      <td>bat</td>
+      <td>+</td>
+      <td>chest</td>
+      <td>CI</td>
+      <td>innate</td>
+      <td>genes</td>
+      <td>swabs</td>
+      <td>genomes</td>
+      <td>sars-cov</td>
+      <td>intestinal</td>
+      <td>H1N1</td>
+      <td>BACKGROUND</td>
+      <td>porcine</td>
+      <td>bovine</td>
+      <td>respondents</td>
+      <td>pneumoniae</td>
+      <td>brain</td>
+      <td>codon</td>
+      <td>serum</td>
+      <td>inactivation</td>
+      <td>influenza</td>
+      <td>trial</td>
+      <td>published</td>
+      <td>workers</td>
+      <td>compounds</td>
+      <td>proteases</td>
+      <td>ebola</td>
+      <td>middle</td>
+      <td>airborne</td>
+      <td>milk</td>
+      <td>plants</td>
+      <td>travel</td>
+      <td>sialic</td>
+      <td>transplant</td>
+      <td>delivery</td>
+      <td>exacerbations</td>
+      <td>el</td>
+      <td>des</td>
+      <td>HSV-1</td>
+      <td>feline</td>
+      <td>canine</td>
+      <td>angiotensin</td>
+      <td>psychological</td>
+      <td>ER</td>
+      <td>authorized</td>
+      <td>HBV</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>—</td>
+      <td><</td>
+      <td>advances</td>
+      <td>global</td>
+      <td>children</td>
+      <td>disease</td>
+      <td>infectious diseases</td>
+      <td>dynamics</td>
+      <td>isolates</td>
+      <td>domain</td>
+      <td>mechanisms</td>
+      <td>host</td>
+      <td>vaccination</td>
+      <td>replication</td>
+      <td>antiviral</td>
+      <td>united</td>
+      <td>cytokine</td>
+      <td>2020</td>
+      <td>reading</td>
+      <td>ED</td>
+      <td>amplification</td>
+      <td>day</td>
+      <td>monoclonal</td>
+      <td>ICU</td>
+      <td>algorithm</td>
+      <td>contacts</td>
+      <td>phosphorylation</td>
+      <td>testing</td>
+      <td>membrane</td>
+      <td>species</td>
+      <td>CD8</td>
+      <td>imaging</td>
+      <td>=</td>
+      <td>interferon</td>
+      <td>gene</td>
+      <td>load</td>
+      <td>genome</td>
+      <td>acute respiratory syndrome</td>
+      <td>epithelium</td>
+      <td>pandemic</td>
+      <td>METHODS</td>
+      <td>pigs</td>
+      <td>calves</td>
+      <td>survey</td>
+      <td>CAP</td>
+      <td>nervous</td>
+      <td>polymorphisms</td>
+      <td>count</td>
+      <td>water</td>
+      <td>illness</td>
+      <td>randomized</td>
+      <td>literature</td>
+      <td>masks</td>
+      <td>derivatives</td>
+      <td>catalytic</td>
+      <td>ZIKV</td>
+      <td>east</td>
+      <td>indoor</td>
+      <td>fed</td>
+      <td>extract</td>
+      <td>market</td>
+      <td>lectins</td>
+      <td>transplantation</td>
+      <td>aptamers</td>
+      <td>COPD</td>
+      <td>los</td>
+      <td>de</td>
+      <td>EBV</td>
+      <td>FIP</td>
+      <td>CPV</td>
+      <td>diabetes</td>
+      <td>anxiety</td>
+      <td>und</td>
+      <td>SUPPLEMENTARY</td>
+      <td>HIV</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>generally</td>
+      <td>></td>
+      <td>technologies</td>
+      <td>public health</td>
+      <td>syncytial</td>
+      <td>infection</td>
+      <td>emerging</td>
+      <td>models</td>
+      <td>strain</td>
+      <td>residues</td>
+      <td>functions</td>
+      <td>viral</td>
+      <td>immunization</td>
+      <td>vero</td>
+      <td>therapeutic</td>
+      <td>states</td>
+      <td>cytokines</td>
+      <td>2019</td>
+      <td>3′</td>
+      <td>medical</td>
+      <td>PCR</td>
+      <td>inoculated</td>
+      <td>ELISA</td>
+      <td>intensive</td>
+      <td>accuracy</td>
+      <td>distancing</td>
+      <td>cells</td>
+      <td>sensitivity</td>
+      <td>IFITM3</td>
+      <td>hosts</td>
+      <td>CD4</td>
+      <td>KD</td>
+      <td>odds</td>
+      <td>antiviral</td>
+      <td>gene expression</td>
+      <td>positive</td>
+      <td>metagenomic</td>
+      <td>syndrome</td>
+      <td>epithelial cells</td>
+      <td>H5N1</td>
+      <td>CONCLUSIONS</td>
+      <td>PRRSV</td>
+      <td>cattle</td>
+      <td>perceived</td>
+      <td>bacteria</td>
+      <td>MS</td>
+      <td>usage</td>
+      <td>patients</td>
+      <td>purification</td>
+      <td>influenza-like</td>
+      <td>treatment</td>
+      <td>studies</td>
+      <td>PPE</td>
+      <td>antiviral activity</td>
+      <td>cleavage</td>
+      <td>zika</td>
+      <td>MERS</td>
+      <td>temperature</td>
+      <td>colostrum</td>
+      <td>extracts</td>
+      <td>$</td>
+      <td>glycosylation</td>
+      <td>cancer</td>
+      <td>biosensors</td>
+      <td>kim</td>
+      <td>en</td>
+      <td>à</td>
+      <td>simplex</td>
+      <td>FIPV</td>
+      <td>dog</td>
+      <td>ACE</td>
+      <td>depression</td>
+      <td>endoplasmic</td>
+      <td>supplementary</td>
+      <td>hepatitis</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>ii</td>
+      <td>total</td>
+      <td>biology</td>
+      <td>international</td>
+      <td>respiratory viruses</td>
+      <td>viral</td>
+      <td>food</td>
+      <td>mathematical</td>
+      <td>phylogenetic</td>
+      <td>peptide</td>
+      <td>autoimmune</td>
+      <td>cellular</td>
+      <td>protection</td>
+      <td>culture</td>
+      <td>antiviral drugs</td>
+      <td>south</td>
+      <td>lung</td>
+      <td>wuhan</td>
+      <td>rnas</td>
+      <td>hospitals</td>
+      <td>real-time</td>
+      <td>shedding</td>
+      <td>sera</td>
+      <td>ARDS</td>
+      <td>method</td>
+      <td>measures</td>
+      <td>pathway</td>
+      <td>test</td>
+      <td>envelope</td>
+      <td>humans</td>
+      <td>MHC</td>
+      <td>tomography</td>
+      <td>confidence</td>
+      <td>ifn-β</td>
+      <td>rnai</td>
+      <td>viral load</td>
+      <td>sequences</td>
+      <td>coronavirus</td>
+      <td>tissues</td>
+      <td>avian</td>
+      <td>CONCLUSION</td>
+      <td>TGEV</td>
+      <td>diarrhea</td>
+      <td>participants</td>
+      <td>antibiotic</td>
+      <td>central nervous system</td>
+      <td>mutations</td>
+      <td>levels</td>
+      <td>chromatography</td>
+      <td>surveillance</td>
+      <td>adverse events</td>
+      <td>publications</td>
+      <td>healthcare workers</td>
+      <td>μm</td>
+      <td>3clpro</td>
+      <td>EBOV</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>wind</td>
+      <td>feed</td>
+      <td>medicinal</td>
+      <td>urban</td>
+      <td>lectin</td>
+      <td>pregnant</td>
+      <td>biosensor</td>
+      <td>exacerbation</td>
+      <td>las</td>
+      <td>une</td>
+      <td>norovirus</td>
+      <td>fcov</td>
+      <td>CDV</td>
+      <td>angiotensin-converting</td>
+      <td>social</td>
+      <td>reticulum</td>
+      <td>online version</td>
+      <td>HEV</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>publisher</td>
+      <td>1</td>
+      <td>development</td>
+      <td>national</td>
+      <td>respiratory syncytial virus</td>
+      <td>viral infections</td>
+      <td>infectious disease</td>
+      <td>parameters</td>
+      <td>bronchitis</td>
+      <td>structure</td>
+      <td>response</td>
+      <td>RNA</td>
+      <td>immunogenicity</td>
+      <td>lines</td>
+      <td>treatment</td>
+      <td>united states</td>
+      <td>tnf-α</td>
+      <td>china</td>
+      <td>rdrp</td>
+      <td>staff</td>
+      <td>RT-LAMP</td>
+      <td>inoculation</td>
+      <td>neutralizing</td>
+      <td>ventilation</td>
+      <td>learning</td>
+      <td>social distancing</td>
+      <td>nf-κb</td>
+      <td>diagnosis</td>
+      <td>receptor</td>
+      <td>reservoir</td>
+      <td>lymphocytes</td>
+      <td>consolidation</td>
+      <td>confidence interval</td>
+      <td>ifns</td>
+      <td>sirna</td>
+      <td>swab</td>
+      <td>reads</td>
+      <td>severe</td>
+      <td>electron</td>
+      <td>HA</td>
+      <td>OBJECTIVE</td>
+      <td>piglets</td>
+      <td>herds</td>
+      <td>questionnaire</td>
+      <td>streptococcus</td>
+      <td>demyelination</td>
+      <td>selection</td>
+      <td>c-reactive</td>
+      <td>ph</td>
+      <td>season</td>
+      <td>group</td>
+      <td>systematic</td>
+      <td>mask</td>
+      <td>inhibitory</td>
+      <td>enzymes</td>
+      <td>DENV</td>
+      <td>saudi</td>
+      <td>aerosol</td>
+      <td>feeding</td>
+      <td>herbal</td>
+      <td>markets</td>
+      <td>glycans</td>
+      <td>pregnancy</td>
+      <td>metal</td>
+      <td>allergic</td>
+      <td>con</td>
+      <td>dans</td>
+      <td>FMDV</td>
+      <td>cat</td>
+      <td>ccov</td>
+      <td>cardiovascular</td>
+      <td>sleep</td>
+      <td>der</td>
+      <td>users</td>
+      <td>hepatitis c virus</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>chapter</td>
+      <td>17</td>
+      <td>recent</td>
+      <td>policy</td>
+      <td>rhinovirus</td>
+      <td>tract</td>
+      <td>disease</td>
+      <td>reproduction</td>
+      <td>infectious bronchitis virus</td>
+      <td>amino</td>
+      <td>responses</td>
+      <td>viral proteins</td>
+      <td>adjuvant</td>
+      <td>virus</td>
+      <td>inhibitors</td>
+      <td>incidence</td>
+      <td>IL-6</td>
+      <td>2019-ncov</td>
+      <td>ORF</td>
+      <td>healthcare</td>
+      <td>probes</td>
+      <td>groups</td>
+      <td>mabs</td>
+      <td>intensive care unit</td>
+      <td>machine</td>
+      <td>cases</td>
+      <td>UPR</td>
+      <td>detection</td>
+      <td>cholesterol</td>
+      <td>mammals</td>
+      <td>t-cell</td>
+      <td>diagnosis</td>
+      <td>regression</td>
+      <td>interferons</td>
+      <td>differentially</td>
+      <td>chain</td>
+      <td>NGS</td>
+      <td>acute</td>
+      <td>mucosa</td>
+      <td>2009</td>
+      <td>FINDINGS</td>
+      <td>swine</td>
+      <td>diarrhoea</td>
+      <td>nurses</td>
+      <td>aureus</td>
+      <td>astrocytes</td>
+      <td>mutation</td>
+      <td>blood</td>
+      <td>liquid</td>
+      <td>pertussis</td>
+      <td>adverse</td>
+      <td>pubmed</td>
+      <td>healthcare</td>
+      <td>compound</td>
+      <td>ubiquitin</td>
+      <td>west</td>
+      <td>camels</td>
+      <td>humidity</td>
+      <td>diet</td>
+      <td>TCM</td>
+      <td>economic</td>
+      <td>carbohydrate</td>
+      <td>women</td>
+      <td>nanomaterials</td>
+      <td>airway</td>
+      <td>se</td>
+      <td>du</td>
+      <td>measles</td>
+      <td>peritonitis</td>
+      <td>distemper</td>
+      <td>RAS</td>
+      <td>psychiatric</td>
+      <td>channel</td>
+      <td>ELECTRONIC</td>
+      <td>transfusion</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>evidence</td>
+      <td>11</td>
+      <td>applications</td>
+      <td>surveillance</td>
+      <td>HRV</td>
+      <td>common</td>
+      <td>animal</td>
+      <td>estimates</td>
+      <td>chickens</td>
+      <td>structural</td>
+      <td>homeostasis</td>
+      <td>cycle</td>
+      <td>immunized</td>
+      <td>EV71</td>
+      <td>approved</td>
+      <td>north</td>
+      <td>inflammatory</td>
+      <td>coronavirus</td>
+      <td>5′</td>
+      <td>hospital</td>
+      <td>RT-PCR</td>
+      <td>weeks</td>
+      <td>mab</td>
+      <td>hospital</td>
+      <td>algorithms</td>
+      <td>outbreak</td>
+      <td>apoptotic</td>
+      <td>laboratories</td>
+      <td>HIV-1</td>
+      <td>zoonotic</td>
+      <td>NK</td>
+      <td>cough</td>
+      <td>interval</td>
+      <td>signaling</td>
+      <td>sirnas</td>
+      <td>specimens</td>
+      <td>virome</td>
+      <td>cov</td>
+      <td>tissue</td>
+      <td>influenza virus</td>
+      <td>OBJECTIVES</td>
+      <td>pdcov</td>
+      <td>coli</td>
+      <td>perceptions</td>
+      <td>antimicrobial</td>
+      <td>neurons</td>
+      <td>snps</td>
+      <td>c-reactive protein</td>
+      <td>wastewater</td>
+      <td>influenza-like illness</td>
+      <td>osteonecrosis</td>
+      <td>searched</td>
+      <td>N95</td>
+      <td>IC50</td>
+      <td>substrate</td>
+      <td>CHIKV</td>
+      <td>arabia</td>
+      <td>aerosols</td>
+      <td>intake</td>
+      <td>GA</td>
+      <td>travelers</td>
+      <td>kda</td>
+      <td>pregnant women</td>
+      <td>silver</td>
+      <td>lee</td>
+      <td>por</td>
+      <td>est</td>
+      <td>HPV</td>
+      <td>FIV</td>
+      <td>parvovirus</td>
+      <td>heart</td>
+      <td>PTSD</td>
+      <td>endoplasmic reticulum</td>
+      <td>version</td>
+      <td>liver</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>question</td>
+      <td>20</td>
+      <td>approaches</td>
+      <td>preparedness</td>
+      <td>hbov</td>
+      <td>acute</td>
+      <td>pathogens</td>
+      <td>spatial</td>
+      <td>phylogenetic analysis</td>
+      <td>domains</td>
+      <td>innate</td>
+      <td>autophagy</td>
+      <td>responses</td>
+      <td>in vitro</td>
+      <td>agents</td>
+      <td>deaths</td>
+      <td>LPS</td>
+      <td>coronavirus disease 2019</td>
+      <td>frameshift</td>
+      <td>department</td>
+      <td>isothermal</td>
+      <td>rats</td>
+      <td>monoclonal antibodies</td>
+      <td>stay</td>
+      <td>software</td>
+      <td>contact</td>
+      <td>MAPK</td>
+      <td>laboratory</td>
+      <td>cell</td>
+      <td>reservoirs</td>
+      <td>CD8(+</td>
+      <td>fever</td>
+      <td>risk</td>
+      <td>type</td>
+      <td>mirnas</td>
+      <td>nasal</td>
+      <td>metagenomics</td>
+      <td>2003</td>
+      <td>intestine</td>
+      <td>H7N9</td>
+      <td>DESIGN</td>
+      <td>pig</td>
+      <td>cryptosporidium</td>
+      <td>attitudes</td>
+      <td>S.</td>
+      <td>sclerosis</td>
+      <td>allele</td>
+      <td>counts</td>
+      <td>MS2</td>
+      <td>SARI</td>
+      <td>mg</td>
+      <td>systematic review</td>
+      <td>hygiene</td>
+      <td>IC(50</td>
+      <td>proteinase</td>
+      <td>EVD</td>
+      <td>saudi arabia</td>
+      <td>ventilation</td>
+      <td>BW</td>
+      <td>metabolites</td>
+      <td>price</td>
+      <td>glycoproteins</td>
+      <td>stem</td>
+      <td>nps</td>
+      <td>CF</td>
+      <td>para</td>
+      <td>par</td>
+      <td>HCMV</td>
+      <td>felv</td>
+      <td>leishmania</td>
+      <td>ang</td>
+      <td>mental health</td>
+      <td>die</td>
+      <td>MATERIAL</td>
+      <td>HIV-1</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>view</td>
+      <td>22</td>
+      <td>technology</td>
+      <td>security</td>
+      <td>viruses</td>
+      <td>upper</td>
+      <td>zoonotic</td>
+      <td>stochastic</td>
+      <td>chicken</td>
+      <td>proteins</td>
+      <td>inflammatory</td>
+      <td>viruses</td>
+      <td>mucosal</td>
+      <td>vitro</td>
+      <td>therapies</td>
+      <td>europe</td>
+      <td>ifn-γ</td>
+      <td>hubei</td>
+      <td>ribosomal</td>
+      <td>management</td>
+      <td>primers</td>
+      <td>dpi</td>
+      <td>igg</td>
+      <td>admitted</td>
+      <td>database</td>
+      <td>tracing</td>
+      <td>activation</td>
+      <td>assays</td>
+      <td>env</td>
+      <td>niv</td>
+      <td>t cells</td>
+      <td>pneumonia</td>
+      <td>%</td>
+      <td>response</td>
+      <td>lncrnas</td>
+      <td>PCR</td>
+      <td>next-generation</td>
+      <td>respiratory</td>
+      <td>electron microscopy</td>
+      <td>influenza viruses</td>
+      <td>METHODOLOGY/PRINCIPAL</td>
+      <td>diarrhea</td>
+      <td>bcov</td>
+      <td>perception</td>
+      <td>antibiotics</td>
+      <td>spinal</td>
+      <td>polymorphism</td>
+      <td>PCT</td>
+      <td>filtration</td>
+      <td>ARI</td>
+      <td>femoral</td>
+      <td>papers</td>
+      <td>hand</td>
+      <td>EC50</td>
+      <td>proteolytic</td>
+      <td>fever</td>
+      <td>middle east respiratory syndrome</td>
+      <td>bioaerosol</td>
+      <td>kg</td>
+      <td>flavonoids</td>
+      <td>business</td>
+      <td>MHV-A59</td>
+      <td>HSCT</td>
+      <td>aptamer</td>
+      <td>atopic</td>
+      <td>es</td>
+      <td>sont</td>
+      <td>HSV</td>
+      <td>infectious peritonitis</td>
+      <td>CPV-2</td>
+      <td>renal</td>
+      <td>schizophrenia</td>
+      <td>membrane</td>
+      <td>online</td>
+      <td>van</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>iii</td>
+      <td>13</td>
+      <td>chapter</td>
+      <td>countries</td>
+      <td>hmpv</td>
+      <td>morbidity</td>
+      <td>zoonoses</td>
+      <td>number</td>
+      <td>sequence</td>
+      <td>peptides</td>
+      <td>pathways</td>
+      <td>machinery</td>
+      <td>vaccinated</td>
+      <td>cell culture</td>
+      <td>antivirals</td>
+      <td>america</td>
+      <td>macrophage</td>
+      <td>cases</td>
+      <td>translation</td>
+      <td>patient</td>
+      <td>LAMP</td>
+      <td>dose</td>
+      <td>neutralization</td>
+      <td>mechanical ventilation</td>
+      <td>dataset</td>
+      <td>incubation</td>
+      <td>signaling</td>
+      <td>specificity</td>
+      <td>viral entry</td>
+      <td>rabies</td>
+      <td>dcs</td>
+      <td>clinical</td>
+      <td>ratio</td>
+      <td>ifn-α</td>
+      <td>transcriptional</td>
+      <td>stool</td>
+      <td>viruses</td>
+      <td>coronaviruses</td>
+      <td>microscopy</td>
+      <td>virus</td>
+      <td>statistically</td>
+      <td>transmissible</td>
+      <td>E.</td>
+      <td>nursing</td>
+      <td>mycoplasma</td>
+      <td>multiple sclerosis</td>
+      <td>variants</td>
+      <td>biomarkers</td>
+      <td>column</td>
+      <td>aged</td>
+      <td>trials</td>
+      <td>search</td>
+      <td>respirators</td>
+      <td>antiviral</td>
+      <td>plpro</td>
+      <td>ebola virus</td>
+      <td>mers-cov infection</td>
+      <td>pollution</td>
+      <td>replacer</td>
+      <td>antioxidant</td>
+      <td>hotel</td>
+      <td>sialic acid</td>
+      <td>hematopoietic</td>
+      <td>polymers</td>
+      <td>park</td>
+      <td>pacientes</td>
+      <td>ou</td>
+      <td>virus</td>
+      <td>horses</td>
+      <td>puppies</td>
+      <td>myocardial</td>
+      <td>social media</td>
+      <td>secretory</td>
+      <td>material</td>
+      <td>een</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>process</td>
+      <td>median</td>
+      <td>field</td>
+      <td>communication</td>
+      <td>adenovirus</td>
+      <td>clinical</td>
+      <td>infectious agents</td>
+      <td>parameter</td>
+      <td>sequences</td>
+      <td>conformational</td>
+      <td>immune response</td>
+      <td>interactions</td>
+      <td>immunity</td>
+      <td>cell lines</td>
+      <td>effective</td>
+      <td>asia</td>
+      <td>il-1β</td>
+      <td>february</td>
+      <td>mrna</td>
+      <td>physicians</td>
+      <td>method</td>
+      <td>3</td>
+      <td>epitopes</td>
+      <td>unit</td>
+      <td>classification</td>
+      <td>case</td>
+      <td>p38</td>
+      <td>rapid</td>
+      <td>attachment</td>
+      <td>bat species</td>
+      <td>cell</td>
+      <td>computed</td>
+      <td>odds ratio</td>
+      <td>immune</td>
+      <td>expressed</td>
+      <td>reaction</td>
+      <td>sequence</td>
+      <td>acute respiratory syndrome coronavirus</td>
+      <td>lymph</td>
+      <td>IAV</td>
+      <td>MATERIALS</td>
+      <td>PCV2</td>
+      <td>BRSV</td>
+      <td>knowledge</td>
+      <td>staphylococcus</td>
+      <td>demyelinating</td>
+      <td>evolution</td>
+      <td>albumin</td>
+      <td>temperature</td>
+      <td>influenza vaccination</td>
+      <td>HCQ</td>
+      <td>review</td>
+      <td>hand hygiene</td>
+      <td>analogues</td>
+      <td>enzyme</td>
+      <td>JEV</td>
+      <td>hajj</td>
+      <td>buildings</td>
+      <td>zinc</td>
+      <td>glycyrrhizin</td>
+      <td>airline</td>
+      <td>oligosaccharides</td>
+      <td>BAL</td>
+      <td>applications</td>
+      <td>rhinitis</td>
+      <td>más</td>
+      <td>pour</td>
+      <td>HAV</td>
+      <td>gondii</td>
+      <td>crcov</td>
+      <td>cardiac</td>
+      <td>suicide</td>
+      <td>ion</td>
+      <td>A.</td>
+      <td>AIDS</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>fact</td>
+      <td>25</td>
+      <td>progress</td>
+      <td>agencies</td>
+      <td>metapneumovirus</td>
+      <td>chronic</td>
+      <td>emergence</td>
+      <td>population</td>
+      <td>S1</td>
+      <td>c-terminal</td>
+      <td>CEACAM1</td>
+      <td>protein</td>
+      <td>immune</td>
+      <td>vero cells</td>
+      <td>therapeutics</td>
+      <td>cases</td>
+      <td>chemokine</td>
+      <td>hubei province</td>
+      <td>frame</td>
+      <td>training</td>
+      <td>sensitive</td>
+      <td>1</td>
+      <td>epitope</td>
+      <td>mechanical</td>
+      <td>computational</td>
+      <td>school</td>
+      <td>expression</td>
+      <td>diagnostic tests</td>
+      <td>enveloped</td>
+      <td>viruses</td>
+      <td>CD4(+</td>
+      <td>bilateral</td>
+      <td>adjusted</td>
+      <td>RIG-I</td>
+      <td>silencing</td>
+      <td>detected</td>
+      <td>viral</td>
+      <td>sars‐cov</td>
+      <td>EM</td>
+      <td>H3N2</td>
+      <td>INTRODUCTION</td>
+      <td>transmissible gastroenteritis virus</td>
+      <td>parvum</td>
+      <td>education</td>
+      <td>influenzae</td>
+      <td>microglia</td>
+      <td>synonymous</td>
+      <td>SAA</td>
+      <td>manufacturing</td>
+      <td>sentinel</td>
+      <td>cold</td>
+      <td>databases</td>
+      <td>equipment</td>
+      <td>nucleoside</td>
+      <td>cysteine</td>
+      <td>zika virus</td>
+      <td>pilgrims</td>
+      <td>meteorological</td>
+      <td>cows</td>
+      <td>shrimp</td>
+      <td>emissions</td>
+      <td>glycan</td>
+      <td>HCT</td>
+      <td>electrochemical</td>
+      <td>wheezing</td>
+      <td>infecciones</td>
+      <td>en</td>
+      <td>HSV-2</td>
+      <td>FCV</td>
+      <td>cheetahs</td>
+      <td>angiotensin-converting enzyme 2</td>
+      <td>exercise</td>
+      <td>golgi apparatus</td>
+      <td>article</td>
+      <td>plasmodium</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>individual</td>
+      <td>2</td>
+      <td>developments</td>
+      <td>regulations</td>
+      <td>parainfluenza</td>
+      <td>respiratory tract</td>
+      <td>agents</td>
+      <td>simulations</td>
+      <td>nucleotide</td>
+      <td>n-terminal</td>
+      <td>system</td>
+      <td>assembly</td>
+      <td>challenge</td>
+      <td>cultures</td>
+      <td>therapy</td>
+      <td>million</td>
+      <td>chemokines</td>
+      <td>pandemic</td>
+      <td>mrnas</td>
+      <td>beds</td>
+      <td>probe</td>
+      <td>signs</td>
+      <td>igm</td>
+      <td>mortality</td>
+      <td>information</td>
+      <td>closure</td>
+      <td>mitochondrial</td>
+      <td>false</td>
+      <td>IFITM</td>
+      <td>wild</td>
+      <td>memory</td>
+      <td>pleural</td>
+      <td>logistic</td>
+      <td>type i ifn</td>
+      <td>transcriptome</td>
+      <td>RT-PCR</td>
+      <td>viral genomes</td>
+      <td>sars-cov.</td>
+      <td>organs</td>
+      <td>influenza a virus</td>
+      <td>CONCLUSIONS/SIGNIFICANCE</td>
+      <td>respiratory syndrome virus</td>
+      <td>e. coli</td>
+      <td>attitude</td>
+      <td>pneumonia</td>
+      <td>central</td>
+      <td>SNP</td>
+      <td>plasma</td>
+      <td>filter</td>
+      <td>children</td>
+      <td>placebo-controlled</td>
+      <td>publication</td>
+      <td>precautions</td>
+      <td>potent</td>
+      <td>3cl(pro</td>
+      <td>hemorrhagic</td>
+      <td>camel</td>
+      <td>air pollution</td>
+      <td>supplementation</td>
+      <td>emodin</td>
+      <td>trade</td>
+      <td>sialic acids</td>
+      <td>preterm</td>
+      <td>nanotechnology</td>
+      <td>obstructive</td>
+      <td>infección</td>
+      <td>au</td>
+      <td>CVB3</td>
+      <td>FECV</td>
+      <td>canine parvovirus</td>
+      <td>enzyme</td>
+      <td>stress</td>
+      <td>von</td>
+      <td>J.</td>
+      <td>hiv infection</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>large</td>
+      <td>18</td>
+      <td>systems</td>
+      <td>resources</td>
+      <td>bronchiolitis</td>
+      <td>syndromes</td>
+      <td>health</td>
+      <td>network</td>
+      <td>gene</td>
+      <td>amino acids</td>
+      <td>exosomes</td>
+      <td>nucleolus</td>
+      <td>vectors</td>
+      <td>line</td>
+      <td>chloroquine</td>
+      <td>mortality</td>
+      <td>neutrophils</td>
+      <td>sars-cov-2 infection</td>
+      <td>pseudoknot</td>
+      <td>providers</td>
+      <td>sensitivity</td>
+      <td>4</td>
+      <td>immunosorbent</td>
+      <td>failure</td>
+      <td>network</td>
+      <td>household</td>
+      <td>CD13</td>
+      <td>nucleic</td>
+      <td>endosomal</td>
+      <td>macaques</td>
+      <td>class</td>
+      <td>interstitial</td>
+      <td>95%CI</td>
+      <td>isgs</td>
+      <td>transcripts</td>
+      <td>polymerase</td>
+      <td>genomic</td>
+      <td>sars coronavirus</td>
+      <td>cells</td>
+      <td>influenza a</td>
+      <td>significant</td>
+      <td>PED</td>
+      <td>BVDV</td>
+      <td>interviews</td>
+      <td>streptococcus pneumoniae</td>
+      <td>myelin</td>
+      <td>CC</td>
+      <td>LDH</td>
+      <td>UV</td>
+      <td>vaccination</td>
+      <td>corticosteroids</td>
+      <td>journals</td>
+      <td>nosocomial</td>
+      <td>inhibition</td>
+      <td>DUB</td>
+      <td>chikungunya</td>
+      <td>dromedary</td>
+      <td>bioaerosols</td>
+      <td>weaning</td>
+      <td>herbs</td>
+      <td>passenger</td>
+      <td>n-linked</td>
+      <td>allogeneic</td>
+      <td>optical</td>
+      <td>asthmatic</td>
+      <td>como</td>
+      <td>chez</td>
+      <td>VZV</td>
+      <td>feline coronavirus</td>
+      <td>canine distemper virus</td>
+      <td>hypertension</td>
+      <td>social support</td>
+      <td>apparatus</td>
+      <td>M.</td>
+      <td>falciparum</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>conditions</td>
+      <td>15</td>
+      <td>discussed</td>
+      <td>government</td>
+      <td>tract</td>
+      <td>associated with</td>
+      <td>environmental</td>
+      <td>estimate</td>
+      <td>NDV</td>
+      <td>conformation</td>
+      <td>inflammation</td>
+      <td>translation</td>
+      <td>protective</td>
+      <td>mutant</td>
+      <td>antiviral agents</td>
+      <td>CFR</td>
+      <td>inflammation</td>
+      <td>province</td>
+      <td>−1</td>
+      <td>departments</td>
+      <td>reaction</td>
+      <td>p.i</td>
+      <td>enzyme-linked</td>
+      <td>critically ill</td>
+      <td>predict</td>
+      <td>travel</td>
+      <td>ROS</td>
+      <td>diagnostics</td>
+      <td>endocytosis</td>
+      <td>primate</td>
+      <td>dendritic</td>
+      <td>ground-glass</td>
+      <td>risk factors</td>
+      <td>innate immune response</td>
+      <td>mirna</td>
+      <td>collected</td>
+      <td>DNA</td>
+      <td>sars-cov infection</td>
+      <td>small intestine</td>
+      <td>flu</td>
+      <td>AIM</td>
+      <td>epidemic diarrhea virus</td>
+      <td>dairy</td>
+      <td>behaviors</td>
+      <td>haemophilus</td>
+      <td>encephalomyelitis</td>
+      <td>MBL</td>
+      <td>healthy</td>
+      <td>storage</td>
+      <td>seasons</td>
+      <td>®</td>
+      <td>meta-analysis</td>
+      <td>personal protective equipment</td>
+      <td>synthesized</td>
+      <td>substrates</td>
+      <td>nile</td>
+      <td>mers-cov.</td>
+      <td>dispersion</td>
+      <td>probiotics</td>
+      <td>alkaloids</td>
+      <td>travellers</td>
+      <td>carbohydrates</td>
+      <td>graft</td>
+      <td>surface</td>
+      <td>ige</td>
+      <td>tratamiento</td>
+      <td>sur</td>
+      <td>MV</td>
+      <td>t. gondii</td>
+      <td>parasite</td>
+      <td>ang ii</td>
+      <td>depressive</td>
+      <td>channels</td>
+      <td>R.</td>
+      <td>hcv infection</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>largely</td>
+      <td>5</td>
+      <td>tools</td>
+      <td>collaboration</td>
+      <td>infections</td>
+      <td>respiratory infections</td>
+      <td>threat</td>
+      <td>data</td>
+      <td>identity</td>
+      <td>spike</td>
+      <td>role</td>
+      <td>host cell</td>
+      <td>inactivated</td>
+      <td>cytopathic</td>
+      <td>treat</td>
+      <td>china</td>
+      <td>proinflammatory</td>
+      <td>coronavirus disease</td>
+      <td>subgenomic</td>
+      <td>service</td>
+      <td>detect</td>
+      <td>PI</td>
+      <td>serum</td>
+      <td>ill</td>
+      <td>set</td>
+      <td>interventions</td>
+      <td>p53</td>
+      <td>filmarray</td>
+      <td>membrane fusion</td>
+      <td>rodents</td>
+      <td>CTL</td>
+      <td>abnormalities</td>
+      <td>RR</td>
+      <td>PKR</td>
+      <td>rna interference</td>
+      <td>hbov1</td>
+      <td>next-generation sequencing</td>
+      <td>hcov-229e</td>
+      <td>mucosal</td>
+      <td>neuraminidase</td>
+      <td>PURPOSE</td>
+      <td>sows</td>
+      <td>calf</td>
+      <td>residents</td>
+      <td>AOM</td>
+      <td>neuronal</td>
+      <td>evolutionary</td>
+      <td>lymphocyte</td>
+      <td>irradiation</td>
+      <td>febrile</td>
+      <td>randomised</td>
+      <td>cochrane</td>
+      <td>occupational</td>
+      <td>EC(50</td>
+      <td>3c-like</td>
+      <td>WNV</td>
+      <td>syndrome</td>
+      <td>ambient</td>
+      <td>calving</td>
+      <td>constituents</td>
+      <td>hong</td>
+      <td>griffithsin</td>
+      <td>NEC</td>
+      <td>liposomes</td>
+      <td>chronic obstructive pulmonary disease</td>
+      <td>diagnóstico</td>
+      <td>résumé</td>
+      <td>cytomegalovirus</td>
+      <td>ferret</td>
+      <td>carnivores</td>
+      <td>converting</td>
+      <td>psychological distress</td>
+      <td>viroporins</td>
+      <td>018</td>
+      <td>hepatitis b virus</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>life</td>
+      <td>50</td>
+      <td>overview</td>
+      <td>world</td>
+      <td>human metapneumovirus</td>
+      <td>severe</td>
+      <td>livestock</td>
+      <td>simulation</td>
+      <td>recombination</td>
+      <td>RBD</td>
+      <td>roles</td>
+      <td>nuclear</td>
+      <td>recombinant</td>
+      <td>vivo</td>
+      <td>targeting</td>
+      <td>africa</td>
+      <td>IL-10</td>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>genome</td>
+      <td>disaster</td>
+      <td>assays</td>
+      <td>2</td>
+      <td>monoclonal antibody</td>
+      <td>care</td>
+      <td>proposed</td>
+      <td>contact tracing</td>
+      <td>cell</td>
+      <td>RP</td>
+      <td>lipid</td>
+      <td>cross-species</td>
+      <td>t cell</td>
+      <td>kawasaki</td>
+      <td>associated with</td>
+      <td>type i interferon</td>
+      <td>reference genes</td>
+      <td>nasopharyngeal</td>
+      <td>diversity</td>
+      <td>hcov-oc43</td>
+      <td>apical</td>
+      <td>NA</td>
+      <td>study</td>
+      <td>gastroenteritis</td>
+      <td>BRD</td>
+      <td>cross-sectional</td>
+      <td>microbiota</td>
+      <td>CSF</td>
+      <td>loci</td>
+      <td>biomarker</td>
+      <td>centrifugation</td>
+      <td>hospitalizations</td>
+      <td>double-blind</td>
+      <td>journal</td>
+      <td>respirator</td>
+      <td>inhibitory activity</td>
+      <td>polyprotein</td>
+      <td>dengue virus</td>
+      <td>middle east</td>
+      <td>droplets</td>
+      <td>diets</td>
+      <td>traditional</td>
+      <td>aviation</td>
+      <td>LDV</td>
+      <td>maternal</td>
+      <td>chitosan</td>
+      <td>AECOPD</td>
+      <td>la</td>
+      <td>été</td>
+      <td>herpesvirus</td>
+      <td>ecov</td>
+      <td>bronchiseptica</td>
+      <td>stroke</td>
+      <td>emotional</td>
+      <td>transport</td>
+      <td>019</td>
+      <td>blood</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>space</td>
+      <td>6</td>
+      <td>molecular</td>
+      <td>systems</td>
+      <td>detected</td>
+      <td>mortality</td>
+      <td>human</td>
+      <td>transmission</td>
+      <td>genotype</td>
+      <td>motif</td>
+      <td>host</td>
+      <td>viral replication</td>
+      <td>adjuvants</td>
+      <td>in vivo</td>
+      <td>targets</td>
+      <td>north america</td>
+      <td>interleukin</td>
+      <td>covid-19 pandemic</td>
+      <td>PRF</td>
+      <td>emergency department</td>
+      <td>primer</td>
+      <td>post</td>
+      <td>neutralizing antibodies</td>
+      <td>outcomes</td>
+      <td>analysis</td>
+      <td>restrictions</td>
+      <td>JNK</td>
+      <td>gold standard</td>
+      <td>enveloped viruses</td>
+      <td>nipah</td>
+      <td>peripheral</td>
+      <td>radiological</td>
+      <td>multivariable</td>
+      <td>innate immunity</td>
+      <td>mrna</td>
+      <td>loads</td>
+      <td>microarrays</td>
+      <td>covs</td>
+      <td>immunohistochemistry</td>
+      <td>influenza pandemic</td>
+      <td>correlation</td>
+      <td>reproductive</td>
+      <td>farms</td>
+      <td>questionnaires</td>
+      <td>M.</td>
+      <td>glial</td>
+      <td>variation</td>
+      <td>pg/ml</td>
+      <td>ethanol</td>
+      <td>illnesses</td>
+      <td>efficacy</td>
+      <td>google</td>
+      <td>HCW</td>
+      <td>GRFT</td>
+      <td>papain-like</td>
+      <td>virus</td>
+      <td>dromedary camels</td>
+      <td>exhaled</td>
+      <td>weight</td>
+      <td>leaf</td>
+      <td>stock</td>
+      <td>E2</td>
+      <td>rejection</td>
+      <td>bismuth</td>
+      <td>cystic fibrosis</td>
+      <td>resumen</td>
+      <td>cas</td>
+      <td>KSHV</td>
+      <td>kittens</td>
+      <td>infantum</td>
+      <td>angiotensin ii</td>
+      <td>physical</td>
+      <td>TGN</td>
+      <td>S.</td>
+      <td>immunodeficiency</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>long</td>
+      <td>12</td>
+      <td>discuss</td>
+      <td>challenges</td>
+      <td>bocavirus</td>
+      <td>manifestations</td>
+      <td>animals</td>
+      <td>modeling</td>
+      <td>amino</td>
+      <td>structures</td>
+      <td>arthritis</td>
+      <td>nucleolar</td>
+      <td>vlps</td>
+      <td>clone</td>
+      <td>efficacy</td>
+      <td>years</td>
+      <td>CXCL10</td>
+      <td>covid-19</td>
+      <td>sequence</td>
+      <td>services</td>
+      <td>copies</td>
+      <td>group 2</td>
+      <td>recombinant</td>
+      <td>pneumonia</td>
+      <td>based</td>
+      <td>non-pharmaceutical</td>
+      <td>tumor</td>
+      <td>multiplex</td>
+      <td>internalization</td>
+      <td>interspecies</td>
+      <td>subsets</td>
+      <td>radiographic</td>
+      <td>factors</td>
+      <td>rnase</td>
+      <td>up-regulated</td>
+      <td>nasal swabs</td>
+      <td>families</td>
+      <td>hong kong</td>
+      <td>lymphoid</td>
+      <td>pandemic influenza</td>
+      <td>statistically significant</td>
+      <td>PRRS</td>
+      <td>enteric</td>
+      <td>preventive</td>
+      <td>mycoplasma pneumoniae</td>
+      <td>neurological</td>
+      <td>genes</td>
+      <td>AUC</td>
+      <td>temperatures</td>
+      <td>military</td>
+      <td>therapy</td>
+      <td>english</td>
+      <td>personal</td>
+      <td>cyclophilin</td>
+      <td>mpro</td>
+      <td>mosquito</td>
+      <td>arabian</td>
+      <td>airflow</td>
+      <td>dietary</td>
+      <td>radix</td>
+      <td>kong</td>
+      <td>mouse hepatitis virus</td>
+      <td>RVI</td>
+      <td>properties</td>
+      <td>sensitization</td>
+      <td>su</td>
+      <td>ont</td>
+      <td>noroviruses</td>
+      <td>infectious peritonitis virus</td>
+      <td>canis</td>
+      <td>II</td>
+      <td>coping</td>
+      <td>vesicles</td>
+      <td>D.</td>
+      <td>het</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>types</td>
+      <td>9</td>
+      <td>understanding</td>
+      <td>threats</td>
+      <td>virus</td>
+      <td>viral infection</td>
+      <td>foodborne</td>
+      <td>mathematical models</td>
+      <td>amino acid</td>
+      <td>acids</td>
+      <td>function</td>
+      <td>nucleus</td>
+      <td>live</td>
+      <td>passage</td>
+      <td>potential</td>
+      <td>population</td>
+      <td>ALI</td>
+      <td>march</td>
+      <td>orfs</td>
+      <td>triage</td>
+      <td>developed</td>
+      <td>5</td>
+      <td>polyclonal</td>
+      <td>severe</td>
+      <td>predicting</td>
+      <td>social</td>
+      <td>kinases</td>
+      <td>panel</td>
+      <td>surface</td>
+      <td>host</td>
+      <td>b cells</td>
+      <td>radiographs</td>
+      <td>multivariate</td>
+      <td>toll-like</td>
+      <td>rnas</td>
+      <td>viral loads</td>
+      <td>novo</td>
+      <td>229E</td>
+      <td>ciliated</td>
+      <td>hemagglutinin</td>
+      <td>METHOD</td>
+      <td>PRCV</td>
+      <td>fecal</td>
+      <td>intention</td>
+      <td>colonization</td>
+      <td>neurotropic</td>
+      <td>susceptibility</td>
+      <td>elevated</td>
+      <td>removal</td>
+      <td>years</td>
+      <td>treated</td>
+      <td>web</td>
+      <td>dental</td>
+      <td>cytotoxicity</td>
+      <td>dubs</td>
+      <td>flaviviruses</td>
+      <td>mers‐cov</td>
+      <td>pollutants</td>
+      <td>calf</td>
+      <td>quercetin</td>
+      <td>cities</td>
+      <td>glycosylated</td>
+      <td>prostate</td>
+      <td>nanoparticle</td>
+      <td>allergy</td>
+      <td>son</td>
+      <td>ces</td>
+      <td>epstein-barr</td>
+      <td>feline immunodeficiency virus</td>
+      <td>flies</td>
+      <td>renin</td>
+      <td>depressive symptoms</td>
+      <td>sorting</td>
+      <td>K.</td>
+      <td>hiv-infected</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>degree</td>
+      <td>80</td>
+      <td>techniques</td>
+      <td>political</td>
+      <td>infants</td>
+      <td>pathogenesis</td>
+      <td>zoonotic diseases</td>
+      <td>exponential</td>
+      <td>flocks</td>
+      <td>S2</td>
+      <td>receptors</td>
+      <td>cellular proteins</td>
+      <td>humoral</td>
+      <td>plaque</td>
+      <td>compounds</td>
+      <td>burden</td>
+      <td>IL-8</td>
+      <td>confirmed</td>
+      <td>frames</td>
+      <td>facilities</td>
+      <td>hybridization</td>
+      <td>animals</td>
+      <td>antigenic</td>
+      <td>oxygen</td>
+      <td>datasets</td>
+      <td>isolation</td>
+      <td>autophagy</td>
+      <td>RVP</td>
+      <td>virus entry</td>
+      <td>wildlife</td>
+      <td>dendritic cells</td>
+      <td>opacities</td>
+      <td>aor</td>
+      <td>TLR</td>
+      <td>interference</td>
+      <td>viral</td>
+      <td>viral sequences</td>
+      <td>kong</td>
+      <td>lesions</td>
+      <td>AIV</td>
+      <td>=</td>
+      <td>CSFV</td>
+      <td>C.</td>
+      <td>telephone</td>
+      <td>otitis</td>
+      <td>cord</td>
+      <td>alleles</td>
+      <td>lactate dehydrogenase</td>
+      <td>buffer</td>
+      <td>elderly</td>
+      <td>ONFH</td>
+      <td>MEDLINE</td>
+      <td>contamination</td>
+      <td>μm.</td>
+      <td>3C</td>
+      <td>ebola virus disease</td>
+      <td>2012</td>
+      <td>pollutant</td>
+      <td>milk replacer</td>
+      <td>oil</td>
+      <td>tourist</td>
+      <td>mouse</td>
+      <td>donor</td>
+      <td>devices</td>
+      <td>cystic</td>
+      <td>niños</td>
+      <td>être</td>
+      <td>herpes simplex virus</td>
+      <td>domestic cats</td>
+      <td>captive</td>
+      <td>heart failure</td>
+      <td>mood</td>
+      <td>BFA</td>
+      <td>016</td>
+      <td>malaria</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>account</td>
+      <td>4</td>
+      <td>current</td>
+      <td>organizations</td>
+      <td>RV</td>
+      <td>complications</td>
+      <td>climate</td>
+      <td>estimation</td>
+      <td>poultry</td>
+      <td>interaction</td>
+      <td>autoimmune diseases</td>
+      <td>organelles</td>
+      <td>dna vaccine</td>
+      <td>transfected</td>
+      <td>target</td>
+      <td>country</td>
+      <td>lungs</td>
+      <td>january</td>
+      <td>synthesis</td>
+      <td>patients</td>
+      <td>rapid</td>
+      <td>6</td>
+      <td>protein</td>
+      <td>comorbidities</td>
+      <td>methods</td>
+      <td>closures</td>
+      <td>cell death</td>
+      <td>agreement</td>
+      <td>cells</td>
+      <td>hendra</td>
+      <td>nk cells</td>
+      <td>pulmonary</td>
+      <td>hazard</td>
+      <td>IRF3</td>
+      <td>micrornas</td>
+      <td>sputum</td>
+      <td>de novo</td>
+      <td>hong</td>
+      <td>airway</td>
+      <td>viruses</td>
+      <td>0.05</td>
+      <td>tgev infection</td>
+      <td>diarrheic</td>
+      <td>risk perception</td>
+      <td>staphylococcus aureus</td>
+      <td>mice</td>
+      <td>bias</td>
+      <td>procalcitonin</td>
+      <td>sewage</td>
+      <td>adults</td>
+      <td>corticosteroid</td>
+      <td>evidence</td>
+      <td>health care workers</td>
+      <td>cypa</td>
+      <td>ISG15</td>
+      <td>west nile virus</td>
+      <td>peninsula</td>
+      <td>particle</td>
+      <td>vitamin</td>
+      <td>medicines</td>
+      <td>costs</td>
+      <td>E1</td>
+      <td>allograft</td>
+      <td>copper</td>
+      <td>allergic rhinitis</td>
+      <td>casos</td>
+      <td>le</td>
+      <td>nov</td>
+      <td>uveitis</td>
+      <td>leishmaniasis</td>
+      <td>renin-angiotensin</td>
+      <td>twitter</td>
+      <td>golgi complex</td>
+      <td>015</td>
+      <td>cirrhosis</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>theory</td>
+      <td>10</td>
+      <td>discovery</td>
+      <td>response</td>
+      <td>HMPV</td>
+      <td>viruses</td>
+      <td>biosecurity</td>
+      <td>networks</td>
+      <td>sequenced</td>
+      <td>hydrophobic</td>
+      <td>RA</td>
+      <td>host proteins</td>
+      <td>DNA</td>
+      <td>passages</td>
+      <td>development</td>
+      <td>areas</td>
+      <td>pro-inflammatory</td>
+      <td>italy</td>
+      <td>leader</td>
+      <td>team</td>
+      <td>loop-mediated</td>
+      <td>group 1</td>
+      <td>serum samples</td>
+      <td>sepsis</td>
+      <td>tool</td>
+      <td>period</td>
+      <td>COX-2</td>
+      <td>techniques</td>
+      <td>glycoproteins</td>
+      <td>zoonotic viruses</td>
+      <td>histocompatibility</td>
+      <td>scans</td>
+      <td>HR</td>
+      <td>IFN-I</td>
+      <td>down-regulated</td>
+      <td>tested</td>
+      <td>taxonomic</td>
+      <td>severe acute respiratory syndrome</td>
+      <td>situ</td>
+      <td>influenza a viruses</td>
+      <td>SETTING</td>
+      <td>PRV</td>
+      <td>oocysts</td>
+      <td>willingness</td>
+      <td>community-acquired pneumonia</td>
+      <td>oligodendrocytes</td>
+      <td>fitness</td>
+      <td>WBC</td>
+      <td>min</td>
+      <td>a(h1n1)pdm09</td>
+      <td>duration</td>
+      <td>embase</td>
+      <td>HCP</td>
+      <td>ATA</td>
+      <td>active site</td>
+      <td>flavivirus</td>
+      <td>coronavirus</td>
+      <td>ozone</td>
+      <td>ADG</td>
+      <td>licorice</td>
+      <td>transportation</td>
+      <td>acid</td>
+      <td>mothers</td>
+      <td>metals</td>
+      <td>asthma exacerbations</td>
+      <td>enfermedad</td>
+      <td>avec</td>
+      <td>measles virus</td>
+      <td>FPV</td>
+      <td>caninum</td>
+      <td>insulin</td>
+      <td>survivors</td>
+      <td>compartment</td>
+      <td>INFORMATION</td>
+      <td>hbsag</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>phenomenon</td>
+      <td>years</td>
+      <td>animal</td>
+      <td>organization</td>
+      <td>nasopharyngeal</td>
+      <td>immunocompromised</td>
+      <td>bioterrorism</td>
+      <td>SIR</td>
+      <td>analysis</td>
+      <td>residue</td>
+      <td>regulation</td>
+      <td>functions</td>
+      <td>mice</td>
+      <td>CPE</td>
+      <td>clinical trials</td>
+      <td>rates</td>
+      <td>mouse</td>
+      <td>covid-19 outbreak</td>
+      <td>DI</td>
+      <td>health care</td>
+      <td>taqman</td>
+      <td>clinical signs</td>
+      <td>scfv</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>validation</td>
+      <td>estimated</td>
+      <td>stress</td>
+      <td>PCR</td>
+      <td>IFITM1</td>
+      <td>primates</td>
+      <td>DC</td>
+      <td>case</td>
+      <td><</td>
+      <td>tlrs</td>
+      <td>gene therapy</td>
+      <td>real-time</td>
+      <td>deep sequencing</td>
+      <td>sars-associated</td>
+      <td>immunohistochemical</td>
+      <td>HPAI</td>
+      <td><</td>
+      <td>swine industry</td>
+      <td>rotaviruses</td>
+      <td>medical students</td>
+      <td>pneumococcal</td>
+      <td>spinal cord</td>
+      <td>haplotype</td>
+      <td>controls</td>
+      <td>ultraviolet</td>
+      <td>visits</td>
+      <td>controlled</td>
+      <td>science</td>
+      <td>surfaces</td>
+      <td>inhibited</td>
+      <td>activity</td>
+      <td>mosquitoes</td>
+      <td>respiratory</td>
+      <td>weather</td>
+      <td>starter</td>
+      <td>root</td>
+      <td>financial</td>
+      <td>mannose</td>
+      <td>fetal</td>
+      <td>PPMO</td>
+      <td>bronchiectasis</td>
+      <td>años</td>
+      <td>cette</td>
+      <td>papillomavirus</td>
+      <td>equine</td>
+      <td>lynx</td>
+      <td>diabetic</td>
+      <td>disorder</td>
+      <td>den</td>
+      <td>F.</td>
+      <td>human immunodeficiency virus</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>point</td>
+      <td>16</td>
+      <td>engineering</td>
+      <td>framework</td>
+      <td>hospitalized</td>
+      <td>treatment</td>
+      <td>eids</td>
+      <td>epidemics</td>
+      <td>genome</td>
+      <td>receptor-binding</td>
+      <td>defense</td>
+      <td>cytoplasm</td>
+      <td>dna vaccines</td>
+      <td>viral</td>
+      <td>broad-spectrum</td>
+      <td>year</td>
+      <td>nitric</td>
+      <td>december</td>
+      <td>helicase</td>
+      <td>professionals</td>
+      <td>limit</td>
+      <td>7</td>
+      <td>antigen</td>
+      <td>critically</td>
+      <td>mining</td>
+      <td>outbreaks</td>
+      <td>inhibitor</td>
+      <td>POCT</td>
+      <td>cell surface</td>
+      <td>spillover</td>
+      <td>lymphocyte</td>
+      <td>patients</td>
+      <td>-</td>
+      <td>antiviral response</td>
+      <td>fish</td>
+      <td>negative</td>
+      <td>next generation sequencing</td>
+      <td>2002</td>
+      <td>staining</td>
+      <td>H9N2</td>
+      <td>STUDY</td>
+      <td>deltacoronavirus</td>
+      <td>salmonella</td>
+      <td>educational</td>
+      <td>MRSA</td>
+      <td>neurologic</td>
+      <td>exon</td>
+      <td>healthy controls</td>
+      <td>room temperature</td>
+      <td>older adults</td>
+      <td>azithromycin</td>
+      <td>research</td>
+      <td>wearing</td>
+      <td>activities</td>
+      <td>serine</td>
+      <td>encephalitis</td>
+      <td>arabian peninsula</td>
+      <td>flow</td>
+      <td>dams</td>
+      <td>cordata</td>
+      <td>airport</td>
+      <td>sia</td>
+      <td>lung cancer</td>
+      <td>dystrophin</td>
+      <td>allergen</td>
+      <td>este</td>
+      <td>qui</td>
+      <td>herpesviruses</td>
+      <td>T.</td>
+      <td>cruzi</td>
+      <td>ischemic</td>
+      <td>athletes</td>
+      <td>mit</td>
+      <td>017</td>
+      <td>bij</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>iv</td>
+      <td>19</td>
+      <td>future</td>
+      <td>issues</td>
+      <td>rhinoviruses</td>
+      <td>symptoms</td>
+      <td>wildlife</td>
+      <td>time</td>
+      <td>isolate</td>
+      <td>NMR</td>
+      <td>immunity</td>
+      <td>complexes</td>
+      <td>elicited</td>
+      <td>infected</td>
+      <td>resistance</td>
+      <td>malaria</td>
+      <td>monocytes</td>
+      <td>covid-19 infection</td>
+      <td>ribosome</td>
+      <td>recommendations</td>
+      <td>reverse</td>
+      <td>infected</td>
+      <td>enzyme-linked immunosorbent assay</td>
+      <td>PICU</td>
+      <td>computing</td>
+      <td>control measures</td>
+      <td>caspase</td>
+      <td>methods</td>
+      <td>endosomes</td>
+      <td>infect</td>
+      <td>t-cells</td>
+      <td>vasculitis</td>
+      <td>univariate</td>
+      <td>induction</td>
+      <td>transcriptomic</td>
+      <td>copies/ml</td>
+      <td>illumina</td>
+      <td>sars-associated coronavirus</td>
+      <td>IBD</td>
+      <td>subtypes</td>
+      <td>difference</td>
+      <td>suckling</td>
+      <td>faecal</td>
+      <td>cross-sectional survey</td>
+      <td>s. pneumoniae</td>
+      <td>AD</td>
+      <td>locus</td>
+      <td>ng/ml</td>
+      <td>coli</td>
+      <td>older</td>
+      <td>clinicaltrials.gov</td>
+      <td>web of science</td>
+      <td>facemasks</td>
+      <td>analogs</td>
+      <td>polyproteins</td>
+      <td>west africa</td>
+      <td>dromedaries</td>
+      <td>relative humidity</td>
+      <td>MR</td>
+      <td>compounds</td>
+      <td>destination</td>
+      <td>A59</td>
+      <td>infants</td>
+      <td>chemical</td>
+      <td>acute exacerbations</td>
+      <td>ha</td>
+      <td>respiratoire</td>
+      <td>epstein-barr virus</td>
+      <td>ferrets</td>
+      <td>leptospira</td>
+      <td>axis</td>
+      <td>media</td>
+      <td>secretory pathway</td>
+      <td>V.</td>
+      <td>hepatitis e virus</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>entities</td>
+      <td>21</td>
+      <td>biological</td>
+      <td>stakeholders</td>
+      <td>human</td>
+      <td>mild</td>
+      <td>risk</td>
+      <td>spread</td>
+      <td>IB</td>
+      <td>disulfide</td>
+      <td>immune responses</td>
+      <td>host factors</td>
+      <td>antigens</td>
+      <td>cell line</td>
+      <td>trials</td>
+      <td>regions</td>
+      <td>CCL2</td>
+      <td>outbreak</td>
+      <td>nucleotides</td>
+      <td>critical care</td>
+      <td>clinical samples</td>
+      <td>titers</td>
+      <td>immunoglobulin</td>
+      <td>distress</td>
+      <td>server</td>
+      <td>attack</td>
+      <td>bcl-2</td>
+      <td>negative</td>
+      <td>glycoprotein</td>
+      <td>fruit</td>
+      <td>HLA</td>
+      <td>opacity</td>
+      <td>0.001</td>
+      <td>TLR3</td>
+      <td>interfering</td>
+      <td>throat</td>
+      <td>identification</td>
+      <td>sars-coronavirus</td>
+      <td>glands</td>
+      <td>subtype</td>
+      <td>CLINICAL</td>
+      <td>circovirus</td>
+      <td>c. parvum</td>
+      <td>conducted</td>
+      <td>aeruginosa</td>
+      <td>axonal</td>
+      <td>genetic variation</td>
+      <td>aminotransferase</td>
+      <td>purity</td>
+      <td>seasonal</td>
+      <td>oral</td>
+      <td>scopus</td>
+      <td>personnel</td>
+      <td>inhibitors</td>
+      <td>cleave</td>
+      <td>lassa</td>
+      <td>DPP4</td>
+      <td>contaminant</td>
+      <td>nutrition</td>
+      <td>roots</td>
+      <td>prices</td>
+      <td>acids</td>
+      <td>lung transplant</td>
+      <td>nanoscale</td>
+      <td>jung</td>
+      <td>respiratorias</td>
+      <td>d’une</td>
+      <td>VACV</td>
+      <td>fcovs</td>
+      <td>spp</td>
+      <td>cardiomyopathy</td>
+      <td>tweets</td>
+      <td>viroporin</td>
+      <td>C.</td>
+      <td>voor</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>events</td>
+      <td>36</td>
+      <td>molecular biology</td>
+      <td>crisis</td>
+      <td>hadv</td>
+      <td>respiratory viral infections</td>
+      <td>threats</td>
+      <td>probability</td>
+      <td>isolated</td>
+      <td>motifs</td>
+      <td>damage</td>
+      <td>viral rna</td>
+      <td>vector</td>
+      <td>cultured</td>
+      <td>promising</td>
+      <td>100,000</td>
+      <td>necrosis</td>
+      <td>feb</td>
+      <td>open</td>
+      <td>visits</td>
+      <td>specificity</td>
+      <td>challenged</td>
+      <td>phage</td>
+      <td>in-hospital</td>
+      <td>alignment</td>
+      <td>lockdown</td>
+      <td>egr-1</td>
+      <td>clinical</td>
+      <td>plasma membrane</td>
+      <td>animals</td>
+      <td>treg</td>
+      <td>lung</td>
+      <td>hazard ratio</td>
+      <td>activation</td>
+      <td>non-coding</td>
+      <td>patients</td>
+      <td>deep</td>
+      <td>sars virus</td>
+      <td>alveolar</td>
+      <td>seasonal</td>
+      <td>MAIN</td>
+      <td>ASFV</td>
+      <td>RVA</td>
+      <td>surveys</td>
+      <td>community-acquired</td>
+      <td>encephalitis</td>
+      <td>haplotypes</td>
+      <td>platelet</td>
+      <td>disinfectants</td>
+      <td>FRI</td>
+      <td>ribavirin</td>
+      <td>scientific</td>
+      <td>hands</td>
+      <td>antiviral activities</td>
+      <td>deubiquitinating</td>
+      <td>GP</td>
+      <td>korea</td>
+      <td>building</td>
+      <td>nutritional</td>
+      <td>medicinal plants</td>
+      <td>firms</td>
+      <td>n-glycans</td>
+      <td>prostate cancer</td>
+      <td>PMO</td>
+      <td>dermatitis</td>
+      <td>riesgo</td>
+      <td>aux</td>
+      <td>enteroviruses</td>
+      <td>FHV-1</td>
+      <td>CIRD</td>
+      <td>renin-angiotensin system</td>
+      <td>post-traumatic</td>
+      <td>das</td>
+      <td>G.</td>
+      <td>plasmodium falciparum</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>time</td>
+      <td>23</td>
+      <td>challenges</td>
+      <td>IHR</td>
+      <td>LRTI</td>
+      <td>etiologic</td>
+      <td>pathogen</td>
+      <td>modelling</td>
+      <td>turkey</td>
+      <td>affinity</td>
+      <td>signaling</td>
+      <td>biogenesis</td>
+      <td>attenuated</td>
+      <td>transfection</td>
+      <td>prophylactic</td>
+      <td>south africa</td>
+      <td>expression</td>
+      <td>spread</td>
+      <td>kb</td>
+      <td>emergency departments</td>
+      <td>samples</td>
+      <td>doses</td>
+      <td>western</td>
+      <td>hospitalization</td>
+      <td>GIS</td>
+      <td>onset</td>
+      <td>er stress</td>
+      <td>performance</td>
+      <td>pseudotyped</td>
+      <td>cross-species transmission</td>
+      <td>cytotoxic</td>
+      <td>examination</td>
+      <td>cox</td>
+      <td>ifn-α/β</td>
+      <td>microarray</td>
+      <td>ct</td>
+      <td>spectrometry</td>
+      <td>hcov</td>
+      <td>mesenteric</td>
+      <td>influenza virus infection</td>
+      <td>SE</td>
+      <td>porcine deltacoronavirus</td>
+      <td>lambs</td>
+      <td>precautionary</td>
+      <td>haemophilus influenzae</td>
+      <td>remyelination</td>
+      <td>genotype</td>
+      <td>ALT</td>
+      <td>concentration</td>
+      <td>influenza‐like</td>
+      <td>received</td>
+      <td>criteria</td>
+      <td>worker</td>
+      <td>micromolar</td>
+      <td>3cpro</td>
+      <td>ebolavirus</td>
+      <td>riyadh</td>
+      <td>room</td>
+      <td>holstein</td>
+      <td>sinensis</td>
+      <td>trading</td>
+      <td>lsectin</td>
+      <td>breast</td>
+      <td>PEI</td>
+      <td>atopy</td>
+      <td>sobre</td>
+      <td>la</td>
+      <td>coxsackievirus</td>
+      <td>feline leukemia virus</td>
+      <td>cheetah</td>
+      <td>cardiovascular disease</td>
+      <td>rehabilitation</td>
+      <td>eine</td>
+      <td>P.</td>
+      <td>tat</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>hypothesis</td>
+      <td>100</td>
+      <td>models</td>
+      <td>regional</td>
+      <td>viral</td>
+      <td>respiratory disease</td>
+      <td>climate change</td>
+      <td>forecast</td>
+      <td>complete</td>
+      <td>conserved</td>
+      <td>review</td>
+      <td>life cycle</td>
+      <td>efficacy</td>
+      <td>replicon</td>
+      <td>repurposing</td>
+      <td>annual</td>
+      <td>levels</td>
+      <td>world</td>
+      <td>genomic rna</td>
+      <td>pharmacists</td>
+      <td>RPA</td>
+      <td>×</td>
+      <td>blot</td>
+      <td>length of stay</td>
+      <td>representation</td>
+      <td>asymptomatic</td>
+      <td>proliferation</td>
+      <td>positive</td>
+      <td>receptors</td>
+      <td>hev</td>
+      <td>cd8(+) t cells</td>
+      <td>symptoms</td>
+      <td>.001</td>
+      <td>MDA5</td>
+      <td>gene silencing</td>
+      <td>stool samples</td>
+      <td>contigs</td>
+      <td>hcov-nl63</td>
+      <td>epithelia</td>
+      <td>ph1n1</td>
+      <td>performed</td>
+      <td>epidemic</td>
+      <td>bovine coronavirus</td>
+      <td>awareness</td>
+      <td>pathogens</td>
+      <td>neuroinflammation</td>
+      <td>codons</td>
+      <td>significantly</td>
+      <td>inactivate</td>
+      <td>VE</td>
+      <td>dose</td>
+      <td>included</td>
+      <td>surgical</td>
+      <td>cyclophilins</td>
+      <td>crystal</td>
+      <td>RVFV</td>
+      <td>2015</td>
+      <td>outdoor</td>
+      <td>birth</td>
+      <td>medicine</td>
+      <td>tourists</td>
+      <td>molecular weight</td>
+      <td>neonatal</td>
+      <td>materials</td>
+      <td>choi</td>
+      <td>clínica</td>
+      <td>respiratoires</td>
+      <td>capsid</td>
+      <td>1146</td>
+      <td>cpv-2c</td>
+      <td>myocarditis</td>
+      <td>posttraumatic</td>
+      <td>membranes</td>
+      <td>T.</td>
+      <td>antiretroviral</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>explain</td>
+      <td>8</td>
+      <td>application</td>
+      <td>emergencies</td>
+      <td>respiratory virus</td>
+      <td>respiratory diseases</td>
+      <td>outbreaks</td>
+      <td>SEIR</td>
+      <td>ibvs</td>
+      <td>TM</td>
+      <td>extracellular</td>
+      <td>virus</td>
+      <td>heterologous</td>
+      <td>cell cultures</td>
+      <td>therapeutic agents</td>
+      <td>southern</td>
+      <td>injury</td>
+      <td>jan</td>
+      <td>elements</td>
+      <td>planning</td>
+      <td>DNA</td>
+      <td>PID</td>
+      <td>antigens</td>
+      <td>outcome</td>
+      <td>graphical</td>
+      <td>spread</td>
+      <td>ERK</td>
+      <td>point-of-care</td>
+      <td>transmembrane</td>
+      <td>genus</td>
+      <td>effector</td>
+      <td>manifestations</td>
+      <td>age</td>
+      <td>immunity</td>
+      <td>lncrna</td>
+      <td>oropharyngeal</td>
+      <td>mngs</td>
+      <td>syndrome-associated</td>
+      <td>gastrointestinal</td>
+      <td>A/H1N1</td>
+      <td>PRINCIPAL</td>
+      <td>PHEV</td>
+      <td>spp</td>
+      <td>self-administered</td>
+      <td>resistance</td>
+      <td>retinal</td>
+      <td>gene</td>
+      <td>markers</td>
+      <td>sludge</td>
+      <td>influenza activity</td>
+      <td>SAON</td>
+      <td>peer-reviewed</td>
+      <td>transmission</td>
+      <td>µm</td>
+      <td>nsp10</td>
+      <td>chikungunya virus</td>
+      <td>KSA</td>
+      <td>CFD</td>
+      <td>heifers</td>
+      <td>phenolic</td>
+      <td>£</td>
+      <td>oligosaccharide</td>
+      <td>gestational</td>
+      <td>polymer</td>
+      <td>atopic dermatitis</td>
+      <td>aguda</td>
+      <td>leur</td>
+      <td>CMV</td>
+      <td>healthy cats</td>
+      <td>trypanosoma</td>
+      <td>infarction</td>
+      <td>distress</td>
+      <td>cisternae</td>
+      <td>W.</td>
+      <td>op</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>complex</td>
+      <td>90</td>
+      <td>past</td>
+      <td>research</td>
+      <td>human bocavirus</td>
+      <td>prevention</td>
+      <td>risks</td>
+      <td>forecasting</td>
+      <td>avian</td>
+      <td>fusion</td>
+      <td>cell</td>
+      <td>interaction</td>
+      <td>immune responses</td>
+      <td>recombinant</td>
+      <td>drug discovery</td>
+      <td>trends</td>
+      <td>KO</td>
+      <td>wuhan city</td>
+      <td>UTR</td>
+      <td>units</td>
+      <td>SYBR</td>
+      <td>challenge</td>
+      <td>reacted</td>
+      <td>respiratory failure</td>
+      <td>approach</td>
+      <td>days</td>
+      <td>induced</td>
+      <td>molecular</td>
+      <td>membranes</td>
+      <td>covs</td>
+      <td>immune</td>
+      <td>features</td>
+      <td>adjusting</td>
+      <td>type i interferons</td>
+      <td>GAPDH</td>
+      <td>reverse</td>
+      <td>high-throughput</td>
+      <td>cristina</td>
+      <td>lung</td>
+      <td>poultry</td>
+      <td>analyzed</td>
+      <td>piglet</td>
+      <td>giardia</td>
+      <td>behavior</td>
+      <td>chlamydia</td>
+      <td>EAE</td>
+      <td>quasispecies</td>
+      <td>higher</td>
+      <td>peroxide</td>
+      <td>recruits</td>
+      <td>control group</td>
+      <td>EMBASE</td>
+      <td>doffing</td>
+      <td>lycorine</td>
+      <td>site</td>
+      <td>LASV</td>
+      <td>mers-cov infections</td>
+      <td>velocity</td>
+      <td>lactation</td>
+      <td>YHV</td>
+      <td>demand</td>
+      <td>erythrocytes</td>
+      <td>lung transplantation</td>
+      <td>sensor</td>
+      <td>hee</td>
+      <td>respiratorio</td>
+      <td>risque</td>
+      <td>HTNV</td>
+      <td>fipv infection</td>
+      <td>CIV</td>
+      <td>kidney</td>
+      <td>sentiment</td>
+      <td>werden</td>
+      <td>H.</td>
+      <td>blood transfusion</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>niche</td>
+      <td>27</td>
+      <td>animal models</td>
+      <td>plans</td>
+      <td>patients</td>
+      <td>management</td>
+      <td>ecological</td>
+      <td>mathematical model</td>
+      <td>genetic</td>
+      <td>HR2</td>
+      <td>diseases</td>
+      <td>synthesis</td>
+      <td>immunogenic</td>
+      <td>permissive</td>
+      <td>drug resistance</td>
+      <td>data</td>
+      <td>nitric oxide</td>
+      <td>people</td>
+      <td>trna</td>
+      <td>guidelines</td>
+      <td>analytical sensitivity</td>
+      <td>post-infection</td>
+      <td>purified</td>
+      <td>oxygenation</td>
+      <td>performance</td>
+      <td>attack rate</td>
+      <td>caspase-3</td>
+      <td>gold</td>
+      <td>ifitms</td>
+      <td>monkeys</td>
+      <td>tregs</td>
+      <td>radiography</td>
+      <td>controls</td>
+      <td>STAT1</td>
+      <td>rna-seq</td>
+      <td>polymerase chain reaction</td>
+      <td>protein microarrays</td>
+      <td>anti-sars</td>
+      <td>nasal mucosa</td>
+      <td>pandemics</td>
+      <td>PARTICIPANTS</td>
+      <td>papn</td>
+      <td>herd</td>
+      <td>worry</td>
+      <td>legionella</td>
+      <td>TMEV</td>
+      <td>synonymous codon</td>
+      <td>neutrophil</td>
+      <td>subtilis</td>
+      <td>influenza surveillance</td>
+      <td>TRIAL</td>
+      <td>medline</td>
+      <td>protective</td>
+      <td>cytostatic</td>
+      <td>m(pro</td>
+      <td>SFTS</td>
+      <td>hcov-emc</td>
+      <td>sampler</td>
+      <td>gain</td>
+      <td>bioactive</td>
+      <td>airlines</td>
+      <td>hepatitis</td>
+      <td>placental</td>
+      <td>biomaterials</td>
+      <td>CFTR</td>
+      <td>resultados</td>
+      <td>d’un</td>
+      <td>gb</td>
+      <td>panleukopenia</td>
+      <td>wild</td>
+      <td>CHD</td>
+      <td>disorders</td>
+      <td>3a</td>
+      <td>doi:10.1007/s00705</td>
+      <td>hepatocytes</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>work</td>
+      <td>26</td>
+      <td>strategies</td>
+      <td>funding</td>
+      <td>parainfluenza virus</td>
+      <td>copyright</td>
+      <td>global</td>
+      <td>individuals</td>
+      <td>infectious bronchitis</td>
+      <td>site</td>
+      <td>immune cells</td>
+      <td>sgs</td>
+      <td>protective immunity</td>
+      <td>cytopathic effect</td>
+      <td>side effects</td>
+      <td>united kingdom</td>
+      <td>induced</td>
+      <td>COVID</td>
+      <td>open reading frames</td>
+      <td>physician</td>
+      <td>one-step</td>
+      <td>infection</td>
+      <td>neutralize</td>
+      <td>ECMO</td>
+      <td>tools</td>
+      <td>control</td>
+      <td>eif2α</td>
+      <td>specimens</td>
+      <td>TMPRSS2</td>
+      <td>diversity</td>
+      <td>responses</td>
+      <td>abdominal</td>
+      <td>odds ratios</td>
+      <td>interferon-stimulated</td>
+      <td>ALV-J</td>
+      <td>sputum samples</td>
+      <td>high-throughput sequencing</td>
+      <td>non-sars</td>
+      <td>cilia</td>
+      <td>H5</td>
+      <td>fisher</td>
+      <td>virus</td>
+      <td>ETEC</td>
+      <td>semi-structured</td>
+      <td>gram-negative</td>
+      <td>ADEM</td>
+      <td>allelic</td>
+      <td>AST</td>
+      <td>tio2</td>
+      <td>age</td>
+      <td>methylprednisolone</td>
+      <td>systematic reviews</td>
+      <td>gloves</td>
+      <td>inhibitor</td>
+      <td>nsp9</td>
+      <td>arenavirus</td>
+      <td>mers coronavirus</td>
+      <td>PM2.5</td>
+      <td>dairy</td>
+      <td>pharmacological</td>
+      <td>airports</td>
+      <td>high-mannose</td>
+      <td>NICU</td>
+      <td>gold</td>
+      <td>airways</td>
+      <td>estos</td>
+      <td>résultats</td>
+      <td>MNV</td>
+      <td>femv</td>
+      <td>cpv-2a</td>
+      <td>blood pressure</td>
+      <td>sleep quality</td>
+      <td>retention</td>
+      <td>014</td>
+      <td>zijn</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>general</td>
+      <td>45</td>
+      <td>advantages</td>
+      <td>global health</td>
+      <td>PIV</td>
+      <td>ltd.</td>
+      <td>animal health</td>
+      <td>basic</td>
+      <td>tcov</td>
+      <td>region</td>
+      <td>aging</td>
+      <td>dmvs</td>
+      <td>neutralizing</td>
+      <td>cultured cells</td>
+      <td>FDA</td>
+      <td>region</td>
+      <td>lipopolysaccharide</td>
+      <td>covid-19 disease</td>
+      <td>genomic</td>
+      <td>resources</td>
+      <td>rt-lamp assay</td>
+      <td>observed</td>
+      <td>elisas</td>
+      <td>intensive care</td>
+      <td>automatically</td>
+      <td>school closures</td>
+      <td>unfolded</td>
+      <td>kit</td>
+      <td>rafts</td>
+      <td>rhesus</td>
+      <td>ifn-γ</td>
+      <td>MRI</td>
+      <td>logistic regression</td>
+      <td>STING</td>
+      <td>analysis</td>
+      <td>RNA</td>
+      <td>g4s</td>
+      <td>acute respiratory syndrome-associated coronavirus</td>
+      <td>ciliary</td>
+      <td>A(H7N9</td>
+      <td>differences</td>
+      <td>IPEC-J2</td>
+      <td>eimeria</td>
+      <td>practices</td>
+      <td>s. aureus</td>
+      <td>glial cells</td>
+      <td>single nucleotide polymorphisms</td>
+      <td>haptoglobin</td>
+      <td>pastoris</td>
+      <td>influenza season</td>
+      <td>REGISTRATION</td>
+      <td>citation</td>
+      <td>facemask</td>
+      <td>exhibited</td>
+      <td>processing</td>
+      <td>mosquito-borne</td>
+      <td>hajj pilgrims</td>
+      <td>air samples</td>
+      <td>cocaine</td>
+      <td>glycyrrhiza</td>
+      <td>destinations</td>
+      <td>molecular weights</td>
+      <td>GVHD</td>
+      <td>dystrophy</td>
+      <td>kang</td>
+      <td>durante</td>
+      <td>prise</td>
+      <td>HPV16</td>
+      <td>feline coronaviruses</td>
+      <td>RHDV</td>
+      <td>type 2 diabetes</td>
+      <td>symptoms</td>
+      <td>bei</td>
+      <td>B.</td>
+      <td>te</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>complexity</td>
+      <td>32</td>
+      <td>immunology</td>
+      <td>initiatives</td>
+      <td>nasopharyngeal aspirates</td>
+      <td>important</td>
+      <td>EID</td>
+      <td>numerical</td>
+      <td>newcastle</td>
+      <td>trimer</td>
+      <td>pathogenesis</td>
+      <td>cell</td>
+      <td>VLP</td>
+      <td>BHK-21</td>
+      <td>antiviral drug</td>
+      <td>number</td>
+      <td>monocyte</td>
+      <td>sars-cov-2 virus</td>
+      <td>nidoviruses</td>
+      <td>telemedicine</td>
+      <td>loop-mediated isothermal amplification</td>
+      <td>post-inoculation</td>
+      <td>fc</td>
+      <td>NIV</td>
+      <td>freely</td>
+      <td>number</td>
+      <td>protein</td>
+      <td>xtag</td>
+      <td>viral</td>
+      <td>interspecies transmission</td>
+      <td>TCR</td>
+      <td>findings</td>
+      <td>association</td>
+      <td>responses</td>
+      <td>microrna</td>
+      <td>detection</td>
+      <td>analysis</td>
+      <td>sars-cov-infected</td>
+      <td>pneumocytes</td>
+      <td>H1</td>
+      <td>compared</td>
+      <td>CV777</td>
+      <td>BRV</td>
+      <td>response rate</td>
+      <td>MP</td>
+      <td>BBB</td>
+      <td>natural selection</td>
+      <td>concentrations</td>
+      <td>infectivity</td>
+      <td>influenza‐like illness</td>
+      <td>high-dose</td>
+      <td>trials</td>
+      <td>hais</td>
+      <td>active</td>
+      <td>ub</td>
+      <td>SFTSV</td>
+      <td>hdpp4</td>
+      <td>O3</td>
+      <td>5-HT</td>
+      <td>herb</td>
+      <td>cost</td>
+      <td>tunicamycin</td>
+      <td>birth</td>
+      <td>vanadium</td>
+      <td>hyun</td>
+      <td>fue</td>
+      <td>peuvent</td>
+      <td>zoster</td>
+      <td>felids</td>
+      <td>lions</td>
+      <td>cardiomyocytes</td>
+      <td>weibo</td>
+      <td>ERAD</td>
+      <td>E.</td>
+      <td>hiv-1-infected</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>specific</td>
+      <td>7</td>
+      <td>summarizes</td>
+      <td>’s</td>
+      <td>human rhinovirus</td>
+      <td>URI</td>
+      <td>humans</td>
+      <td>R(0</td>
+      <td>broiler</td>
+      <td>disordered</td>
+      <td>CD147</td>
+      <td>SG</td>
+      <td>intramuscular</td>
+      <td>growth</td>
+      <td>drug targets</td>
+      <td>germany</td>
+      <td>inos</td>
+      <td>sars-cov2</td>
+      <td>pseudoknots</td>
+      <td>ventilators</td>
+      <td>polymerase</td>
+      <td>virus shedding</td>
+      <td>antisera</td>
+      <td>AKI</td>
+      <td>classifier</td>
+      <td>secondary cases</td>
+      <td>cancer</td>
+      <td>culture</td>
+      <td>cell entry</td>
+      <td>human</td>
+      <td>cd8+ t cells</td>
+      <td>presented</td>
+      <td>AOR</td>
+      <td>defense</td>
+      <td>degs</td>
+      <td>throat swab</td>
+      <td>WGS</td>
+      <td>outbreak</td>
+      <td>lamina</td>
+      <td>1918</td>
+      <td>AIMS</td>
+      <td>PCV3</td>
+      <td>cryptosporidiosis</td>
+      <td>information</td>
+      <td>pseudomonas</td>
+      <td>theiler</td>
+      <td>nucleotide</td>
+      <td>group</td>
+      <td>drying</td>
+      <td>TIV</td>
+      <td>hip</td>
+      <td>reviews</td>
+      <td>control</td>
+      <td>EGCG</td>
+      <td>nsp12</td>
+      <td>CCHF</td>
+      <td>emirates</td>
+      <td>RH</td>
+      <td>colostral</td>
+      <td>chinese</td>
+      <td>arrivals</td>
+      <td>neu5gc</td>
+      <td>babies</td>
+      <td>films</td>
+      <td>acute asthma</td>
+      <td>respiratoria</td>
+      <td>enfants</td>
+      <td>viruses</td>
+      <td>domestic</td>
+      <td>domestic dogs</td>
+      <td>angiotensin-converting enzyme</td>
+      <td>TKR</td>
+      <td>ist</td>
+      <td>L.</td>
+      <td>hbeag</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>considered</td>
+      <td>3</td>
+      <td>biotechnology</td>
+      <td>officials</td>
+      <td>rsv infection</td>
+      <td>caused</td>
+      <td>re-emerging</td>
+      <td>estimating</td>
+      <td>H120</td>
+      <td>molecular dynamics</td>
+      <td>repair</td>
+      <td>two-hybrid</td>
+      <td>induced</td>
+      <td>viral replication</td>
+      <td>in vitro</td>
+      <td>european countries</td>
+      <td>production</td>
+      <td>COVID19</td>
+      <td>IRES</td>
+      <td>practice</td>
+      <td>specific</td>
+      <td>post infection</td>
+      <td>assay</td>
+      <td>clinical</td>
+      <td>protein sequences</td>
+      <td>non-pharmaceutical interventions</td>
+      <td>G6PD</td>
+      <td>results</td>
+      <td>endocytic</td>
+      <td>transmission</td>
+      <td>antigen</td>
+      <td>kawasaki disease</td>
+      <td>confidence intervals</td>
+      <td>pdc</td>
+      <td>AAV</td>
+      <td>anal</td>
+      <td>rna viruses</td>
+      <td>sars-cov s protein</td>
+      <td>HAE</td>
+      <td>A(H1N1</td>
+      <td>PATIENTS</td>
+      <td>PK-15</td>
+      <td>perfringens</td>
+      <td>kong</td>
+      <td>catarrhalis</td>
+      <td>oligodendrocyte</td>
+      <td>genetic variants</td>
+      <td>HD</td>
+      <td>extraction</td>
+      <td>influenza-associated</td>
+      <td>patients</td>
+      <td>scholar</td>
+      <td>n95 respirators</td>
+      <td>inhibit</td>
+      <td>nsp14</td>
+      <td>aedes</td>
+      <td>united arab emirates</td>
+      <td>PM10</td>
+      <td>preweaning</td>
+      <td>tea</td>
+      <td>industry</td>
+      <td>o-linked</td>
+      <td>transplanted</td>
+      <td>DMD</td>
+      <td>bronchial</td>
+      <td>frecuentes</td>
+      <td>traitement</td>
+      <td>human cytomegalovirus</td>
+      <td>immunodeficiency</td>
+      <td>bees</td>
+      <td>receptor</td>
+      <td>post-traumatic stress disorder</td>
+      <td>trans-golgi</td>
+      <td>doi:10.1186/s12879</td>
+      <td>NTCP</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>summary</td>
+      <td>33</td>
+      <td>genomics</td>
+      <td>governance</td>
+      <td>acute</td>
+      <td>diagnosis</td>
+      <td>food safety</td>
+      <td>disease</td>
+      <td>s1 gene</td>
+      <td>receptor</td>
+      <td>autoimmunity</td>
+      <td>life</td>
+      <td>live-attenuated</td>
+      <td>licl</td>
+      <td>antiviral therapies</td>
+      <td>counties</td>
+      <td>activation</td>
+      <td>coronavirus pneumonia</td>
+      <td>slippery</td>
+      <td>provider</td>
+      <td>RT-RPA</td>
+      <td>10</td>
+      <td>neutralizing activity</td>
+      <td>icu admission</td>
+      <td>machine learning</td>
+      <td>epidemic</td>
+      <td>ERK1/2</td>
+      <td>detect</td>
+      <td>host</td>
+      <td>myotis</td>
+      <td>epitopes</td>
+      <td>HRCT</td>
+      <td>0.94</td>
+      <td>TLR7</td>
+      <td>vectors</td>
+      <td>nasal swab</td>
+      <td>G4</td>
+      <td>cov infection</td>
+      <td>PCD</td>
+      <td>h5n1 virus</td>
+      <td>significantly</td>
+      <td>marc-145 cells</td>
+      <td>BHV-1</td>
+      <td>study</td>
+      <td>H.</td>
+      <td>nervous system</td>
+      <td>genotypes</td>
+      <td>neutrophil count</td>
+      <td>product</td>
+      <td>incidence</td>
+      <td>femoral head</td>
+      <td>citations</td>
+      <td>IPC</td>
+      <td>prodrugs</td>
+      <td>proteinases</td>
+      <td>africa</td>
+      <td>anti-mers-cov</td>
+      <td>IRT</td>
+      <td>SDP</td>
+      <td>activities</td>
+      <td>china</td>
+      <td>proteins</td>
+      <td>HLH</td>
+      <td>nm</td>
+      <td>fibrosis</td>
+      <td>enfermedades</td>
+      <td>certaines</td>
+      <td>enterovirus</td>
+      <td>fcov infection</td>
+      <td>BEN</td>
+      <td>ang-(1</td>
+      <td>mental disorders</td>
+      <td>zu</td>
+      <td>supplementary material</td>
+      <td>vivax</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>result</td>
+      <td>34</td>
+      <td>methods</td>
+      <td>capacity</td>
+      <td>hrvs</td>
+      <td>clinical manifestations</td>
+      <td>ecosystems</td>
+      <td>rate</td>
+      <td>acid</td>
+      <td>interactions</td>
+      <td>cellular</td>
+      <td>processes</td>
+      <td>LAB</td>
+      <td>GFP</td>
+      <td>vitro</td>
+      <td>county</td>
+      <td>HMGB1</td>
+      <td>2019-ncov.</td>
+      <td>cis-acting</td>
+      <td>duty</td>
+      <td>strip</td>
+      <td>euthanized</td>
+      <td>specific</td>
+      <td>septic shock</td>
+      <td>data sets</td>
+      <td>school closure</td>
+      <td>akt</td>
+      <td>assay</td>
+      <td>cell fusion</td>
+      <td>hendra virus</td>
+      <td>cd4(+) t cells</td>
+      <td>computed tomography</td>
+      <td>univariate analysis</td>
+      <td>ISG</td>
+      <td>gene ontology</td>
+      <td>symptoms</td>
+      <td>virus discovery</td>
+      <td>9b</td>
+      <td>propria</td>
+      <td>H7</td>
+      <td>METHODOLOGY</td>
+      <td>porcine circovirus type 2</td>
+      <td>rotavirus infection</td>
+      <td>practice</td>
+      <td>m. pneumoniae</td>
+      <td>axons</td>
+      <td>GWAS</td>
+      <td>white blood cell</td>
+      <td>manufacturing process</td>
+      <td>b. pertussis</td>
+      <td>steroid-associated</td>
+      <td>cochrane library</td>
+      <td>contact</td>
+      <td>series</td>
+      <td>inhibitors</td>
+      <td>VEEV</td>
+      <td>pilgrimage</td>
+      <td>pressure</td>
+      <td>daily</td>
+      <td>japonica</td>
+      <td>illegal</td>
+      <td>agglutinin</td>
+      <td>rvis</td>
+      <td>graphene</td>
+      <td>ji</td>
+      <td>abstract</td>
+      <td>biologie</td>
+      <td>foot-and-mouth disease virus</td>
+      <td>fapn</td>
+      <td>panda</td>
+      <td>angiotensin converting enzyme 2</td>
+      <td>social status</td>
+      <td>brefeldin</td>
+      <td>doi:10.1186/s12985</td>
+      <td>p. falciparum</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>explanations</td>
+      <td>55</td>
+      <td>fields</td>
+      <td>community</td>
+      <td>EV-D68</td>
+      <td>sons</td>
+      <td>public health</td>
+      <td>growth</td>
+      <td>showed</td>
+      <td>HR1</td>
+      <td>stimuli</td>
+      <td>stress granules</td>
+      <td>lactis</td>
+      <td>passaged</td>
+      <td>clinical use</td>
+      <td>dalys</td>
+      <td>IL-1</td>
+      <td>epidemic</td>
+      <td>poly(a</td>
+      <td>pharmacy</td>
+      <td>chain</td>
+      <td>group 3</td>
+      <td>hybridoma</td>
+      <td>in-hospital mortality</td>
+      <td>SVM</td>
+      <td>cri</td>
+      <td>EGFR</td>
+      <td>conventional methods</td>
+      <td>lipid rafts</td>
+      <td>animal</td>
+      <td>mhc class i</td>
+      <td>chest ct</td>
+      <td>0.96</td>
+      <td>receptors</td>
+      <td>shrnas</td>
+      <td>rectal swabs</td>
+      <td>ICTV</td>
+      <td>anca</td>
+      <td>hyperplasia</td>
+      <td>h1n1 influenza</td>
+      <td>SCD</td>
+      <td>pams</td>
+      <td>salmonella spp</td>
+      <td>hong</td>
+      <td>moraxella</td>
+      <td>system</td>
+      <td>recombination</td>
+      <td>aspartate</td>
+      <td>PVP-I</td>
+      <td>respiratory</td>
+      <td>intervention group</td>
+      <td>quality</td>
+      <td>hospital</td>
+      <td>substituent</td>
+      <td>nsp15</td>
+      <td>CCHFV</td>
+      <td>mecca</td>
+      <td>plume</td>
+      <td>growth performance</td>
+      <td>oils</td>
+      <td>hong kong</td>
+      <td>glycoprotein</td>
+      <td>lung</td>
+      <td>nanotubes</td>
+      <td>yoon</td>
+      <td>entre</td>
+      <td>associée</td>
+      <td>herpes simplex virus type 1</td>
+      <td>fcov.</td>
+      <td>CHV</td>
+      <td>ang-(1–7</td>
+      <td>T&CM</td>
+      <td>GBF1</td>
+      <td>10.1186/s12917</td>
+      <td>hcvcc</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>'s</td>
+      <td>41</td>
+      <td>technological</td>
+      <td>social</td>
+      <td>infection</td>
+      <td>factors</td>
+      <td>agricultural</td>
+      <td>reproductive number</td>
+      <td>M41</td>
+      <td>heptad</td>
+      <td>dysregulation</td>
+      <td>ribonucleoprotein</td>
+      <td>antigen</td>
+      <td>infection</td>
+      <td>clinical</td>
+      <td>rate</td>
+      <td>A/J</td>
+      <td>disease</td>
+      <td>stem-loop</td>
+      <td>health care professionals</td>
+      <td>rt-pcr assay</td>
+      <td>antibody</td>
+      <td>sandwich</td>
+      <td>hypoxemia</td>
+      <td>model</td>
+      <td>index case</td>
+      <td>cyclin</td>
+      <td>POC</td>
+      <td>ifitm proteins</td>
+      <td>rhinolophus</td>
+      <td>ctls</td>
+      <td>patient</td>
+      <td>ors</td>
+      <td>toll-like receptors</td>
+      <td>transcription</td>
+      <td>AGE</td>
+      <td>nanopore</td>
+      <td>caused</td>
+      <td>villi</td>
+      <td>h5n1 viruses</td>
+      <td>group</td>
+      <td>industry</td>
+      <td>enteropathogens</td>
+      <td>preventive behaviors</td>
+      <td>methicillin-resistant</td>
+      <td>astrocyte</td>
+      <td>RSCU</td>
+      <td>hp</td>
+      <td>light</td>
+      <td>laboratory-confirmed influenza</td>
+      <td>treated with</td>
+      <td>google scholar</td>
+      <td>protection</td>
+      <td>values</td>
+      <td>nsp16</td>
+      <td>DENV-2</td>
+      <td>umrah</td>
+      <td>air quality</td>
+      <td>food intake</td>
+      <td>WSSV</td>
+      <td>impacts</td>
+      <td>glycoconjugates</td>
+      <td>patients</td>
+      <td>fluorescence</td>
+      <td>chronic</td>
+      <td>buena</td>
+      <td>compris</td>
+      <td>epstein</td>
+      <td>humor</td>
+      <td>wild carnivores</td>
+      <td>ace2 gene</td>
+      <td>physical symptoms</td>
+      <td>für</td>
+      <td>010</td>
+      <td>anti-hbv</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>natural</td>
+      <td>75</td>
+      <td>studies</td>
+      <td>strengthening</td>
+      <td>ARTI</td>
+      <td>john</td>
+      <td>control</td>
+      <td>forecasts</td>
+      <td>genes</td>
+      <td>sequence</td>
+      <td>rheumatoid</td>
+      <td>double-membrane</td>
+      <td>antibody</td>
+      <td>ev71 infection</td>
+      <td>small-molecule</td>
+      <td>reported</td>
+      <td>factor-α</td>
+      <td>reported</td>
+      <td>ribosomal frameshifting</td>
+      <td>health</td>
+      <td>RNA</td>
+      <td>experimental infection</td>
+      <td>expressed</td>
+      <td>extracorporeal</td>
+      <td>alignment-free</td>
+      <td>serial interval</td>
+      <td>factor</td>
+      <td>samples</td>
+      <td>endosome</td>
+      <td>henipavirus</td>
+      <td>cd8 t cells</td>
+      <td>signs</td>
+      <td>higher</td>
+      <td>rnase l</td>
+      <td>5p</td>
+      <td>flocked</td>
+      <td>resequencing</td>
+      <td>8b</td>
+      <td>lungs</td>
+      <td>neuraminidase inhibitors</td>
+      <td>groups</td>
+      <td>transmissible gastroenteritis</td>
+      <td>cryptosporidium spp</td>
+      <td>nursing students</td>
+      <td>antimicrobial therapy</td>
+      <td>white matter</td>
+      <td>QTL</td>
+      <td>severity</td>
+      <td>plasma</td>
+      <td>influenza-like illnesses</td>
+      <td>safety</td>
+      <td>abstracts</td>
+      <td>healthcare personnel</td>
+      <td>isatin</td>
+      <td>mtase</td>
+      <td>dengue fever</td>
+      <td>cases</td>
+      <td>samplers</td>
+      <td>mammary gland</td>
+      <td>secondary metabolites</td>
+      <td>corporate</td>
+      <td>o-acetylated</td>
+      <td>SOT</td>
+      <td>nanocarriers</td>
+      <td>yong</td>
+      <td>reanimación</td>
+      <td>épidémies</td>
+      <td>barr</td>
+      <td>infectious</td>
+      <td>b. bronchiseptica</td>
+      <td>systolic</td>
+      <td>psychiatric disorders</td>
+      <td>DPAP</td>
+      <td>10.1007/s00705</td>
+      <td>antiretroviral therapy</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>idea</td>
+      <td>47</td>
+      <td>methodologies</td>
+      <td>health systems</td>
+      <td>common</td>
+      <td>self-limiting</td>
+      <td>reemerging</td>
+      <td>equations</td>
+      <td>newcastle disease virus</td>
+      <td>conformations</td>
+      <td>rheumatoid arthritis</td>
+      <td>shutoff</td>
+      <td>cellular immune responses</td>
+      <td>enterovirus 71</td>
+      <td>fda-approved</td>
+      <td>temperate</td>
+      <td>infection</td>
+      <td>countries</td>
+      <td>polymerase</td>
+      <td>critical</td>
+      <td>lamp assay</td>
+      <td>postinoculation</td>
+      <td>polyclonal antibodies</td>
+      <td>LOS</td>
+      <td>topological</td>
+      <td>npis</td>
+      <td>pro-apoptotic</td>
+      <td>diagnostic accuracy</td>
+      <td>tetherin</td>
+      <td>pteropus</td>
+      <td>nk cell</td>
+      <td>lesions</td>
+      <td>0.81</td>
+      <td>ifn-λ</td>
+      <td>salmon</td>
+      <td>hbov2</td>
+      <td>metagenomic sequencing</td>
+      <td>sars‐cov.</td>
+      <td>particles</td>
+      <td>iavs</td>
+      <td>determine</td>
+      <td>hyopneumoniae</td>
+      <td>enterotoxigenic</td>
+      <td>teachers</td>
+      <td>pseudomonas aeruginosa</td>
+      <td>demyelinating disease</td>
+      <td>heterozygous</td>
+      <td>platelet count</td>
+      <td>purified</td>
+      <td>influenza seasons</td>
+      <td>events</td>
+      <td>guidelines</td>
+      <td>ffrs</td>
+      <td>myricetin</td>
+      <td>proteolytic activity</td>
+      <td>infection</td>
+      <td>reported</td>
+      <td>air pollutants</td>
+      <td>feed intake</td>
+      <td>glabra</td>
+      <td>revenue</td>
+      <td>HCV-OC43</td>
+      <td>CARV</td>
+      <td>cpps</td>
+      <td>chronic cough</td>
+      <td>β-haemolytic streptococcus</td>
+      <td>bactérienne</td>
+      <td>kaposi</td>
+      <td>type</td>
+      <td>borrelia</td>
+      <td>arbs</td>
+      <td>HRQOL</td>
+      <td>localization</td>
+      <td>10.1186/s12985</td>
+      <td>hepatic</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>due</td>
+      <td>62</td>
+      <td>years</td>
+      <td>federal</td>
+      <td>parainfluenza viruses</td>
+      <td>studies</td>
+      <td>plague</td>
+      <td>fitting</td>
+      <td>4/91</td>
+      <td>α-helical</td>
+      <td>involved</td>
+      <td>hijack</td>
+      <td>protective efficacy</td>
+      <td>bhk-21 cells</td>
+      <td>antiviral compounds</td>
+      <td>age</td>
+      <td>reduced</td>
+      <td>2019-ncov infection</td>
+      <td>structure</td>
+      <td>eds</td>
+      <td>real-time rt-pcr assay</td>
+      <td>levels</td>
+      <td>scfvs</td>
+      <td>hospital stay</td>
+      <td>cross-validation</td>
+      <td>ship</td>
+      <td>inhibition</td>
+      <td>diagnostic performance</td>
+      <td>binding</td>
+      <td>natural reservoirs</td>
+      <td>cd4+ t cells</td>
+      <td>pleural effusion</td>
+      <td>0.86</td>
+      <td>prrs</td>
+      <td>ISAV</td>
+      <td>KIV</td>
+      <td>shotgun</td>
+      <td>cov infections</td>
+      <td>crypt</td>
+      <td>swine</td>
+      <td>MEASURES</td>
+      <td>pdcov infection</td>
+      <td>neonatal</td>
+      <td>risk</td>
+      <td>tuberculosis</td>
+      <td>hippocampal</td>
+      <td>selection pressure</td>
+      <td>neopterin</td>
+      <td>chlorine</td>
+      <td>whooping</td>
+      <td>ampligen</td>
+      <td>electronic databases</td>
+      <td>clothing</td>
+      <td>silvestrol</td>
+      <td>pl(pro</td>
+      <td>humans</td>
+      <td>infection</td>
+      <td>sampling</td>
+      <td>DMI</td>
+      <td>indigotica</td>
+      <td>international</td>
+      <td>murine</td>
+      <td>complications</td>
+      <td>biocompatibility</td>
+      <td>kyung</td>
+      <td>niveles</td>
+      <td>stratégies</td>
+      <td>HFRS</td>
+      <td>coronavirus</td>
+      <td>parasites</td>
+      <td>NGAL</td>
+      <td>IES-R</td>
+      <td>sich</td>
+      <td>013</td>
+      <td>hepg2.2.15</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>’s</td>
+      <td>51</td>
+      <td>provide</td>
+      <td>public health emergencies</td>
+      <td>HRV-C</td>
+      <td>risk</td>
+      <td>public</td>
+      <td>show</td>
+      <td>revealed</td>
+      <td>acid</td>
+      <td>including</td>
+      <td>cellular pathways</td>
+      <td>effective</td>
+      <td>green fluorescent protein</td>
+      <td>amps</td>
+      <td>mediterranean</td>
+      <td>MCP-1</td>
+      <td>SARS-COV-2</td>
+      <td>trnas</td>
+      <td>medicine</td>
+      <td>copies/μl</td>
+      <td>DPI</td>
+      <td>fab</td>
+      <td>days</td>
+      <td>fuzzy</td>
+      <td>household contacts</td>
+      <td>inhibited</td>
+      <td>turnaround</td>
+      <td>virus</td>
+      <td>coronaviruses</td>
+      <td>γδ</td>
+      <td>GGO</td>
+      <td>0.32</td>
+      <td>ifn-stimulated</td>
+      <td>involved</td>
+      <td>WUV</td>
+      <td>viral metagenomics</td>
+      <td>human</td>
+      <td>mesenteric lymph nodes</td>
+      <td>H9</td>
+      <td>OUTCOME</td>
+      <td>farms</td>
+      <td>samples</td>
+      <td>preventive behavior</td>
+      <td>acute otitis media</td>
+      <td>parkinson</td>
+      <td>populations</td>
+      <td>severe/critical</td>
+      <td>his-tagged</td>
+      <td>influenza-positive</td>
+      <td>open-label</td>
+      <td>bibliometric</td>
+      <td>donning</td>
+      <td>concentrations</td>
+      <td>PLP2</td>
+      <td>disease</td>
+      <td>humans</td>
+      <td>particles</td>
+      <td>FCA</td>
+      <td>glycosides</td>
+      <td>volatility</td>
+      <td>gp</td>
+      <td>CRC</td>
+      <td>nanostructures</td>
+      <td>kwon</td>
+      <td>producida</td>
+      <td>objectifs</td>
+      <td>human</td>
+      <td>II</td>
+      <td>L.</td>
+      <td>islets</td>
+      <td>homelessness</td>
+      <td>oder</td>
+      <td>10.1186/s12879</td>
+      <td>blood supply</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>phenomena</td>
+      <td>85</td>
+      <td>advancements</td>
+      <td>agenda</td>
+      <td>HRSV</td>
+      <td>diseases</td>
+      <td>sanitation</td>
+      <td>deterministic</td>
+      <td>hypervariable</td>
+      <td>membrane</td>
+      <td>SP-D</td>
+      <td>mechanisms</td>
+      <td>subunit vaccines</td>
+      <td>effect</td>
+      <td>effects</td>
+      <td>risk</td>
+      <td>increased</td>
+      <td>-</td>
+      <td>region</td>
+      <td>palliative</td>
+      <td>ICA</td>
+      <td>significantly</td>
+      <td>iggs</td>
+      <td>ventilatory</td>
+      <td>system</td>
+      <td>individuals</td>
+      <td>PERK</td>
+      <td>diagnostic yield</td>
+      <td>tfr1</td>
+      <td>henipaviruses</td>
+      <td>natural killer</td>
+      <td>CASE</td>
+      <td>0.60</td>
+      <td>OAS</td>
+      <td>ncrnas</td>
+      <td>swab samples</td>
+      <td>species</td>
+      <td>scov</td>
+      <td>basolateral</td>
+      <td>avian influenza virus</td>
+      <td>total</td>
+      <td>economic</td>
+      <td>btov</td>
+      <td>undergraduate</td>
+      <td>pylori</td>
+      <td>mouse</td>
+      <td>missense</td>
+      <td>109/L</td>
+      <td>X-100</td>
+      <td>sentinel sites</td>
+      <td>lozenge</td>
+      <td>reviewers</td>
+      <td>FFR</td>
+      <td>nucleoside analogs</td>
+      <td>residues</td>
+      <td>outbreak</td>
+      <td>outbreak</td>
+      <td>particulate matter</td>
+      <td>calf health</td>
+      <td>essential oil</td>
+      <td>air</td>
+      <td>amino</td>
+      <td>hematopoietic stem cell transplantation</td>
+      <td>pahs</td>
+      <td>soo</td>
+      <td>tenía</td>
+      <td>selon</td>
+      <td>gastroenteritis</td>
+      <td>infection</td>
+      <td>domestic</td>
+      <td>AT1R</td>
+      <td>hrqol</td>
+      <td>brefeldin a</td>
+      <td>authorized users</td>
+      <td>blood safety</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>present</td>
+      <td>age</td>
+      <td>discoveries</td>
+      <td>system</td>
+      <td>ALRI</td>
+      <td>development</td>
+      <td>spread</td>
+      <td>compartmental</td>
+      <td>massachusetts</td>
+      <td>sites</td>
+      <td>extracellular matrix</td>
+      <td>ros</td>
+      <td>response</td>
+      <td>infectious</td>
+      <td>activity</td>
+      <td>notifiable</td>
+      <td>RANTES</td>
+      <td>seafood</td>
+      <td>sequences</td>
+      <td>EMS</td>
+      <td>primer sets</td>
+      <td>control</td>
+      <td>bnabs</td>
+      <td>patient</td>
+      <td>paper</td>
+      <td>early</td>
+      <td>death</td>
+      <td>NAT</td>
+      <td>cellular</td>
+      <td>reservoir hosts</td>
+      <td>cd4 t cells</td>
+      <td>chest radiographs</td>
+      <td>multivariate logistic regression analysis</td>
+      <td>viral</td>
+      <td>small interfering rnas</td>
+      <td>results</td>
+      <td>complete</td>
+      <td>sl-cov</td>
+      <td>small</td>
+      <td>h7n9 virus</td>
+      <td>chi-square test</td>
+      <td>syndrome</td>
+      <td>somni</td>
+      <td>focus groups</td>
+      <td>klebsiella</td>
+      <td>multiple</td>
+      <td>genetic polymorphisms</td>
+      <td>aspartate aminotransferase</td>
+      <td>H2O2</td>
+      <td>whooping cough</td>
+      <td>randomized controlled trial</td>
+      <td>CINAHL</td>
+      <td>infection</td>
+      <td>CC50</td>
+      <td>nsp8</td>
+      <td>zikv-infected cells</td>
+      <td>transmission</td>
+      <td>pedestrian</td>
+      <td>libitum</td>
+      <td>phytochemicals</td>
+      <td>HSR</td>
+      <td>UDA</td>
+      <td>CLAD</td>
+      <td>biosensing</td>
+      <td>song</td>
+      <td>reanimation</td>
+      <td>rapidement</td>
+      <td>hepatitis</td>
+      <td>virus</td>
+      <td>pandas</td>
+      <td>aceis</td>
+      <td>posttraumatic stress disorder</td>
+      <td>RER</td>
+      <td>doi:10.1007/s11262</td>
+      <td>dat</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>theories</td>
+      <td>57</td>
+      <td>human</td>
+      <td>partnerships</td>
+      <td>lrtis</td>
+      <td>clinical syndromes</td>
+      <td>transmission</td>
+      <td>outbreak</td>
+      <td>qx-like</td>
+      <td>coiled-coil</td>
+      <td>pathogens</td>
+      <td>RNP</td>
+      <td>adjuvanted</td>
+      <td>mutant viruses</td>
+      <td>antimalarial</td>
+      <td>northeastern</td>
+      <td>CCL5</td>
+      <td>infected</td>
+      <td>recoding</td>
+      <td>specialty</td>
+      <td>rt-iipcr</td>
+      <td>seroconverted</td>
+      <td>non-neutralizing</td>
+      <td>VAP</td>
+      <td>query</td>
+      <td>NPI</td>
+      <td>unfolded protein response</td>
+      <td>seeplex</td>
+      <td>acidification</td>
+      <td>bat-borne</td>
+      <td>histocompatibility complex</td>
+      <td>chest radiography</td>
+      <td>HM</td>
+      <td>IFIT1</td>
+      <td>grouper</td>
+      <td>self-collected</td>
+      <td>viromes</td>
+      <td>spike</td>
+      <td>lamina propria</td>
+      <td>h1n1 infection</td>
+      <td>higher</td>
+      <td>PEAV</td>
+      <td>bovine respiratory syncytial virus</td>
+      <td>literacy</td>
+      <td>pyogenes</td>
+      <td>neurotropic viruses</td>
+      <td>adaptive evolution</td>
+      <td>bilirubin</td>
+      <td>UV-C</td>
+      <td>symptoms</td>
+      <td>days</td>
+      <td>relevant</td>
+      <td>HCAI</td>
+      <td>L1210</td>
+      <td>domain</td>
+      <td>V920</td>
+      <td>human</td>
+      <td>environment</td>
+      <td>ad libitum</td>
+      <td>luteolin</td>
+      <td>investors</td>
+      <td>receptor-destroying</td>
+      <td>organ</td>
+      <td>duchenne</td>
+      <td>seo</td>
+      <td>proporciona</td>
+      <td>contrôle</td>
+      <td>HSV‐1</td>
+      <td>disease</td>
+      <td>bordetella bronchiseptica</td>
+      <td>I/R</td>
+      <td>suicides</td>
+      <td>dem</td>
+      <td>012</td>
+      <td>steatosis</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

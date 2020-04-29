@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 05</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>viruses</td>
+      <td>bronchiolitis</td>
+      <td>HRV</td>
+      <td>HMPV</td>
+      <td>hbov</td>
+      <td>assay</td>
+      <td>influenza</td>
+      <td>hmpv</td>
+      <td>95</td>
+      <td>WU</td>
+      <td>CAP</td>
+      <td>asthma</td>
+      <td>load</td>
+      <td>hcov</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>respiratory</td>
+      <td>virus</td>
+      <td>severity</td>
+      <td>strains</td>
+      <td>ARI</td>
+      <td>©</td>
+      <td>sensitivity</td>
+      <td>ILI</td>
+      <td>hmpv infection</td>
+      <td>CI</td>
+      <td>wupyv</td>
+      <td>pneumoniae</td>
+      <td>exacerbations</td>
+      <td>viral load</td>
+      <td>hcovs</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>children</td>
+      <td>influenza</td>
+      <td>infants</td>
+      <td>hadv</td>
+      <td>aris</td>
+      <td>inc.</td>
+      <td>assays</td>
+      <td>illness</td>
+      <td>antibody</td>
+      <td>ALRI</td>
+      <td>recipients</td>
+      <td>bacteria</td>
+      <td>exacerbation</td>
+      <td>RTI</td>
+      <td>hcov-nl63</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>patients</td>
+      <td>respiratory</td>
+      <td>RSV</td>
+      <td>species</td>
+      <td>HPIV</td>
+      <td>med</td>
+      <td>culture</td>
+      <td>influenza-like</td>
+      <td>human metapneumovirus</td>
+      <td>controls</td>
+      <td>immunocompromised</td>
+      <td>bacterial</td>
+      <td>AECOPD</td>
+      <td>AOM</td>
+      <td>hcov-hku1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>detected</td>
+      <td>parainfluenza</td>
+      <td>admission</td>
+      <td>phylogenetic</td>
+      <td>china</td>
+      <td>virol</td>
+      <td>detection</td>
+      <td>pandemic</td>
+      <td>infection</td>
+      <td>odds</td>
+      <td>transplant</td>
+      <td>pathogens</td>
+      <td>chronic</td>
+      <td>hbov1</td>
+      <td>human coronaviruses</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>study</td>
+      <td>human</td>
+      <td>unit</td>
+      <td>HRV-C</td>
+      <td>seasonal</td>
+      <td>J.</td>
+      <td>PCR</td>
+      <td>H1N1</td>
+      <td>metapneumovirus</td>
+      <td>ratio</td>
+      <td>kipyv</td>
+      <td>mycoplasma</td>
+      <td>RV</td>
+      <td>rtis</td>
+      <td>HKU1</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>infections</td>
+      <td>respiratory syncytial virus</td>
+      <td>disease severity</td>
+      <td>EV-D68</td>
+      <td>countries</td>
+      <td>bocavirus</td>
+      <td>rapid</td>
+      <td>influenza-like illness</td>
+      <td>vaccine</td>
+      <td>adjusted</td>
+      <td>KI</td>
+      <td>pneumonia</td>
+      <td>COPD</td>
+      <td>media</td>
+      <td>hcov-oc43</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>infection</td>
+      <td>syncytial</td>
+      <td>intensive</td>
+      <td>genotypes</td>
+      <td>peaks</td>
+      <td>human bocavirus</td>
+      <td>sensitive</td>
+      <td>2009</td>
+      <td>tract</td>
+      <td>odds ratio</td>
+      <td>polyomaviruses</td>
+      <td>mycoplasma pneumoniae</td>
+      <td>de</td>
+      <td>otitis</td>
+      <td>NL63</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>=</td>
+      <td>adenovirus</td>
+      <td>levels</td>
+      <td>hrvs</td>
+      <td>seasonality</td>
+      <td>wiley</td>
+      <td>RT-PCR</td>
+      <td>illnesses</td>
+      <td>review</td>
+      <td>interval</td>
+      <td>polyomavirus</td>
+      <td>atypical</td>
+      <td>atopic</td>
+      <td>URI</td>
+      <td>hcov-229e</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>samples</td>
+      <td>respiratory viruses</td>
+      <td>clinical</td>
+      <td>sequences</td>
+      <td>health</td>
+      <td>periodicals</td>
+      <td>specificity</td>
+      <td>influenza‐like</td>
+      <td>elderly</td>
+      <td>confidence</td>
+      <td>patients</td>
+      <td>influenzae</td>
+      <td>asthmatic</td>
+      <td>RSV-A</td>
+      <td>coronaviruses</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>clinical</td>
+      <td>metapneumovirus</td>
+      <td>disease</td>
+      <td>phylogenetic analysis</td>
+      <td>acute respiratory infections</td>
+      <td>wiley‐liss</td>
+      <td>conventional</td>
+      <td>surveillance</td>
+      <td>vaccines</td>
+      <td>confidence interval</td>
+      <td>HSCT</td>
+      <td>streptococcus</td>
+      <td>obstructive</td>
+      <td>-</td>
+      <td>229E</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>viruses</td>
+      <td>viral</td>
+      <td>hospitalization</td>
+      <td>HRV-A</td>
+      <td>years</td>
+      <td>RT‐PCR</td>
+      <td>multiplex</td>
+      <td>RSV</td>
+      <td>les</td>
+      <td>regression</td>
+      <td>WUV</td>
+      <td>community-acquired</td>
+      <td>asthma exacerbations</td>
+      <td>material</td>
+      <td>staff</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>years</td>
+      <td>coronavirus</td>
+      <td>longer</td>
+      <td>sequencing</td>
+      <td>developing countries</td>
+      <td>hbov infection</td>
+      <td>test</td>
+      <td>influenza‐like illness</td>
+      <td>family</td>
+      <td>logistic</td>
+      <td>bronchoalveolar</td>
+      <td>community-acquired pneumonia</td>
+      <td>stable</td>
+      <td>SUPPLEMENTARY</td>
+      <td>coronavirus</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>symptoms</td>
+      <td>rhinovirus</td>
+      <td>PICU</td>
+      <td>gene</td>
+      <td>temperature</td>
+      <td>hmpv</td>
+      <td>method</td>
+      <td>SARI</td>
+      <td>pathogenesis</td>
+      <td>LRTD</td>
+      <td>BAL</td>
+      <td>streptococcus pneumoniae</td>
+      <td>wheezing</td>
+      <td>online</td>
+      <td>neonates</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>common</td>
+      <td>human metapneumovirus</td>
+      <td>hospital</td>
+      <td>analysis</td>
+      <td>artis</td>
+      <td>tract</td>
+      <td>®</td>
+      <td>outpatients</td>
+      <td>igg</td>
+      <td>maternal</td>
+      <td>hematopoietic</td>
+      <td>antibiotic</td>
+      <td>chronic obstructive pulmonary disease</td>
+      <td>quantitative</td>
+      <td>saudi</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>chain</td>
+      <td>parainfluenza virus</td>
+      <td>oxygen</td>
+      <td>sequenced</td>
+      <td>year</td>
+      <td>human</td>
+      <td>xtag</td>
+      <td>participants</td>
+      <td>fusion</td>
+      <td>hiv-infected</td>
+      <td>HCT</td>
+      <td>haemophilus</td>
+      <td>el</td>
+      <td>users</td>
+      <td>residents</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>hospitalized</td>
+      <td>influenza a</td>
+      <td>stay</td>
+      <td>sequence</td>
+      <td>HPIV-3</td>
+      <td>hcov‐nl63</td>
+      <td>diagnostic</td>
+      <td>epidemic</td>
+      <td>suggests</td>
+      <td>associated with</td>
+      <td>cancer</td>
+      <td>M.</td>
+      <td>airway</td>
+      <td>authorized</td>
+      <td>OC43</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>reaction</td>
+      <td>influenza virus</td>
+      <td>acute bronchiolitis</td>
+      <td>genome</td>
+      <td>hpivs</td>
+      <td>2005</td>
+      <td>designed</td>
+      <td>a(h1n1)pdm09</td>
+      <td>CNS</td>
+      <td>risk</td>
+      <td>transplantation</td>
+      <td>haemophilus influenzae</td>
+      <td>RV-C</td>
+      <td>ELECTRONIC</td>
+      <td>hcov infection</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>age</td>
+      <td>type</td>
+      <td>rsv infection</td>
+      <td>genotype</td>
+      <td>meteorological</td>
+      <td>hbov.</td>
+      <td>conventional methods</td>
+      <td>elderly</td>
+      <td>shown</td>
+      <td>HIV</td>
+      <td>KIV</td>
+      <td>S.</td>
+      <td>rhinovirus</td>
+      <td>online version</td>
+      <td>AGE</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2</td>
+      <td>molecular</td>
+      <td>factors</td>
+      <td>hadv-7</td>
+      <td>patterns</td>
+      <td>DNA</td>
+      <td>clinical specimens</td>
+      <td>sentinel</td>
+      <td>été</td>
+      <td>aor</td>
+      <td>stem</td>
+      <td>antibiotics</td>
+      <td>los</td>
+      <td>supplementary</td>
+      <td>fecal</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>respiratory viruses</td>
+      <td>RSV</td>
+      <td>intensive care unit</td>
+      <td>strain</td>
+      <td>incidence</td>
+      <td>parvovirus</td>
+      <td>developed</td>
+      <td>sore</td>
+      <td>protection</td>
+      <td>AFE</td>
+      <td>lavage</td>
+      <td>bacterial infection</td>
+      <td>cystic fibrosis</td>
+      <td>version</td>
+      <td>fecal samples</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>positive</td>
+      <td>coronaviruses</td>
+      <td>length</td>
+      <td>hadv-55</td>
+      <td>highest</td>
+      <td>npas</td>
+      <td>detect</td>
+      <td>sore throat</td>
+      <td>immunity</td>
+      <td>95%CI</td>
+      <td>failure</td>
+      <td>community‐acquired</td>
+      <td>fibrosis</td>
+      <td>acute otitis media</td>
+      <td>hcov infections</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>tested</td>
+      <td>parainfluenza viruses</td>
+      <td>outcome</td>
+      <td>isolates</td>
+      <td>age</td>
+      <td>hrsv</td>
+      <td>DFA</td>
+      <td>transmission</td>
+      <td>host</td>
+      <td>%</td>
+      <td>cell</td>
+      <td>filmarray</td>
+      <td>allergic</td>
+      <td>surgery</td>
+      <td>pilgrims</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>specimens</td>
+      <td>including</td>
+      <td>coinfection</td>
+      <td>genetic</td>
+      <td>distribution</td>
+      <td>co‐infections</td>
+      <td>fast</td>
+      <td>outpatient</td>
+      <td>hmpv infections</td>
+      <td>RV</td>
+      <td>LRTI</td>
+      <td>respiratory pathogens</td>
+      <td>cystic</td>
+      <td>KD</td>
+      <td>hcov-nl63 infection</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>polymerase</td>
+      <td>rhinoviruses</td>
+      <td>duration</td>
+      <td>region</td>
+      <td>ALRTI</td>
+      <td>hbov-positive</td>
+      <td>antigen</td>
+      <td>week</td>
+      <td>biology</td>
+      <td>multivariable</td>
+      <td>bronchoalveolar lavage</td>
+      <td>community‐acquired pneumonia</td>
+      <td>sputum</td>
+      <td>MATERIAL</td>
+      <td>rotavirus</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>viral</td>
+      <td>agents</td>
+      <td>severe</td>
+      <td>human rhinoviruses</td>
+      <td>public</td>
+      <td>real‐time</td>
+      <td>real-time</td>
+      <td>definition</td>
+      <td>immune</td>
+      <td>RV‐A</td>
+      <td>wu virus</td>
+      <td>bacterial pathogens</td>
+      <td>en</td>
+      <td>viral</td>
+      <td>gastroenteritis</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cases</td>
+      <td>infections</td>
+      <td>care</td>
+      <td>diversity</td>
+      <td>prevention</td>
+      <td>hbov dna</td>
+      <td>clinical samples</td>
+      <td>symptom</td>
+      <td>humans</td>
+      <td>TB</td>
+      <td>malignancy</td>
+      <td>s. pneumoniae</td>
+      <td>CRS</td>
+      <td>ear</td>
+      <td>households</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>PCR</td>
+      <td>influenza viruses</td>
+      <td>viral</td>
+      <td>EV‐D68</td>
+      <td>epidemiological</td>
+      <td>acute wheezing</td>
+      <td>viral culture</td>
+      <td>adults</td>
+      <td>recent</td>
+      <td>FLU</td>
+      <td>wu polyomavirus</td>
+      <td>catarrhalis</td>
+      <td>RV-A</td>
+      <td>middle</td>
+      <td>arabia</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>results</td>
+      <td>bocavirus</td>
+      <td>higher</td>
+      <td>HEV</td>
+      <td>rural</td>
+      <td>causative</td>
+      <td>performance</td>
+      <td>non-influenza</td>
+      <td>development</td>
+      <td>1000</td>
+      <td>CMV</td>
+      <td>H.</td>
+      <td>rhinitis</td>
+      <td>VRI</td>
+      <td>mers-cov</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>group</td>
+      <td>adenoviruses</td>
+      <td>single</td>
+      <td>VP1</td>
+      <td>5</td>
+      <td>agent</td>
+      <td>seeplex</td>
+      <td>alris</td>
+      <td>studies</td>
+      <td>population-based</td>
+      <td>lung</td>
+      <td>febrile</td>
+      <td>asthmatics</td>
+      <td>nasopharynx</td>
+      <td>saudi arabia</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>1</td>
+      <td>enterovirus</td>
+      <td>admitted</td>
+      <td>ON1</td>
+      <td>summer</td>
+      <td>children</td>
+      <td>RT-LAMP</td>
+      <td>individuals</td>
+      <td>includes</td>
+      <td>.001</td>
+      <td>organ</td>
+      <td>chlamydia</td>
+      <td>subjects</td>
+      <td>article</td>
+      <td>NH</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>identified</td>
+      <td>detection</td>
+      <td>=</td>
+      <td>HRV-B</td>
+      <td>humidity</td>
+      <td>×</td>
+      <td>RVP</td>
+      <td>influenza virus</td>
+      <td>paramyxoviridae</td>
+      <td>HRV/ENT</td>
+      <td>malignancies</td>
+      <td>m. pneumoniae</td>
+      <td>CP‐COPD</td>
+      <td>OME</td>
+      <td>human coronavirus</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>frequently</td>
+      <td>influenza b</td>
+      <td>infection</td>
+      <td>identified</td>
+      <td>HPIV-4</td>
+      <td>hcov‐hku1</td>
+      <td>specimens</td>
+      <td>ilis</td>
+      <td>dans</td>
+      <td>AF</td>
+      <td>mortality</td>
+      <td>cultures</td>
+      <td>acute exacerbations</td>
+      <td>loads</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>acute</td>
+      <td>influenza a virus</td>
+      <td>compared</td>
+      <td>nucleotide</td>
+      <td>understood</td>
+      <td>recently</td>
+      <td>diagnosis</td>
+      <td>training</td>
+      <td>myocarditis</td>
+      <td>fvdes</td>
+      <td>hematologic</td>
+      <td>chlamydophila</td>
+      <td>ifn-γ</td>
+      <td>complicating</td>
+      <td>hajj</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>frequent</td>
+      <td>common</td>
+      <td>score</td>
+      <td>partial</td>
+      <td>data</td>
+      <td>causative agent</td>
+      <td>accurate</td>
+      <td>influenza c virus</td>
+      <td>lower</td>
+      <td>hiv-uninfected</td>
+      <td>neutropenia</td>
+      <td>mp</td>
+      <td>asthma exacerbation</td>
+      <td>probiotics</td>
+      <td>hcov species</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>rate</td>
+      <td>detected</td>
+      <td>children</td>
+      <td>enterovirus</td>
+      <td>worldwide</td>
+      <td>hbov infections</td>
+      <td>IFA</td>
+      <td>adult</td>
+      <td>virus</td>
+      <td>nepal</td>
+      <td>LRT</td>
+      <td>chlamydophila pneumoniae</td>
+      <td>se</td>
+      <td>NPA</td>
+      <td>hpev</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>detection</td>
+      <td>viral etiology</td>
+      <td>ventilation</td>
+      <td>hexon</td>
+      <td>annual</td>
+      <td>acute</td>
+      <td>laboratories</td>
+      <td>active surveillance</td>
+      <td>discovered</td>
+      <td>pneumonia</td>
+      <td>allogeneic</td>
+      <td>pathogen</td>
+      <td>PLT</td>
+      <td>hpyv6</td>
+      <td>kenya</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>12</td>
+      <td>A/B</td>
+      <td>syncytial</td>
+      <td>showed</td>
+      <td>RSV</td>
+      <td>samples</td>
+      <td>vial</td>
+      <td>influenza c</td>
+      <td>immune response</td>
+      <td>hospitalization</td>
+      <td>lung transplant</td>
+      <td>infectious</td>
+      <td>con</td>
+      <td>psps</td>
+      <td>staff members</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>tract</td>
+      <td>%</td>
+      <td>parameters</td>
+      <td>serotype</td>
+      <td>surveillance</td>
+      <td>wheezing</td>
+      <td>mrt-pcr</td>
+      <td>season</td>
+      <td>simplex</td>
+      <td>control</td>
+      <td>ribavirin</td>
+      <td>aetiology</td>
+      <td>acute asthma</td>
+      <td>RNA</td>
+      <td>hcov.</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>conclusions</td>
+      <td>rhinovirus/enterovirus</td>
+      <td>ICU</td>
+      <td>clade</td>
+      <td>public health</td>
+      <td>hcov‐oc43</td>
+      <td>agreement</td>
+      <td>women</td>
+      <td>respiratory-tract</td>
+      <td>case-control study</td>
+      <td>oncology</td>
+      <td>moraxella catarrhalis</td>
+      <td>CFLI</td>
+      <td>presence</td>
+      <td>norovirus</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>frequency</td>
+      <td>diagnostics</td>
+      <td>respiratory syncytial virus</td>
+      <td>hadv-3</td>
+      <td>years old</td>
+      <td>pulmonol</td>
+      <td>positive</td>
+      <td>pregnant</td>
+      <td>des</td>
+      <td>hazard ratio</td>
+      <td>CHD</td>
+      <td>h. influenzae</td>
+      <td>niños</td>
+      <td>low</td>
+      <td>hcov nl63</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>virus</td>
+      <td>1–4</td>
+      <td>months</td>
+      <td>types</td>
+      <td>rainy</td>
+      <td>found</td>
+      <td>maripoc</td>
+      <td>virus</td>
+      <td>hmpv-associated</td>
+      <td>life-threatening disease</td>
+      <td>leukemia</td>
+      <td>staphylococcus</td>
+      <td>por</td>
+      <td>high</td>
+      <td>NRVI</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>11</td>
+      <td>respiratory virus infections</td>
+      <td>viral coinfection</td>
+      <td>hadv infection</td>
+      <td>human parainfluenza viruses</td>
+      <td>pediatr pulmonol</td>
+      <td>samples</td>
+      <td>headache</td>
+      <td>measles</td>
+      <td>virus-virus</td>
+      <td>polyomaviruses ki</td>
+      <td>chlamydia pneumoniae</td>
+      <td>allergic rhinitis</td>
+      <td>018</td>
+      <td>astrovirus</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>18</td>
+      <td>coronavirus oc43</td>
+      <td>mechanical</td>
+      <td>rhinoviruses</td>
+      <td>seasonal patterns</td>
+      <td>multiplex rt‐pcr</td>
+      <td>duplex</td>
+      <td>PIV</td>
+      <td>à</td>
+      <td>rural thailand</td>
+      <td>hematopoietic stem cell transplant</td>
+      <td>assessment</td>
+      <td>acute exacerbation</td>
+      <td>PCR/ESI-MS</td>
+      <td>NVRI</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>aim</td>
+      <td>MPV</td>
+      <td>associated with</td>
+      <td>VP4/VP2</td>
+      <td>hpiv</td>
+      <td>nasopharyngeal</td>
+      <td>one‐step</td>
+      <td>data</td>
+      <td>human</td>
+      <td>A/H3</td>
+      <td>hematologic malignancy</td>
+      <td>bacterium</td>
+      <td>pacientes</td>
+      <td>rhinovirus rna</td>
+      <td>hcov oc43</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>9</td>
+      <td>influenza virus a</td>
+      <td>mechanical ventilation</td>
+      <td>hrv-positive</td>
+      <td>guangzhou</td>
+      <td>2003–2004</td>
+      <td>probes</td>
+      <td>mpcr</td>
+      <td>respiratory tract</td>
+      <td>RV‐C</td>
+      <td>tract</td>
+      <td>pneumophila</td>
+      <td>OSA</td>
+      <td>MEE</td>
+      <td>rotaviruses</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>25</td>
+      <td>acute</td>
+      <td>lower</td>
+      <td>molecular</td>
+      <td>MP</td>
+      <td>genotype b</td>
+      <td>rt-pcr assays</td>
+      <td>pregnant women</td>
+      <td>infections</td>
+      <td>CAAP</td>
+      <td>EBV</td>
+      <td>HCAP</td>
+      <td>AE‐COPD</td>
+      <td>quantitative pcr</td>
+      <td>ltcfs</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>and/or</td>
+      <td>b viruses</td>
+      <td>mxa</td>
+      <td>hadvs</td>
+      <td>%</td>
+      <td>hbovs</td>
+      <td>specific</td>
+      <td>control</td>
+      <td>enzyme immunoassay</td>
+      <td>adjusting</td>
+      <td>HM</td>
+      <td>ACS</td>
+      <td>attacks</td>
+      <td>otitis media</td>
+      <td>SETTING</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>difference</td>
+      <td>flua</td>
+      <td>infants hospitalized</td>
+      <td>typing</td>
+      <td>children</td>
+      <td>lower</td>
+      <td>RT-PCR/ESI-MS</td>
+      <td>patients</td>
+      <td>respiratoires</td>
+      <td>compared</td>
+      <td>days</td>
+      <td>PSI</td>
+      <td>adenotonsillar</td>
+      <td>017</td>
+      <td>RT-PCR</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>presentation</td>
+      <td>multiplex rt-pcr</td>
+      <td><</td>
+      <td>NA1</td>
+      <td>seasonal peaks</td>
+      <td>enteric viruses</td>
+      <td>PRV</td>
+      <td>KCDC</td>
+      <td>EIA</td>
+      <td>factors</td>
+      <td>lower</td>
+      <td>bacterial pathogen</td>
+      <td>pulmonary</td>
+      <td>asymptomatic</td>
+      <td>npss</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

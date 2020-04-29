@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 53</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>care</td>
+      <td>%</td>
+      <td>prevention</td>
+      <td>SARS</td>
+      <td>mask</td>
+      <td>dental</td>
+      <td>respirators</td>
+      <td>hand</td>
+      <td>PPE</td>
+      <td>mers-cov</td>
+      <td>surfaces</td>
+      <td>95</td>
+      <td>viruses</td>
+      <td>chest</td>
+      <td>occupational</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>infectious</td>
+      <td>nurses</td>
+      <td>control</td>
+      <td>acute respiratory syndrome</td>
+      <td>masks</td>
+      <td>aerosol</td>
+      <td>N95</td>
+      <td>hygiene</td>
+      <td>doffing</td>
+      <td>COVID-19</td>
+      <td>cleaning</td>
+      <td>CI</td>
+      <td>skin</td>
+      <td>intubation</td>
+      <td>laboratory</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>patient</td>
+      <td>study</td>
+      <td>infection</td>
+      <td>severe</td>
+      <td>face</td>
+      <td>aerosols</td>
+      <td>respirator</td>
+      <td>hand hygiene</td>
+      <td>removal</td>
+      <td>sars-cov-2</td>
+      <td>disinfection</td>
+      <td>influenza</td>
+      <td>nosocomial</td>
+      <td>resuscitation</td>
+      <td>contacts</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>precautions</td>
+      <td>workers</td>
+      <td>studies</td>
+      <td>acute</td>
+      <td>surgical</td>
+      <td>transmission</td>
+      <td>facemasks</td>
+      <td>washing</td>
+      <td>donning</td>
+      <td>MERS</td>
+      <td>environmental</td>
+      <td>masks</td>
+      <td>viral</td>
+      <td>CPR</td>
+      <td>IPC</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>patients</td>
+      <td>observed</td>
+      <td>guidelines</td>
+      <td>syndrome</td>
+      <td>particles</td>
+      <td>droplets</td>
+      <td>FFR</td>
+      <td>hand washing</td>
+      <td>gown</td>
+      <td>middle</td>
+      <td>contaminated</td>
+      <td>ARI</td>
+      <td>infections</td>
+      <td>clothing</td>
+      <td>TB</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>isolation</td>
+      <td>compliance</td>
+      <td>settings</td>
+      <td>infection</td>
+      <td>filtration</td>
+      <td>route</td>
+      <td>ffrs</td>
+      <td>students</td>
+      <td>contamination</td>
+      <td>east</td>
+      <td>samples</td>
+      <td>medical masks</td>
+      <td>antimicrobial</td>
+      <td>PAPR</td>
+      <td>HIV</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>transmission</td>
+      <td>results</td>
+      <td>practices</td>
+      <td>outbreak</td>
+      <td>surgical mask</td>
+      <td>cough</td>
+      <td>filtering</td>
+      <td>visitors</td>
+      <td>personal protective equipment</td>
+      <td>coronavirus</td>
+      <td>contamination</td>
+      <td>respiratory infection</td>
+      <td>antisepsis</td>
+      <td>200</td>
+      <td>PEP</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>health</td>
+      <td>total</td>
+      <td>policies</td>
+      <td>control</td>
+      <td>N95</td>
+      <td>droplet</td>
+      <td>facepiece</td>
+      <td>soap</td>
+      <td>fluorescent</td>
+      <td>facemask</td>
+      <td>hours</td>
+      <td>MDR</td>
+      <td>persistence</td>
+      <td>compression</td>
+      <td>injury</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>healthcare</td>
+      <td>care</td>
+      <td>recommendations</td>
+      <td>patients</td>
+      <td>disposable</td>
+      <td>fomite</td>
+      <td>fit</td>
+      <td>intervention</td>
+      <td>PPC</td>
+      <td>cases</td>
+      <td>pathogens</td>
+      <td>cloth</td>
+      <td>mortality</td>
+      <td>chest compression</td>
+      <td>HCV</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>management</td>
+      <td>group</td>
+      <td>evidence</td>
+      <td>sars-cov</td>
+      <td>fit</td>
+      <td>indirect</td>
+      <td>n95 respirators</td>
+      <td>family</td>
+      <td>personal</td>
+      <td>facemask wearing</td>
+      <td>objects</td>
+      <td>cloth masks</td>
+      <td>products</td>
+      <td>technical</td>
+      <td>occupational infection</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>diseases</td>
+      <td><</td>
+      <td>key</td>
+      <td>hcws</td>
+      <td>filter</td>
+      <td>influenza</td>
+      <td>reuse</td>
+      <td>alcohol-based</td>
+      <td>EVD</td>
+      <td>2019-ncov</td>
+      <td>waste</td>
+      <td>rcts</td>
+      <td>importance</td>
+      <td>FF</td>
+      <td>injuries</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>personnel</td>
+      <td>performed</td>
+      <td>principles</td>
+      <td>hong</td>
+      <td>testing</td>
+      <td>norovirus</td>
+      <td>UVGI</td>
+      <td>sanitizer</td>
+      <td>protocol</td>
+      <td>policy</td>
+      <td>bacterial</td>
+      <td>CRI</td>
+      <td>nosocomial infections</td>
+      <td>cardiopulmonary</td>
+      <td>needlestick</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>HCP</td>
+      <td>staff</td>
+      <td>system</td>
+      <td>kong</td>
+      <td>O2</td>
+      <td>source</td>
+      <td>user</td>
+      <td>nursing</td>
+      <td>deviations</td>
+      <td>RNA</td>
+      <td>swabs</td>
+      <td>%</td>
+      <td>product</td>
+      <td>protective clothing</td>
+      <td>exposure</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>procedures</td>
+      <td>methods</td>
+      <td>review</td>
+      <td>hospital</td>
+      <td>efficiency</td>
+      <td>etiquette</td>
+      <td>decontamination</td>
+      <td>FVHH</td>
+      <td>hcws</td>
+      <td>healthcare worker</td>
+      <td>copper</td>
+      <td>adjusted</td>
+      <td>viral infections</td>
+      <td>fold-type</td>
+      <td>biosafety</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>potentially</td>
+      <td>conducted</td>
+      <td>data</td>
+      <td>nosocomial</td>
+      <td>n95 mask</td>
+      <td>mucous</td>
+      <td>models</td>
+      <td>training</td>
+      <td>training</td>
+      <td>china</td>
+      <td>staphylococcus</td>
+      <td>trials</td>
+      <td>gastrointestinal</td>
+      <td>protective</td>
+      <td>OE</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>emerging</td>
+      <td>health care workers</td>
+      <td>healthcare-associated</td>
+      <td>epidemic</td>
+      <td>test</td>
+      <td>aerosol transmission</td>
+      <td>surgical</td>
+      <td>practice</td>
+      <td>ebola</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>room</td>
+      <td>baumannii</td>
+      <td>morbidity</td>
+      <td>factor</td>
+      <td>autopsy</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>standard</td>
+      <td>objective</td>
+      <td>standards</td>
+      <td>hong kong</td>
+      <td>particulate</td>
+      <td>bronchoscopy</td>
+      <td>air-purifying</td>
+      <td>opportunities</td>
+      <td>ensembles</td>
+      <td>healthcare</td>
+      <td>survival</td>
+      <td>ILI</td>
+      <td>hygienic</td>
+      <td>paprs</td>
+      <td>doctors</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>risk</td>
+      <td>higher</td>
+      <td>national</td>
+      <td>high-risk</td>
+      <td>reusable</td>
+      <td>maneuvers</td>
+      <td>surgical facemasks</td>
+      <td>residents</td>
+      <td>equipment</td>
+      <td>days</td>
+      <td>bed</td>
+      <td>hcws</td>
+      <td>skin antisepsis</td>
+      <td>cup-type</td>
+      <td>risks</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>potential</td>
+      <td>survey</td>
+      <td>practice</td>
+      <td>respiratory</td>
+      <td>homemade</td>
+      <td>source control</td>
+      <td>check</td>
+      <td>rub</td>
+      <td>processes</td>
+      <td>CL</td>
+      <td>wards</td>
+      <td>arm</td>
+      <td>handwash</td>
+      <td>cardiopulmonary resuscitation</td>
+      <td>laboratory workers</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>infectious diseases</td>
+      <td>median</td>
+      <td>interventions</td>
+      <td>2003</td>
+      <td>3D</td>
+      <td>airborne</td>
+      <td>breathing</td>
+      <td>educational</td>
+      <td>technique</td>
+      <td>universal</td>
+      <td>sewage</td>
+      <td>a. baumannii</td>
+      <td>enteric</td>
+      <td>selection</td>
+      <td>denatonium</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>disease</td>
+      <td>questionnaire</td>
+      <td>limited</td>
+      <td>taiwan</td>
+      <td>method</td>
+      <td>surface</td>
+      <td>seal</td>
+      <td>information</td>
+      <td>participants</td>
+      <td>spinal anaesthesia</td>
+      <td>methicillin-resistant</td>
+      <td>laboratory‐confirmed</td>
+      <td>ID</td>
+      <td>acceptable</td>
+      <td>immunodeficiency</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>airborne</td>
+      <td>hospitals</td>
+      <td>HAI</td>
+      <td>nosocomial infection</td>
+      <td>commercial</td>
+      <td>contact</td>
+      <td>QNFT</td>
+      <td>improving</td>
+      <td>designs</td>
+      <td>spinal</td>
+      <td>collected</td>
+      <td>A.</td>
+      <td>zinc</td>
+      <td>protective performance</td>
+      <td>needlestick injury</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>exposure</td>
+      <td>attitudes</td>
+      <td>healthcare-associated infections</td>
+      <td>measures</td>
+      <td>taste</td>
+      <td>dose</td>
+      <td>leakage</td>
+      <td>attitude</td>
+      <td>tracer</td>
+      <td>anaesthesia</td>
+      <td>surface</td>
+      <td>illness</td>
+      <td>antimicrobials</td>
+      <td>endotracheal</td>
+      <td>benzoate</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>reduce</td>
+      <td>recorded</td>
+      <td>examined</td>
+      <td>toronto</td>
+      <td>volunteers</td>
+      <td>mouth</td>
+      <td>n95 filtering facepiece respirators</td>
+      <td>schools</td>
+      <td>CP</td>
+      <td>hubei</td>
+      <td>environment</td>
+      <td>weeks</td>
+      <td>alcohol-zpt</td>
+      <td>PPBPC</td>
+      <td>work-related</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>equipment</td>
+      <td>background</td>
+      <td>preventing</td>
+      <td>caring</td>
+      <td>wound</td>
+      <td>dentists</td>
+      <td>protection</td>
+      <td>ABHR</td>
+      <td>deviation</td>
+      <td>syndrome</td>
+      <td>detected</td>
+      <td>N95</td>
+      <td>organ</td>
+      <td>valve-type</td>
+      <td>laboratory-acquired</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>costs</td>
+      <td>conclusions</td>
+      <td>world</td>
+      <td>risk factors</td>
+      <td>face shield</td>
+      <td>membranes</td>
+      <td>passed</td>
+      <td>hand sanitizer</td>
+      <td>usability</td>
+      <td>2019</td>
+      <td>microbes</td>
+      <td>n95 respirators</td>
+      <td>acne</td>
+      <td>fit</td>
+      <td>hepatitis</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>current</td>
+      <td>emergency</td>
+      <td>central</td>
+      <td>ICU</td>
+      <td>flow</td>
+      <td>receiver</td>
+      <td>smrs</td>
+      <td>knowledge</td>
+      <td>double-gloving</td>
+      <td>middle east respiratory syndrome</td>
+      <td>aureus</td>
+      <td>medical</td>
+      <td>log10</td>
+      <td>fit factor</td>
+      <td>IC</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>infected</td>
+      <td>ED</td>
+      <td>CDC</td>
+      <td>TCB</td>
+      <td>fabrics</td>
+      <td>host</td>
+      <td>user-seal-check</td>
+      <td>program</td>
+      <td>straps</td>
+      <td>wuhan</td>
+      <td>12</td>
+      <td>trial</td>
+      <td>preventive</td>
+      <td>±</td>
+      <td>workplace</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>include</td>
+      <td>gloves</td>
+      <td>identified</td>
+      <td>ward</td>
+      <td>layers</td>
+      <td>rhinovirus</td>
+      <td>fitted</td>
+      <td>standard precautions</td>
+      <td>errors</td>
+      <td>reaction</td>
+      <td>regular</td>
+      <td>colonization</td>
+      <td>prolonged</td>
+      <td>airway</td>
+      <td>hcws</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>chapter</td>
+      <td>healthcare workers</td>
+      <td>situations</td>
+      <td>areas</td>
+      <td>viral aerosol</td>
+      <td>generation</td>
+      <td>N100</td>
+      <td>compliance</td>
+      <td>protective</td>
+      <td>2020</td>
+      <td>fomites</td>
+      <td>compared</td>
+      <td>hands</td>
+      <td>SWPF</td>
+      <td>QFT-GIT</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>article</td>
+      <td>working</td>
+      <td>health</td>
+      <td>logistic</td>
+      <td>tested</td>
+      <td>procedures</td>
+      <td>sms</td>
+      <td>reducing</td>
+      <td>demonstration</td>
+      <td>specimens</td>
+      <td>telephone</td>
+      <td>randomised</td>
+      <td>iodine</td>
+      <td>agmps</td>
+      <td>workforce</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>application</td>
+      <td>health</td>
+      <td>quality</td>
+      <td>regression</td>
+      <td>solutions</td>
+      <td>direct</td>
+      <td>gross</td>
+      <td>harvis</td>
+      <td>MS2</td>
+      <td>polymerase</td>
+      <td>high-touch</td>
+      <td>clinical respiratory illness</td>
+      <td>enteric viruses</td>
+      <td>compressions</td>
+      <td>thai</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>healthcare personnel</td>
+      <td>perceived</td>
+      <td>countries</td>
+      <td>outbreaks</td>
+      <td>protection</td>
+      <td>isolite</td>
+      <td>STI</td>
+      <td>HHC</td>
+      <td>bin</td>
+      <td>pylori</td>
+      <td>isolation wards</td>
+      <td>RR</td>
+      <td>waterless</td>
+      <td>emergency physicians</td>
+      <td>denatonium benzoate</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>safety</td>
+      <td>rate</td>
+      <td>adherence</td>
+      <td>=</td>
+      <td>ability</td>
+      <td>degree</td>
+      <td>testing</td>
+      <td>stimulus</td>
+      <td>single-gloving</td>
+      <td>anaesthetists</td>
+      <td>rooms</td>
+      <td>beijing</td>
+      <td>zinc pyrithione</td>
+      <td>endotracheal intubation</td>
+      <td>conversion</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>organisms</td>
+      <td>respiratory</td>
+      <td>included</td>
+      <td>hospital outbreaks</td>
+      <td>radiation</td>
+      <td>manikin</td>
+      <td>subjects</td>
+      <td>effectiveness</td>
+      <td>transfer</td>
+      <td>outbreak</td>
+      <td>hospitalized</td>
+      <td>pandemic</td>
+      <td>recipients</td>
+      <td>types</td>
+      <td>human immunodeficiency virus</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>tracheostomy</td>
+      <td>department</td>
+      <td>factors</td>
+      <td>patient-days</td>
+      <td>viral</td>
+      <td>infectivity</td>
+      <td>respiratory protection</td>
+      <td>pediatric</td>
+      <td>light</td>
+      <td>H.</td>
+      <td>door</td>
+      <td>respiratory</td>
+      <td>transplant</td>
+      <td>performance</td>
+      <td>audits</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>contact</td>
+      <td>.001</td>
+      <td>extended</td>
+      <td>factors</td>
+      <td>N99</td>
+      <td>dentistry</td>
+      <td>surgical smoke</td>
+      <td>alcohol-based hand rub</td>
+      <td>type</td>
+      <td>hospital</td>
+      <td>PX-UV</td>
+      <td>season</td>
+      <td>pyrithione</td>
+      <td>fold-type respirator</td>
+      <td>adults</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>disease transmission</td>
+      <td>episodes</td>
+      <td>health care settings</td>
+      <td>healthcare workers</td>
+      <td>healthy volunteers</td>
+      <td>mice</td>
+      <td>gross leakage</td>
+      <td>hand-hygiene</td>
+      <td>self-perceived</td>
+      <td>workers</td>
+      <td>handles</td>
+      <td>healthcare-associated colonization</td>
+      <td>bacteria</td>
+      <td>chest compressions</td>
+      <td>risk</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>pathogens</td>
+      <td>tertiary</td>
+      <td>infections</td>
+      <td>probable</td>
+      <td>minimum</td>
+      <td>spatter</td>
+      <td>pass</td>
+      <td>visitor</td>
+      <td>HCID</td>
+      <td>A-IC</td>
+      <td>sars-cov-2 rna</td>
+      <td>cost-effectiveness</td>
+      <td>common</td>
+      <td>protection</td>
+      <td>HBV</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>protective</td>
+      <td>48</td>
+      <td>organizational</td>
+      <td>experiences</td>
+      <td>saccharin</td>
+      <td>dam</td>
+      <td>SI</td>
+      <td>european</td>
+      <td>ensemble</td>
+      <td>hospital worker</td>
+      <td>high-touch surfaces</td>
+      <td>respirators</td>
+      <td>61</td>
+      <td>textiles</td>
+      <td>scientific journals</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>infectious disease</td>
+      <td>questionnaires</td>
+      <td>catheters</td>
+      <td>distress</td>
+      <td>prototype</td>
+      <td>saliva</td>
+      <td>swpf(total</td>
+      <td>NICU</td>
+      <td>permeability</td>
+      <td>facemask shortage</td>
+      <td>area</td>
+      <td>aeruginosa</td>
+      <td>vehicles</td>
+      <td>materials</td>
+      <td>timeloss</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>availability</td>
+      <td>age</td>
+      <td>venous</td>
+      <td>nosocomial transmission</td>
+      <td>pandemic</td>
+      <td>contacted</td>
+      <td>physiologic</td>
+      <td>single-patient</td>
+      <td>ppe doffing</td>
+      <td>GW</td>
+      <td>patients</td>
+      <td>winter</td>
+      <td>auris</td>
+      <td>100</td>
+      <td>drug-resistant tb</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>patient safety</td>
+      <td>medical</td>
+      <td>searched</td>
+      <td>discharges</td>
+      <td>air</td>
+      <td>cough etiquette maneuvers</td>
+      <td>elastomeric</td>
+      <td>participating</td>
+      <td>protocol deviations</td>
+      <td>neonates</td>
+      <td>disinfected</td>
+      <td>households</td>
+      <td>rotavirus</td>
+      <td>physicians</td>
+      <td>provinces</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>operating room</td>
+      <td>healthcare</td>
+      <td>HCAI</td>
+      <td>BMH</td>
+      <td>degradation</td>
+      <td>cm</td>
+      <td>wearing</td>
+      <td>novardis</td>
+      <td>rubbish bin</td>
+      <td>B-IC</td>
+      <td>resource-limited settings</td>
+      <td>estimates</td>
+      <td>microbicides</td>
+      <td>CC</td>
+      <td>occupational infections</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>measures</td>
+      <td>hospital</td>
+      <td>articles</td>
+      <td>contact</td>
+      <td>dry</td>
+      <td>germ-free</td>
+      <td>comfortable</td>
+      <td>interventions</td>
+      <td>proficiency</td>
+      <td>coronavirus disease</td>
+      <td>pool</td>
+      <td>attack rate</td>
+      <td>formulation</td>
+      <td>eyepiece</td>
+      <td>occupations</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>protection</td>
+      <td>44</td>
+      <td>saudi arabia</td>
+      <td>risk</td>
+      <td>μm</td>
+      <td>sneeze</td>
+      <td>h1n1 influenza</td>
+      <td>design</td>
+      <td>rubbish</td>
+      <td>h. pylori infection</td>
+      <td>clostridium difficile</td>
+      <td>aor</td>
+      <td>exceeding</td>
+      <td>felt</td>
+      <td>hcv infections</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>optimal</td>
+      <td>respondents</td>
+      <td>hospitals</td>
+      <td>hospitals</td>
+      <td>nonrebreathing mask</td>
+      <td>contacting</td>
+      <td>dioxide</td>
+      <td>sanitizers</td>
+      <td>PPE1</td>
+      <td>lens</td>
+      <td>resource-limited</td>
+      <td>clinical</td>
+      <td>extreme</td>
+      <td>primary outcome</td>
+      <td>workers</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>administrative</td>
+      <td>hcws</td>
+      <td>pakistan</td>
+      <td>infection control procedures</td>
+      <td>sodium</td>
+      <td>person-to-person</td>
+      <td>fit test</td>
+      <td>hids</td>
+      <td>simulated</td>
+      <td>scenario</td>
+      <td>NMA</td>
+      <td>infections</td>
+      <td>fungi</td>
+      <td>protection rate</td>
+      <td>infectious</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>infections</td>
+      <td>members</td>
+      <td>central venous catheters</td>
+      <td>contributed</td>
+      <td>3d-printed</td>
+      <td>dental procedures</td>
+      <td>FS</td>
+      <td>school</td>
+      <td>2</td>
+      <td>viral rna</td>
+      <td>air</td>
+      <td>hajj</td>
+      <td>intravenous</td>
+      <td>cardiac</td>
+      <td>baseline</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>limitations</td>
+      <td>participated</td>
+      <td>vital</td>
+      <td>traffic</td>
+      <td>mask filtration</td>
+      <td>dental dam</td>
+      <td>carbon</td>
+      <td>audio-visual</td>
+      <td>gloves</td>
+      <td>infected</td>
+      <td>respiratory specimens</td>
+      <td>totobobo</td>
+      <td>antiseptics</td>
+      <td>defibrillation</td>
+      <td>postmortem</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

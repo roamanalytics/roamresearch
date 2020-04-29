@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 57</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>east</td>
+      <td>cases</td>
+      <td>samples</td>
+      <td>transmission</td>
+      <td>sequences</td>
+      <td>vaccines</td>
+      <td>korea</td>
+      <td>mouse</td>
+      <td>DPP4</td>
+      <td>failure</td>
+      <td>hajj</td>
+      <td>years</td>
+      <td>CI</td>
+      <td>cities</td>
+      <td>UAE-HKU23</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>mers-cov</td>
+      <td>mers-cov</td>
+      <td>camels</td>
+      <td>humans</td>
+      <td>genome</td>
+      <td>vaccine</td>
+      <td>outbreak</td>
+      <td>lung</td>
+      <td>receptor</td>
+      <td>acute</td>
+      <td>pilgrims</td>
+      <td>=</td>
+      <td>95</td>
+      <td>jeddah</td>
+      <td>dccov</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>middle</td>
+      <td>saudi</td>
+      <td>antibodies</td>
+      <td>camels</td>
+      <td>genomes</td>
+      <td>neutralizing</td>
+      <td>south</td>
+      <td>mice</td>
+      <td>binding</td>
+      <td>distress</td>
+      <td>influenza</td>
+      <td>%</td>
+      <td>united arab emirates</td>
+      <td>incidence</td>
+      <td>perception</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>respiratory</td>
+      <td>patients</td>
+      <td>dromedaries</td>
+      <td>dromedary camels</td>
+      <td>strains</td>
+      <td>protein</td>
+      <td>south korea</td>
+      <td>hdpp4</td>
+      <td>bat</td>
+      <td>pneumonia</td>
+      <td>mass</td>
+      <td>age</td>
+      <td>emirates</td>
+      <td>2014</td>
+      <td>dccov uae-hku23</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>coronavirus</td>
+      <td>arabia</td>
+      <td>dromedary</td>
+      <td>animals</td>
+      <td>phylogenetic</td>
+      <td>responses</td>
+      <td>2015</td>
+      <td>pathogenesis</td>
+      <td>cells</td>
+      <td>fever</td>
+      <td>returning</td>
+      <td>aged</td>
+      <td>arab</td>
+      <td>infectious diseases</td>
+      <td>environmental</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>syndrome</td>
+      <td>infection</td>
+      <td>serum</td>
+      <td>camel</td>
+      <td>isolates</td>
+      <td>effective</td>
+      <td>MERS</td>
+      <td>model</td>
+      <td>HKU4</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>gatherings</td>
+      <td>male</td>
+      <td>united</td>
+      <td>makkah</td>
+      <td>preventive behaviours</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>severe</td>
+      <td>saudi arabia</td>
+      <td>sera</td>
+      <td>contact</td>
+      <td>strain</td>
+      <td>m336</td>
+      <td>korean</td>
+      <td>chadox1</td>
+      <td>cell</td>
+      <td>multiorgan</td>
+      <td>hajj pilgrims</td>
+      <td>CFR</td>
+      <td>%</td>
+      <td>singapore</td>
+      <td>nursing</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>spread</td>
+      <td>health</td>
+      <td>positive</td>
+      <td>virus</td>
+      <td>recombination</td>
+      <td>monoclonal</td>
+      <td>186</td>
+      <td>transgenic</td>
+      <td>RBD</td>
+      <td>pregnant</td>
+      <td>respiratory viruses</td>
+      <td>HEV</td>
+      <td>aware</td>
+      <td>uptodate</td>
+      <td>students</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>middle east</td>
+      <td>healthcare</td>
+      <td>mers-cov</td>
+      <td>dromedary</td>
+      <td>gene</td>
+      <td>activity</td>
+      <td>republic</td>
+      <td>mouse model</td>
+      <td>HKU5</td>
+      <td>outcomes</td>
+      <td>mass gatherings</td>
+      <td>females</td>
+      <td>slaughterhouse</td>
+      <td>articles</td>
+      <td>nursing students</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2012</td>
+      <td>reported</td>
+      <td>swabs</td>
+      <td>human</td>
+      <td>genetic</td>
+      <td>mabs</td>
+      <td>hospitals</td>
+      <td>chadox1 mers</td>
+      <td>spike</td>
+      <td>cough</td>
+      <td>travellers</td>
+      <td>SEYLL</td>
+      <td>0.01</td>
+      <td>province</td>
+      <td>behaviours</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>disease</td>
+      <td>care</td>
+      <td>nasal</td>
+      <td>reservoir</td>
+      <td>african</td>
+      <td>RBD</td>
+      <td>search</td>
+      <td>rhesus</td>
+      <td>entry</td>
+      <td>respiratory failure</td>
+      <td>mecca</td>
+      <td>±</td>
+      <td>GCC</td>
+      <td>diseases</td>
+      <td>risk perception</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>rate</td>
+      <td>clusters</td>
+      <td>assay</td>
+      <td>mers‐cov</td>
+      <td>sequencing</td>
+      <td>development</td>
+      <td>basic</td>
+      <td>replication</td>
+      <td>lines</td>
+      <td>renal</td>
+      <td>viruses</td>
+      <td>MERS-HCP</td>
+      <td>milk</td>
+      <td>spatiotemporal</td>
+      <td>codon</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>countries</td>
+      <td>transmission</td>
+      <td>collected</td>
+      <td>zoonotic</td>
+      <td>sequence</td>
+      <td>subunit</td>
+      <td>government</td>
+      <td>lungs</td>
+      <td>amino</td>
+      <td>presentation</td>
+      <td>umrah</td>
+      <td>CONCLUSION</td>
+      <td>cws</td>
+      <td>waterpipe</td>
+      <td>usage</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>emerging</td>
+      <td>exposure</td>
+      <td>ELISA</td>
+      <td>animal</td>
+      <td>arabian</td>
+      <td>fusion</td>
+      <td>incubation</td>
+      <td>vivo</td>
+      <td>peptidase</td>
+      <td>death</td>
+      <td>gathering</td>
+      <td>males</td>
+      <td>kenya</td>
+      <td>riyadh</td>
+      <td>biocontainment</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>recent</td>
+      <td>mers-cov infection</td>
+      <td>dromedary camels</td>
+      <td>source</td>
+      <td>clade</td>
+      <td>induced</td>
+      <td>number</td>
+      <td>mers-cov</td>
+      <td>expression</td>
+      <td>patient</td>
+      <td>pilgrimage</td>
+      <td>SARS-HCP</td>
+      <td>raw</td>
+      <td>temporal</td>
+      <td>surfaces</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>deaths</td>
+      <td>case</td>
+      <td>serum samples</td>
+      <td>species</td>
+      <td>lineages</td>
+      <td>safe</td>
+      <td>reproduction</td>
+      <td>human</td>
+      <td>protein</td>
+      <td>underlying</td>
+      <td>surveillance</td>
+      <td>score</td>
+      <td>herders</td>
+      <td>public</td>
+      <td>immunity</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>high</td>
+      <td>settings</td>
+      <td>prevalence</td>
+      <td>direct</td>
+      <td>distinct</td>
+      <td>receptor-binding</td>
+      <td>guidelines</td>
+      <td>pulmonary</td>
+      <td>dipeptidyl</td>
+      <td>reaction</td>
+      <td>influenza a</td>
+      <td>study</td>
+      <td>slaughterhouse workers</td>
+      <td>religious</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>global</td>
+      <td>hospital</td>
+      <td>camel</td>
+      <td>role</td>
+      <td>showed</td>
+      <td>domain</td>
+      <td>largest</td>
+      <td>pathology</td>
+      <td>pachypus</td>
+      <td>illness</td>
+      <td>2</td>
+      <td>groups</td>
+      <td>aor</td>
+      <td>health</td>
+      <td>contaminated</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>cases</td>
+      <td>confirmed</td>
+      <td>mers-cov antibodies</td>
+      <td>natural</td>
+      <td>viruses</td>
+      <td>candidate</td>
+      <td>nosocomial</td>
+      <td>challenge</td>
+      <td>residues</td>
+      <td>day</td>
+      <td>pathogens</td>
+      <td>website</td>
+      <td>=</td>
+      <td>place</td>
+      <td>coronavirus infections</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>infection</td>
+      <td>%</td>
+      <td>detected</td>
+      <td>llamas</td>
+      <td>peninsula</td>
+      <td>potent</td>
+      <td>nosocomial infections</td>
+      <td>tissue</td>
+      <td>hcov-emc</td>
+      <td>mild</td>
+      <td>respiratory symptoms</td>
+      <td>onset</td>
+      <td><</td>
+      <td>searches</td>
+      <td>ecov</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>MERS</td>
+      <td>workers</td>
+      <td>sheep</td>
+      <td>primary</td>
+      <td>EMC</td>
+      <td>induce</td>
+      <td>point</td>
+      <td>LCA60</td>
+      <td>MERS-27</td>
+      <td>polymerase</td>
+      <td>travelers</td>
+      <td>SK</td>
+      <td>hcws</td>
+      <td>regional</td>
+      <td>required</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>SARS</td>
+      <td>1</td>
+      <td>nasal swabs</td>
+      <td>host</td>
+      <td>full</td>
+      <td>immune</td>
+      <td>superspreading</td>
+      <td>KI</td>
+      <td>inhibit</td>
+      <td>admitted</td>
+      <td>active surveillance</td>
+      <td>non-outbreak</td>
+      <td>UAE</td>
+      <td>seasonality</td>
+      <td>knowledge</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>current</td>
+      <td>respiratory</td>
+      <td>antibody</td>
+      <td>zoonotic transmission</td>
+      <td>phylogenetic analysis</td>
+      <td>spike</td>
+      <td>model</td>
+      <td>rabbits</td>
+      <td>cell lines</td>
+      <td>pregnancy</td>
+      <td>case 1</td>
+      <td>arabs</td>
+      <td>blood</td>
+      <td>yrs</td>
+      <td>bias</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>caused</td>
+      <td>contacts</td>
+      <td>assays</td>
+      <td>understood</td>
+      <td>recombinants</td>
+      <td>antibodies</td>
+      <td>vs.</td>
+      <td>protected</td>
+      <td>expressed</td>
+      <td>woman</td>
+      <td>awareness</td>
+      <td>bedouins</td>
+      <td>general</td>
+      <td>eastern province</td>
+      <td>broader</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>fatality</td>
+      <td>risk</td>
+      <td>neutralization</td>
+      <td>potential</td>
+      <td>amibara</td>
+      <td>monoclonal antibodies</td>
+      <td>period</td>
+      <td>permissive</td>
+      <td>host</td>
+      <td>outcome</td>
+      <td>UK</td>
+      <td>non-saudi</td>
+      <td>zoonotic</td>
+      <td>guidance</td>
+      <td>saudi pilgrims</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>review</td>
+      <td>middle</td>
+      <td>evidence</td>
+      <td>approach</td>
+      <td>circulating</td>
+      <td>anti-mers-cov</td>
+      <td>control</td>
+      <td>mdpp4</td>
+      <td>dipeptidyl peptidase 4</td>
+      <td>kidney</td>
+      <td>muslims</td>
+      <td>significantly</td>
+      <td>iran</td>
+      <td>2015a</td>
+      <td>betacoronavirus</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>mortality</td>
+      <td>risk factors</td>
+      <td>bactrian</td>
+      <td>sporadic</td>
+      <td>genomic</td>
+      <td>receptor-binding domain</td>
+      <td>persons</td>
+      <td>macrophages</td>
+      <td>critical</td>
+      <td>cardiac</td>
+      <td>annual</td>
+      <td>METHODS</td>
+      <td>slaughter</td>
+      <td>areas</td>
+      <td>contamination</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>data</td>
+      <td>test</td>
+      <td>intermediate</td>
+      <td>analysis</td>
+      <td>588-fc</td>
+      <td>RRT</td>
+      <td>hdpp4 ki</td>
+      <td>T.</td>
+      <td>multi-organ</td>
+      <td>visiting</td>
+      <td>adults</td>
+      <td>plaque</td>
+      <td>community</td>
+      <td>A1</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>reported</td>
+      <td>factors</td>
+      <td>tested</td>
+      <td>alpacas</td>
+      <td>similar</td>
+      <td>S377</td>
+      <td>republic of korea</td>
+      <td>virus replication</td>
+      <td>hku8r-cov</td>
+      <td>progressive</td>
+      <td>hajj pilgrimage</td>
+      <td>demographic</td>
+      <td>confidence</td>
+      <td>public health</td>
+      <td>environmental circumstances</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>infections</td>
+      <td>suspected</td>
+      <td>></td>
+      <td>mers‐cov.</td>
+      <td>sequenced</td>
+      <td>immunized</td>
+      <td>manage</td>
+      <td>rhesus macaques</td>
+      <td>CD26</td>
+      <td>multiorgan failure</td>
+      <td>muslim</td>
+      <td>non-bedouin</td>
+      <td>provinces</td>
+      <td>saudi arabia</td>
+      <td>suite</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>coronaviruses</td>
+      <td>laboratory-confirmed</td>
+      <td>seroprevalence</td>
+      <td>bats</td>
+      <td>mers-cov sequences</td>
+      <td>antibody</td>
+      <td>occurred</td>
+      <td>pyroptosis</td>
+      <td>sinicus</td>
+      <td>supportive</td>
+      <td>corona viruses</td>
+      <td>hospitalized</td>
+      <td>burnetii</td>
+      <td>arabia</td>
+      <td>netherlands</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>including</td>
+      <td>KSA</td>
+      <td>found</td>
+      <td>shed</td>
+      <td>orf4b</td>
+      <td>develop</td>
+      <td>coronavirus infection</td>
+      <td>marmosets</td>
+      <td>ty-batcov</td>
+      <td>acute respiratory illness</td>
+      <td>england</td>
+      <td>hepatitis</td>
+      <td>council</td>
+      <td>importation</td>
+      <td>automated</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>clinical</td>
+      <td>september</td>
+      <td>infection</td>
+      <td>evidence</td>
+      <td>cultures</td>
+      <td>approved</td>
+      <td>system</td>
+      <td>macaques</td>
+      <td>bind</td>
+      <td>respiratory</td>
+      <td>australian</td>
+      <td>p<0.001</td>
+      <td>rt-iipcr</td>
+      <td>progression</td>
+      <td>mapping</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>sars-cov</td>
+      <td>identified</td>
+      <td>%</td>
+      <td>infectious virus</td>
+      <td>competence</td>
+      <td>mice</td>
+      <td>infected</td>
+      <td>models</td>
+      <td>hamster</td>
+      <td>chain</td>
+      <td>karbala</td>
+      <td>0.001</td>
+      <td>general population</td>
+      <td>risk</td>
+      <td>1384</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>mortality rate</td>
+      <td>results</td>
+      <td>seropositive</td>
+      <td>pigs</td>
+      <td>human</td>
+      <td>humoral</td>
+      <td>infectious</td>
+      <td>dipeptidyl</td>
+      <td>glycoprotein</td>
+      <td>MERS</td>
+      <td>ILI</td>
+      <td>versus</td>
+      <td>workers</td>
+      <td>td-rs</td>
+      <td>clinical practice</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>virus</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>goats</td>
+      <td>epidemiology</td>
+      <td>obtained</td>
+      <td>vaccinated</td>
+      <td>patient</td>
+      <td>disease</td>
+      <td>cellular</td>
+      <td>medical</td>
+      <td>population</td>
+      <td>statistically</td>
+      <td>laikipia</td>
+      <td>spatial</td>
+      <td>RT‐PCR</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>acute respiratory syndrome</td>
+      <td>east</td>
+      <td>farm</td>
+      <td>explain</td>
+      <td>deletions</td>
+      <td>promising</td>
+      <td>parameters</td>
+      <td>viral</td>
+      <td>susceptible</td>
+      <td>treatment</td>
+      <td>annually</td>
+      <td>referral</td>
+      <td>rt-qpcr</td>
+      <td>global spread</td>
+      <td>programmes</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>europe</td>
+      <td>epidemiologic</td>
+      <td>sensitivity</td>
+      <td>arabian peninsula</td>
+      <td>calu-3</td>
+      <td>inhibitors</td>
+      <td>credibility interval</td>
+      <td>reduced</td>
+      <td>viral entry</td>
+      <td>present</td>
+      <td>home</td>
+      <td>$</td>
+      <td>concerned</td>
+      <td>OCT</td>
+      <td>removal</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>health</td>
+      <td>testing</td>
+      <td>results</td>
+      <td>hypothesis</td>
+      <td>reading</td>
+      <td>neutralizing activity</td>
+      <td>initiated</td>
+      <td>inflammation</td>
+      <td>MERS-4</td>
+      <td>pregnant woman</td>
+      <td>compliance</td>
+      <td>onset to</td>
+      <td>1.5</td>
+      <td>hoses</td>
+      <td>MHV-A59</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>drugs</td>
+      <td>infections</td>
+      <td>immunofluorescence</td>
+      <td>animal species</td>
+      <td>genome sequences</td>
+      <td>therapeutic</td>
+      <td>turning</td>
+      <td>epithelial</td>
+      <td>polymorphisms</td>
+      <td>transcriptase</td>
+      <td>FLU</td>
+      <td>ORA</td>
+      <td>county</td>
+      <td>zumla</td>
+      <td>blot</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>combination</td>
+      <td>13</td>
+      <td>dubai</td>
+      <td>infected</td>
+      <td>formed</td>
+      <td>mab</td>
+      <td>0.000</td>
+      <td>adaptive</td>
+      <td>hcd26</td>
+      <td>rare</td>
+      <td>rhinovirus</td>
+      <td>older</td>
+      <td>drinking</td>
+      <td>hafr</td>
+      <td>enhancing</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>international</td>
+      <td>coronavirus</td>
+      <td>middle</td>
+      <td>secretions</td>
+      <td>ex-vivo</td>
+      <td>peptides</td>
+      <td>notified</td>
+      <td>intramuscular</td>
+      <td>ancestral</td>
+      <td>supportive care</td>
+      <td>rhinoviruses</td>
+      <td>confirmation</td>
+      <td>wore</td>
+      <td>sectors</td>
+      <td>triggered</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>human</td>
+      <td>july</td>
+      <td>coronavirus</td>
+      <td>act</td>
+      <td>similarity</td>
+      <td>nbs</td>
+      <td>team</td>
+      <td>transgenic mice</td>
+      <td>bat cells</td>
+      <td>clinical presentation</td>
+      <td>influenza viruses</td>
+      <td>days</td>
+      <td>blood samples</td>
+      <td>2015c</td>
+      <td>circumstances</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>‘</td>
+      <td>health-care</td>
+      <td>bactrian camels</td>
+      <td>undetected</td>
+      <td>virus</td>
+      <td>treat</td>
+      <td>mers-cov outbreak</td>
+      <td>hamsters</td>
+      <td>R.</td>
+      <td>rla-mers-s</td>
+      <td>iranian</td>
+      <td>RESULTS</td>
+      <td>disease transmission</td>
+      <td>2013a</td>
+      <td>inactivate</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>agents</td>
+      <td>20</td>
+      <td>syndrome</td>
+      <td>poorly</td>
+      <td>africa</td>
+      <td>monoclonal antibody</td>
+      <td>credibility</td>
+      <td>infection</td>
+      <td>EMC/2012</td>
+      <td>difficulties</td>
+      <td>proactive</td>
+      <td>version</td>
+      <td>living</td>
+      <td>hui</td>
+      <td>narrower</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>arabia</td>
+      <td>healthcare workers</td>
+      <td>study</td>
+      <td>dromedarius</td>
+      <td>related</td>
+      <td>potently</td>
+      <td>middle east respiratory coronavirus</td>
+      <td>4</td>
+      <td>surface</td>
+      <td>pregnant women</td>
+      <td>millions</td>
+      <td>SUPPLEMENTARY</td>
+      <td>abattoir</td>
+      <td>memish</td>
+      <td>camel-associated</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>mechanisms</td>
+      <td>31</td>
+      <td>respiratory</td>
+      <td>combined</td>
+      <td>confirming</td>
+      <td>inhibitory</td>
+      <td>relationships</td>
+      <td>cells</td>
+      <td>host cells</td>
+      <td>eventually</td>
+      <td>respiratory</td>
+      <td>jews</td>
+      <td>seronegative</td>
+      <td>region</td>
+      <td>distributions</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>named</td>
+      <td>diagnosed</td>
+      <td>celisa</td>
+      <td>domestic</td>
+      <td>calu-3 cells</td>
+      <td>mers-cov</td>
+      <td>R(0</td>
+      <td>ex vivo</td>
+      <td>utilize</td>
+      <td>hypertension</td>
+      <td>tested</td>
+      <td>users</td>
+      <td>seropositivity</td>
+      <td>group</td>
+      <td>preventive</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>saudi arabia</td>
+      <td>aimed</td>
+      <td>nose</td>
+      <td>data</td>
+      <td>betacoronaviruses</td>
+      <td>MERS</td>
+      <td>opportunity</td>
+      <td>depletion</td>
+      <td>tylonycteris</td>
+      <td>clinical</td>
+      <td>2013</td>
+      <td>mers-non-hcp</td>
+      <td>seroprevalence</td>
+      <td>eastern</td>
+      <td>education</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>focus</td>
+      <td>syndrome</td>
+      <td>NP</td>
+      <td>peninsula</td>
+      <td>organisms</td>
+      <td>bound</td>
+      <td>hospital infection</td>
+      <td>benefit</td>
+      <td>abramus</td>
+      <td>breath</td>
+      <td>pilgrim</td>
+      <td>online version</td>
+      <td>camels</td>
+      <td>health risk</td>
+      <td>survey</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

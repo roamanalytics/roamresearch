@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 72</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>health</td>
+      <td>PTSD</td>
+      <td>months</td>
+      <td>social</td>
+      <td>psychological</td>
+      <td>coping</td>
+      <td>sleep</td>
+      <td>suicide</td>
+      <td>rumor</td>
+      <td>validity</td>
+      <td>physical symptoms</td>
+      <td>fears</td>
+      <td>studies</td>
+      <td>fertility</td>
+      <td>MEG3</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>mental</td>
+      <td>%</td>
+      <td>6</td>
+      <td>support</td>
+      <td>staff</td>
+      <td>women</td>
+      <td>sleep quality</td>
+      <td>suicides</td>
+      <td>social media</td>
+      <td>WURSS-21</td>
+      <td>mood</td>
+      <td>olfactory</td>
+      <td>literature</td>
+      <td>fertiqol</td>
+      <td>times</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>COVID-19</td>
+      <td>SARS</td>
+      <td>exercise</td>
+      <td>social support</td>
+      <td>nurses</td>
+      <td>strategies</td>
+      <td>quality</td>
+      <td>disaster</td>
+      <td>media</td>
+      <td>WURSS-44</td>
+      <td>sickness</td>
+      <td>OC</td>
+      <td>older</td>
+      <td>#</td>
+      <td>cells</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>mental health</td>
+      <td>stress</td>
+      <td>capacity</td>
+      <td>depressive symptoms</td>
+      <td>intervention</td>
+      <td>optimism</td>
+      <td>disturbances</td>
+      <td>victims</td>
+      <td>twitter</td>
+      <td>reliability</td>
+      <td>attachment</td>
+      <td>taste</td>
+      <td>older adults</td>
+      <td>experiencing</td>
+      <td>digoxin</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>working</td>
+      <td>CI</td>
+      <td>HRQOL</td>
+      <td>recovery</td>
+      <td>medical</td>
+      <td>cognitive</td>
+      <td>disturbance</td>
+      <td>adolescents</td>
+      <td>engagement</td>
+      <td>korean</td>
+      <td>sickness symptoms</td>
+      <td>fear</td>
+      <td>research</td>
+      <td>isolation</td>
+      <td>HT22</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>outbreak</td>
+      <td>95</td>
+      <td>function</td>
+      <td>levels</td>
+      <td>patients</td>
+      <td>students</td>
+      <td>fmw</td>
+      <td>economic</td>
+      <td>facebook</td>
+      <td>psychometric</td>
+      <td>war</td>
+      <td>smell</td>
+      <td>meta-analysis</td>
+      <td>homelessness</td>
+      <td>rheumatoid</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>risk</td>
+      <td>psychological distress</td>
+      <td>hrqol</td>
+      <td>depressive</td>
+      <td>anxiety</td>
+      <td>responses</td>
+      <td>sleep disturbances</td>
+      <td>prescription</td>
+      <td>TKR</td>
+      <td>scales</td>
+      <td>association</td>
+      <td>phobia</td>
+      <td>incidents</td>
+      <td>cues</td>
+      <td>ht22 cells</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>%</td>
+      <td>symptoms</td>
+      <td>impairment</td>
+      <td>disasters</td>
+      <td>group</td>
+      <td>loss</td>
+      <td>capital</td>
+      <td>HK</td>
+      <td>AA</td>
+      <td>responsiveness</td>
+      <td>mood disorders</td>
+      <td>alleles</td>
+      <td>review</td>
+      <td>count</td>
+      <td>arthritis</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>people</td>
+      <td>psychiatric</td>
+      <td>discharge</td>
+      <td>low</td>
+      <td>ward</td>
+      <td>life</td>
+      <td>PSQI</td>
+      <td>celebrity</td>
+      <td>social</td>
+      <td>SF-8</td>
+      <td>exposed</td>
+      <td>swine</td>
+      <td>work-related</td>
+      <td>cycles</td>
+      <td>morphine</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>china</td>
+      <td>MERS</td>
+      <td>patients</td>
+      <td>risk</td>
+      <td>=</td>
+      <td>dispositional optimism</td>
+      <td>social capital</td>
+      <td>charcoal</td>
+      <td>misinformation</td>
+      <td>jackson</td>
+      <td>hospital personnel</td>
+      <td>disorders</td>
+      <td>violence</td>
+      <td>cdcgrandrounds</td>
+      <td>pregnancy</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>family</td>
+      <td>psychological</td>
+      <td>respiratory</td>
+      <td>growth</td>
+      <td>medical staff</td>
+      <td>dispositional</td>
+      <td>self-efficacy</td>
+      <td>burning</td>
+      <td>information</td>
+      <td>FIC</td>
+      <td>symptoms</td>
+      <td>loss of smell</td>
+      <td>post-traumatic</td>
+      <td>fertility problems</td>
+      <td>strength</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>members</td>
+      <td>experienced</td>
+      <td>health-related</td>
+      <td>factors</td>
+      <td>pneumonia</td>
+      <td>positive</td>
+      <td>viral</td>
+      <td>suicidal</td>
+      <td>p<0.001</td>
+      <td>conspiracist</td>
+      <td>gaza</td>
+      <td>swine flu</td>
+      <td>confinement</td>
+      <td>vitalsigns</td>
+      <td>temperature</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>population</td>
+      <td>healthcare workers</td>
+      <td>quality of life</td>
+      <td>=</td>
+      <td>scores</td>
+      <td>flexibility</td>
+      <td>sick</td>
+      <td>nuclear</td>
+      <td>undergo</td>
+      <td>conspiracy</td>
+      <td>emotional acceptance</td>
+      <td>icu nurses</td>
+      <td>critical</td>
+      <td>retweet</td>
+      <td>EC</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>pandemic</td>
+      <td>distress</td>
+      <td>3</td>
+      <td>associated with</td>
+      <td>COVID-19</td>
+      <td>negative</td>
+      <td>p＜0.0001</td>
+      <td>news</td>
+      <td>tweet</td>
+      <td>coefficients</td>
+      <td>acceptance</td>
+      <td>risk alleles</td>
+      <td>sufferers</td>
+      <td>PR</td>
+      <td>species</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>respondents</td>
+      <td>IES-R</td>
+      <td>pulmonary</td>
+      <td>earthquake</td>
+      <td>training</td>
+      <td>participants</td>
+      <td>non-fmw</td>
+      <td>CB</td>
+      <td>users</td>
+      <td>properties</td>
+      <td>psychosocial functioning</td>
+      <td>memory</td>
+      <td>published</td>
+      <td>cancelled</td>
+      <td>habitat</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>epidemic</td>
+      <td>impact</td>
+      <td>survivors</td>
+      <td>individual</td>
+      <td><</td>
+      <td>group</td>
+      <td>covid-19 infection</td>
+      <td>increase</td>
+      <td>whites</td>
+      <td>construct</td>
+      <td>breast</td>
+      <td>anxiety sensitivity</td>
+      <td>taxpayers</td>
+      <td>retweet frequency</td>
+      <td>URI</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>anxiety</td>
+      <td>survivors</td>
+      <td>SF-36</td>
+      <td>status</td>
+      <td>PCI</td>
+      <td>predict</td>
+      <td>FMS</td>
+      <td>method</td>
+      <td>accounts</td>
+      <td>A-ECOHIS</td>
+      <td>unexposed</td>
+      <td>DSM-V</td>
+      <td>implications</td>
+      <td>hashtag</td>
+      <td>kg</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>family members</td>
+      <td>workers</td>
+      <td>lung</td>
+      <td>infection</td>
+      <td>2019</td>
+      <td>men</td>
+      <td>stress</td>
+      <td>panic</td>
+      <td>diffusion</td>
+      <td>internal</td>
+      <td>breast cancer</td>
+      <td>circuits</td>
+      <td>adults</td>
+      <td>cycle</td>
+      <td>rheumatoid arthritis</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>conditions</td>
+      <td>events</td>
+      <td>health-related quality of life</td>
+      <td>social status</td>
+      <td>92</td>
+      <td>program</td>
+      <td>chronic</td>
+      <td>hong</td>
+      <td>analyze</td>
+      <td>MCTQ</td>
+      <td>BAS</td>
+      <td>piriform</td>
+      <td>papers</td>
+      <td>items</td>
+      <td>handgrip</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>covid-19 pandemic</td>
+      <td>syndrome</td>
+      <td>±</td>
+      <td>factor</td>
+      <td>groups</td>
+      <td>emotions</td>
+      <td>healthy</td>
+      <td>radiation</td>
+      <td>white</td>
+      <td>pregnant</td>
+      <td>IL-8</td>
+      <td>flu</td>
+      <td>systematic</td>
+      <td>international</td>
+      <td>expression</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>coronavirus</td>
+      <td>disorder</td>
+      <td>quality</td>
+      <td>BACKGROUND</td>
+      <td>VT</td>
+      <td>emotional responses</td>
+      <td>SEM</td>
+      <td>psychotropic</td>
+      <td>unverifiable</td>
+      <td>WAAQ</td>
+      <td>personnel</td>
+      <td>cluster</td>
+      <td>sources</td>
+      <td>canada</td>
+      <td>membrane</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>burden</td>
+      <td>healthcare</td>
+      <td>rehabilitation</td>
+      <td>trajectory</td>
+      <td>crisis</td>
+      <td>university</td>
+      <td>pittsburgh sleep quality index</td>
+      <td>ansan</td>
+      <td>agencies</td>
+      <td>cronbach</td>
+      <td>time</td>
+      <td>gene</td>
+      <td>partner</td>
+      <td>food</td>
+      <td>hemispheric</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>wellbeing</td>
+      <td>posttraumatic stress disorder</td>
+      <td>1</td>
+      <td>METHODS</td>
+      <td>statistically significant</td>
+      <td>control</td>
+      <td>AIS</td>
+      <td>danwon</td>
+      <td>willingness</td>
+      <td>consistency</td>
+      <td>health care providers</td>
+      <td>symptoms</td>
+      <td>abused</td>
+      <td>visual</td>
+      <td>na+–k+</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2020</td>
+      <td>infectious</td>
+      <td>performance</td>
+      <td>regression</td>
+      <td>nursing</td>
+      <td>behavioral</td>
+      <td>EEG</td>
+      <td>PLHIV</td>
+      <td>OA</td>
+      <td>valid</td>
+      <td>seropositivity</td>
+      <td>principle</td>
+      <td>arthroscopy</td>
+      <td>ASRM</td>
+      <td>immunity</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>PTSS</td>
+      <td>quarantine</td>
+      <td>test</td>
+      <td>analyses</td>
+      <td>corona</td>
+      <td>e.g.</td>
+      <td>central china</td>
+      <td>stigmatization</td>
+      <td>tweets</td>
+      <td>factorial</td>
+      <td>haze</td>
+      <td>disgust</td>
+      <td>intimate</td>
+      <td>USA</td>
+      <td>indexed</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>protective</td>
+      <td>symptom</td>
+      <td>physical</td>
+      <td>suicidality</td>
+      <td>improving</td>
+      <td>CSA</td>
+      <td>relaxation</td>
+      <td>community</td>
+      <td>knee</td>
+      <td>oral</td>
+      <td>celiac</td>
+      <td>innate</td>
+      <td>behaviors</td>
+      <td>tweets</td>
+      <td>c-fos</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>measures</td>
+      <td>β</td>
+      <td>ARDS</td>
+      <td>migrant</td>
+      <td>XTJYF</td>
+      <td>university students</td>
+      <td>RI</td>
+      <td>prevention</td>
+      <td>posts</td>
+      <td>BCTI</td>
+      <td>P<.05</td>
+      <td>IMMERS</td>
+      <td>order</td>
+      <td>loneliness</td>
+      <td>t c</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>covid-19 outbreak</td>
+      <td>posttraumatic</td>
+      <td>walk</td>
+      <td>2000</td>
+      <td>department</td>
+      <td>MBT</td>
+      <td>tasks</td>
+      <td>case</td>
+      <td>size</td>
+      <td>optimism/pessimism</td>
+      <td>viruses</td>
+      <td>urine/feces</td>
+      <td>system</td>
+      <td>languages</td>
+      <td>LC3-II/LC3-I</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>rate</td>
+      <td>patients</td>
+      <td>improvement</td>
+      <td>trajectories</td>
+      <td>general</td>
+      <td>CDSMP</td>
+      <td>PCL-5</td>
+      <td>risks</td>
+      <td>instagram</td>
+      <td>scores</td>
+      <td>injection</td>
+      <td>genome</td>
+      <td>systematic review</td>
+      <td>translation</td>
+      <td>atpase</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>individuals</td>
+      <td>unit</td>
+      <td>ICU</td>
+      <td>natural</td>
+      <td>score</td>
+      <td>results</td>
+      <td>alterations</td>
+      <td>kong</td>
+      <td>internet</td>
+      <td>correlation</td>
+      <td>time-points</td>
+      <td>contemporary</td>
+      <td>PEOU</td>
+      <td>experts</td>
+      <td>post-exercise</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>distress</td>
+      <td>traumatic</td>
+      <td>SARS</td>
+      <td>revealed</td>
+      <td>-</td>
+      <td>testing</td>
+      <td>china</td>
+      <td>hong kong</td>
+      <td>false</td>
+      <td>instrument</td>
+      <td>90</td>
+      <td>odor</td>
+      <td>debriefing</td>
+      <td>mortality</td>
+      <td>endogenous</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>care</td>
+      <td>hospital</td>
+      <td>hospital discharge</td>
+      <td>mediating</td>
+      <td>depression</td>
+      <td>emotion</td>
+      <td>infections</td>
+      <td>media</td>
+      <td>virality</td>
+      <td>correlated</td>
+      <td>bipolar</td>
+      <td>neuroevolutionary</td>
+      <td>CLS</td>
+      <td>mice</td>
+      <td>pathway</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>associated with</td>
+      <td>perceived</td>
+      <td>dlco</td>
+      <td>mechanisms</td>
+      <td>HAMD</td>
+      <td>test</td>
+      <td>illness</td>
+      <td>temporal</td>
+      <td>weibo</td>
+      <td>alpha</td>
+      <td>disorders</td>
+      <td>category</td>
+      <td>appraisal</td>
+      <td>URL</td>
+      <td>beclin-1</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>participants</td>
+      <td>acute</td>
+      <td>6MWD</td>
+      <td>natural disasters</td>
+      <td>vicarious</td>
+      <td>satisfaction</td>
+      <td>asymptomatic</td>
+      <td>sewol</td>
+      <td>MOS-SSS</td>
+      <td>WURSS</td>
+      <td>associations</td>
+      <td>circuitry</td>
+      <td>explain</td>
+      <td>mention</td>
+      <td>handgrip strength</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>physical</td>
+      <td>clinical</td>
+      <td>STS</td>
+      <td>flood</td>
+      <td>front-line</td>
+      <td>report</td>
+      <td>divided</td>
+      <td>accuracy</td>
+      <td>knee oa</td>
+      <td>scale</td>
+      <td>influenza</td>
+      <td>clusters</td>
+      <td>hallucinations</td>
+      <td>consists</td>
+      <td>elevated</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>professionals</td>
+      <td>ebola</td>
+      <td>2</td>
+      <td>HIV</td>
+      <td>general public</td>
+      <td>income</td>
+      <td>actigraphy</td>
+      <td>non-cb</td>
+      <td>friends/relatives</td>
+      <td>malaise</td>
+      <td>trauma</td>
+      <td>affective</td>
+      <td>large-scale</td>
+      <td>estimate</td>
+      <td>fragmented</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>hours</td>
+      <td>post-sars</td>
+      <td>significant</td>
+      <td>GHQ-12</td>
+      <td>psychological problems</td>
+      <td>hong</td>
+      <td>min</td>
+      <td>PA</td>
+      <td>citizen</td>
+      <td>TURBT</td>
+      <td>physical</td>
+      <td>sensitivity</td>
+      <td>databases</td>
+      <td>hashtags</td>
+      <td>ERK</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>vulnerable</td>
+      <td>confidence</td>
+      <td>pain interference</td>
+      <td>related</td>
+      <td>HAMA</td>
+      <td>kong</td>
+      <td>body mass</td>
+      <td>resettlement</td>
+      <td>race</td>
+      <td>factor analysis</td>
+      <td>recurrent</td>
+      <td>stabilizing</td>
+      <td>pooled</td>
+      <td>frequency</td>
+      <td>inhibition</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>selected</td>
+      <td>EVD</td>
+      <td>TLC</td>
+      <td>RESULTS</td>
+      <td>psychological crisis</td>
+      <td>individuals</td>
+      <td>latency</td>
+      <td>temporary</td>
+      <td>accuracy-oriented</td>
+      <td>NMIBC</td>
+      <td>coronaviruses</td>
+      <td>scientific</td>
+      <td>PU</td>
+      <td>people</td>
+      <td>silence</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>hospitals</td>
+      <td>depression</td>
+      <td>loaded</td>
+      <td>promote</td>
+      <td>CHD</td>
+      <td>predictor</td>
+      <td>objectively</td>
+      <td>experiences</td>
+      <td>%</td>
+      <td>dmft</td>
+      <td>vaccination</td>
+      <td>brain</td>
+      <td>post-traumatic stress disorder</td>
+      <td>clinical work</td>
+      <td>actively</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>general</td>
+      <td>east</td>
+      <td>cardiorespiratory</td>
+      <td>social risk factors</td>
+      <td>vicarious traumatization</td>
+      <td>genetic testing</td>
+      <td>psychomotor</td>
+      <td>rates</td>
+      <td>show</td>
+      <td>dental</td>
+      <td>insecurity</td>
+      <td>neurons</td>
+      <td>chinese</td>
+      <td>drinking</td>
+      <td>habitats</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>depression</td>
+      <td>outbreak</td>
+      <td>FVC</td>
+      <td>self-reported</td>
+      <td>traumatization</td>
+      <td>asthma</td>
+      <td>measurements</td>
+      <td>files</td>
+      <td>public</td>
+      <td>test-retest</td>
+      <td>6months</td>
+      <td>ssds</td>
+      <td>discussed</td>
+      <td>neural</td>
+      <td>adjmd</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>disease</td>
+      <td>adversity</td>
+      <td>interference</td>
+      <td>trust</td>
+      <td>medical personnel</td>
+      <td>abuse</td>
+      <td>GSI</td>
+      <td>variations</td>
+      <td>sentiment</td>
+      <td>solitary</td>
+      <td>dangerous</td>
+      <td>explanations</td>
+      <td>based</td>
+      <td>attaching</td>
+      <td>offspring</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>susceptible</td>
+      <td>infectious disease</td>
+      <td>syndrome</td>
+      <td>analysis</td>
+      <td>0.001</td>
+      <td>coping strategies</td>
+      <td>progressive</td>
+      <td>CAM</td>
+      <td>message</td>
+      <td>country</td>
+      <td>sick days</td>
+      <td>evolutionary</td>
+      <td>reduced</td>
+      <td>measure(s</td>
+      <td>expressions</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>anxiety symptoms</td>
+      <td>months</td>
+      <td>acute</td>
+      <td>confirmatory factor analysis</td>
+      <td>control</td>
+      <td>study</td>
+      <td>forests</td>
+      <td>service</td>
+      <td>refutation</td>
+      <td>clinic-based</td>
+      <td>motivational</td>
+      <td>overconsolidational</td>
+      <td>domestic violence</td>
+      <td>intervention(s</td>
+      <td>logged</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>results</td>
+      <td>respiratory</td>
+      <td>life</td>
+      <td>stressors</td>
+      <td>isolation</td>
+      <td>chinese</td>
+      <td>diary</td>
+      <td>substance</td>
+      <td>logistic regression models</td>
+      <td>pregnant women</td>
+      <td>cytokines</td>
+      <td>ensembles</td>
+      <td>TAM</td>
+      <td>systemic</td>
+      <td>sarcopenia</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>cities</td>
+      <td>post-traumatic stress symptoms</td>
+      <td>arthroplasty</td>
+      <td>structural equation modeling</td>
+      <td>mir-17</td>
+      <td>sample</td>
+      <td>2019</td>
+      <td>economic activity</td>
+      <td>pertaining</td>
+      <td>GCBS</td>
+      <td>strip</td>
+      <td>human</td>
+      <td>journal</td>
+      <td>agreed</td>
+      <td>autophagy</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>generalized</td>
+      <td>AOR</td>
+      <td>SGRQ</td>
+      <td>hurricane</td>
+      <td>non-front-line</td>
+      <td>emotional</td>
+      <td>history</td>
+      <td>resistance</td>
+      <td>unchanged</td>
+      <td>wisconsin</td>
+      <td>physicians</td>
+      <td>beliefs</td>
+      <td>abstracts</td>
+      <td>000</td>
+      <td>reduced</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>departments</td>
+      <td>scale-revised</td>
+      <td>6-minute</td>
+      <td>stds</td>
+      <td>front-line nurses</td>
+      <td>worry</td>
+      <td>subjects</td>
+      <td>evacuated</td>
+      <td>clinical practitioners</td>
+      <td>EORTC</td>
+      <td>preceding</td>
+      <td>'s</td>
+      <td>psychopathological</td>
+      <td>corpus</td>
+      <td>lunar</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>covid-19</td>
+      <td>relatives</td>
+      <td>monoxide</td>
+      <td>communities</td>
+      <td>emergency department</td>
+      <td>reported</td>
+      <td>anxiety</td>
+      <td>evacuation</td>
+      <td>disseminate</td>
+      <td>MID</td>
+      <td>bipolar disorder</td>
+      <td>behavioral</td>
+      <td>searches</td>
+      <td>job</td>
+      <td>tyrosine</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

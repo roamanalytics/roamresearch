@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 07</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>infectious</td>
+      <td>health</td>
+      <td>host</td>
+      <td>animals</td>
+      <td>virus</td>
+      <td>food</td>
+      <td>climate</td>
+      <td>poultry</td>
+      <td>care</td>
+      <td>ecosystems</td>
+      <td>%</td>
+      <td>vaccines</td>
+      <td>countries</td>
+      <td>biological</td>
+      <td>sequencing</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>diseases</td>
+      <td>risk</td>
+      <td>pathogen</td>
+      <td>wildlife</td>
+      <td>viruses</td>
+      <td>water</td>
+      <td>change</td>
+      <td>livestock</td>
+      <td>patients</td>
+      <td>biodiversity</td>
+      <td>-</td>
+      <td>vaccine</td>
+      <td>asia</td>
+      <td>bioterrorism</td>
+      <td>molecular</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>infectious diseases</td>
+      <td>public</td>
+      <td>disease</td>
+      <td>zoonotic</td>
+      <td>viral</td>
+      <td>foodborne</td>
+      <td>climate change</td>
+      <td>production</td>
+      <td>airborne</td>
+      <td>living</td>
+      <td>data</td>
+      <td>antibiotics</td>
+      <td>africa</td>
+      <td>biological agents</td>
+      <td>gastrointestinal</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>emerging</td>
+      <td>human</td>
+      <td>hosts</td>
+      <td>wild</td>
+      <td>west</td>
+      <td>food safety</td>
+      <td>vector-borne</td>
+      <td>animal</td>
+      <td>facilities</td>
+      <td>human</td>
+      <td>literature</td>
+      <td>vaccination</td>
+      <td>developing</td>
+      <td>agents</td>
+      <td>screening</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>infectious disease</td>
+      <td>animal</td>
+      <td>dynamics</td>
+      <td>humans</td>
+      <td>respiratory</td>
+      <td>safety</td>
+      <td>land</td>
+      <td>biosecurity</td>
+      <td>agents</td>
+      <td>transition</td>
+      <td>reported</td>
+      <td>viral diseases</td>
+      <td>neglected</td>
+      <td>warfare</td>
+      <td>diagnostic</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>disease</td>
+      <td>approach</td>
+      <td>factors</td>
+      <td>domestic</td>
+      <td>fever</td>
+      <td>waterborne</td>
+      <td>warming</td>
+      <td>swine</td>
+      <td>laboratory</td>
+      <td>impacts</td>
+      <td>idtes</td>
+      <td>smallpox</td>
+      <td>region</td>
+      <td>attack</td>
+      <td>PCR</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>control</td>
+      <td>assessment</td>
+      <td>transmission</td>
+      <td>species</td>
+      <td>influenza</td>
+      <td>viruses</td>
+      <td>urbanization</td>
+      <td>trade</td>
+      <td>exposed</td>
+      <td>invasions</td>
+      <td>online</td>
+      <td>antibiotic</td>
+      <td>developing countries</td>
+      <td>weapons</td>
+      <td>diagnosis</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>mortality</td>
+      <td>strategies</td>
+      <td>ecological</td>
+      <td>zoonoses</td>
+      <td>syndrome</td>
+      <td>contamination</td>
+      <td>vector-borne diseases</td>
+      <td>aquaculture</td>
+      <td>workers</td>
+      <td>invasive</td>
+      <td>systematic</td>
+      <td>immune system</td>
+      <td>million</td>
+      <td>toxins</td>
+      <td>nucleic</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>public</td>
+      <td>surveillance</td>
+      <td>models</td>
+      <td>zoonotic diseases</td>
+      <td>nile</td>
+      <td>contaminated</td>
+      <td>arboviruses</td>
+      <td>industry</td>
+      <td>infectious agents</td>
+      <td>degradation</td>
+      <td>participants</td>
+      <td>immune</td>
+      <td>tropical diseases</td>
+      <td>deliberate</td>
+      <td>gene</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>infections</td>
+      <td>global</td>
+      <td>EID</td>
+      <td>zoonotic pathogens</td>
+      <td>ebola</td>
+      <td>bacteria</td>
+      <td>temperature</td>
+      <td>avian</td>
+      <td>air</td>
+      <td>anthropology</td>
+      <td>vietnam</td>
+      <td>MVA</td>
+      <td>southeast asia</td>
+      <td>attacks</td>
+      <td>cryptosporidium</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>rapid</td>
+      <td>address</td>
+      <td>understanding</td>
+      <td>bats</td>
+      <td>human</td>
+      <td>fresh</td>
+      <td>environmental</td>
+      <td>OIE</td>
+      <td>personnel</td>
+      <td>biodiversity loss</td>
+      <td>criteria</td>
+      <td>viral</td>
+      <td>southeast</td>
+      <td>military</td>
+      <td>assays</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>china</td>
+      <td>veterinary</td>
+      <td>emergence</td>
+      <td>dogs</td>
+      <td>infections</td>
+      <td>food production</td>
+      <td>habitats</td>
+      <td>farming</td>
+      <td>patient</td>
+      <td>aquatic</td>
+      <td>online version</td>
+      <td>antiviral</td>
+      <td>camels</td>
+      <td>release</td>
+      <td>viral infection</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>outbreaks</td>
+      <td>zoonotic</td>
+      <td>pathogens</td>
+      <td>domestic animals</td>
+      <td>coronavirus</td>
+      <td>pathogens</td>
+      <td>effects</td>
+      <td>herd</td>
+      <td>exposure</td>
+      <td>ecosystem</td>
+      <td>version</td>
+      <td>treatment</td>
+      <td>camel</td>
+      <td>anthrax</td>
+      <td>therapeutic</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>morbidity</td>
+      <td>risks</td>
+      <td>ecology</td>
+      <td>wild animals</td>
+      <td>transfusion</td>
+      <td>processing</td>
+      <td>growth</td>
+      <td>losses</td>
+      <td>hospital</td>
+      <td>IAPS</td>
+      <td>authorized</td>
+      <td>controlled</td>
+      <td>tropical</td>
+      <td>intentional</td>
+      <td>fungal</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>decades</td>
+      <td>systems</td>
+      <td>patterns</td>
+      <td>human</td>
+      <td>west nile virus</td>
+      <td>coli</td>
+      <td>agricultural</td>
+      <td>cattle</td>
+      <td>occupational</td>
+      <td>conservation medicine</td>
+      <td>SUPPLEMENTARY</td>
+      <td>engineered</td>
+      <td>egypt</td>
+      <td>agent</td>
+      <td>humanity</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>public health</td>
+      <td>collaboration</td>
+      <td>interactions</td>
+      <td>pets</td>
+      <td>viral infections</td>
+      <td>salmonella</td>
+      <td>transport</td>
+      <td>animals</td>
+      <td>hazards</td>
+      <td>earth</td>
+      <td>supplementary</td>
+      <td>therapy</td>
+      <td>regions</td>
+      <td>biodefense</td>
+      <td>cryptosporidiosis</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>global</td>
+      <td>medicine</td>
+      <td>evidence</td>
+      <td>pathogens</td>
+      <td>blood</td>
+      <td>soil</td>
+      <td>disasters</td>
+      <td>movement</td>
+      <td>exposed to</td>
+      <td>species</td>
+      <td>users</td>
+      <td>war</td>
+      <td>ntds</td>
+      <td>states</td>
+      <td>high-throughput</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>major</td>
+      <td>resources</td>
+      <td>spatial</td>
+      <td>bushmeat</td>
+      <td>zika</td>
+      <td>drinking water</td>
+      <td>population</td>
+      <td>farms</td>
+      <td>infection</td>
+      <td>transitions</td>
+      <td>identify</td>
+      <td>antibiotic resistance</td>
+      <td>endemic</td>
+      <td>united</td>
+      <td>EOPM</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>travel</td>
+      <td>critical</td>
+      <td>evolutionary</td>
+      <td>bat</td>
+      <td>hepatitis</td>
+      <td>methods</td>
+      <td>weather</td>
+      <td>HPAI</td>
+      <td>mice</td>
+      <td>life</td>
+      <td>conducted</td>
+      <td>recombinant</td>
+      <td>children</td>
+      <td>toxin</td>
+      <td>pathogenesis</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>recent</td>
+      <td>policies</td>
+      <td>eids</td>
+      <td>transmission</td>
+      <td>emerging</td>
+      <td>indicators</td>
+      <td>travel</td>
+      <td>shrimp</td>
+      <td>reviews</td>
+      <td>conservation</td>
+      <td>RESULTS</td>
+      <td>polio</td>
+      <td>poor</td>
+      <td>collections</td>
+      <td>giardia</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>world</td>
+      <td>policy</td>
+      <td>determinants</td>
+      <td>populations</td>
+      <td>SARS</td>
+      <td>surface</td>
+      <td>america</td>
+      <td>welfare</td>
+      <td>facility</td>
+      <td>microbes</td>
+      <td>BACKGROUND</td>
+      <td>advantages</td>
+      <td>saudi arabia</td>
+      <td>2001</td>
+      <td>nucleic acid</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>reemerging</td>
+      <td>provide</td>
+      <td>parasite</td>
+      <td>spillover</td>
+      <td>immunodeficiency</td>
+      <td>produce</td>
+      <td>vectors</td>
+      <td>breeding</td>
+      <td>primary</td>
+      <td>cultural</td>
+      <td>study</td>
+      <td>promising</td>
+      <td>arabia</td>
+      <td>bioterrorist</td>
+      <td>applications</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>newly</td>
+      <td>disease</td>
+      <td>parasites</td>
+      <td>contact</td>
+      <td>pandemic</td>
+      <td>fecal</td>
+      <td>north america</td>
+      <td>husbandry</td>
+      <td>procedures</td>
+      <td>hygiene</td>
+      <td>results</td>
+      <td>mankind</td>
+      <td>saudi</td>
+      <td>united states</td>
+      <td>strains</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>health</td>
+      <td>needed</td>
+      <td>biology</td>
+      <td>pet</td>
+      <td>nipah</td>
+      <td>organic</td>
+      <td>vector</td>
+      <td>products</td>
+      <td>healthcare</td>
+      <td>plants</td>
+      <td>MATERIAL</td>
+      <td>successful</td>
+      <td>generate</td>
+      <td>panic</td>
+      <td>genetic variation</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>caused</td>
+      <td>work</td>
+      <td>mathematical</td>
+      <td>cats</td>
+      <td>avian</td>
+      <td>foods</td>
+      <td>air</td>
+      <td>transboundary</td>
+      <td>biosafety</td>
+      <td>’s</td>
+      <td>travellers</td>
+      <td>probiotics</td>
+      <td>low-income</td>
+      <td>countermeasures</td>
+      <td>platforms</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>resistance</td>
+      <td>security</td>
+      <td>diversity</td>
+      <td>family</td>
+      <td>hemorrhagic</td>
+      <td>production</td>
+      <td>water</td>
+      <td>producers</td>
+      <td>surfaces</td>
+      <td>contemporary</td>
+      <td>=</td>
+      <td>delivery</td>
+      <td>nzds</td>
+      <td>terrorists</td>
+      <td>accurate</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>worldwide</td>
+      <td>zoonoses</td>
+      <td>processes</td>
+      <td>zoonotic infections</td>
+      <td>acute</td>
+      <td>pathogenic</td>
+      <td>global warming</td>
+      <td>movements</td>
+      <td>materials</td>
+      <td>health effects</td>
+      <td>ELECTRONIC</td>
+      <td>eradication</td>
+      <td>representing</td>
+      <td>technical</td>
+      <td>GI</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>development</td>
+      <td>focus</td>
+      <td>modeling</td>
+      <td>exotic</td>
+      <td>HIV</td>
+      <td>wastewater</td>
+      <td>north</td>
+      <td>salmonellosis</td>
+      <td>aircraft</td>
+      <td>biological invasions</td>
+      <td>exposures</td>
+      <td>ocular</td>
+      <td>livelihoods</td>
+      <td>regulations</td>
+      <td>tests</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>international</td>
+      <td>research</td>
+      <td>barriers</td>
+      <td>animal</td>
+      <td>plague</td>
+      <td>enteric</td>
+      <td>increased</td>
+      <td>transgenic</td>
+      <td>exposure to</td>
+      <td>medical anthropology</td>
+      <td>prioritize</td>
+      <td>bacterial infections</td>
+      <td>live</td>
+      <td>incidents</td>
+      <td>pathology</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>challenges</td>
+      <td>animal health</td>
+      <td>hotspots</td>
+      <td>diseases</td>
+      <td>monkeypox</td>
+      <td>drinking</td>
+      <td>canada</td>
+      <td>modified</td>
+      <td>providers</td>
+      <td>urban areas</td>
+      <td>europe</td>
+      <td>immunisation</td>
+      <td>world</td>
+      <td>terrorism</td>
+      <td>cells</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>pathogens</td>
+      <td>threats</td>
+      <td>underlying</td>
+      <td>domesticated</td>
+      <td>transmitted</td>
+      <td>chapter</td>
+      <td>conditions</td>
+      <td>food</td>
+      <td>waste</td>
+      <td>process</td>
+      <td>rural</td>
+      <td>cellular</td>
+      <td>developing world</td>
+      <td>weapon</td>
+      <td>availability</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>communicable</td>
+      <td>environmental</td>
+      <td>behavioral</td>
+      <td>vertebrate</td>
+      <td>severe</td>
+      <td>foodborne diseases</td>
+      <td>projected</td>
+      <td>feed</td>
+      <td>cleaning</td>
+      <td>medical</td>
+      <td>surveillance</td>
+      <td>antimicrobial agents</td>
+      <td>east</td>
+      <td>biological attack</td>
+      <td>genomic</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>pandemics</td>
+      <td>risk assessment</td>
+      <td>key</td>
+      <td>potential</td>
+      <td>encephalitis</td>
+      <td>escherichia</td>
+      <td>precipitation</td>
+      <td>fish</td>
+      <td>laboratory workers</td>
+      <td>health</td>
+      <td>internet</td>
+      <td>protection</td>
+      <td>dromedary</td>
+      <td>BW</td>
+      <td>parasitic</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>significant</td>
+      <td>challenges</td>
+      <td>infectious disease</td>
+      <td>companion</td>
+      <td>virus diseases</td>
+      <td>transmitted</td>
+      <td>climatic</td>
+      <td>efficiency</td>
+      <td>decontamination</td>
+      <td>allergic</td>
+      <td>METHODS</td>
+      <td>antimicrobial</td>
+      <td>burden</td>
+      <td>civilian</td>
+      <td>clinical</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>progress</td>
+      <td>public health</td>
+      <td>approaches</td>
+      <td>primates</td>
+      <td>years</td>
+      <td>bacterial</td>
+      <td>speed</td>
+      <td>porcine</td>
+      <td>indoor</td>
+      <td>forced</td>
+      <td>households</td>
+      <td>effective</td>
+      <td>middle east</td>
+      <td>biological weapons</td>
+      <td>sequences</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>special</td>
+      <td>tool</td>
+      <td>theoretical</td>
+      <td>free-ranging</td>
+      <td>RNA</td>
+      <td>campylobacter</td>
+      <td>arthropod-borne</td>
+      <td>herds</td>
+      <td>ABSL-3</td>
+      <td>restoration</td>
+      <td>fuzzy</td>
+      <td>century</td>
+      <td>high-income</td>
+      <td>terrorist</td>
+      <td>rotavirus</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>threats</td>
+      <td>interdisciplinary</td>
+      <td>infectious</td>
+      <td>%</td>
+      <td>valley</td>
+      <td>manure</td>
+      <td>la</td>
+      <td>crop</td>
+      <td>biological hazards</td>
+      <td>non-indigenous</td>
+      <td>compared</td>
+      <td>system</td>
+      <td>resolution</td>
+      <td>biological agent</td>
+      <td>data</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>prevention</td>
+      <td>impact</td>
+      <td>predicting</td>
+      <td>captive</td>
+      <td>outbreaks</td>
+      <td>quality</td>
+      <td>tropics</td>
+      <td>agricultural</td>
+      <td>donor</td>
+      <td>non-indigenous species</td>
+      <td>analysis</td>
+      <td>rinderpest</td>
+      <td>middle-income</td>
+      <td>forensics</td>
+      <td>diagnosing</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>chronic</td>
+      <td>development</td>
+      <td>poorly</td>
+      <td>wildlife trade</td>
+      <td>recent</td>
+      <td>norovirus</td>
+      <td>crosse</td>
+      <td>diarrhea</td>
+      <td>difficulties</td>
+      <td>loss</td>
+      <td>VFR</td>
+      <td>20th</td>
+      <td>pilgrims</td>
+      <td>dual-use</td>
+      <td>cryptococcosis</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>unique</td>
+      <td>antimicrobial resistance</td>
+      <td>species</td>
+      <td>NHP</td>
+      <td>HEV</td>
+      <td>hepatitis a virus</td>
+      <td>R(0</td>
+      <td>introduction</td>
+      <td>transmission</td>
+      <td>effects</td>
+      <td>CI</td>
+      <td>II</td>
+      <td>turkey</td>
+      <td>les</td>
+      <td>polymicrobial</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>population</td>
+      <td>prevention</td>
+      <td>emerging</td>
+      <td>trade</td>
+      <td>middle east respiratory syndrome</td>
+      <td>HAV</td>
+      <td>increase</td>
+      <td>spread</td>
+      <td>medical</td>
+      <td>history</td>
+      <td>95</td>
+      <td>candidates</td>
+      <td>high-income countries</td>
+      <td>bioterrorist attacks</td>
+      <td>glycoproteins</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>contributed</td>
+      <td>communication</td>
+      <td>prediction</td>
+      <td>hunting</td>
+      <td>influenza viruses</td>
+      <td>sources</td>
+      <td>emergence</td>
+      <td>usage</td>
+      <td>management</td>
+      <td>living systems</td>
+      <td>drivers</td>
+      <td>probiotic</td>
+      <td>middle-income countries</td>
+      <td>microbial</td>
+      <td>yeast</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>2003</td>
+      <td>quantitative</td>
+      <td>disease dynamics</td>
+      <td>zoonotic transmission</td>
+      <td>coronaviruses</td>
+      <td>illness</td>
+      <td>temperatures</td>
+      <td>flock</td>
+      <td>HCP</td>
+      <td>epidemiologic transition theory</td>
+      <td>included</td>
+      <td>bacterial</td>
+      <td>peninsula</td>
+      <td>political</td>
+      <td>inhibitors</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>urgent</td>
+      <td>sciences</td>
+      <td>interfaces</td>
+      <td>companion animals</td>
+      <td>flu</td>
+      <td>NLV</td>
+      <td>natural disasters</td>
+      <td>biosecurity measures</td>
+      <td>bioaerosols</td>
+      <td>remote</td>
+      <td>papers</td>
+      <td>trials</td>
+      <td>spp</td>
+      <td>biological attacks</td>
+      <td>difficile</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>improvements</td>
+      <td>control</td>
+      <td>populations</td>
+      <td>livestock</td>
+      <td>agents</td>
+      <td>enteric viruses</td>
+      <td>agricultural practices</td>
+      <td>galápagos</td>
+      <td>irradiation</td>
+      <td>epidemiological transition</td>
+      <td>regression</td>
+      <td>licensed</td>
+      <td>ncds</td>
+      <td>nuclear</td>
+      <td>polymerase</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>spread</td>
+      <td>crisis</td>
+      <td>ecological factors</td>
+      <td>hendra</td>
+      <td>zika virus</td>
+      <td>microorganisms</td>
+      <td>tick-borne</td>
+      <td>animal protein</td>
+      <td>dust</td>
+      <td>limits</td>
+      <td>correlations</td>
+      <td>antiviral drugs</td>
+      <td>hajj</td>
+      <td>target/population</td>
+      <td>big data</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>emergency</td>
+      <td>holistic</td>
+      <td>disease ecology</td>
+      <td>caused</td>
+      <td>fevers</td>
+      <td>food chain</td>
+      <td>mosquito</td>
+      <td>weaning</td>
+      <td>chemicals</td>
+      <td>incurred</td>
+      <td>drainage</td>
+      <td>alternatives</td>
+      <td>schistosomiasis</td>
+      <td>perpetrators</td>
+      <td>infection</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>research</td>
+      <td>targeted</td>
+      <td>empirical</td>
+      <td>viral zoonoses</td>
+      <td>blood safety</td>
+      <td>storage</td>
+      <td>aedes</td>
+      <td>growth</td>
+      <td>colony</td>
+      <td>aquatic ecosystems</td>
+      <td>logic</td>
+      <td>cell</td>
+      <td>syrian</td>
+      <td>agent/pathogen</td>
+      <td>diagnostics</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>mass</td>
+      <td>enhance</td>
+      <td>mathematical models</td>
+      <td>health</td>
+      <td>marburg</td>
+      <td>stormwater</td>
+      <td>water-borne diseases</td>
+      <td>foot</td>
+      <td>inhalation</td>
+      <td>agency</td>
+      <td>interviews</td>
+      <td>phytochemicals</td>
+      <td>areas</td>
+      <td>civilian populations</td>
+      <td>blood/plasma-derived</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>including</td>
+      <td>animals</td>
+      <td>human</td>
+      <td>harbor</td>
+      <td>COVID-19</td>
+      <td>escherichia coli</td>
+      <td>global</td>
+      <td>mouth</td>
+      <td>rat</td>
+      <td>environmental</td>
+      <td>cattle</td>
+      <td>antigen</td>
+      <td>migration</td>
+      <td>agroterrorism</td>
+      <td>loss of life</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

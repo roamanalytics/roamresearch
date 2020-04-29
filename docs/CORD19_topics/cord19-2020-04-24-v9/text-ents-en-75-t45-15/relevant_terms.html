@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 45</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>antibiotics</td>
+      <td>CAP</td>
+      <td>ABRS</td>
+      <td>AOM</td>
+      <td>isolates</td>
+      <td>aeruginosa</td>
+      <td>activity</td>
+      <td>microbiota</td>
+      <td>incidence</td>
+      <td>pharyngitis</td>
+      <td>aureus</td>
+      <td>typhimurium</td>
+      <td>pneumonia</td>
+      <td>A.</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>pneumoniae</td>
+      <td>infections</td>
+      <td>community-acquired</td>
+      <td>therapy</td>
+      <td>otitis</td>
+      <td>NDM-1</td>
+      <td>pseudomonas</td>
+      <td>strains</td>
+      <td>commensal</td>
+      <td>consumption</td>
+      <td>acute pharyngitis</td>
+      <td>S.</td>
+      <td>cells</td>
+      <td>patients</td>
+      <td>baumannii</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>bacterial</td>
+      <td>antibiotic</td>
+      <td>legionella</td>
+      <td>amoxicillin</td>
+      <td>media</td>
+      <td>gene</td>
+      <td>pseudomonas aeruginosa</td>
+      <td>coli</td>
+      <td>NP</td>
+      <td>patient-days</td>
+      <td>case</td>
+      <td>s. aureus</td>
+      <td>albicans</td>
+      <td>HAP</td>
+      <td>a. baumannii</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>respiratory</td>
+      <td>antimicrobial</td>
+      <td>pneumonia</td>
+      <td>sinus</td>
+      <td>ear</td>
+      <td>M.</td>
+      <td>gram-negative</td>
+      <td>E.</td>
+      <td>colonization</td>
+      <td>UAT</td>
+      <td>periodontal</td>
+      <td>food</td>
+      <td>protein</td>
+      <td>cultures</td>
+      <td>MDR</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>viruses</td>
+      <td>resistance</td>
+      <td>atypical</td>
+      <td>antibiotic</td>
+      <td>middle</td>
+      <td>TB</td>
+      <td>K.</td>
+      <td>e. coli</td>
+      <td>microbiome</td>
+      <td>taiwan</td>
+      <td>GAS</td>
+      <td>humans</td>
+      <td>χ3987</td>
+      <td>blood</td>
+      <td>CRS</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>influenzae</td>
+      <td>recent</td>
+      <td>community-acquired pneumonia</td>
+      <td>high-dose</td>
+      <td>OME</td>
+      <td>dispar</td>
+      <td>spp</td>
+      <td>bactericidal</td>
+      <td>microbe</td>
+      <td>carbapenems</td>
+      <td>gulae</td>
+      <td>hajj</td>
+      <td>in vitro</td>
+      <td>NHAP</td>
+      <td>CI</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>s. pneumoniae</td>
+      <td>management</td>
+      <td>pneumoniae</td>
+      <td>duration</td>
+      <td>acute otitis media</td>
+      <td>assay</td>
+      <td>organisms</td>
+      <td>MIC</td>
+      <td>URT</td>
+      <td>2003</td>
+      <td>sore</td>
+      <td>cons</td>
+      <td>candida</td>
+      <td>bali</td>
+      <td>gowns</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>detected</td>
+      <td>agents</td>
+      <td>m. pneumoniae</td>
+      <td>antibiotic therapy</td>
+      <td>otitis media</td>
+      <td>diffusion</td>
+      <td>surfaces</td>
+      <td>concentration</td>
+      <td>abundance</td>
+      <td>decreased</td>
+      <td>report</td>
+      <td>pilgrims</td>
+      <td>surface</td>
+      <td>single</td>
+      <td>aor</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>viral</td>
+      <td>effective</td>
+      <td>mycoplasma pneumoniae</td>
+      <td>days</td>
+      <td>acute</td>
+      <td>m. dispar</td>
+      <td>coli</td>
+      <td>inhibitory</td>
+      <td>16S</td>
+      <td>%</td>
+      <td>GABHS</td>
+      <td>shigella</td>
+      <td>vitro</td>
+      <td>pleural</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>PCR</td>
+      <td>include</td>
+      <td>chlamydia</td>
+      <td>day</td>
+      <td>middle ear</td>
+      <td>resistance</td>
+      <td>acinetobacter</td>
+      <td>salmonella</td>
+      <td>healthy</td>
+      <td>PCV13</td>
+      <td>acute</td>
+      <td>mupirocin</td>
+      <td>virulence</td>
+      <td>mros</td>
+      <td>hands</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>children</td>
+      <td>common</td>
+      <td>mycoplasma</td>
+      <td>treatment</td>
+      <td>OM</td>
+      <td>clonal</td>
+      <td>nosocomial</td>
+      <td>minimum</td>
+      <td>corynebacterium</td>
+      <td>hospital</td>
+      <td>throat</td>
+      <td>flexneri</td>
+      <td>avium</td>
+      <td>anaerobic</td>
+      <td>gloves</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>pathogens</td>
+      <td>therapy</td>
+      <td>sputum</td>
+      <td>amoxicillin/clavulanate</td>
+      <td>tube</td>
+      <td>somnus</td>
+      <td>methicillin-resistant</td>
+      <td>salmonella spp</td>
+      <td>Y.</td>
+      <td>ASP</td>
+      <td>streptococcal</td>
+      <td>rtis</td>
+      <td>subsp</td>
+      <td>aetiology</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>catarrhalis</td>
+      <td>important</td>
+      <td>severe</td>
+      <td>failure</td>
+      <td>otopathogens</td>
+      <td>mtp</td>
+      <td>p. aeruginosa</td>
+      <td>antimicrobial activity</td>
+      <td>commensal bacteria</td>
+      <td>2010</td>
+      <td>dogs</td>
+      <td>methicillin-resistant s. aureus</td>
+      <td>sal-06mab</td>
+      <td>HCAP</td>
+      <td>en</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>streptococcus</td>
+      <td>clinical</td>
+      <td>pneumophila</td>
+      <td>weeks</td>
+      <td>children</td>
+      <td>respocheck</td>
+      <td>handles</td>
+      <td>inhibition</td>
+      <td>communities</td>
+      <td>annual</td>
+      <td>typically</td>
+      <td>carriage</td>
+      <td>cmpa</td>
+      <td>aspirate</td>
+      <td>HCW</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>bacteria</td>
+      <td>article</td>
+      <td>diagnosis</td>
+      <td>β-lactams</td>
+      <td>effusion</td>
+      <td>h. somnus</td>
+      <td>enterococcus</td>
+      <td>isolated</td>
+      <td>pestis</td>
+      <td>significantly</td>
+      <td>periodontal disease</td>
+      <td>schweitzeri</td>
+      <td>pyats-1</td>
+      <td>NPA</td>
+      <td>h. influenza</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>virus</td>
+      <td>studies</td>
+      <td>empirical</td>
+      <td>antibiotic treatment</td>
+      <td>recurrent</td>
+      <td>disc diffusion</td>
+      <td>klebsiella</td>
+      <td>colistin</td>
+      <td>profiles</td>
+      <td>MRSA</td>
+      <td>peritonsillar abscess</td>
+      <td>wound infections</td>
+      <td>adhesins</td>
+      <td>aps</td>
+      <td>hcws</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>culture</td>
+      <td>major</td>
+      <td>typical</td>
+      <td>initial</td>
+      <td>nasopharyngeal</td>
+      <td>disc</td>
+      <td>escherichia coli</td>
+      <td>GR-SU</td>
+      <td>diversity</td>
+      <td>vs.</td>
+      <td>necrophorum</td>
+      <td>beijing</td>
+      <td>growth</td>
+      <td>pleural fluid</td>
+      <td>minutes</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>found</td>
+      <td>diseases</td>
+      <td>early</td>
+      <td>4</td>
+      <td>eustachian</td>
+      <td>triplex</td>
+      <td>multi-resistant</td>
+      <td>tested</td>
+      <td>genera</td>
+      <td>era</td>
+      <td>formulation</td>
+      <td>staphylococcus</td>
+      <td>cell</td>
+      <td>etiology</td>
+      <td>ARS</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>H.</td>
+      <td>current</td>
+      <td>cases</td>
+      <td>recommended</td>
+      <td>eustachian tube</td>
+      <td>integrons</td>
+      <td>exhaled</td>
+      <td>GRA</td>
+      <td>controls</td>
+      <td>trends</td>
+      <td>p. gulae</td>
+      <td>colonizing</td>
+      <td>tissue</td>
+      <td>community‐acquired</td>
+      <td>AMC/DCBA</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>influenza</td>
+      <td>drugs</td>
+      <td>chlamydia pneumoniae</td>
+      <td>high-dose amoxicillin</td>
+      <td>microbial</td>
+      <td>bovis</td>
+      <td>laryngoscope</td>
+      <td>IASOS</td>
+      <td>mucosal</td>
+      <td>extended-spectrum</td>
+      <td>peritonsillar</td>
+      <td>helvum</td>
+      <td>mice</td>
+      <td>community‐acquired pneumonia</td>
+      <td>fungi</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>haemophilus</td>
+      <td>review</td>
+      <td>mixed</td>
+      <td>mg</td>
+      <td>pathogenesis</td>
+      <td>camels</td>
+      <td>protocol</td>
+      <td>mg/l</td>
+      <td>nasopharyngeal microbiota</td>
+      <td>s. marcescens</td>
+      <td>hoylei</td>
+      <td>MAP27</td>
+      <td>paratuberculosis</td>
+      <td>radiologically</td>
+      <td>lozenges</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>=</td>
+      <td>bacterial pneumonia</td>
+      <td>patients</td>
+      <td>efficacy</td>
+      <td>hearing</td>
+      <td>sonnei</td>
+      <td>ventilator-associated</td>
+      <td>phylogroup</td>
+      <td>gut</td>
+      <td>mm−3</td>
+      <td>authors</td>
+      <td>requirement</td>
+      <td>receptors</td>
+      <td>april</td>
+      <td>tratamiento</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>h. influenzae</td>
+      <td>oral</td>
+      <td>pneumonias</td>
+      <td>coverage</td>
+      <td>middle ear fluid</td>
+      <td>bovirhinis</td>
+      <td>escherichia</td>
+      <td>exhibited</td>
+      <td>dolosigranulum</td>
+      <td>cephalosporins</td>
+      <td>abscess</td>
+      <td>hajj pilgrims</td>
+      <td>mab</td>
+      <td>MRPA</td>
+      <td>antiseptic</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>S.</td>
+      <td>local</td>
+      <td>M.</td>
+      <td>adults</td>
+      <td>tympanostomy</td>
+      <td>m. bovirhinis</td>
+      <td>patients</td>
+      <td>probiotics</td>
+      <td>asthma</td>
+      <td>introduction</td>
+      <td>previously</td>
+      <td>subtype</td>
+      <td>SM21</td>
+      <td>asp</td>
+      <td>easily</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>results</td>
+      <td>antibiotic resistance</td>
+      <td>pathogen</td>
+      <td>fluoroquinolones</td>
+      <td>raom</td>
+      <td>oprd</td>
+      <td>transmission</td>
+      <td>compounds</td>
+      <td>rrna</td>
+      <td>increased</td>
+      <td>sore throat</td>
+      <td>foodborne</td>
+      <td>C.</td>
+      <td>PPE/PE</td>
+      <td>la</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>detection</td>
+      <td>spectrum</td>
+      <td>legionella pneumophila</td>
+      <td>received</td>
+      <td>URI</td>
+      <td>mef(a</td>
+      <td>persist</td>
+      <td>resveratrol</td>
+      <td>asymptomatic</td>
+      <td>marcescens</td>
+      <td>physician</td>
+      <td>acquisition</td>
+      <td>strain</td>
+      <td>serology</td>
+      <td>cfus</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>samples</td>
+      <td>wide</td>
+      <td>extrapulmonary</td>
+      <td>clinicians</td>
+      <td>sinusitis</td>
+      <td>class</td>
+      <td>enterococci</td>
+      <td>cefoxitin</td>
+      <td>aris</td>
+      <td>recovered</td>
+      <td>tonsillectomy</td>
+      <td>wound</td>
+      <td>human</td>
+      <td>recorded</td>
+      <td>por</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>streptococcus pneumoniae</td>
+      <td>health</td>
+      <td>factors</td>
+      <td>made</td>
+      <td>adenoid</td>
+      <td>s. sonnei</td>
+      <td>screening</td>
+      <td>effect</td>
+      <td>commensals</td>
+      <td>HA-MRSA</td>
+      <td>P.</td>
+      <td>animals</td>
+      <td>s. typhimurium χ3987</td>
+      <td>criteria</td>
+      <td>lozenge</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>infections</td>
+      <td>morbidity</td>
+      <td>m. pneumoniae infection</td>
+      <td>disease</td>
+      <td>acute otitis</td>
+      <td>analysis</td>
+      <td>COPD</td>
+      <td>biofilms</td>
+      <td>yersinia</td>
+      <td>HCAI</td>
+      <td>urinary tract infection</td>
+      <td>colonized</td>
+      <td>vivo</td>
+      <td>ICU</td>
+      <td>es</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>respiratory viruses</td>
+      <td>mechanisms</td>
+      <td>countries</td>
+      <td>mg/kg</td>
+      <td>nasopharynx</td>
+      <td>genes</td>
+      <td>breath</td>
+      <td>nalidixic</td>
+      <td>interactions</td>
+      <td>correlations</td>
+      <td>f. necrophorum</td>
+      <td>contamination</td>
+      <td>clfa</td>
+      <td>confirmed</td>
+      <td>and/or</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>methods</td>
+      <td>worldwide</td>
+      <td>fever</td>
+      <td>switch</td>
+      <td>hearing loss</td>
+      <td>dominant</td>
+      <td>nosocomial infections</td>
+      <td>ATCC</td>
+      <td>core</td>
+      <td>1991</td>
+      <td>acnes</td>
+      <td>coagulase-negative</td>
+      <td>m. avium subsp</td>
+      <td>sepsis</td>
+      <td>penicillium</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>fluid</td>
+      <td>leading</td>
+      <td>pathogens</td>
+      <td>rifampin</td>
+      <td>otopathogen</td>
+      <td>tuberculosis</td>
+      <td>survive</td>
+      <td>pigs</td>
+      <td>disrupted</td>
+      <td>glycopeptides</td>
+      <td>sera</td>
+      <td>participants</td>
+      <td>in vivo</td>
+      <td>AP</td>
+      <td>otolaryngol</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>RESULTS</td>
+      <td>streptococcus pneumoniae</td>
+      <td>hospitalized</td>
+      <td>cefdinir</td>
+      <td>middle ear effusion</td>
+      <td>performed</td>
+      <td>gram-positive</td>
+      <td>bactericidal activity</td>
+      <td>phyla</td>
+      <td>HCAI-MRSA</td>
+      <td>J.</td>
+      <td>methicillin-resistant</td>
+      <td>antifungal</td>
+      <td>molecular testing</td>
+      <td>clínico</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>study</td>
+      <td>prescribing</td>
+      <td>macrolides</td>
+      <td>rhinosinusitis</td>
+      <td>tympanic</td>
+      <td>FQ</td>
+      <td>P.</td>
+      <td>ag(+</td>
+      <td>dysbiosis</td>
+      <td>dongguan</td>
+      <td>metalworking</td>
+      <td>arr</td>
+      <td>binding</td>
+      <td>RPH</td>
+      <td>patient care</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>vaccine</td>
+      <td>developing</td>
+      <td>CRP</td>
+      <td>penicillin</td>
+      <td>polymicrobial</td>
+      <td>jiangsu</td>
+      <td>including</td>
+      <td>antimicrobial</td>
+      <td>pyrosequencing</td>
+      <td>city</td>
+      <td>ifn-α</td>
+      <td>e. helvum</td>
+      <td>immunity</td>
+      <td>residents</td>
+      <td>URTI</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>METHODS</td>
+      <td>treatment</td>
+      <td>mixed infections</td>
+      <td>combination therapy</td>
+      <td>dysfunction</td>
+      <td>m. bovis</td>
+      <td>episodes</td>
+      <td>acid</td>
+      <td>pseudotuberculosis</td>
+      <td>teicoplanin</td>
+      <td>man</td>
+      <td>close</td>
+      <td>expressing</td>
+      <td>pseudomallei</td>
+      <td>artificial</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>m. catarrhalis</td>
+      <td>bronchitis</td>
+      <td>l. pneumophila</td>
+      <td>alternative</td>
+      <td>age</td>
+      <td>m. tuberculosis</td>
+      <td>klebsiella pneumoniae</td>
+      <td>bacteriostatic</td>
+      <td>spring</td>
+      <td>daptomycin</td>
+      <td>UTI</td>
+      <td>saudi</td>
+      <td>fragment</td>
+      <td>melioidosis</td>
+      <td>haemolyticum</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>polymerase</td>
+      <td>understanding</td>
+      <td>c. pneumoniae</td>
+      <td>gatifloxacin</td>
+      <td>viruses</td>
+      <td>arginini</td>
+      <td>MRSA</td>
+      <td>CFSM</td>
+      <td>low-density</td>
+      <td>hospitals</td>
+      <td>F.</td>
+      <td>argenteus</td>
+      <td>TGEV</td>
+      <td>yield</td>
+      <td>hand hygiene</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>serotypes</td>
+      <td>united states</td>
+      <td>diagnostic</td>
+      <td>proxetil</td>
+      <td>adenoidectomy</td>
+      <td>somni</td>
+      <td>ventilator-associated pneumonia</td>
+      <td>agar</td>
+      <td>y. pestis</td>
+      <td>nosocomial</td>
+      <td>graft</td>
+      <td>risks</td>
+      <td>marneffei</td>
+      <td>burkholderia</td>
+      <td>non‐crs</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>pyogenes</td>
+      <td>physicians</td>
+      <td>investigations</td>
+      <td>cefpodoxime</td>
+      <td>non-aom</td>
+      <td>streptomycin</td>
+      <td>plants</td>
+      <td>fructus</td>
+      <td>probiotic</td>
+      <td>IPD</td>
+      <td>function</td>
+      <td>saudi arabia</td>
+      <td>recombinant</td>
+      <td>contributing</td>
+      <td>lo</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>conclusions</td>
+      <td>pneumonia</td>
+      <td>PCT</td>
+      <td>loracarbef</td>
+      <td>acute bacterial sinusitis</td>
+      <td>non-tuberculous mycobacteria</td>
+      <td>disinfection</td>
+      <td>synergistic</td>
+      <td>LPS</td>
+      <td>isolates</td>
+      <td>penicillin</td>
+      <td>co-colonized</td>
+      <td>il-1β</td>
+      <td>total</td>
+      <td>bla(oxa-51</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>rhinovirus</td>
+      <td>respiratory</td>
+      <td>coxiella</td>
+      <td>clinical efficacy</td>
+      <td>tympanostomy tube</td>
+      <td>subtypes</td>
+      <td>gram-positive organisms</td>
+      <td>trimethoprim-sulfamethoxazole</td>
+      <td>composition</td>
+      <td><</td>
+      <td>urinary</td>
+      <td>A4</td>
+      <td>alpha-toxin</td>
+      <td>identified</td>
+      <td>payne</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>associated with</td>
+      <td>tract</td>
+      <td>decision</td>
+      <td>mild disease</td>
+      <td>perforation</td>
+      <td>harboured</td>
+      <td>clostridium</td>
+      <td>tilmicosin</td>
+      <td>fall/winter</td>
+      <td>significant</td>
+      <td>child</td>
+      <td>PGN</td>
+      <td>adherence</td>
+      <td>home</td>
+      <td>multi-drug-resistant</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>reaction</td>
+      <td>importance</td>
+      <td>travelers</td>
+      <td>cefuroxime</td>
+      <td>insertion</td>
+      <td>non-tuberculous</td>
+      <td>klebsiella pneumonia</td>
+      <td>phenolic</td>
+      <td>young</td>
+      <td>study</td>
+      <td>pain</td>
+      <td>95%CI</td>
+      <td>swine</td>
+      <td>admitted</td>
+      <td>cladosporium</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>BACKGROUND</td>
+      <td>epidemiology</td>
+      <td>viral cap</td>
+      <td>alternate</td>
+      <td>group</td>
+      <td>bla</td>
+      <td>acinetobacter species</td>
+      <td>log(10</td>
+      <td>proteobacteria</td>
+      <td>sonnei</td>
+      <td>complications</td>
+      <td>nigeria</td>
+      <td>capable</td>
+      <td>nursing</td>
+      <td>los</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>patients</td>
+      <td>emerging</td>
+      <td>×</td>
+      <td>axetil</td>
+      <td>recurrences</td>
+      <td>study</td>
+      <td>stenotrophomonas</td>
+      <td>vaginal</td>
+      <td>firmicutes</td>
+      <td>2017</td>
+      <td>type</td>
+      <td>dual</td>
+      <td>tissues</td>
+      <td>cohort</td>
+      <td>surg</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>30</td>
+      <td>pneumococcus</td>
+      <td>legionnaires</td>
+      <td>ENT</td>
+      <td>finom</td>
+      <td>100</td>
+      <td>exhaled breath</td>
+      <td>combination</td>
+      <td>prevotella</td>
+      <td>IDS</td>
+      <td>infection</td>
+      <td>starting</td>
+      <td>single-chain</td>
+      <td>117</td>
+      <td>entry</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>adenovirus</td>
+      <td>treat</td>
+      <td>disease</td>
+      <td>excellent</td>
+      <td>washes</td>
+      <td>rates</td>
+      <td>CB</td>
+      <td>observed</td>
+      <td>taxonomic</td>
+      <td>s. flexneri 2a</td>
+      <td>male</td>
+      <td>MLST</td>
+      <td>χ4509</td>
+      <td>diagnostic yield</td>
+      <td>CRAB</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>bacterial culture</td>
+      <td>oral cavity</td>
+      <td>identified</td>
+      <td>g/250</td>
+      <td>recurrence</td>
+      <td>antimicrobial resistance</td>
+      <td>maltophilia</td>
+      <td>=</td>
+      <td>cell surface antigens</td>
+      <td>MIC90</td>
+      <td>streptococcal pharyngitis</td>
+      <td>placebo</td>
+      <td>virulence factor</td>
+      <td>rdna</td>
+      <td>bsis</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>syncytial</td>
+      <td>bacterial</td>
+      <td>23S-5S</td>
+      <td>cefixime</td>
+      <td>development</td>
+      <td>XDR-PA</td>
+      <td>CF</td>
+      <td>fermented</td>
+      <td>overgrowth</td>
+      <td>counts</td>
+      <td>convalescent</td>
+      <td>gradually</td>
+      <td>amino-terminal</td>
+      <td>radiological</td>
+      <td>según</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

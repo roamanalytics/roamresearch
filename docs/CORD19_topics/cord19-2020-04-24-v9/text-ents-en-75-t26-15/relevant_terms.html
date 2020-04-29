@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 26</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>model</td>
+      <td>number</td>
+      <td>china</td>
+      <td>tracing</td>
+      <td>days</td>
+      <td>mers-cov</td>
+      <td>social</td>
+      <td>imported</td>
+      <td>SARS</td>
+      <td>influenza</td>
+      <td>asymptomatic</td>
+      <td>screening</td>
+      <td>school</td>
+      <td>traffic</td>
+      <td>measles</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>peak</td>
+      <td>reproduction</td>
+      <td>wuhan</td>
+      <td>contact</td>
+      <td>interval</td>
+      <td>household</td>
+      <td>distancing</td>
+      <td>transmission</td>
+      <td>hong</td>
+      <td>pandemic</td>
+      <td>passengers</td>
+      <td>airport</td>
+      <td>closures</td>
+      <td>zika</td>
+      <td>ebola</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>deaths</td>
+      <td>R0</td>
+      <td>2020</td>
+      <td>contact tracing</td>
+      <td>incubation</td>
+      <td>middle</td>
+      <td>social distancing</td>
+      <td>risk</td>
+      <td>kong</td>
+      <td>2009</td>
+      <td>infections</td>
+      <td>entry</td>
+      <td>school closures</td>
+      <td>masks</td>
+      <td>fractional-dose</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>intervention</td>
+      <td>cases</td>
+      <td>2019</td>
+      <td>infectious</td>
+      <td>period</td>
+      <td>contacts</td>
+      <td>COVID-19</td>
+      <td>importation</td>
+      <td>acute respiratory syndrome</td>
+      <td>H1N1</td>
+      <td>ship</td>
+      <td>dengue</td>
+      <td>school closure</td>
+      <td>blockage</td>
+      <td>RSV</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>strategy</td>
+      <td>outbreak</td>
+      <td>coronavirus</td>
+      <td>diseases</td>
+      <td>95</td>
+      <td>MERS</td>
+      <td>march</td>
+      <td>human-to-human</td>
+      <td>hong kong</td>
+      <td>antiviral</td>
+      <td>infection</td>
+      <td>international</td>
+      <td>closure</td>
+      <td>lock-down</td>
+      <td>vaccination</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>strategies</td>
+      <td>model</td>
+      <td>COVID-19</td>
+      <td>public</td>
+      <td>serial</td>
+      <td>east</td>
+      <td>mobility</td>
+      <td>local</td>
+      <td>respiratory</td>
+      <td>prophylaxis</td>
+      <td>testing</td>
+      <td>travelers</td>
+      <td>schools</td>
+      <td>sick</td>
+      <td>vaccine</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>mitigation</td>
+      <td>reproductive</td>
+      <td>january</td>
+      <td>health</td>
+      <td>%</td>
+      <td>patient</td>
+      <td>growth</td>
+      <td>surveillance</td>
+      <td>quarantine</td>
+      <td>pandemic influenza</td>
+      <td>carriers</td>
+      <td>arrival</td>
+      <td>absenteeism</td>
+      <td>social-distancing</td>
+      <td>sexual</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>lockdown</td>
+      <td>estimate</td>
+      <td>travel</td>
+      <td>outbreaks</td>
+      <td>serial interval</td>
+      <td>attack</td>
+      <td>physical</td>
+      <td>cases</td>
+      <td>2003</td>
+      <td>influenza pandemic</td>
+      <td>cruise</td>
+      <td>travel</td>
+      <td>children</td>
+      <td>theoretical</td>
+      <td>VE</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>reduce</td>
+      <td>method</td>
+      <td>cities</td>
+      <td>contacts</td>
+      <td>CI</td>
+      <td>index</td>
+      <td>states</td>
+      <td>countries</td>
+      <td>severe</td>
+      <td>closure</td>
+      <td>princess</td>
+      <td>fever</td>
+      <td>health-care</td>
+      <td>zika virus</td>
+      <td>elimination</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>interventions</td>
+      <td>numbers</td>
+      <td>february</td>
+      <td>disease</td>
+      <td>onset</td>
+      <td>hospital</td>
+      <td>australia</td>
+      <td>singapore</td>
+      <td>syndrome</td>
+      <td>pandemics</td>
+      <td>covid-19 infections</td>
+      <td>entry screening</td>
+      <td>child</td>
+      <td>mask</td>
+      <td>hospitalisation</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>population</td>
+      <td>reproductive number</td>
+      <td>cases</td>
+      <td>monitoring</td>
+      <td>median</td>
+      <td>respiratory</td>
+      <td>patterns</td>
+      <td>network</td>
+      <td>acute</td>
+      <td>drugs</td>
+      <td>crew</td>
+      <td>airports</td>
+      <td>workers</td>
+      <td>public</td>
+      <td>2016</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>capacity</td>
+      <td>R(0</td>
+      <td>mainland</td>
+      <td>isolation</td>
+      <td>estimated</td>
+      <td>secondary</td>
+      <td>united</td>
+      <td>viral</td>
+      <td>hospitals</td>
+      <td>influenza transmission</td>
+      <td>fraction</td>
+      <td>traveller</td>
+      <td>obligations</td>
+      <td>notification</td>
+      <td>west</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>testing</td>
+      <td>basic</td>
+      <td>2019-ncov</td>
+      <td>infectious diseases</td>
+      <td>cri</td>
+      <td>case</td>
+      <td>measures</td>
+      <td>detection</td>
+      <td>outbreak</td>
+      <td>viruses</td>
+      <td>symptomatic</td>
+      <td>border</td>
+      <td>child care</td>
+      <td>york</td>
+      <td>sierra leone</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>simulation</td>
+      <td>estimates</td>
+      <td>province</td>
+      <td>norovirus</td>
+      <td>longer</td>
+      <td>attack rate</td>
+      <td>italy</td>
+      <td>routes</td>
+      <td>community</td>
+      <td>strain</td>
+      <td>undocumented</td>
+      <td>program</td>
+      <td>HFMD</td>
+      <td>tests</td>
+      <td>lagos</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>economic</td>
+      <td>control</td>
+      <td>hubei</td>
+      <td>infectious disease</td>
+      <td>symptom</td>
+      <td>household contacts</td>
+      <td>physical distancing</td>
+      <td>sources</td>
+      <td>sars-cov</td>
+      <td>nations</td>
+      <td>people</td>
+      <td>detecting</td>
+      <td>workplace</td>
+      <td>americas</td>
+      <td>HIV-1</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>suppression</td>
+      <td>simple</td>
+      <td>coronavirus disease 2019</td>
+      <td>residents</td>
+      <td>distribution</td>
+      <td>%</td>
+      <td>united states</td>
+      <td>locally</td>
+      <td>isolation</td>
+      <td>BACKGROUND</td>
+      <td>diamond</td>
+      <td>travellers</td>
+      <td>activities</td>
+      <td>long-run</td>
+      <td>sierra</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>non-pharmaceutical</td>
+      <td>1</td>
+      <td>mainland china</td>
+      <td>individuals</td>
+      <td>periods</td>
+      <td>index case</td>
+      <td>decisions</td>
+      <td>linked</td>
+      <td>warning</td>
+      <td>1918</td>
+      <td>documented</td>
+      <td>taipei</td>
+      <td>mortality</td>
+      <td>relaxation</td>
+      <td>palm</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>system</td>
+      <td>transmissibility</td>
+      <td>rt</td>
+      <td>emerging</td>
+      <td>time</td>
+      <td>households</td>
+      <td>countries</td>
+      <td>outbreak</td>
+      <td>lessons</td>
+      <td>antiviral drugs</td>
+      <td>family members</td>
+      <td>air</td>
+      <td>%</td>
+      <td>control</td>
+      <td>leone</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>parameters</td>
+      <td>initial</td>
+      <td>reported</td>
+      <td>traced</td>
+      <td>-</td>
+      <td>patients</td>
+      <td>governments</td>
+      <td>premises</td>
+      <td>points</td>
+      <td>METHODS</td>
+      <td>aboard</td>
+      <td>PI</td>
+      <td>child-care</td>
+      <td>facial</td>
+      <td>campaign</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>million</td>
+      <td>epidemic</td>
+      <td>confirmed</td>
+      <td>active</td>
+      <td>cases</td>
+      <td>2015</td>
+      <td>policies</td>
+      <td>clusters</td>
+      <td>loss</td>
+      <td>MG</td>
+      <td>virus</td>
+      <td>AHC</td>
+      <td>force</td>
+      <td>awareness</td>
+      <td>ebola virus disease</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>healthcare</td>
+      <td>epidemics</td>
+      <td>sars-cov-2</td>
+      <td>response</td>
+      <td>demographic</td>
+      <td>identified</td>
+      <td>gatherings</td>
+      <td>probability</td>
+      <td>authors</td>
+      <td>household quarantine</td>
+      <td>COVID-19</td>
+      <td>sensitisation</td>
+      <td>workforce</td>
+      <td>cattle</td>
+      <td>sap</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>ICU</td>
+      <td>rate</td>
+      <td>december</td>
+      <td>control</td>
+      <td>credible</td>
+      <td>epidemiologic</td>
+      <td>slow</td>
+      <td>transmissions</td>
+      <td>isolation-and-quarantine</td>
+      <td>A/H1N1</td>
+      <td>carry</td>
+      <td>global spread</td>
+      <td>worker</td>
+      <td>RSC</td>
+      <td>locally-acquired</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>beds</td>
+      <td>average</td>
+      <td>chinese</td>
+      <td>smallpox</td>
+      <td>shorter</td>
+      <td>clinical</td>
+      <td>implementation</td>
+      <td>spread</td>
+      <td>admission</td>
+      <td>peak absenteeism</td>
+      <td>washington</td>
+      <td>exit</td>
+      <td>healthcare</td>
+      <td>cuba</td>
+      <td>dose</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>isolation</td>
+      <td>infection</td>
+      <td>local</td>
+      <td>active monitoring</td>
+      <td>exposure</td>
+      <td>cases</td>
+      <td>unlock</td>
+      <td>investigation</td>
+      <td>early</td>
+      <td>holidays</td>
+      <td>general</td>
+      <td>borders</td>
+      <td>work-related</td>
+      <td>usage</td>
+      <td>fractionation</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>scenario</td>
+      <td>secondary cases</td>
+      <td>jan</td>
+      <td>pathogen</td>
+      <td>pairs</td>
+      <td>confirmed</td>
+      <td>flattening</td>
+      <td>connectivity</td>
+      <td>suspected</td>
+      <td>avian</td>
+      <td>crew members</td>
+      <td>exit screening</td>
+      <td>labor</td>
+      <td>blockage factor</td>
+      <td>fractional-dose vaccines</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>care</td>
+      <td>total</td>
+      <td>exported</td>
+      <td>public health</td>
+      <td>onset to</td>
+      <td>close</td>
+      <td>questions</td>
+      <td>phase</td>
+      <td>affected</td>
+      <td>border closure</td>
+      <td>general public</td>
+      <td>in-flight</td>
+      <td>mortality rate</td>
+      <td>games</td>
+      <td>YF</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>measures</td>
+      <td>size</td>
+      <td>23</td>
+      <td>settings</td>
+      <td>intervals</td>
+      <td>cluster</td>
+      <td>mitigate</td>
+      <td>heterogeneity</td>
+      <td>toronto</td>
+      <td>administration</td>
+      <td>question</td>
+      <td>source region</td>
+      <td>adults</td>
+      <td>summer</td>
+      <td>IAR</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>increases</td>
+      <td>time</td>
+      <td>hubei province</td>
+      <td>persons</td>
+      <td>confidence interval</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>context</td>
+      <td>market</td>
+      <td>patients</td>
+      <td>holiday</td>
+      <td>sars-cov-2</td>
+      <td>in-flight transmission</td>
+      <td>review</td>
+      <td>strict</td>
+      <td>yunnan</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>april</td>
+      <td>observed</td>
+      <td>restrictions</td>
+      <td>ring</td>
+      <td>study</td>
+      <td>syndrome</td>
+      <td>kingdom</td>
+      <td>locations</td>
+      <td>singapore</td>
+      <td>plans</td>
+      <td>serological</td>
+      <td>airline</td>
+      <td>biosafety</td>
+      <td>burden</td>
+      <td>angola</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>non-pharmaceutical interventions</td>
+      <td>estimated</td>
+      <td>epidemic</td>
+      <td>ring vaccination</td>
+      <td>countermeasures</td>
+      <td>illness</td>
+      <td>surveys</td>
+      <td>zoonotic</td>
+      <td>organization</td>
+      <td>mechanisms</td>
+      <td>random testing</td>
+      <td>arriving</td>
+      <td>closings</td>
+      <td>eradication</td>
+      <td>RTLS</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>individuals</td>
+      <td>VEC</td>
+      <td>provinces</td>
+      <td>vaccination</td>
+      <td>28</td>
+      <td>middle east respiratory syndrome</td>
+      <td>policy</td>
+      <td>excluded</td>
+      <td>health</td>
+      <td>island</td>
+      <td>random</td>
+      <td>infected</td>
+      <td>unplanned</td>
+      <td>continued</td>
+      <td>kinshasa</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>rates</td>
+      <td>stage</td>
+      <td>data</td>
+      <td>case isolation</td>
+      <td>infectivity</td>
+      <td>korea</td>
+      <td>current</td>
+      <td>HPDI</td>
+      <td>sars virus</td>
+      <td>RESULTS</td>
+      <td>adoption</td>
+      <td>global</td>
+      <td>primary schools</td>
+      <td>low</td>
+      <td>five-fold</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>people</td>
+      <td>onset</td>
+      <td>funding</td>
+      <td>learning</td>
+      <td>day</td>
+      <td>household members</td>
+      <td>growth rate</td>
+      <td>viral load</td>
+      <td>yielded</td>
+      <td>SUPPLEMENTARY</td>
+      <td>risk</td>
+      <td>passengers</td>
+      <td>healthcare workers</td>
+      <td>new york state</td>
+      <td>RSV-ARI</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>demand</td>
+      <td>susceptible</td>
+      <td>number</td>
+      <td>disease transmission</td>
+      <td>methods</td>
+      <td>2013</td>
+      <td>closing</td>
+      <td>density</td>
+      <td>precautions</td>
+      <td>influenza viruses</td>
+      <td>%</td>
+      <td>airport screening</td>
+      <td>home</td>
+      <td>mosquito control</td>
+      <td>spatio-temporal</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>npis</td>
+      <td>values</td>
+      <td>%</td>
+      <td>nursing</td>
+      <td>estimate</td>
+      <td>hospitalized</td>
+      <td>stations</td>
+      <td>ZIKV</td>
+      <td>ridership</td>
+      <td>authorized</td>
+      <td>frontliners</td>
+      <td>airport fever</td>
+      <td>15·0</td>
+      <td>theoretical model</td>
+      <td>liberia</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>long</td>
+      <td>lower</td>
+      <td>estimated</td>
+      <td>diarrhea</td>
+      <td>consistent</td>
+      <td>cohort</td>
+      <td>mobility patterns</td>
+      <td>modes</td>
+      <td>2002</td>
+      <td>TAP</td>
+      <td>cruise ship</td>
+      <td>infrared</td>
+      <td>laboratories</td>
+      <td>new york</td>
+      <td>funeral</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>effectiveness</td>
+      <td>results</td>
+      <td>ban</td>
+      <td>tuberculosis</td>
+      <td>2.2</td>
+      <td>risk factors</td>
+      <td>interaction</td>
+      <td>analysis</td>
+      <td>onset of</td>
+      <td>household-based</td>
+      <td>members</td>
+      <td>sensitivity</td>
+      <td>health-care workers</td>
+      <td>stronger</td>
+      <td>guinea</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>immunity</td>
+      <td>process</td>
+      <td>spread</td>
+      <td>high risk</td>
+      <td>percentile</td>
+      <td>generations</td>
+      <td>interventions</td>
+      <td>case</td>
+      <td>measures</td>
+      <td>online version</td>
+      <td>hepatitis</td>
+      <td>thermal</td>
+      <td>2·0</td>
+      <td>500</td>
+      <td>pertussis</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>resources</td>
+      <td>fatalities</td>
+      <td>chinese cities</td>
+      <td>transmission</td>
+      <td>subset</td>
+      <td>superspreading</td>
+      <td>impact</td>
+      <td>global</td>
+      <td>rest</td>
+      <td>stockpile</td>
+      <td>H3N2</td>
+      <td>keelung</td>
+      <td>national level</td>
+      <td>BVD</td>
+      <td>length of stay</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>result</td>
+      <td>transmission</td>
+      <td>transmission</td>
+      <td>infected</td>
+      <td>information</td>
+      <td>rate</td>
+      <td>world</td>
+      <td>data</td>
+      <td>hypothesis</td>
+      <td>border</td>
+      <td>iceland</td>
+      <td>border screening</td>
+      <td>parental</td>
+      <td>epidemic</td>
+      <td>africa</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>epidemic</td>
+      <td>population</td>
+      <td>internationally</td>
+      <td>effective</td>
+      <td>credible interval</td>
+      <td>arabia</td>
+      <td>statewide</td>
+      <td>indirect</td>
+      <td>vietnam</td>
+      <td>studies</td>
+      <td>protected</td>
+      <td>screen</td>
+      <td>institutional</td>
+      <td>test</td>
+      <td>exposures</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>lockdowns</td>
+      <td>measures</td>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>systematic</td>
+      <td>ascertainment</td>
+      <td>visited</td>
+      <td>matrices</td>
+      <td>hadv-7</td>
+      <td>animal</td>
+      <td>CONCLUSIONS</td>
+      <td>disembarked</td>
+      <td>temperature</td>
+      <td>sector</td>
+      <td>end</td>
+      <td>stay</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>COVID-19</td>
+      <td>preventive</td>
+      <td>dec</td>
+      <td>challenges</td>
+      <td>tianjin</td>
+      <td>link</td>
+      <td>united kingdom</td>
+      <td>case detection</td>
+      <td>sses</td>
+      <td>restraint</td>
+      <td>reopen</td>
+      <td>hazard</td>
+      <td>opening</td>
+      <td>reporting</td>
+      <td>yunnan province</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>pandemic</td>
+      <td>early</td>
+      <td>case</td>
+      <td>case</td>
+      <td>truncation</td>
+      <td>saudi arabia</td>
+      <td>western</td>
+      <td>WGS</td>
+      <td>events</td>
+      <td>neuraminidase</td>
+      <td>sars-cov2</td>
+      <td>park</td>
+      <td>non-essential businesses</td>
+      <td>nationwide</td>
+      <td>cutoff</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>wave</td>
+      <td>point</td>
+      <td>disease</td>
+      <td>vomited</td>
+      <td>symptoms</td>
+      <td>transmission</td>
+      <td>covid-19 coronavirus</td>
+      <td>high</td>
+      <td>outbreaks</td>
+      <td>christmas</td>
+      <td>treatments</td>
+      <td>thermoscanners</td>
+      <td>care</td>
+      <td>federal states</td>
+      <td>EMR</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>beginning</td>
+      <td>implications</td>
+      <td>early</td>
+      <td>procedure</td>
+      <td>secondary</td>
+      <td>epidemiological</td>
+      <td>political</td>
+      <td>case counts</td>
+      <td>hygienic</td>
+      <td>new zealand</td>
+      <td>sars-cov-2 infections</td>
+      <td>°</td>
+      <td>0</td>
+      <td>captured</td>
+      <td>efficacy</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>effective</td>
+      <td>declined</td>
+      <td>coronavirus disease</td>
+      <td>agencies</td>
+      <td>standard deviation</td>
+      <td>10,000</td>
+      <td>european countries</td>
+      <td>spot</td>
+      <td>respiratory viruses</td>
+      <td>case-study</td>
+      <td>confined</td>
+      <td>spread</td>
+      <td>health-care worker</td>
+      <td>antibody testing</td>
+      <td><</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>allowing</td>
+      <td>data</td>
+      <td>case definition</td>
+      <td>vomit</td>
+      <td>sample</td>
+      <td>inpatients</td>
+      <td>data</td>
+      <td>horse</td>
+      <td>nosocomial infections</td>
+      <td>triggered</td>
+      <td>experts</td>
+      <td>restrictions</td>
+      <td>singaporean</td>
+      <td>argue</td>
+      <td>ART</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>bed</td>
+      <td>discussion</td>
+      <td>outbreak</td>
+      <td>phtrs</td>
+      <td>demographic characteristics</td>
+      <td>H7N9</td>
+      <td>public</td>
+      <td>training</td>
+      <td>super</td>
+      <td>weekends</td>
+      <td>social protection</td>
+      <td>=</td>
+      <td>labour</td>
+      <td>camps</td>
+      <td>recrudescence</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>infections</td>
+      <td>%</td>
+      <td>control</td>
+      <td>illustrate</td>
+      <td>right truncation</td>
+      <td>serum</td>
+      <td>lockdown</td>
+      <td>capacity</td>
+      <td>delay-time</td>
+      <td>weekend</td>
+      <td>detected</td>
+      <td>%</td>
+      <td>space-time</td>
+      <td>refugees</td>
+      <td>emergency</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

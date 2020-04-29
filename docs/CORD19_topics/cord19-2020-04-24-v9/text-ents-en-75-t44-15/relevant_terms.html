@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 44</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>knowledge</td>
+      <td>risk</td>
+      <td>interviews</td>
+      <td>influenza</td>
+      <td>SARS</td>
+      <td>students</td>
+      <td>vaccination</td>
+      <td>COVID-19</td>
+      <td>model</td>
+      <td>nurses</td>
+      <td>standard</td>
+      <td>face</td>
+      <td>MERS</td>
+      <td>disaster</td>
+      <td>TB</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>%</td>
+      <td>infectious</td>
+      <td>health</td>
+      <td>preventive</td>
+      <td>hong</td>
+      <td>learning</td>
+      <td>vaccine</td>
+      <td>95</td>
+      <td>benefits</td>
+      <td>stress</td>
+      <td>nurses</td>
+      <td>masks</td>
+      <td>middle</td>
+      <td>cholera</td>
+      <td>EVD</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>study</td>
+      <td>media</td>
+      <td>qualitative</td>
+      <td>H1N1</td>
+      <td>kong</td>
+      <td>medical</td>
+      <td>influenza</td>
+      <td>CI</td>
+      <td>non-pharmaceutical</td>
+      <td>job</td>
+      <td>precautions</td>
+      <td>handwashing</td>
+      <td>east</td>
+      <td>residents</td>
+      <td>zoonotic</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>attitude</td>
+      <td>risk perception</td>
+      <td>barriers</td>
+      <td>pandemic</td>
+      <td>hong kong</td>
+      <td>nursing students</td>
+      <td>swine</td>
+      <td>%</td>
+      <td>social distancing</td>
+      <td>satisfaction</td>
+      <td>adherence</td>
+      <td>bats</td>
+      <td>mers-cov</td>
+      <td>preparedness</td>
+      <td>households</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>questionnaire</td>
+      <td>perception</td>
+      <td>emergency</td>
+      <td>perceived</td>
+      <td>severe</td>
+      <td>medical students</td>
+      <td>uptake</td>
+      <td>confidence</td>
+      <td>distancing</td>
+      <td>nursing</td>
+      <td>compliance</td>
+      <td>gps</td>
+      <td>middle east respiratory syndrome</td>
+      <td>disaster medicine</td>
+      <td>veterinary</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>practice</td>
+      <td>information</td>
+      <td>work</td>
+      <td>worry</td>
+      <td>acute respiratory syndrome</td>
+      <td>intervention</td>
+      <td>influenza vaccination</td>
+      <td>pilgrims</td>
+      <td>theoretical</td>
+      <td>turnover</td>
+      <td>standard precautions</td>
+      <td>face mask</td>
+      <td>literacy</td>
+      <td>medicine</td>
+      <td>biosecurity</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>infection</td>
+      <td>perceptions</td>
+      <td>experiences</td>
+      <td>avian</td>
+      <td>acute</td>
+      <td>teaching</td>
+      <td>flu</td>
+      <td>95%CI</td>
+      <td>behavioral</td>
+      <td>intention</td>
+      <td>performance</td>
+      <td>2013</td>
+      <td>korea</td>
+      <td>NH</td>
+      <td>animals</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>practices</td>
+      <td>infectious diseases</td>
+      <td>themes</td>
+      <td>2009</td>
+      <td>2003</td>
+      <td>science</td>
+      <td>vaccines</td>
+      <td>odds</td>
+      <td>structural</td>
+      <td>work</td>
+      <td>sps</td>
+      <td>H7N9</td>
+      <td>syndrome</td>
+      <td>HPV</td>
+      <td>veterinarians</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>attitudes</td>
+      <td>communication</td>
+      <td>lack</td>
+      <td>high</td>
+      <td>telephone</td>
+      <td>student</td>
+      <td>seasonal</td>
+      <td>ratio</td>
+      <td>norms</td>
+      <td>turnover intention</td>
+      <td>hospital</td>
+      <td>%</td>
+      <td>respiratory</td>
+      <td>antibiotics</td>
+      <td>hev</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>participants</td>
+      <td>diseases</td>
+      <td>emergency nurses</td>
+      <td>preventive measures</td>
+      <td>syndrome</td>
+      <td>nursing</td>
+      <td>swine flu</td>
+      <td>hajj</td>
+      <td>suicide</td>
+      <td>engagement</td>
+      <td>hospitals</td>
+      <td>live</td>
+      <td>south korea</td>
+      <td>scores</td>
+      <td>cattle</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>hand</td>
+      <td>disease</td>
+      <td>challenges</td>
+      <td>AI</td>
+      <td>chinese</td>
+      <td>university</td>
+      <td>hcws</td>
+      <td>odds ratio</td>
+      <td>respiratory</td>
+      <td>staff</td>
+      <td>HH</td>
+      <td>respondents</td>
+      <td>health literacy</td>
+      <td>ARI</td>
+      <td>farms</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><</td>
+      <td>public</td>
+      <td>focus</td>
+      <td>severity</td>
+      <td>psychological</td>
+      <td>core</td>
+      <td>coverage</td>
+      <td>interval</td>
+      <td>action</td>
+      <td>burnout</td>
+      <td>care</td>
+      <td>bat</td>
+      <td>vs.</td>
+      <td>school</td>
+      <td>contact</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>significant</td>
+      <td>emerging</td>
+      <td>approach</td>
+      <td>measures</td>
+      <td>outbreak</td>
+      <td>faculty</td>
+      <td>vaccinated</td>
+      <td>2020</td>
+      <td>health belief model</td>
+      <td>job satisfaction</td>
+      <td>safety</td>
+      <td>mask</td>
+      <td>e-health</td>
+      <td>PGY1</td>
+      <td>maps</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>control</td>
+      <td>risk perceptions</td>
+      <td>system</td>
+      <td>preventive behavior</td>
+      <td>distress</td>
+      <td>curriculum</td>
+      <td>pandemic</td>
+      <td>-</td>
+      <td>children</td>
+      <td>labour</td>
+      <td>bereavement</td>
+      <td>pandemic influenza</td>
+      <td>physicians</td>
+      <td>warning</td>
+      <td>zoonotic diseases</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>level</td>
+      <td>epidemic</td>
+      <td>in-depth</td>
+      <td>behavior</td>
+      <td>responses</td>
+      <td>year</td>
+      <td>acceptance</td>
+      <td>confidence interval</td>
+      <td>belief</td>
+      <td>environment</td>
+      <td>protection</td>
+      <td>urban</td>
+      <td>korean</td>
+      <td>cancer</td>
+      <td>poster</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>education</td>
+      <td>social</td>
+      <td>views</td>
+      <td>behaviors</td>
+      <td>emotional</td>
+      <td>clinical</td>
+      <td>willingness</td>
+      <td>participants</td>
+      <td>theory</td>
+      <td>family</td>
+      <td>icns</td>
+      <td>comply</td>
+      <td>surveillance</td>
+      <td>small-scale</td>
+      <td>livestock</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>awareness</td>
+      <td>risks</td>
+      <td>content</td>
+      <td>washing</td>
+      <td>H5N1</td>
+      <td>schools</td>
+      <td>ph1n1</td>
+      <td>population</td>
+      <td>TPB</td>
+      <td>relationship</td>
+      <td>hesitation</td>
+      <td>poultry</td>
+      <td>trust</td>
+      <td>bioevent</td>
+      <td>family</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>hygiene</td>
+      <td>'s</td>
+      <td>participants</td>
+      <td>preventive behaviors</td>
+      <td>epidemic</td>
+      <td>competencies</td>
+      <td>%</td>
+      <td>HMPX</td>
+      <td>context</td>
+      <td>working</td>
+      <td>IPC</td>
+      <td>hands</td>
+      <td>korean adults</td>
+      <td>nonadherence</td>
+      <td>children</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>health</td>
+      <td>epidemics</td>
+      <td>focus groups</td>
+      <td>associated with</td>
+      <td>stigma</td>
+      <td>skills</td>
+      <td>receive</td>
+      <td>china</td>
+      <td>factors</td>
+      <td>nursing staff</td>
+      <td>units</td>
+      <td>ILI</td>
+      <td>technicians</td>
+      <td>2008</td>
+      <td>farmers</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>cross-sectional</td>
+      <td>impact</td>
+      <td>public</td>
+      <td>threat</td>
+      <td>behaviors</td>
+      <td>undergraduate</td>
+      <td>UK</td>
+      <td>wuhan</td>
+      <td>behavior</td>
+      <td>workforce</td>
+      <td>japan</td>
+      <td>capital</td>
+      <td>outbreak</td>
+      <td>®</td>
+      <td>antibiotic</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>hand hygiene</td>
+      <td>internet</td>
+      <td>cultural</td>
+      <td>information</td>
+      <td>random</td>
+      <td>OSCE</td>
+      <td>accept</td>
+      <td>general population</td>
+      <td>parents</td>
+      <td>work engagement</td>
+      <td>facial</td>
+      <td>A/H7N9</td>
+      <td>south</td>
+      <td>indicators</td>
+      <td>zoonoses</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>prevention</td>
+      <td>respondents</td>
+      <td>semi-structured</td>
+      <td>beliefs</td>
+      <td>respiratory</td>
+      <td>sciences</td>
+      <td>2009</td>
+      <td>MDD</td>
+      <td>components</td>
+      <td>regional</td>
+      <td>doctors</td>
+      <td>non-malaysian</td>
+      <td>2015</td>
+      <td>sexually</td>
+      <td>pet</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>positive</td>
+      <td>actions</td>
+      <td>management</td>
+      <td>A/H1N1</td>
+      <td>phase</td>
+      <td>development</td>
+      <td>seasonal influenza</td>
+      <td>meningococcal</td>
+      <td>subjective</td>
+      <td>professionalism</td>
+      <td>climate</td>
+      <td>markets</td>
+      <td>preventive behaviours</td>
+      <td>sexually active</td>
+      <td>phis</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>score</td>
+      <td>affective</td>
+      <td>global</td>
+      <td>=</td>
+      <td>support</td>
+      <td>evaluation</td>
+      <td>staff</td>
+      <td>campaign</td>
+      <td>insurance</td>
+      <td>epidemiologists</td>
+      <td>occupational</td>
+      <td>2014</td>
+      <td>USC</td>
+      <td>disaster-related</td>
+      <td>responsibility</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>conducted</td>
+      <td>people</td>
+      <td>services</td>
+      <td>hand washing</td>
+      <td>behavioral</td>
+      <td>education</td>
+      <td>travellers</td>
+      <td>march</td>
+      <td>social norms</td>
+      <td>working conditions</td>
+      <td>FPE</td>
+      <td>IV</td>
+      <td>coronavirus</td>
+      <td>maximum score</td>
+      <td>volunteers</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>good</td>
+      <td>infectious disease</td>
+      <td>method</td>
+      <td>precautionary</td>
+      <td>measures</td>
+      <td>core competencies</td>
+      <td>planning</td>
+      <td>pre-travel</td>
+      <td>respiratory infections</td>
+      <td>job stress</td>
+      <td>intermediate</td>
+      <td>guangzhou</td>
+      <td>cognitive risk</td>
+      <td>360-degree</td>
+      <td>africa</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cross-sectional study</td>
+      <td>early</td>
+      <td>analysis</td>
+      <td>β</td>
+      <td>anxiety</td>
+      <td>universities</td>
+      <td>side effects</td>
+      <td>1</td>
+      <td>AUC</td>
+      <td>hospitalization</td>
+      <td>facial protection</td>
+      <td>rural</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>oral</td>
+      <td>animal</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>educational</td>
+      <td>messages</td>
+      <td>decision-making</td>
+      <td>BACKGROUND</td>
+      <td>population-based</td>
+      <td>classroom</td>
+      <td>high-risk</td>
+      <td>residents</td>
+      <td>paradigm</td>
+      <td>village</td>
+      <td>HICS</td>
+      <td>influenza-like illness</td>
+      <td>mers-cov.</td>
+      <td>chlamydia</td>
+      <td>family caregivers</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>majority</td>
+      <td>protective</td>
+      <td>purposive</td>
+      <td>associations</td>
+      <td>anticipated</td>
+      <td>program</td>
+      <td>australia</td>
+      <td>travelers</td>
+      <td>infections</td>
+      <td>occupational</td>
+      <td>equipment</td>
+      <td>influenza-like</td>
+      <td>affective risk</td>
+      <td>maximum</td>
+      <td>ebola</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>saudi</td>
+      <td>outbreaks</td>
+      <td>qualitative study</td>
+      <td>trust</td>
+      <td>health behaviors</td>
+      <td>training</td>
+      <td>reasons</td>
+      <td>determinants</td>
+      <td>uncertainty</td>
+      <td>algorithm</td>
+      <td>control measures</td>
+      <td>english</td>
+      <td>viral</td>
+      <td>readiness</td>
+      <td>on-farm</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>significantly</td>
+      <td>online</td>
+      <td>key</td>
+      <td>h1n1 influenza</td>
+      <td>elderly</td>
+      <td>university students</td>
+      <td>side</td>
+      <td>seek</td>
+      <td>child</td>
+      <td>nursing work environment</td>
+      <td>scale</td>
+      <td>closure</td>
+      <td>ministry</td>
+      <td>colorectal</td>
+      <td>heat</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>assess</td>
+      <td>results</td>
+      <td>importance</td>
+      <td>efficacy</td>
+      <td>avoidance</td>
+      <td>secondary</td>
+      <td>influenza vaccine</td>
+      <td>hcps</td>
+      <td>social</td>
+      <td>occupational stress</td>
+      <td>precaution</td>
+      <td>bird-to-human</td>
+      <td>emotions</td>
+      <td>disaster risk</td>
+      <td>zoonosis</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>saudi arabia</td>
+      <td>perceived risk</td>
+      <td>interview</td>
+      <td>RESULTS</td>
+      <td>psychological distress</td>
+      <td>epidemiology</td>
+      <td>additional</td>
+      <td>consultations</td>
+      <td>hygiene</td>
+      <td>outsourcing</td>
+      <td>workers</td>
+      <td>market</td>
+      <td>IPCP</td>
+      <td>3-month</td>
+      <td>salmonella</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>arabia</td>
+      <td>access</td>
+      <td>personnel</td>
+      <td>stage</td>
+      <td>correlates</td>
+      <td>PBL</td>
+      <td>NHS</td>
+      <td>confident</td>
+      <td>effect</td>
+      <td>village doctors</td>
+      <td>support</td>
+      <td>social capital</td>
+      <td>disease-related</td>
+      <td>first-aid</td>
+      <td>activities</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>scores</td>
+      <td>risk communication</td>
+      <td>working</td>
+      <td>influenza a</td>
+      <td>recovered</td>
+      <td>HPS</td>
+      <td>cost</td>
+      <td>epidemiological</td>
+      <td>prevent</td>
+      <td>PHI</td>
+      <td>occupational transmission</td>
+      <td>pandemic</td>
+      <td>choice</td>
+      <td>postintervention</td>
+      <td>contacts</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>transmission</td>
+      <td>interest</td>
+      <td>outcomes</td>
+      <td>fatality</td>
+      <td>discourses</td>
+      <td>school</td>
+      <td>pre-pandemic</td>
+      <td>GAD-7</td>
+      <td>flipped</td>
+      <td>commitment</td>
+      <td>hais</td>
+      <td>exposure to</td>
+      <td>influencing</td>
+      <td>colorectal cancer</td>
+      <td>heat maps</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>±</td>
+      <td>general</td>
+      <td>factors</td>
+      <td>higher</td>
+      <td>theme</td>
+      <td>e-seminars</td>
+      <td>antivirals</td>
+      <td>coronavirus disease</td>
+      <td>dog</td>
+      <td>experience</td>
+      <td>respiratory protection</td>
+      <td>A(H7N9</td>
+      <td>spearman</td>
+      <td>events</td>
+      <td>queensland</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>0.05</td>
+      <td>outbreak</td>
+      <td>perspective</td>
+      <td>METHODS</td>
+      <td>community</td>
+      <td>ACGME</td>
+      <td>$</td>
+      <td>domestic pilgrims</td>
+      <td>non-pharmaceutical interventions</td>
+      <td>cdcs</td>
+      <td>wards</td>
+      <td>event</td>
+      <td>corona</td>
+      <td>optometrists</td>
+      <td>ipcs</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>statistics</td>
+      <td>found</td>
+      <td>problems</td>
+      <td>AOR</td>
+      <td>spokespersons</td>
+      <td>developed</td>
+      <td>H1N1</td>
+      <td>umrah</td>
+      <td>maternal</td>
+      <td>ICU</td>
+      <td>protocol</td>
+      <td>washing hands</td>
+      <td>dhps</td>
+      <td>samples</td>
+      <td>tuberculosis</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>dental</td>
+      <td>—</td>
+      <td>transcribed</td>
+      <td>phps</td>
+      <td>human-to-human</td>
+      <td>pre-</td>
+      <td>FRC</td>
+      <td>years</td>
+      <td>EMT</td>
+      <td>journalist</td>
+      <td>unit-level</td>
+      <td>washed</td>
+      <td>physician</td>
+      <td>prostate cancer</td>
+      <td>sierra leone</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>aware</td>
+      <td>important</td>
+      <td>icis</td>
+      <td>hospital employees</td>
+      <td>BLS</td>
+      <td>apply</td>
+      <td>season</td>
+      <td>anxiety</td>
+      <td>caries</td>
+      <td>stress symptoms</td>
+      <td>motivation</td>
+      <td>reported</td>
+      <td>arabic</td>
+      <td>emergency medical technicians</td>
+      <td>leone</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>high</td>
+      <td>study</td>
+      <td>thematic analysis</td>
+      <td>q fever</td>
+      <td>emotional responses</td>
+      <td>teachers</td>
+      <td>sydney</td>
+      <td>lower</td>
+      <td>dental caries</td>
+      <td>prefectural</td>
+      <td>isolation precautions</td>
+      <td>human</td>
+      <td>hospitals</td>
+      <td>evacuation</td>
+      <td>sierra</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>evaluated</td>
+      <td>informed</td>
+      <td>canada</td>
+      <td>panic</td>
+      <td>progression</td>
+      <td>topics</td>
+      <td>behaviour change</td>
+      <td>pneumococcal</td>
+      <td>subjective norms</td>
+      <td>’ job</td>
+      <td>curricula</td>
+      <td>NSW</td>
+      <td>adults</td>
+      <td>IM-ITE</td>
+      <td>message</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>highest</td>
+      <td>relation</td>
+      <td>semi-structured interviews</td>
+      <td>PURPOSE</td>
+      <td>parks</td>
+      <td>colleges</td>
+      <td>seriousness</td>
+      <td>21.5</td>
+      <td>transmission</td>
+      <td>nursing intention</td>
+      <td>comfort</td>
+      <td>WTP</td>
+      <td>performed</td>
+      <td>knowledge level</td>
+      <td>daily</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>KAP</td>
+      <td>protective behaviors</td>
+      <td>emergencies</td>
+      <td>A(H1N1</td>
+      <td>habitual</td>
+      <td>group</td>
+      <td>recommended</td>
+      <td>indonesia</td>
+      <td>perceived</td>
+      <td>negative</td>
+      <td>bereavement care</td>
+      <td>missing</td>
+      <td>patients</td>
+      <td>DOPS</td>
+      <td>private veterinarians</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>gaps</td>
+      <td>weather</td>
+      <td>study</td>
+      <td>sensitivity</td>
+      <td>singaporeans</td>
+      <td>online</td>
+      <td>RCHE</td>
+      <td>chronic disease</td>
+      <td>HBM</td>
+      <td>'s</td>
+      <td>standard precautions scale</td>
+      <td>non-urban</td>
+      <td>snss</td>
+      <td>optometry</td>
+      <td>volunteer</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>descriptive statistics</td>
+      <td>health information</td>
+      <td>content analysis</td>
+      <td>FINDINGS</td>
+      <td>health-seeking behaviors</td>
+      <td>instructors</td>
+      <td>h1n1 vaccine</td>
+      <td>2019-ncov</td>
+      <td>smthes</td>
+      <td>care</td>
+      <td>questionnaires</td>
+      <td>permanent closure</td>
+      <td>camels</td>
+      <td>trachomatis</td>
+      <td>cohabitation</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>results</td>
+      <td>response</td>
+      <td>research</td>
+      <td>health personnel</td>
+      <td>worries</td>
+      <td>clinical instructors</td>
+      <td>immunization</td>
+      <td>hajj pilgrims</td>
+      <td>subjective knowledge</td>
+      <td>patients</td>
+      <td>hcws</td>
+      <td>influenza a(h7n9</td>
+      <td>ministry of health</td>
+      <td>prostate</td>
+      <td>SES</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>information</td>
+      <td>i.e.</td>
+      <td>data</td>
+      <td>behavioural responses</td>
+      <td>callers</td>
+      <td>grade</td>
+      <td>containment</td>
+      <td>=</td>
+      <td>maintenance</td>
+      <td>hospital</td>
+      <td>patient</td>
+      <td>operation</td>
+      <td>sehl</td>
+      <td>score</td>
+      <td>roma</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>median</td>
+      <td>health-protective</td>
+      <td>role</td>
+      <td>a/h1n1 influenza</td>
+      <td>respondents</td>
+      <td>nursing education</td>
+      <td>aged</td>
+      <td>regression</td>
+      <td>housing management</td>
+      <td>provincial</td>
+      <td>standard precaution</td>
+      <td>injured</td>
+      <td>HW</td>
+      <td>.001</td>
+      <td>dot</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

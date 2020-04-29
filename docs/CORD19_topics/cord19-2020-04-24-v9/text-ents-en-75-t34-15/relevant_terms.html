@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 34</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>infection</td>
+      <td>immune</td>
+      <td>IRF3</td>
+      <td>receptors</td>
+      <td>IFN-I</td>
+      <td>type</td>
+      <td>PRRSV</td>
+      <td>rnase</td>
+      <td>PKR</td>
+      <td>bat</td>
+      <td>RSV</td>
+      <td>STAT1</td>
+      <td>ISG15</td>
+      <td>chicken</td>
+      <td>IFIT1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>virus</td>
+      <td>viral</td>
+      <td>nf-κb</td>
+      <td>recognition</td>
+      <td>dendritic</td>
+      <td>ifns</td>
+      <td>porcine</td>
+      <td>rnase l</td>
+      <td>DNA</td>
+      <td>TLR3</td>
+      <td>TRIM25</td>
+      <td>DENV</td>
+      <td>HIV-1</td>
+      <td>IBV</td>
+      <td>IFITM3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>cells</td>
+      <td>host</td>
+      <td>mers-cov</td>
+      <td>nucleic</td>
+      <td>pdcs</td>
+      <td>IFN</td>
+      <td>ifn-β</td>
+      <td>OAS</td>
+      <td>STING</td>
+      <td>bats</td>
+      <td>lncrnas</td>
+      <td>HCMV</td>
+      <td>FMDV</td>
+      <td>chickens</td>
+      <td>IFIT</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>expression</td>
+      <td>innate</td>
+      <td>sars-cov</td>
+      <td>RNA</td>
+      <td>pdc</td>
+      <td>III</td>
+      <td>PEDV</td>
+      <td>5A</td>
+      <td>cgas</td>
+      <td>poly</td>
+      <td>ISG20</td>
+      <td>STAT2</td>
+      <td>OTU</td>
+      <td>feline</td>
+      <td>cap</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>antiviral</td>
+      <td>antiviral</td>
+      <td>nuclear</td>
+      <td>sensors</td>
+      <td>mice</td>
+      <td>ifn-λ</td>
+      <td>pdcov</td>
+      <td>-</td>
+      <td>dsrna</td>
+      <td>γ-pga</td>
+      <td>ligase</td>
+      <td>transducer</td>
+      <td>ubiquitin-like</td>
+      <td>cats</td>
+      <td>methylation</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>response</td>
+      <td>viruses</td>
+      <td>coronavirus</td>
+      <td>prrs</td>
+      <td>NK</td>
+      <td>HCV</td>
+      <td>nsp1</td>
+      <td>2</td>
+      <td>stress</td>
+      <td>agonists</td>
+      <td>NS1</td>
+      <td>dengue</td>
+      <td>IPNV</td>
+      <td>duck</td>
+      <td>PRV</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>replication</td>
+      <td>review</td>
+      <td>translocation</td>
+      <td>acids</td>
+      <td>plasmacytoid</td>
+      <td>type i</td>
+      <td>ifn-α</td>
+      <td>rotavirus</td>
+      <td>sensing</td>
+      <td>TLR4</td>
+      <td>IAV</td>
+      <td>dengue virus</td>
+      <td>fc</td>
+      <td>SAV3</td>
+      <td>IFIT3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>viral</td>
+      <td>recent</td>
+      <td>syndrome</td>
+      <td>RIG-I</td>
+      <td>adaptive</td>
+      <td>type i ifns</td>
+      <td>reproductive</td>
+      <td>synthetase</td>
+      <td>cgas-sting</td>
+      <td>rnai</td>
+      <td>E3</td>
+      <td>ifnγ</td>
+      <td>3cpro</td>
+      <td>avian</td>
+      <td>ifitms</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>IFN</td>
+      <td>system</td>
+      <td>SARS</td>
+      <td>RLR</td>
+      <td>cell</td>
+      <td>type iii ifn</td>
+      <td>diarrhea</td>
+      <td>ns2</td>
+      <td>RNA</td>
+      <td>epithelial</td>
+      <td>c-terminal</td>
+      <td>STAT</td>
+      <td>EGR1</td>
+      <td>ATMUV</td>
+      <td>PIV5</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>effect</td>
+      <td>mechanisms</td>
+      <td>factor</td>
+      <td>rlrs</td>
+      <td>dendritic cells</td>
+      <td>type i ifn</td>
+      <td>nsp11</td>
+      <td>2–5A</td>
+      <td>cyclic</td>
+      <td>tlrs</td>
+      <td>DUSP1</td>
+      <td>ifn-γ</td>
+      <td>HERC5</td>
+      <td>post</td>
+      <td>JE</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>interferon</td>
+      <td>signaling</td>
+      <td>TBK1</td>
+      <td>MDA5</td>
+      <td>MCMV</td>
+      <td>ifnλ4</td>
+      <td>swine</td>
+      <td>enzyme</td>
+      <td>synthase</td>
+      <td>ICLC</td>
+      <td>ubiquitin</td>
+      <td>JAK/STAT</td>
+      <td>mxa</td>
+      <td>mx</td>
+      <td>2′-o-methylation</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>gene</td>
+      <td>immunity</td>
+      <td>nuclear translocation</td>
+      <td>pattern</td>
+      <td>plasmacytoid dendritic cells</td>
+      <td>type iii ifns</td>
+      <td>respiratory syndrome virus</td>
+      <td>oligoadenylate</td>
+      <td>p4a</td>
+      <td>airways</td>
+      <td>HTNV</td>
+      <td>NS5</td>
+      <td>TRIM21</td>
+      <td>birds</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>induced</td>
+      <td>response</td>
+      <td>activation</td>
+      <td>cytosolic</td>
+      <td>cells</td>
+      <td>hcv infection</td>
+      <td>TGEV</td>
+      <td>HBV</td>
+      <td>cgamp</td>
+      <td>TLR9</td>
+      <td>RABV</td>
+      <td>USP18</td>
+      <td>activity</td>
+      <td>trachea</td>
+      <td>1BB</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>levels</td>
+      <td>infections</td>
+      <td>coronaviruses</td>
+      <td>pattern recognition receptors</td>
+      <td>responses</td>
+      <td>IFNL</td>
+      <td>pigs</td>
+      <td>*</td>
+      <td>double-stranded</td>
+      <td>bovine</td>
+      <td>RIG-I</td>
+      <td>jak/stat pathway</td>
+      <td>BFA</td>
+      <td>24</td>
+      <td>interferon-inducible</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>influenza</td>
+      <td>strategies</td>
+      <td>respiratory</td>
+      <td>rig-i-like</td>
+      <td>systemic</td>
+      <td>lambda</td>
+      <td>piglets</td>
+      <td>L.</td>
+      <td>ER</td>
+      <td>bat cells</td>
+      <td>ubiquitination</td>
+      <td>STAT3</td>
+      <td>apol9</td>
+      <td>dukpna4</td>
+      <td>2′-O</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>induction</td>
+      <td>responses</td>
+      <td>IFN</td>
+      <td>helicases</td>
+      <td>macrophages</td>
+      <td>ifn-λ3</td>
+      <td>S100A9</td>
+      <td>dsrna</td>
+      <td>PACT</td>
+      <td>exacerbations</td>
+      <td>domains</td>
+      <td>DENV-2</td>
+      <td>ifn-ω</td>
+      <td>36</td>
+      <td>methylated</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>infected</td>
+      <td>understanding</td>
+      <td>plpro</td>
+      <td>pathogen-associated</td>
+      <td>dcs</td>
+      <td>gut</td>
+      <td>promoter activity</td>
+      <td>MHV</td>
+      <td>eif2α</td>
+      <td>myotis</td>
+      <td>TRIM62</td>
+      <td>opcs</td>
+      <td>l(pro</td>
+      <td>FIP</td>
+      <td>tetratricopeptide</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>results</td>
+      <td>including</td>
+      <td>regulatory</td>
+      <td>initiate</td>
+      <td>lymphocytes</td>
+      <td>hepatitis</td>
+      <td>IPEC-J2</td>
+      <td>oas/rnase</td>
+      <td>double-stranded rna</td>
+      <td>RPE</td>
+      <td>NEAT1</td>
+      <td>ISRE</td>
+      <td>camel</td>
+      <td>bronchitis</td>
+      <td>translation</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>vitro</td>
+      <td>pathways</td>
+      <td>ikkε</td>
+      <td>rig-i-like receptors</td>
+      <td>antigen</td>
+      <td>hepatitis c virus</td>
+      <td>CBP</td>
+      <td>AKAP7</td>
+      <td>dna sensors</td>
+      <td>epithelial cells</td>
+      <td>k63-linked</td>
+      <td>n-myc</td>
+      <td>sc</td>
+      <td>12</td>
+      <td>pifitm1</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>data</td>
+      <td>virus</td>
+      <td>severe</td>
+      <td>molecular</td>
+      <td>CD200</td>
+      <td>II</td>
+      <td>PRRS</td>
+      <td>OAS1</td>
+      <td>endoplasmic</td>
+      <td>poly iclc</td>
+      <td>rna-binding</td>
+      <td>janus</td>
+      <td>conjugation</td>
+      <td>PCR</td>
+      <td>IFIT1B</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>increased</td>
+      <td>diseases</td>
+      <td>proteins</td>
+      <td>patterns</td>
+      <td>acute</td>
+      <td>treatment</td>
+      <td>epidemic</td>
+      <td>RNA</td>
+      <td>IFI16</td>
+      <td>RV</td>
+      <td>domain</td>
+      <td>nmi</td>
+      <td>CHIKV</td>
+      <td>to-cells</td>
+      <td>ifits</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>show</td>
+      <td>proteins</td>
+      <td>protein</td>
+      <td>pamps</td>
+      <td>DC</td>
+      <td>genes</td>
+      <td>promoter</td>
+      <td>oligoadenylates</td>
+      <td>ASFV</td>
+      <td>alecto</td>
+      <td>TRIM56</td>
+      <td>HCQ</td>
+      <td>antibody</td>
+      <td>ducks</td>
+      <td>IFITM</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>demonstrated</td>
+      <td>interferons</td>
+      <td>transcription</td>
+      <td>intracellular</td>
+      <td>ifnα</td>
+      <td>infants</td>
+      <td>pams</td>
+      <td>ribonuclease</td>
+      <td>MAV-1</td>
+      <td>agonist</td>
+      <td>lncrna</td>
+      <td>ALVAC</td>
+      <td>ADCP</td>
+      <td>nitric</td>
+      <td>ISG56/IFIT1</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>study</td>
+      <td>discuss</td>
+      <td>protease</td>
+      <td>recognize</td>
+      <td>myeloid</td>
+      <td>sars-cov-2</td>
+      <td>industry</td>
+      <td>oas proteins</td>
+      <td>interferon genes</td>
+      <td>mmbr</td>
+      <td>sev</td>
+      <td>activator of transcription</td>
+      <td>antiviral activity</td>
+      <td>oxide</td>
+      <td>mrnas</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>in vitro</td>
+      <td>pathogens</td>
+      <td>nucleus</td>
+      <td>cascades</td>
+      <td>clearance</td>
+      <td>ifn pathway</td>
+      <td>protein</td>
+      <td>srnase</td>
+      <td>DDX3</td>
+      <td>COPD</td>
+      <td>HACE1</td>
+      <td>activator</td>
+      <td>ifn-induced</td>
+      <td>resiquimod</td>
+      <td>+</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>genes</td>
+      <td>functions</td>
+      <td>phosphorylation</td>
+      <td>toll-like</td>
+      <td>RBD</td>
+      <td>iii ifns</td>
+      <td>economic</td>
+      <td>hepatitis</td>
+      <td>kinase</td>
+      <td>mammals</td>
+      <td>GLTSCR2</td>
+      <td>ifn-α</td>
+      <td>hiv-1 infection</td>
+      <td>hcov-oc43</td>
+      <td>p53</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>ISG</td>
+      <td>viral infection</td>
+      <td>east</td>
+      <td>NLRP3</td>
+      <td>type</td>
+      <td>allele</td>
+      <td>prion</td>
+      <td>degradation</td>
+      <td>dsdna</td>
+      <td>rpe cells</td>
+      <td>long</td>
+      <td>signal transducer</td>
+      <td>boifn-ω3</td>
+      <td>ALV-J</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>isgs</td>
+      <td>cellular</td>
+      <td>production</td>
+      <td>toll-like receptors</td>
+      <td>early</td>
+      <td>YFV-17D</td>
+      <td>ipec-j2 cells</td>
+      <td>2′,5′-oligoadenylate</td>
+      <td>reticulum</td>
+      <td>reservoir</td>
+      <td>respiratory syncytial virus</td>
+      <td>SOCS-3</td>
+      <td>SVV</td>
+      <td>infectious bronchitis virus</td>
+      <td>online version</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>mrna</td>
+      <td>roles</td>
+      <td>PLP2</td>
+      <td>PRR</td>
+      <td>in vivo</td>
+      <td>stat1-deficient</td>
+      <td>nucleocapsid</td>
+      <td>2′-5′</td>
+      <td>rna viruses</td>
+      <td>cpg-c41</td>
+      <td>syncytial</td>
+      <td>pathway</td>
+      <td>α-defensins</td>
+      <td>8</td>
+      <td>SUPPLEMENTARY</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>type</td>
+      <td>pathogenesis</td>
+      <td>TRAF3</td>
+      <td>acid</td>
+      <td>HBD</td>
+      <td>ifn-λs</td>
+      <td>inhibited</td>
+      <td>AZA</td>
+      <td>stimulator</td>
+      <td>IRAK-4</td>
+      <td>zbtrim25</td>
+      <td>PBMC</td>
+      <td>ubiquitin</td>
+      <td>days</td>
+      <td>IFIT2</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>vivo</td>
+      <td>defense</td>
+      <td>kinase</td>
+      <td>inflammasome</td>
+      <td>ifn-α/β</td>
+      <td>IFNL4</td>
+      <td>n protein</td>
+      <td>single-stranded</td>
+      <td>cytosolic dna</td>
+      <td>peritoneal</td>
+      <td>aptamers</td>
+      <td>STAT4</td>
+      <td>subtypes</td>
+      <td>jak/stat</td>
+      <td>tetratricopeptide repeats</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>compared</td>
+      <td>immune response</td>
+      <td>middle</td>
+      <td>pathogen-associated molecular patterns</td>
+      <td>production</td>
+      <td>chronic</td>
+      <td>pdcov infection</td>
+      <td>double-stranded</td>
+      <td>synthesis</td>
+      <td>temperature</td>
+      <td>HFRS</td>
+      <td>UL23</td>
+      <td>trim5α</td>
+      <td>dpi</td>
+      <td>nm</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>mice</td>
+      <td>infection</td>
+      <td>DUB</td>
+      <td>nucleic acids</td>
+      <td>viral clearance</td>
+      <td>animal</td>
+      <td>deltacoronavirus</td>
+      <td>OAS3</td>
+      <td>viral dsrna</td>
+      <td>HRV-16</td>
+      <td>TRIM41</td>
+      <td>phosphorylation</td>
+      <td>ADP</td>
+      <td>avbds</td>
+      <td>5′</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>role</td>
+      <td>signalling</td>
+      <td>ifn-β</td>
+      <td>clrs</td>
+      <td>nk cell</td>
+      <td>tract</td>
+      <td>bicp0</td>
+      <td>oas-rnase</td>
+      <td>biogenesis</td>
+      <td>EBV</td>
+      <td>e3 ligase activity</td>
+      <td>FHV-1</td>
+      <td>conjugated</td>
+      <td>2216</td>
+      <td>‘</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>activity</td>
+      <td>effector</td>
+      <td>inhibits</td>
+      <td>TLR</td>
+      <td>CD200R</td>
+      <td>progression</td>
+      <td>marc-145 cells</td>
+      <td>ns4b</td>
+      <td>cyclic gmp</td>
+      <td>viral dsrnas</td>
+      <td>positive</td>
+      <td>metypcp</td>
+      <td>antiretroviral</td>
+      <td>ISR2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>human</td>
+      <td>evolved</td>
+      <td>3</td>
+      <td>lectin</td>
+      <td>sepsis</td>
+      <td>inflammation</td>
+      <td>nsp1β</td>
+      <td>rnase l.</td>
+      <td>TRBP</td>
+      <td>aminoglycoside</td>
+      <td>MAVS</td>
+      <td>IRF-1</td>
+      <td>species</td>
+      <td>DTMUV</td>
+      <td>N1</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>CNS</td>
+      <td>pathogen</td>
+      <td>interferon regulatory factor 3</td>
+      <td>endosomal</td>
+      <td>nk cells</td>
+      <td>type iii interferons</td>
+      <td>syndrome</td>
+      <td>endou</td>
+      <td>indomethacin</td>
+      <td>-λ</td>
+      <td>motif</td>
+      <td>ifn‐λ4</td>
+      <td>enzymes</td>
+      <td>degs</td>
+      <td>e(rns</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>robust</td>
+      <td>development</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>c-type</td>
+      <td>ifn-αβ</td>
+      <td>ifnλs</td>
+      <td>porcine deltacoronavirus</td>
+      <td>decay</td>
+      <td>phosphorylates</td>
+      <td>TLR-3</td>
+      <td>trafs</td>
+      <td>asian</td>
+      <td>hundreds</td>
+      <td>MDM</td>
+      <td>PPP-RNA</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>model</td>
+      <td>role</td>
+      <td>induction</td>
+      <td>tlrs</td>
+      <td>t cells</td>
+      <td>ifn-λ4</td>
+      <td>transmissible</td>
+      <td>enzymes</td>
+      <td>cgas-sting pathway</td>
+      <td>CLEC2</td>
+      <td>mir‐30</td>
+      <td>ifn-stimulated response element</td>
+      <td>protein</td>
+      <td>hpi</td>
+      <td>caspase-1</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>higher</td>
+      <td>current</td>
+      <td>found</td>
+      <td>inflammatory</td>
+      <td>monocytes</td>
+      <td>ifnλ</td>
+      <td>swine industry</td>
+      <td>PDE</td>
+      <td>GMP</td>
+      <td>lines</td>
+      <td>lab-attenuated</td>
+      <td>CD147</td>
+      <td>P2Y(13</td>
+      <td>defs</td>
+      <td>unmodified</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>wild-type</td>
+      <td>structural</td>
+      <td>papain-like</td>
+      <td>LGP2</td>
+      <td>type i ifn</td>
+      <td>glucocorticoids</td>
+      <td>nsp16</td>
+      <td>mouse hepatitis virus</td>
+      <td>translation</td>
+      <td>toll-like</td>
+      <td>RNF166</td>
+      <td>alt</td>
+      <td>conjugates</td>
+      <td>igy</td>
+      <td>viral rna</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>ZIKV</td>
+      <td>highlight</td>
+      <td>SFSV</td>
+      <td>signaling cascades</td>
+      <td>RRV</td>
+      <td>interferons</td>
+      <td>prrsv-infected</td>
+      <td>exon</td>
+      <td>cytosolic</td>
+      <td>humans</td>
+      <td>zebrafish</td>
+      <td>human cytomegalovirus</td>
+      <td>E1</td>
+      <td>DF-1</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>activation</td>
+      <td>escape</td>
+      <td>interferon</td>
+      <td>cytokines</td>
+      <td>CD4</td>
+      <td>lambdas</td>
+      <td>prig-i</td>
+      <td>oas/rnase l pathway</td>
+      <td>protein</td>
+      <td>toll/il-1</td>
+      <td>NSP1</td>
+      <td>sat05f</td>
+      <td>antigenically</td>
+      <td>ovo</td>
+      <td>structures</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>lacking</td>
+      <td>research</td>
+      <td>sars-cov infection</td>
+      <td>c-type lectin receptors</td>
+      <td>expansion</td>
+      <td>snps</td>
+      <td>isolate</td>
+      <td>exon(-</td>
+      <td>armenia/07</td>
+      <td>IRAK-M</td>
+      <td>sendai</td>
+      <td>inflammatory</td>
+      <td>α-defensin</td>
+      <td>NDV</td>
+      <td>2′-o-methyltransferase</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>decreased</td>
+      <td>years</td>
+      <td>nss</td>
+      <td>danger</td>
+      <td>LDV</td>
+      <td>sclerosis</td>
+      <td>pdcov n protein</td>
+      <td>prostate</td>
+      <td>primates</td>
+      <td>CLEC5A</td>
+      <td>protein</td>
+      <td>driven</td>
+      <td>ifn-α1</td>
+      <td>inos</td>
+      <td>shrna</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>knockdown</td>
+      <td>developed</td>
+      <td>C6</td>
+      <td>receptor</td>
+      <td>infections</td>
+      <td>multiple sclerosis</td>
+      <td>oct-1</td>
+      <td>synthetases</td>
+      <td>er stress</td>
+      <td>irak-4-deficient</td>
+      <td>TRAF3</td>
+      <td>RIG-1</td>
+      <td>foot-and-mouth disease virus</td>
+      <td>downregulated</td>
+      <td>parps</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>viruses</td>
+      <td>replication</td>
+      <td>4b</td>
+      <td>pathogens</td>
+      <td>pdcss</td>
+      <td>due</td>
+      <td>infection</td>
+      <td>5AMD</td>
+      <td>NTZ</td>
+      <td>serine</td>
+      <td>trim25-mediated</td>
+      <td>NB</td>
+      <td>ifna1</td>
+      <td>upregulated</td>
+      <td>paid</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>neurons</td>
+      <td>autophagy</td>
+      <td>orf4b</td>
+      <td>signaling</td>
+      <td>vlps</td>
+      <td>functions</td>
+      <td>production</td>
+      <td>dsrna-dependent</td>
+      <td>lassa</td>
+      <td>becs</td>
+      <td>long noncoding rnas</td>
+      <td>MX</td>
+      <td>madv-1</td>
+      <td>TLR</td>
+      <td>ELECTRONIC</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>microglia</td>
+      <td>interferon</td>
+      <td>bctraf3</td>
+      <td>nod-like</td>
+      <td>lymphocyte</td>
+      <td>human</td>
+      <td>ifn-β1</td>
+      <td>mutant</td>
+      <td>sec16a</td>
+      <td>5′ppprna</td>
+      <td>NRAV</td>
+      <td>transcription</td>
+      <td>foot-and-mouth</td>
+      <td>ODN</td>
+      <td>reveal</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>astrocytes</td>
+      <td>immune system</td>
+      <td>ifn regulatory factor 3</td>
+      <td>adaptors</td>
+      <td>CD8</td>
+      <td>biological activities</td>
+      <td>showed</td>
+      <td>ankyrin</td>
+      <td>sgs</td>
+      <td>CF</td>
+      <td>CRFB1</td>
+      <td>cytokine</td>
+      <td>peptides</td>
+      <td>ligands</td>
+      <td>binding</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

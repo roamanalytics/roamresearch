@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 17</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>infection</td>
+      <td>influenza</td>
+      <td>group</td>
+      <td>patients</td>
+      <td>MHV3</td>
+      <td>CNS</td>
+      <td>lung</td>
+      <td>oxide</td>
+      <td>nf-κb</td>
+      <td>endothelial</td>
+      <td>liver</td>
+      <td>pigs</td>
+      <td>HMGB1</td>
+      <td>FIP</td>
+      <td>complement</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>cells</td>
+      <td>lung</td>
+      <td>rats</td>
+      <td>=</td>
+      <td>A/J</td>
+      <td>brain</td>
+      <td>airway</td>
+      <td>nitric</td>
+      <td>MAPK</td>
+      <td>mscs</td>
+      <td>hepatitis</td>
+      <td>PRRSV</td>
+      <td>sepsis</td>
+      <td>cats</td>
+      <td>storm</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>immune</td>
+      <td>respiratory</td>
+      <td>significantly</td>
+      <td>IP-10</td>
+      <td>mice</td>
+      <td>CCL2</td>
+      <td>inflammation</td>
+      <td>macrophages</td>
+      <td>inflammasome</td>
+      <td>CD13</td>
+      <td>hepatic</td>
+      <td>porcine</td>
+      <td>transgenic</td>
+      <td>feline</td>
+      <td>cytokine storm</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>response</td>
+      <td>severe</td>
+      <td>injury</td>
+      <td>healthy</td>
+      <td>MHV</td>
+      <td>chemokine</td>
+      <td>PTX3</td>
+      <td>macrophage</td>
+      <td>p38</td>
+      <td>leukocytes</td>
+      <td>MHV-3</td>
+      <td>PRCV</td>
+      <td>ACE2</td>
+      <td>CHIKV</td>
+      <td>COVID-19</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>expression</td>
+      <td>ARDS</td>
+      <td>HC</td>
+      <td><</td>
+      <td>resistant</td>
+      <td>CXCL10</td>
+      <td>allergic</td>
+      <td>nitric oxide</td>
+      <td>phosphorylation</td>
+      <td>cells</td>
+      <td>IL-33</td>
+      <td>swine</td>
+      <td>GL</td>
+      <td>LTB4</td>
+      <td>c5a</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>viral</td>
+      <td>sars-cov</td>
+      <td>survival rate</td>
+      <td>children</td>
+      <td>balb/c</td>
+      <td>CCR2</td>
+      <td>lavage</td>
+      <td>polarization</td>
+      <td>ams</td>
+      <td>epithelial</td>
+      <td>fulminant</td>
+      <td>pig</td>
+      <td>transgenic mice</td>
+      <td>FIPV</td>
+      <td>EBOV</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>responses</td>
+      <td>mers-cov</td>
+      <td>staining</td>
+      <td>cytokine</td>
+      <td>strains</td>
+      <td>nervous</td>
+      <td>fluid</td>
+      <td>M1</td>
+      <td>NLRP3</td>
+      <td>II</td>
+      <td>liver injury</td>
+      <td>reproductive</td>
+      <td>angiotensin</td>
+      <td>PRV</td>
+      <td>complement activation</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>role</td>
+      <td>H5N1</td>
+      <td>lung</td>
+      <td>pbmcs</td>
+      <td>mouse</td>
+      <td>encephalitis</td>
+      <td>chronic</td>
+      <td>RAW</td>
+      <td>skin</td>
+      <td>class</td>
+      <td>hepatocytes</td>
+      <td>ifn-α</td>
+      <td>ang</td>
+      <td>HIV‐1</td>
+      <td>pneumococcal</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>cell</td>
+      <td>viruses</td>
+      <td>HCP</td>
+      <td>RANTES</td>
+      <td>virus</td>
+      <td>CCR5</td>
+      <td>airways</td>
+      <td>YPFS</td>
+      <td>TREM‐1</td>
+      <td>TI</td>
+      <td>HCV</td>
+      <td>IL6</td>
+      <td>box</td>
+      <td>peritonitis</td>
+      <td>C3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>inflammatory</td>
+      <td>SARS</td>
+      <td>treatment</td>
+      <td>levels</td>
+      <td>a/j mice</td>
+      <td>demyelination</td>
+      <td>RSV</td>
+      <td>effects</td>
+      <td>nuclear</td>
+      <td>adhesion</td>
+      <td>hepatocyte</td>
+      <td>prrsv-induced</td>
+      <td>II</td>
+      <td>vascular</td>
+      <td>sars-cov-2</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>disease</td>
+      <td>syndrome</td>
+      <td>BALF</td>
+      <td>MCP-1</td>
+      <td>3</td>
+      <td>central nervous system</td>
+      <td>eosinophils</td>
+      <td>COX-2</td>
+      <td>kinase</td>
+      <td>msc-evs</td>
+      <td>FH</td>
+      <td>LAB</td>
+      <td>shock</td>
+      <td>p40</td>
+      <td>RC-101</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>macrophages</td>
+      <td>pneumonia</td>
+      <td>mice</td>
+      <td>PBMC</td>
+      <td>susceptible</td>
+      <td>CXCL9</td>
+      <td>exacerbations</td>
+      <td>264.7</td>
+      <td>JNK</td>
+      <td>primary</td>
+      <td>fulminant hepatitis</td>
+      <td>FIV</td>
+      <td>glycyrrhizin</td>
+      <td>hantavirus</td>
+      <td>TIM-1</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>infected</td>
+      <td>virus</td>
+      <td>intestinal</td>
+      <td>cytokines</td>
+      <td>PCA</td>
+      <td>neurons</td>
+      <td>asthma</td>
+      <td>CWE</td>
+      <td>caspase-1</td>
+      <td>BHV-1</td>
+      <td>aminotransferase</td>
+      <td>IBV</td>
+      <td>ang ii</td>
+      <td>tissues</td>
+      <td>rvsv</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>cytokines</td>
+      <td>lungs</td>
+      <td>%</td>
+      <td>IL-8</td>
+      <td>peritoneal</td>
+      <td>CXCR3</td>
+      <td>bronchoalveolar</td>
+      <td>microglia</td>
+      <td>ROS</td>
+      <td>ATII</td>
+      <td>tnf‐α</td>
+      <td>respiratory syndrome virus</td>
+      <td>septic</td>
+      <td>nasal</td>
+      <td>IFX-1</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>receptor</td>
+      <td>pulmonary</td>
+      <td>IGF1</td>
+      <td>individuals</td>
+      <td>MHV-A59</td>
+      <td>TMEV</td>
+      <td>KO</td>
+      <td>ofscs</td>
+      <td>RTD-1</td>
+      <td>leukocyte</td>
+      <td>CVB3</td>
+      <td>IL-1</td>
+      <td>ACE</td>
+      <td>μg/l</td>
+      <td>α1-ar</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>virus</td>
+      <td>distress</td>
+      <td>survival</td>
+      <td>IL-6</td>
+      <td>hepatitis</td>
+      <td>central</td>
+      <td>exposure</td>
+      <td>quercetin</td>
+      <td>activation</td>
+      <td>antigens</td>
+      <td>AMD</td>
+      <td>birds</td>
+      <td>IL‐18</td>
+      <td>IBDV</td>
+      <td>microrna-9</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>cytokine</td>
+      <td>acute</td>
+      <td>myocardial</td>
+      <td>severe</td>
+      <td>gamma</td>
+      <td>infiltration</td>
+      <td>nanoparticles</td>
+      <td>production</td>
+      <td>mitochondrial</td>
+      <td>TII</td>
+      <td>ALT</td>
+      <td>trophoblasts</td>
+      <td>R5</td>
+      <td>fipv-infected</td>
+      <td>complement inhibitors</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>important</td>
+      <td>IAV</td>
+      <td>ALI</td>
+      <td>concentrations</td>
+      <td>resistance</td>
+      <td>glial</td>
+      <td>OVA</td>
+      <td>lps-induced</td>
+      <td>AD</td>
+      <td>stem</td>
+      <td>fgl2</td>
+      <td>respiratory</td>
+      <td>FEB</td>
+      <td>JUNV</td>
+      <td>sgp</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>innate</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>PA</td>
+      <td>asthmatic</td>
+      <td>ifnγ</td>
+      <td>MS</td>
+      <td>eosinophil</td>
+      <td>ngps</td>
+      <td>RL</td>
+      <td>vitro</td>
+      <td>IFN-I</td>
+      <td>pro-</td>
+      <td>SIRS</td>
+      <td>infectious</td>
+      <td>imaging</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>increased</td>
+      <td>coronavirus</td>
+      <td>PBD-2</td>
+      <td>subjects</td>
+      <td>immunized</td>
+      <td>recruitment</td>
+      <td>ozone</td>
+      <td>M2</td>
+      <td>melatonin</td>
+      <td>ICAM-1</td>
+      <td>liver damage</td>
+      <td>pregnancy</td>
+      <td>mab</td>
+      <td>pneumococcus</td>
+      <td>PAR1</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>type</td>
+      <td>MHV-1</td>
+      <td>treated</td>
+      <td>profiles</td>
+      <td>macrophages</td>
+      <td>CXCR2</td>
+      <td>BAL</td>
+      <td>HSV-1</td>
+      <td>p65</td>
+      <td>ti cells</td>
+      <td>CD8</td>
+      <td>il-1ra</td>
+      <td>exosomes</td>
+      <td>infectious peritonitis</td>
+      <td>gx-spla2</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>production</td>
+      <td>mers-cov infection</td>
+      <td>histopathological</td>
+      <td>10</td>
+      <td>balb/c mice</td>
+      <td>neuroinflammation</td>
+      <td>bronchoalveolar lavage fluid</td>
+      <td>inos</td>
+      <td>CIA</td>
+      <td>mesenchymal</td>
+      <td>NK</td>
+      <td>fiv-infected</td>
+      <td>tg</td>
+      <td>bursal</td>
+      <td>anti-lta</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>results</td>
+      <td>lethal</td>
+      <td>treated with</td>
+      <td>samples</td>
+      <td>higher</td>
+      <td>CCL3</td>
+      <td>mice</td>
+      <td>tumor-treating</td>
+      <td>pathways</td>
+      <td>e-selectin</td>
+      <td>intrahepatic</td>
+      <td>LBP</td>
+      <td>TAM</td>
+      <td>kittens</td>
+      <td>caspase-11</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>host</td>
+      <td>H1N1</td>
+      <td>rate</td>
+      <td>chemokines</td>
+      <td>observed</td>
+      <td>CCL5</td>
+      <td>alveolar macrophages</td>
+      <td>fields</td>
+      <td>eps</td>
+      <td>CD13(KO</td>
+      <td>alanine</td>
+      <td>HRV</td>
+      <td>PMN-II</td>
+      <td>mucosa</td>
+      <td>reactivation</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>compared</td>
+      <td>influenza virus</td>
+      <td>BD</td>
+      <td>serum</td>
+      <td>MHV-JHM</td>
+      <td>migration</td>
+      <td>exacerbation</td>
+      <td>macrophage polarization</td>
+      <td>sirna</td>
+      <td>bovine</td>
+      <td>viral hepatitis</td>
+      <td>inoculated</td>
+      <td>angiotensin ii</td>
+      <td>fadv-4</td>
+      <td>il-1β-induced</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>signaling</td>
+      <td>PR8</td>
+      <td>rodentium</td>
+      <td>age</td>
+      <td>mhv 3</td>
+      <td>SHP-1</td>
+      <td>dsrna</td>
+      <td>PAM</td>
+      <td>pyroptosis</td>
+      <td>monocytic</td>
+      <td>mice</td>
+      <td>CD14</td>
+      <td>mobility</td>
+      <td>fcov</td>
+      <td>neutrophil extravasation</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>including</td>
+      <td>avian</td>
+      <td>injected</td>
+      <td>cytokine profiles</td>
+      <td>kupffer</td>
+      <td>CXCL1</td>
+      <td>nets</td>
+      <td>synthase</td>
+      <td>HMPV</td>
+      <td>HGF</td>
+      <td>CC10</td>
+      <td>vp129/swil1β</td>
+      <td>dcr3</td>
+      <td>culture supernatant</td>
+      <td>pro-inflammatory response</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>mechanisms</td>
+      <td>pandemic</td>
+      <td>analysis</td>
+      <td>lower</td>
+      <td>antibody</td>
+      <td>BBB</td>
+      <td>neutrophilic</td>
+      <td>IM</td>
+      <td>A779</td>
+      <td>burst</td>
+      <td>IFNAR(−/−</td>
+      <td>TUL</td>
+      <td>renal</td>
+      <td>culture</td>
+      <td>anti-c5a</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>inflammation</td>
+      <td>mice</td>
+      <td>LPS</td>
+      <td>tnf-α</td>
+      <td>IFN</td>
+      <td>tb</td>
+      <td>WT</td>
+      <td>complexes</td>
+      <td>reactive</td>
+      <td>platelets</td>
+      <td>livers</td>
+      <td>extracorporeal</td>
+      <td>angiotensin-converting</td>
+      <td>IL‐10</td>
+      <td>trial</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>significant</td>
+      <td>infection</td>
+      <td>traditional</td>
+      <td>cases</td>
+      <td>titers</td>
+      <td>chemokines</td>
+      <td>IL-13</td>
+      <td>telbivudine</td>
+      <td>IL-8</td>
+      <td>transmigration</td>
+      <td>L2-MHV3</td>
+      <td>vaccine</td>
+      <td>septic shock</td>
+      <td>transmission</td>
+      <td>H7N9</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>suggest</td>
+      <td>ALI</td>
+      <td>administration</td>
+      <td>SFTS</td>
+      <td>silica</td>
+      <td>neuronal</td>
+      <td>RV</td>
+      <td>GM-CSF</td>
+      <td>arthritis</td>
+      <td>CHPV</td>
+      <td>mhv-3 infection</td>
+      <td>signs</td>
+      <td>LRG</td>
+      <td>line</td>
+      <td>gp/rvsv</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>development</td>
+      <td>2009</td>
+      <td>fish</td>
+      <td>correlation</td>
+      <td>dieldrin</td>
+      <td>mice</td>
+      <td>ovalbumin</td>
+      <td>anti-inflammatory</td>
+      <td>oxygen</td>
+      <td>endothelial cells</td>
+      <td>ducklings</td>
+      <td>lungs</td>
+      <td>RAS</td>
+      <td>OMZ</td>
+      <td>storms</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>protein</td>
+      <td>sars-cov infection</td>
+      <td>medicine</td>
+      <td>IL-10</td>
+      <td>synthesis</td>
+      <td>IRAK-M</td>
+      <td>rsv infection</td>
+      <td>activity</td>
+      <td>luteolin</td>
+      <td>u/ml</td>
+      <td>ifitmdel</td>
+      <td>-α</td>
+      <td>R-848</td>
+      <td>fcov-infected cats</td>
+      <td>community-acquired</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>study</td>
+      <td>acute respiratory syndrome</td>
+      <td>immunosorbent</td>
+      <td>mixed</td>
+      <td>c57bl</td>
+      <td>CC</td>
+      <td>inkt</td>
+      <td>IL-4</td>
+      <td>θ-defensins</td>
+      <td>haemolytica</td>
+      <td>USP18</td>
+      <td>ZEBOV</td>
+      <td>m2mϕ</td>
+      <td>bb12</td>
+      <td>α1-ar antagonists</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>mice</td>
+      <td>influenza a virus</td>
+      <td>VMC</td>
+      <td>HFMD</td>
+      <td>ctsl(+/+</td>
+      <td>astrocytes</td>
+      <td>alveolar</td>
+      <td>hpi</td>
+      <td>albicans</td>
+      <td>LPS</td>
+      <td>damage</td>
+      <td>TCF</td>
+      <td>CEACAM1</td>
+      <td>dln</td>
+      <td>paraquat</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>demonstrate</td>
+      <td>damage</td>
+      <td>enzyme-linked immunosorbent assay</td>
+      <td>response</td>
+      <td>ifn gamma</td>
+      <td>MMP9</td>
+      <td>CNP</td>
+      <td>MDP</td>
+      <td>cleavage</td>
+      <td>tnfα</td>
+      <td>icariin</td>
+      <td>haptoglobin</td>
+      <td>puncture</td>
+      <td>effusion</td>
+      <td>CHCP</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>involved</td>
+      <td>influenza infection</td>
+      <td>fenofibrate</td>
+      <td>values</td>
+      <td>MHV(+</td>
+      <td>CCR1</td>
+      <td>COPD</td>
+      <td>tumor-treating fields</td>
+      <td>7630</td>
+      <td>in vitro</td>
+      <td>IRF5</td>
+      <td>respiratory coronavirus</td>
+      <td>endocrine</td>
+      <td>p-p38</td>
+      <td>β-lactam</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>induction</td>
+      <td>mhv-1 infection</td>
+      <td>score</td>
+      <td>S.</td>
+      <td>MΦ</td>
+      <td>hippocampal</td>
+      <td>material</td>
+      <td>trypsin</td>
+      <td>ace2</td>
+      <td>unstimulated</td>
+      <td>IFNAR1</td>
+      <td>IL</td>
+      <td>pparγ</td>
+      <td>fcov-infected</td>
+      <td>pochonin</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>show</td>
+      <td>human</td>
+      <td>OK‐432</td>
+      <td>SFTSV</td>
+      <td>exudate</td>
+      <td>virus-specific t cells</td>
+      <td>rectivirgula</td>
+      <td>gondii</td>
+      <td>inhibitors</td>
+      <td>niv</td>
+      <td>yac-mhv3-infected</td>
+      <td>tumour necrosis factor (tnf)-α</td>
+      <td>cecal</td>
+      <td>EEHV-HD</td>
+      <td>antagonists</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>model</td>
+      <td>lung damage</td>
+      <td>GGD</td>
+      <td>ifn-γ</td>
+      <td>infection</td>
+      <td>system</td>
+      <td>injury</td>
+      <td>effects of</td>
+      <td>il-1β</td>
+      <td>atii cells</td>
+      <td>pdc</td>
+      <td>bioactive</td>
+      <td>AT1R</td>
+      <td>causative</td>
+      <td>targeted</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>viral infection</td>
+      <td>sars‐cov</td>
+      <td>detect</td>
+      <td>blood</td>
+      <td>autophagy</td>
+      <td>JE</td>
+      <td>acute</td>
+      <td>hm3dq</td>
+      <td>species</td>
+      <td>CCR3</td>
+      <td>DN</td>
+      <td>interferon-α</td>
+      <td>sp-sel</td>
+      <td>SEOV</td>
+      <td>organ</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>clearance</td>
+      <td>H9N2</td>
+      <td>oil</td>
+      <td>mrna</td>
+      <td>fut9(−/−</td>
+      <td>m. tb</td>
+      <td>supplementary</td>
+      <td>vitro</td>
+      <td>tylvalosin</td>
+      <td>tii cells</td>
+      <td>conclusion</td>
+      <td>PRRS</td>
+      <td>australis</td>
+      <td>PGE2</td>
+      <td>systemic</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>due</td>
+      <td>influenza pneumonia</td>
+      <td>reduced</td>
+      <td>disease</td>
+      <td>peritoneal exudate</td>
+      <td>intracranial</td>
+      <td>s rectivirgula</td>
+      <td>lactobacillus</td>
+      <td>vectors</td>
+      <td>astrocytes</td>
+      <td>fatty</td>
+      <td>HP-PRRSV</td>
+      <td>bmms</td>
+      <td>supernatant</td>
+      <td>activation</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>significantly</td>
+      <td>pathogenesis</td>
+      <td>effects</td>
+      <td>cytokine levels</td>
+      <td>HIII</td>
+      <td>monocytes</td>
+      <td>AHR</td>
+      <td>inducible nitric oxide synthase</td>
+      <td>mitogen-activated</td>
+      <td>expression</td>
+      <td>MCMV</td>
+      <td>24h</td>
+      <td>mir-200c-3p</td>
+      <td>lymphoid</td>
+      <td>targeting</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>suggesting</td>
+      <td>influenza viruses</td>
+      <td>study</td>
+      <td>healthy controls</td>
+      <td>BMMΦ</td>
+      <td>CCR2−/−</td>
+      <td>version</td>
+      <td>m1 macrophages</td>
+      <td>translocation</td>
+      <td>alveolar epithelium</td>
+      <td>liver disease</td>
+      <td>LAB+HRV+</td>
+      <td>ligation</td>
+      <td>tnf-alpha</td>
+      <td>injury</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>genes</td>
+      <td>replication</td>
+      <td>DSS</td>
+      <td>cytometric</td>
+      <td>peritoneum</td>
+      <td>multiple sclerosis</td>
+      <td>FP</td>
+      <td>emodin</td>
+      <td>P2X7R</td>
+      <td>CD14(+</td>
+      <td>FGL2</td>
+      <td>rpoifnγ</td>
+      <td>HIV</td>
+      <td>disease</td>
+      <td>prosthesis</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>previously</td>
+      <td>mortality</td>
+      <td>lactis</td>
+      <td>factor</td>
+      <td>TBE</td>
+      <td>neuroinflammatory</td>
+      <td>tio(2)nps</td>
+      <td>GA</td>
+      <td>pathway</td>
+      <td>m. haemolytica</td>
+      <td>p-icariin</td>
+      <td>prrsv-infected</td>
+      <td>ace2(-/y</td>
+      <td>AOM</td>
+      <td>inflammatory injury</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>plays</td>
+      <td>acute respiratory syndrome coronavirus</td>
+      <td>oroa</td>
+      <td>associated with</td>
+      <td>B6-GKO</td>
+      <td>SVZ</td>
+      <td>sensitized</td>
+      <td>ifn-gamma</td>
+      <td>inhibited</td>
+      <td>mamif</td>
+      <td>CCHF</td>
+      <td>extracorporeal lungs</td>
+      <td>cancer</td>
+      <td>principal</td>
+      <td>cynomolgus</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>regulation</td>
+      <td>h5n1-induced</td>
+      <td>cadmium</td>
+      <td>admission</td>
+      <td>mouse hepatitis virus 3</td>
+      <td>neurotropic</td>
+      <td>acute exacerbation</td>
+      <td>inhibited</td>
+      <td>osteoclastogenesis</td>
+      <td>exposure</td>
+      <td>yac-mhv3-infected mice</td>
+      <td>4</td>
+      <td>cultures</td>
+      <td>footpad</td>
+      <td>HYPOTHESIS</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>identified</td>
+      <td>mouse-adapted</td>
+      <td>microbiota</td>
+      <td>MMP‐8</td>
+      <td>BALB-GKO</td>
+      <td>cord</td>
+      <td>sal</td>
+      <td>in vitro</td>
+      <td>ESR</td>
+      <td>neutrophils</td>
+      <td>injury</td>
+      <td>groups</td>
+      <td>treated with</td>
+      <td>lipoxins</td>
+      <td>recombinant vesicular stomatitis virus</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

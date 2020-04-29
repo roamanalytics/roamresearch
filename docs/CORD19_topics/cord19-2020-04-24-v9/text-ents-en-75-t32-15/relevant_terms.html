@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 32</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>diagnosis</td>
+      <td>CT</td>
+      <td>infection</td>
+      <td>symptoms</td>
+      <td>cat</td>
+      <td>therapy</td>
+      <td>pneumonia</td>
+      <td>MRI</td>
+      <td>failure</td>
+      <td>interstitial</td>
+      <td>KD</td>
+      <td>nerve</td>
+      <td>transplant</td>
+      <td>legionnaires</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>patients</td>
+      <td>clinical</td>
+      <td>COVID-19</td>
+      <td>case</td>
+      <td>coronavirus</td>
+      <td>revealed</td>
+      <td>improvement</td>
+      <td>chest</td>
+      <td>cats</td>
+      <td>SARS</td>
+      <td>alveolar</td>
+      <td>kawasaki</td>
+      <td>palsy</td>
+      <td>osteonecrosis</td>
+      <td>legionnaires' disease</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>study</td>
+      <td>diagnostic</td>
+      <td>consolidation</td>
+      <td>virus</td>
+      <td>fever</td>
+      <td>feline</td>
+      <td>treatment</td>
+      <td>bronchiolitis</td>
+      <td>resonance</td>
+      <td>lung</td>
+      <td>idiopathic</td>
+      <td>coronary</td>
+      <td>muscle</td>
+      <td>imatinib</td>
+      <td>H1N1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>group</td>
+      <td>treatment</td>
+      <td>ground-glass</td>
+      <td>patient</td>
+      <td>COVID-19</td>
+      <td>abdominal</td>
+      <td>’s</td>
+      <td>chest radiography</td>
+      <td>dogs</td>
+      <td>distress</td>
+      <td>organizing</td>
+      <td>kawasaki disease</td>
+      <td>calves</td>
+      <td>stem</td>
+      <td>legionella</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>clinical</td>
+      <td>diseases</td>
+      <td>opacities</td>
+      <td>report</td>
+      <td>SARS</td>
+      <td>mass</td>
+      <td>antibiotic</td>
+      <td>x-ray</td>
+      <td>magnetic</td>
+      <td>respiratory</td>
+      <td>pneumonia</td>
+      <td>vasculitis</td>
+      <td>catheterization</td>
+      <td>irreversible</td>
+      <td>thrombocytosis</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>=</td>
+      <td>differential</td>
+      <td>chest</td>
+      <td>autoimmune</td>
+      <td>respiratory</td>
+      <td>FIP</td>
+      <td>pneumomediastinum</td>
+      <td>chest x-ray</td>
+      <td>neurological</td>
+      <td>ARDS</td>
+      <td>AFOP</td>
+      <td>artery</td>
+      <td>genetic</td>
+      <td>hip</td>
+      <td>CAP</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>higher</td>
+      <td>disease</td>
+      <td>imaging</td>
+      <td>previously</td>
+      <td>mers-cov</td>
+      <td>loss</td>
+      <td>patient</td>
+      <td>radiography</td>
+      <td>magnetic resonance imaging</td>
+      <td>pulmonary</td>
+      <td>pulmonary</td>
+      <td>incomplete</td>
+      <td>mutation</td>
+      <td>recipient</td>
+      <td>kawasaki's disease</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1</td>
+      <td>include</td>
+      <td>GGO</td>
+      <td>infections</td>
+      <td>2019</td>
+      <td>examination</td>
+      <td>steroid</td>
+      <td>radiograph</td>
+      <td>brain</td>
+      <td>ventilation</td>
+      <td>exacerbation</td>
+      <td>(18)F-FDG</td>
+      <td>muscles</td>
+      <td>recipients</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>years</td>
+      <td>review</td>
+      <td>opacity</td>
+      <td>thrombocytopenia</td>
+      <td>diarrhea</td>
+      <td>ferret</td>
+      <td>days</td>
+      <td>hmpv</td>
+      <td>encephalopathy</td>
+      <td>mechanical</td>
+      <td>acute exacerbation</td>
+      <td>uptake</td>
+      <td>ANE</td>
+      <td>allogeneic</td>
+      <td>weighted</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>laboratory</td>
+      <td>common</td>
+      <td>scans</td>
+      <td>viral</td>
+      <td>cough</td>
+      <td>domestic</td>
+      <td>fluid</td>
+      <td>chest radiograph</td>
+      <td>seizures</td>
+      <td>appendicitis</td>
+      <td>idiopathic pulmonary fibrosis</td>
+      <td>arteries</td>
+      <td>barré</td>
+      <td>cell</td>
+      <td>h1n1 pneumonia</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>6</td>
+      <td>management</td>
+      <td>lesions</td>
+      <td>measles</td>
+      <td>sars-cov-2</td>
+      <td>weight</td>
+      <td>oral</td>
+      <td>bacterial</td>
+      <td>ADEM</td>
+      <td>sars-cov</td>
+      <td>IPF</td>
+      <td>coronary artery abnormalities</td>
+      <td>guillain</td>
+      <td>AVN</td>
+      <td>swine</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>cases</td>
+      <td>infectious</td>
+      <td>distribution</td>
+      <td>renal</td>
+      <td>asymptomatic</td>
+      <td>ferrets</td>
+      <td>PRESENTATION</td>
+      <td>community-acquired pneumonia</td>
+      <td>central</td>
+      <td>infants</td>
+      <td>fibrosis</td>
+      <td>ACS</td>
+      <td>RANBP2</td>
+      <td>MFON</td>
+      <td>CMV</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>compared</td>
+      <td>complications</td>
+      <td>computed</td>
+      <td>reported</td>
+      <td>chain</td>
+      <td>weight loss</td>
+      <td>ribavirin</td>
+      <td>ultrasound</td>
+      <td>CSF</td>
+      <td>mechanical ventilation</td>
+      <td>acute</td>
+      <td>PET</td>
+      <td>variant</td>
+      <td>HSCT</td>
+      <td>'s</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>age</td>
+      <td>systemic</td>
+      <td>chest ct</td>
+      <td>association</td>
+      <td>throat</td>
+      <td>shorthair</td>
+      <td>initiated</td>
+      <td>sensitivity</td>
+      <td>nervous</td>
+      <td>intensive</td>
+      <td>organizing pneumonia</td>
+      <td>suvmax</td>
+      <td>facial</td>
+      <td>tumor</td>
+      <td>triad</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>total</td>
+      <td>important</td>
+      <td>thickening</td>
+      <td>due</td>
+      <td>reaction</td>
+      <td>neutered</td>
+      <td>supportive</td>
+      <td>lung ultrasound</td>
+      <td>imaging</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>interstitial pneumonia</td>
+      <td>aneurysms</td>
+      <td>phenotype</td>
+      <td>solid</td>
+      <td>pandemic</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>data</td>
+      <td>differential diagnosis</td>
+      <td>findings</td>
+      <td>rare</td>
+      <td>exposure</td>
+      <td>skin</td>
+      <td>methylprednisolone</td>
+      <td>CAP</td>
+      <td>neurologic</td>
+      <td>function</td>
+      <td>lung</td>
+      <td>intravenous</td>
+      <td>deficiency</td>
+      <td>candida</td>
+      <td>influenza</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>results</td>
+      <td>atypical</td>
+      <td>ground</td>
+      <td>cervical</td>
+      <td>wuhan</td>
+      <td>domestic shorthair</td>
+      <td>administration</td>
+      <td>quality</td>
+      <td>CNS</td>
+      <td>heart</td>
+      <td>DAD</td>
+      <td>immunoglobulin</td>
+      <td>skeletal</td>
+      <td>hematopoietic</td>
+      <td>winthrop-university</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>groups</td>
+      <td>article</td>
+      <td>HRCT</td>
+      <td>revealed</td>
+      <td>outbreak</td>
+      <td>female</td>
+      <td>treated</td>
+      <td>community-acquired</td>
+      <td>spinal</td>
+      <td>unit</td>
+      <td>AE</td>
+      <td>disease</td>
+      <td>motor</td>
+      <td>fungal</td>
+      <td>disease</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2</td>
+      <td>features</td>
+      <td>glass</td>
+      <td>HLH</td>
+      <td>positive</td>
+      <td>INFORMATION</td>
+      <td>weeks</td>
+      <td>radiation</td>
+      <td>cerebrospinal</td>
+      <td>care</td>
+      <td>pattern</td>
+      <td>pathogenic</td>
+      <td>barré syndrome</td>
+      <td>invasive</td>
+      <td>syndromic</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>-</td>
+      <td>specific</td>
+      <td>tomography</td>
+      <td>associated with</td>
+      <td>fatigue</td>
+      <td>left</td>
+      <td>received</td>
+      <td>tuberculosis</td>
+      <td>inflammatory</td>
+      <td>ALTE</td>
+      <td>rats</td>
+      <td>children</td>
+      <td>zinc</td>
+      <td>transplantation</td>
+      <td>division</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>characteristics</td>
+      <td>literature</td>
+      <td>pleural</td>
+      <td>mycoplasma</td>
+      <td>sore</td>
+      <td>necropsy</td>
+      <td>follow</td>
+      <td>specificity</td>
+      <td>encephalitis</td>
+      <td>acute respiratory syndrome</td>
+      <td>diffuse alveolar damage</td>
+      <td>intravenous immunoglobulin</td>
+      <td>disorder</td>
+      <td>drug</td>
+      <td>elevated</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>common</td>
+      <td>discussed</td>
+      <td>effusion</td>
+      <td>acute</td>
+      <td>east</td>
+      <td>RELEVANCE</td>
+      <td>antibiotics</td>
+      <td>adenovirus</td>
+      <td>signs</td>
+      <td>intensive care unit</td>
+      <td>OP</td>
+      <td>standardized</td>
+      <td>limbs</td>
+      <td>sinusitis</td>
+      <td>point</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>20</td>
+      <td>difficult</td>
+      <td>lung</td>
+      <td>SLE</td>
+      <td>sore throat</td>
+      <td>intestinal</td>
+      <td>antibiotic therapy</td>
+      <td>image</td>
+      <td>vestibular</td>
+      <td>syndrome</td>
+      <td>fibrin</td>
+      <td>emission</td>
+      <td>external</td>
+      <td>trachea</td>
+      <td>diagnostic</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2020</td>
+      <td>disorders</td>
+      <td>covid-19 pneumonia</td>
+      <td>HIV</td>
+      <td>polymerase</td>
+      <td>case summary</td>
+      <td>daily</td>
+      <td>lung</td>
+      <td>seizure</td>
+      <td>respiratory failure</td>
+      <td>fibrinous</td>
+      <td>coronary arteries</td>
+      <td>myelitis</td>
+      <td>mucormycosis</td>
+      <td>caps</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>enrolled</td>
+      <td>current</td>
+      <td>septal</td>
+      <td>man</td>
+      <td>china</td>
+      <td>liver</td>
+      <td>improved</td>
+      <td>radiographic</td>
+      <td>cord</td>
+      <td>igg</td>
+      <td>acute lung injury</td>
+      <td>PRI</td>
+      <td>stress</td>
+      <td>pericollapse</td>
+      <td>diagnostic legionnaires' disease triad</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>children</td>
+      <td>presentations</td>
+      <td>ground-glass opacities</td>
+      <td>recovered</td>
+      <td>contact</td>
+      <td>cells</td>
+      <td>remission</td>
+      <td>sounds</td>
+      <td>encephalomyelitis</td>
+      <td>severe</td>
+      <td>ILD</td>
+      <td>IVIG</td>
+      <td>thiamine</td>
+      <td>myeloid</td>
+      <td>ilis</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>METHODS</td>
+      <td>early</td>
+      <td>lobe</td>
+      <td>child</td>
+      <td>ocular</td>
+      <td>peritonitis</td>
+      <td>clinical improvement</td>
+      <td>predictive</td>
+      <td>contrast</td>
+      <td>embolism</td>
+      <td>idiopathic interstitial pneumonia</td>
+      <td>cells</td>
+      <td>spinous</td>
+      <td>hyphae</td>
+      <td>dorsum</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>january</td>
+      <td>including</td>
+      <td>subpleural</td>
+      <td>RSV</td>
+      <td>day</td>
+      <td>bone</td>
+      <td>insufficiency</td>
+      <td>centrilobular</td>
+      <td>neoplasia</td>
+      <td>impairment</td>
+      <td>ilds</td>
+      <td>SCD</td>
+      <td>incontinence</td>
+      <td>ONFH</td>
+      <td>clinical syndromic diagnosis</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>significantly</td>
+      <td>prognosis</td>
+      <td>ground-glass opacity</td>
+      <td>boy</td>
+      <td>hospital</td>
+      <td>lethargy</td>
+      <td>subcutaneous</td>
+      <td>BOOP</td>
+      <td>acute disseminated encephalomyelitis</td>
+      <td>pulmonary embolism</td>
+      <td>acute fibrinous</td>
+      <td>remains</td>
+      <td>sensory</td>
+      <td>earlier</td>
+      <td>serum transaminases</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>included</td>
+      <td>underlying</td>
+      <td>%</td>
+      <td>considered</td>
+      <td>health</td>
+      <td>male</td>
+      <td>subcutaneous emphysema</td>
+      <td>tomography</td>
+      <td>disseminated</td>
+      <td>oxygen</td>
+      <td>histologic</td>
+      <td>regional</td>
+      <td>pelvic</td>
+      <td>joints</td>
+      <td>hands/feet</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>80</td>
+      <td>entity</td>
+      <td>bilateral</td>
+      <td>M.</td>
+      <td>gastrointestinal</td>
+      <td>report</td>
+      <td>discontinued</td>
+      <td>respiratory</td>
+      <td>pancreatic</td>
+      <td>hemorrhage</td>
+      <td>lavage</td>
+      <td>AHA</td>
+      <td>IVMP</td>
+      <td>pericollapse stage</td>
+      <td>swine influenza</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>retrospectively</td>
+      <td>understanding</td>
+      <td>pneumonia</td>
+      <td>fatal</td>
+      <td>non-sars</td>
+      <td>consistent with</td>
+      <td>pulse</td>
+      <td>bacterial pneumonia</td>
+      <td>neurological signs</td>
+      <td>subjects</td>
+      <td>viral</td>
+      <td>suv(max</td>
+      <td>CFS</td>
+      <td>donor</td>
+      <td>ridts</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>25</td>
+      <td>criteria</td>
+      <td>thin-section</td>
+      <td>purpura</td>
+      <td>family</td>
+      <td>ultrasonography</td>
+      <td>immunosuppressive</td>
+      <td>low-dose</td>
+      <td>neurological examination</td>
+      <td>LDH</td>
+      <td>marmosets</td>
+      <td>suv(mean</td>
+      <td>inherited</td>
+      <td>PATIENT</td>
+      <td>score</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>5</td>
+      <td>airway</td>
+      <td>patients</td>
+      <td>present</td>
+      <td>rrt-pcr</td>
+      <td>macrophages</td>
+      <td>corticosteroid</td>
+      <td>scan</td>
+      <td>MR</td>
+      <td>neonatal</td>
+      <td>intra-alveolar</td>
+      <td>non-acs controls</td>
+      <td>II</td>
+      <td>DLI</td>
+      <td>ferritin</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>4</td>
+      <td>forms</td>
+      <td>pattern</td>
+      <td>human</td>
+      <td>travel</td>
+      <td>lymph</td>
+      <td>rare</td>
+      <td>jirovecii</td>
+      <td>cerebral</td>
+      <td>HAPE</td>
+      <td>AE-IPF</td>
+      <td>caas</td>
+      <td>autonomic</td>
+      <td>RP</td>
+      <td>titre</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>17</td>
+      <td>children</td>
+      <td>crazy-paving</td>
+      <td>severe</td>
+      <td>myalgia</td>
+      <td>cytology</td>
+      <td>mg/kg</td>
+      <td>computed</td>
+      <td>central nervous system</td>
+      <td>ACDMPV</td>
+      <td>carinii</td>
+      <td>coronary artery</td>
+      <td>hemiconvulsion‐hemiplegia‐epilepsy</td>
+      <td>CONCERNS</td>
+      <td>extreme</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>investigate</td>
+      <td>epidemiology</td>
+      <td>interlobular</td>
+      <td>developed</td>
+      <td>negative</td>
+      <td>consistent</td>
+      <td>TCM</td>
+      <td>CT</td>
+      <td>CLINICAL</td>
+      <td>capacity</td>
+      <td>CVD-IP</td>
+      <td>DPI</td>
+      <td>ZDL</td>
+      <td>LESSONS</td>
+      <td>VL</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>prevalence</td>
+      <td>systemic diseases</td>
+      <td>consolidations</td>
+      <td>tris</td>
+      <td>transmission</td>
+      <td>numerous</td>
+      <td>steroid therapy</td>
+      <td>adults</td>
+      <td>demyelinating</td>
+      <td>acute</td>
+      <td>balls</td>
+      <td>non-acs</td>
+      <td>peripheral nerves</td>
+      <td>malignancy</td>
+      <td>SGOT/SGPT</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>19</td>
+      <td>bacteria</td>
+      <td>interlobular septal thickening</td>
+      <td>presented</td>
+      <td>NCOVID-19</td>
+      <td>clinical signs</td>
+      <td>fever</td>
+      <td>centrilobular nodules</td>
+      <td>epilepticus</td>
+      <td>physical</td>
+      <td>diffuse</td>
+      <td>cals</td>
+      <td>leukodystrophy</td>
+      <td>deficiency</td>
+      <td>winthrop-university hospital</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>features</td>
+      <td>chapter</td>
+      <td>ct scans</td>
+      <td>erythema</td>
+      <td>real-time</td>
+      <td>spayed</td>
+      <td>kikuchi-fujimoto</td>
+      <td>non-bacterial</td>
+      <td>AMG</td>
+      <td>lung function</td>
+      <td>characterized</td>
+      <td>antibodies</td>
+      <td>FOPS</td>
+      <td>ankle</td>
+      <td>seasonal</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>vs.</td>
+      <td>presentation</td>
+      <td>initial</td>
+      <td>medications</td>
+      <td>sars-cov-2 infection</td>
+      <td>abdominal ultrasonography</td>
+      <td>gradual</td>
+      <td>G1</td>
+      <td>otitis</td>
+      <td>indications</td>
+      <td>tissue</td>
+      <td>molecular</td>
+      <td>pain</td>
+      <td>INTERVENTIONS</td>
+      <td>TSS</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>february</td>
+      <td>challenging</td>
+      <td>ground glass opacities</td>
+      <td>malignancies</td>
+      <td>case</td>
+      <td>presented</td>
+      <td>achieved</td>
+      <td>LRTI</td>
+      <td>cerebrospinal fluid analysis</td>
+      <td>dlco</td>
+      <td>acute interstitial pneumonia</td>
+      <td>pathogenic proteins</td>
+      <td>neoplastic cells</td>
+      <td>toxicities</td>
+      <td>TL</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>95</td>
+      <td>cases</td>
+      <td>S-OIV</td>
+      <td>EBV</td>
+      <td>developed</td>
+      <td>signs</td>
+      <td>phenobarbital</td>
+      <td>hmpv pneumonia</td>
+      <td>pyrexia</td>
+      <td>HRCT</td>
+      <td>proteinosis</td>
+      <td>nodosa</td>
+      <td>decompressive</td>
+      <td>femoral head</td>
+      <td>leishmaniasis</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>cohort</td>
+      <td>requires</td>
+      <td>NCP</td>
+      <td>hepatitis</td>
+      <td>history</td>
+      <td>polydipsia</td>
+      <td>response</td>
+      <td>low-dose computed tomography</td>
+      <td>EUC</td>
+      <td>pulmonary hemorrhage</td>
+      <td>immunosuppressive agents</td>
+      <td>endothelial</td>
+      <td>neurolymphomatosis</td>
+      <td>solid organ transplant</td>
+      <td>anti-legionella</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>diagnosis</td>
+      <td>syndromes</td>
+      <td>crazy-paving pattern</td>
+      <td>ITP</td>
+      <td>NON-NCOVID-19</td>
+      <td>blood</td>
+      <td>treated with</td>
+      <td>ROC</td>
+      <td>images</td>
+      <td>hospital discharge</td>
+      <td>respiratory</td>
+      <td>biomarkers</td>
+      <td>hemiplegia</td>
+      <td>plain</td>
+      <td>diagnostic weighted point score system</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>53</td>
+      <td>wide</td>
+      <td>chest computed tomography</td>
+      <td>syndrome</td>
+      <td>chills</td>
+      <td>biochemistry</td>
+      <td>resolution</td>
+      <td>visualized</td>
+      <td>lesion</td>
+      <td>dynamic</td>
+      <td>PRRSV</td>
+      <td>polyarteritis</td>
+      <td>skeletal muscles</td>
+      <td>posttransplant</td>
+      <td>cmv pneumonia</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>mean age</td>
+      <td>croup</td>
+      <td>ggos</td>
+      <td>HCV</td>
+      <td>staff</td>
+      <td>bladder</td>
+      <td>acute bronchitis</td>
+      <td>prediction</td>
+      <td>analysis</td>
+      <td>sars-cov igg</td>
+      <td>unpredictable</td>
+      <td>acquired heart disease</td>
+      <td>connection</td>
+      <td>talus</td>
+      <td>non-zoonotic</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>dehydrogenase</td>
+      <td>reviews</td>
+      <td>features</td>
+      <td>APS</td>
+      <td>exposure to</td>
+      <td>immunohistochemistry</td>
+      <td>adrenal insufficiency</td>
+      <td>DS</td>
+      <td>CMM</td>
+      <td>hospital-acquired</td>
+      <td>PIBO</td>
+      <td>mucocutaneous</td>
+      <td>ramsay</td>
+      <td>krusei</td>
+      <td>ILI</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>26</td>
+      <td>clinical presentations</td>
+      <td>materials</td>
+      <td>viral infections</td>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>mesenteric</td>
+      <td>IFN</td>
+      <td>non-bacterial pneumonia</td>
+      <td>neurological complications</td>
+      <td>severely</td>
+      <td>strategies</td>
+      <td>multisystemic</td>
+      <td>intervals</td>
+      <td>imatinib-induced</td>
+      <td>pending</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>laboratory tests</td>
+      <td>immunological</td>
+      <td>bronchogram</td>
+      <td>illness</td>
+      <td>syndrome</td>
+      <td>spleen</td>
+      <td>AIS</td>
+      <td>incidental</td>
+      <td>pituitary</td>
+      <td>hospital</td>
+      <td>TTV</td>
+      <td>predilection</td>
+      <td>urge</td>
+      <td>organ</td>
+      <td>legionnaire's disease</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

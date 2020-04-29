@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 65</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>kim</td>
+      <td>COPD</td>
+      <td>%</td>
+      <td>subjects</td>
+      <td>asthma</td>
+      <td>rhinitis</td>
+      <td>include</td>
+      <td>ige</td>
+      <td>gyeong</td>
+      <td>vitamin</td>
+      <td>ju-hee</td>
+      <td>yeon</td>
+      <td>cough</td>
+      <td>neutrophilic</td>
+      <td>reactions</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>lee</td>
+      <td>exacerbations</td>
+      <td>episode</td>
+      <td>virus</td>
+      <td>wheezing</td>
+      <td>allergic</td>
+      <td>inhaled</td>
+      <td>dong-chull</td>
+      <td>seung-hyun</td>
+      <td>deficiency</td>
+      <td>byung</td>
+      <td>bee</td>
+      <td>bronchitis</td>
+      <td>south</td>
+      <td>survey</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>park</td>
+      <td>disease</td>
+      <td>compared</td>
+      <td>bronchial</td>
+      <td>illnesses</td>
+      <td>allergic rhinitis</td>
+      <td>effective</td>
+      <td>titres</td>
+      <td>ji-won kwon</td>
+      <td>immune</td>
+      <td>yoon-seok</td>
+      <td>elderly</td>
+      <td>chronic bronchitis</td>
+      <td>jun-pyo choi</td>
+      <td>FP</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>young</td>
+      <td>exacerbation</td>
+      <td>significantly</td>
+      <td>airway</td>
+      <td>risk</td>
+      <td>hyun-ju</td>
+      <td>wheeze</td>
+      <td>su</td>
+      <td>sehyo</td>
+      <td>innate</td>
+      <td>hee-bom</td>
+      <td>gwang-cheon</td>
+      <td>PIC</td>
+      <td>goh</td>
+      <td>mice</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>jung</td>
+      <td>pulmonary</td>
+      <td>group</td>
+      <td>inflammation</td>
+      <td>viral</td>
+      <td>nasal</td>
+      <td>corticosteroids</td>
+      <td>igg</td>
+      <td>jae-won paeng</td>
+      <td>exacerbators</td>
+      <td>sungchul</td>
+      <td>M.</td>
+      <td>H1N1</td>
+      <td>min-hye</td>
+      <td>sal</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>choi</td>
+      <td>chronic</td>
+      <td>=</td>
+      <td>virus-induced</td>
+      <td>infections</td>
+      <td>mingyu</td>
+      <td>recommended</td>
+      <td>ja</td>
+      <td>hyouk-soo</td>
+      <td>C.</td>
+      <td>yean</td>
+      <td>si</td>
+      <td>chronic cough</td>
+      <td>min-gu</td>
+      <td>tests</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>dermatitis</td>
+      <td>lung</td>
+      <td>months</td>
+      <td>infection</td>
+      <td>factors</td>
+      <td>2012</td>
+      <td>avoidance</td>
+      <td>allergens</td>
+      <td>report</td>
+      <td>vitamin d</td>
+      <td>byung-keun</td>
+      <td>extracellular</td>
+      <td>influenza</td>
+      <td>hee-joo</td>
+      <td>son</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>hee</td>
+      <td>chronic obstructive pulmonary disease</td>
+      <td>children</td>
+      <td>eosinophils</td>
+      <td>sensitization</td>
+      <td>hyeon-jong</td>
+      <td>therapy</td>
+      <td>refractory</td>
+      <td>sehyo yune</td>
+      <td>lectin</td>
+      <td>ho-jang</td>
+      <td>gil-soon</td>
+      <td>apartment</td>
+      <td>idiopathic</td>
+      <td>non‐immediate</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>min</td>
+      <td>obstructive</td>
+      <td>PCR</td>
+      <td>lower</td>
+      <td>RV</td>
+      <td>chronic rhinosinusitis</td>
+      <td>smoke</td>
+      <td>young yoo</td>
+      <td>young-koo</td>
+      <td>leptum</td>
+      <td>inhibits</td>
+      <td>song-i yang</td>
+      <td>OSA</td>
+      <td>woo-jung</td>
+      <td>BL</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>hyun</td>
+      <td>airway</td>
+      <td>visit</td>
+      <td>asthma</td>
+      <td>early</td>
+      <td>mohammad</td>
+      <td>condition</td>
+      <td>jun</td>
+      <td>hun soo chang</td>
+      <td>tonsillar</td>
+      <td>seasonal variation</td>
+      <td>S.</td>
+      <td>chronic</td>
+      <td>suppression</td>
+      <td>effectiveness</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>cho</td>
+      <td>frequent</td>
+      <td>expiratory</td>
+      <td>upper</td>
+      <td>childhood</td>
+      <td>based</td>
+      <td>triggers</td>
+      <td>evaluation</td>
+      <td>luo</td>
+      <td>mannose-binding</td>
+      <td>margaret</td>
+      <td>staphylococcal</td>
+      <td>redecoration</td>
+      <td>hayashi</td>
+      <td>non‐immediate reactions</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>kang</td>
+      <td>treatment</td>
+      <td>years</td>
+      <td>sputum</td>
+      <td>adjusted</td>
+      <td>adverse</td>
+      <td>conditions</td>
+      <td>antibody</td>
+      <td>mo</td>
+      <td>tonsillar hypertrophy</td>
+      <td>shimojo</td>
+      <td>bo</td>
+      <td>arsenic</td>
+      <td>generalized</td>
+      <td>FPS</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>ji</td>
+      <td>important</td>
+      <td>METHODS</td>
+      <td>+</td>
+      <td>children</td>
+      <td>tanaka</td>
+      <td>diagnosis</td>
+      <td>bok-yang pyun</td>
+      <td>yeo</td>
+      <td>hypertrophy</td>
+      <td>iga</td>
+      <td>han-ki</td>
+      <td>tongue-lip</td>
+      <td>interleukin</td>
+      <td>treated with</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>yoon</td>
+      <td>fibrosis</td>
+      <td>RESULTS</td>
+      <td>experimental</td>
+      <td>respiratory</td>
+      <td>rhinosinusitis</td>
+      <td>bronchodilators</td>
+      <td>HDM</td>
+      <td>levels</td>
+      <td>expression</td>
+      <td>emergency</td>
+      <td>clinical characteristics</td>
+      <td>cough sensitivity</td>
+      <td>kwanghoon</td>
+      <td>treated</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>won</td>
+      <td>function</td>
+      <td>forced</td>
+      <td>nasal</td>
+      <td>severe</td>
+      <td>usefulness</td>
+      <td>irritants</td>
+      <td>singh</td>
+      <td>dermatophagoides</td>
+      <td>infant</td>
+      <td>china</td>
+      <td>mun</td>
+      <td>estimated</td>
+      <td>jacqueline</td>
+      <td>intradermal</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>atopic dermatitis</td>
+      <td>cystic fibrosis</td>
+      <td>age</td>
+      <td>showed</td>
+      <td>exposure</td>
+      <td>caused</td>
+      <td>result</td>
+      <td>anti‐bacterial</td>
+      <td>allergic diseases</td>
+      <td>c. leptum</td>
+      <td>depression</td>
+      <td>le</td>
+      <td>chlamydia</td>
+      <td>taehyeong</td>
+      <td>utility</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>atopic</td>
+      <td>lung function</td>
+      <td>prednisolone</td>
+      <td>exacerbation</td>
+      <td>atopy</td>
+      <td>immunoglobulin</td>
+      <td>molds</td>
+      <td>KIM</td>
+      <td>polymorphism</td>
+      <td>virus-associated</td>
+      <td>akio</td>
+      <td>chin kook rhee</td>
+      <td>acute bronchitis</td>
+      <td>so-young</td>
+      <td>hye-yung</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>hong</td>
+      <td>cystic</td>
+      <td>2</td>
+      <td>type 2 inflammation</td>
+      <td>wheezing illnesses</td>
+      <td>allergic disease</td>
+      <td>discuss</td>
+      <td>features</td>
+      <td>filaggrin</td>
+      <td>epithelial</td>
+      <td>murray</td>
+      <td>rho</td>
+      <td>h1n1 influenza</td>
+      <td>kook</td>
+      <td>ginseng</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>children</td>
+      <td>bacterial</td>
+      <td>study</td>
+      <td>neutrophils</td>
+      <td>sensitized</td>
+      <td>prick</td>
+      <td>trigger</td>
+      <td>chul</td>
+      <td>injection</td>
+      <td>vitamin d deficiency</td>
+      <td>howard</td>
+      <td>galina</td>
+      <td>acute symptoms</td>
+      <td>extract</td>
+      <td>mycoplasma</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>jin</td>
+      <td>CF</td>
+      <td>BACKGROUND</td>
+      <td>virus-induced asthma</td>
+      <td>develop</td>
+      <td>omalizumab</td>
+      <td>tobacco</td>
+      <td>jihyun</td>
+      <td>hemin</td>
+      <td>preceding</td>
+      <td>inhalant</td>
+      <td>yon</td>
+      <td>adhesion</td>
+      <td>nishida</td>
+      <td>allergic asthma</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>shin</td>
+      <td>decline</td>
+      <td><</td>
+      <td>controls</td>
+      <td>risk factors</td>
+      <td>rat</td>
+      <td>oral</td>
+      <td>imran</td>
+      <td>25-hydroxyvitamin</td>
+      <td>gene</td>
+      <td>mesenchymal stem cells</td>
+      <td>logii</td>
+      <td>sinusitis</td>
+      <td>amit</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>asthma</td>
+      <td>morbidity</td>
+      <td>3</td>
+      <td>hyperreactivity</td>
+      <td>life</td>
+      <td>prolonged/recurrent</td>
+      <td>continuous</td>
+      <td>zahra</td>
+      <td>proteins</td>
+      <td>immunity</td>
+      <td>jihye</td>
+      <td>choe</td>
+      <td>agents</td>
+      <td>hee-kyoo</td>
+      <td>airborne</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>yang</td>
+      <td>patients</td>
+      <td>volume</td>
+      <td>correlated</td>
+      <td>recurrent</td>
+      <td>tatiana</td>
+      <td>inhaled corticosteroids</td>
+      <td>hye-soo</td>
+      <td>aw</td>
+      <td>mannose-binding lectin</td>
+      <td>bronchoconstriction</td>
+      <td>sy</td>
+      <td>sensitivity</td>
+      <td>georg</td>
+      <td>fluticasone</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>korean</td>
+      <td>increased</td>
+      <td>conclusions</td>
+      <td>=</td>
+      <td>birth</td>
+      <td>life</td>
+      <td>smoking</td>
+      <td>kyoon</td>
+      <td>byoung</td>
+      <td>innate immunity</td>
+      <td>grass</td>
+      <td>hyunjung</td>
+      <td>recommendations</td>
+      <td>william</td>
+      <td>cluster</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>yong</td>
+      <td>frequency</td>
+      <td>CONCLUSIONS</td>
+      <td>observed</td>
+      <td>odds ratio</td>
+      <td>disorders</td>
+      <td>term</td>
+      <td>dae-jin</td>
+      <td>chan</td>
+      <td>tonsillitis</td>
+      <td>andaya</td>
+      <td>shimizu</td>
+      <td>95%CI</td>
+      <td>multicenter</td>
+      <td>soon-chan</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>chang</td>
+      <td>mortality</td>
+      <td>median</td>
+      <td>TSLP</td>
+      <td>viral illnesses</td>
+      <td>pregnancy</td>
+      <td>pathologic</td>
+      <td>wong</td>
+      <td>sooyoung lee</td>
+      <td>recurrent tonsillitis</td>
+      <td>indonesia</td>
+      <td>chernyak</td>
+      <td>eliminate</td>
+      <td>daehong</td>
+      <td>1026</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>soo</td>
+      <td>leading</td>
+      <td>load</td>
+      <td>IL-33</td>
+      <td>adults</td>
+      <td>contact</td>
+      <td>cigarette smoke</td>
+      <td>wen</td>
+      <td>quality</td>
+      <td>tonsils</td>
+      <td>jiang</td>
+      <td>koh</td>
+      <td>sequence</td>
+      <td>seung-no</td>
+      <td>RSV</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>kwon</td>
+      <td>airways</td>
+      <td>medication</td>
+      <td>allergic subjects</td>
+      <td>aeroallergen</td>
+      <td>affect</td>
+      <td>passive</td>
+      <td>anaphylactic</td>
+      <td>hyo-jung</td>
+      <td>interferon</td>
+      <td>ilknur</td>
+      <td>relation</td>
+      <td>pierre</td>
+      <td>aleksandra</td>
+      <td>baek</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>kyung</td>
+      <td>acute exacerbation</td>
+      <td>12</td>
+      <td>sputum eosinophils</td>
+      <td>relationships</td>
+      <td>sheryl</td>
+      <td>ICS</td>
+      <td>gut</td>
+      <td>chong</td>
+      <td>differentiated</td>
+      <td>kam</td>
+      <td>wheat</td>
+      <td>clearance</td>
+      <td>juan</td>
+      <td>youhoon</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>seo</td>
+      <td>lead</td>
+      <td>higher</td>
+      <td>similar</td>
+      <td>odds</td>
+      <td>food allergens</td>
+      <td>heterogeneous</td>
+      <td>responses</td>
+      <td>byung-jae lee</td>
+      <td>year</td>
+      <td>vesicles</td>
+      <td>medical</td>
+      <td>robin</td>
+      <td>zhaowei</td>
+      <td>jennifer</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>woo</td>
+      <td>acute exacerbations</td>
+      <td>baseline</td>
+      <td>studies</td>
+      <td>development</td>
+      <td>yosuke</td>
+      <td>chapter</td>
+      <td>th2</td>
+      <td>qing</td>
+      <td>options</td>
+      <td>indoor</td>
+      <td>peanut</td>
+      <td>TLA</td>
+      <td>aspergillosis</td>
+      <td>mimic</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>song</td>
+      <td>characterized</td>
+      <td>feno</td>
+      <td>type</td>
+      <td>strategies</td>
+      <td>ri</td>
+      <td>management</td>
+      <td>shim</td>
+      <td>nahm</td>
+      <td>expressions</td>
+      <td>comparison</td>
+      <td>reference</td>
+      <td>west bengal</td>
+      <td>dress</td>
+      <td>surfactant</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>dust</td>
+      <td>inflammation</td>
+      <td>95</td>
+      <td>acute</td>
+      <td>rhinovirus</td>
+      <td>hieu</td>
+      <td>cigarette</td>
+      <td>schoolchildren</td>
+      <td>nima</td>
+      <td>treg</td>
+      <td>correlation</td>
+      <td>ying</td>
+      <td>viral upper respiratory tract infection</td>
+      <td>receptor</td>
+      <td>dpts</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>jang</td>
+      <td>studies</td>
+      <td>performed</td>
+      <td>mucosal</td>
+      <td>ige</td>
+      <td>jaewon</td>
+      <td>episodic</td>
+      <td>hector</td>
+      <td>igg4</td>
+      <td>IL-37</td>
+      <td>roh</td>
+      <td>beef</td>
+      <td>RSS</td>
+      <td>successful</td>
+      <td>interleukin-9</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>patients</td>
+      <td>infection</td>
+      <td>function</td>
+      <td>acute asthma</td>
+      <td>ages</td>
+      <td>chiang</td>
+      <td>air</td>
+      <td>jain</td>
+      <td>jeurink</td>
+      <td>interferons</td>
+      <td>hyeon</td>
+      <td>narissara</td>
+      <td>pet</td>
+      <td>dae</td>
+      <td>salmeterol</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>eun</td>
+      <td>article</td>
+      <td>duration</td>
+      <td>IP-10</td>
+      <td>linked</td>
+      <td>lun</td>
+      <td>preschool</td>
+      <td>hogil</td>
+      <td>recombinant</td>
+      <td>early-life</td>
+      <td>young min ye</td>
+      <td>namsoo</td>
+      <td>year</td>
+      <td>hyung</td>
+      <td>nakabayashi</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>hye</td>
+      <td>therapies</td>
+      <td>pex</td>
+      <td>type-2</td>
+      <td>early life</td>
+      <td>mongolian</td>
+      <td>occupational exposures</td>
+      <td>sun-sin</td>
+      <td>VDR</td>
+      <td>stages</td>
+      <td>west</td>
+      <td>elena</td>
+      <td>acute</td>
+      <td>carolina</td>
+      <td>rsv infection</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>ho</td>
+      <td>underlying</td>
+      <td>FEV(1</td>
+      <td>patients</td>
+      <td>age</td>
+      <td>farmers</td>
+      <td>oral corticosteroids</td>
+      <td>sonomjamts</td>
+      <td>ha-su</td>
+      <td>differences</td>
+      <td>miyuki</td>
+      <td>llanora</td>
+      <td>exposure</td>
+      <td>cut-off</td>
+      <td>nong</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>allergy</td>
+      <td>severity</td>
+      <td>25</td>
+      <td>RV16</td>
+      <td>allergen</td>
+      <td>karl-christian</td>
+      <td>active</td>
+      <td>hyun-sun</td>
+      <td>serin</td>
+      <td>mice</td>
+      <td>jettanong</td>
+      <td>adverse drug reactions</td>
+      <td>expectorants</td>
+      <td>NKT</td>
+      <td>southern</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>anaphylaxis</td>
+      <td>variable</td>
+      <td>lung function</td>
+      <td>collected</td>
+      <td>associated with</td>
+      <td>baek-jo</td>
+      <td>preemptive</td>
+      <td>rosario</td>
+      <td>heath</td>
+      <td>patients</td>
+      <td>metabolite</td>
+      <td>i-chun</td>
+      <td>managing</td>
+      <td>sujin</td>
+      <td>DHR</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>yoo</td>
+      <td>MAPK</td>
+      <td>lung</td>
+      <td>URI</td>
+      <td>inception</td>
+      <td>bomi</td>
+      <td>search</td>
+      <td>suzaki</td>
+      <td>yuzaburo</td>
+      <td>bocavirus-1</td>
+      <td>trends</td>
+      <td>ant</td>
+      <td>non-infectious</td>
+      <td>sabeen</td>
+      <td>protease</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>clinical</td>
+      <td>GOLD</td>
+      <td>75</td>
+      <td>infected</td>
+      <td>ige antibodies</td>
+      <td>environmental</td>
+      <td>asthma</td>
+      <td>bergmann</td>
+      <td>lung tissue</td>
+      <td>control group</td>
+      <td>pourpak</td>
+      <td>huimin</td>
+      <td>dampness</td>
+      <td>jaehee</td>
+      <td>ayse</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>sang-heon</td>
+      <td>worldwide</td>
+      <td>initiation</td>
+      <td>swabs</td>
+      <td>viral wheezing</td>
+      <td>boo-young</td>
+      <td>bronchiectasis</td>
+      <td>suck</td>
+      <td>shrimp</td>
+      <td>iii interferons</td>
+      <td>keratinocytes</td>
+      <td>n-acetylcysteine</td>
+      <td>postinfection</td>
+      <td>ho-sung</td>
+      <td>resulted</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>sang</td>
+      <td>common</td>
+      <td>ARI</td>
+      <td>shown</td>
+      <td>yr</td>
+      <td>meenu</td>
+      <td>syndrome</td>
+      <td>whui</td>
+      <td>watanabe</td>
+      <td>isgs</td>
+      <td>fine</td>
+      <td>esch</td>
+      <td>7.8</td>
+      <td>genevieve</td>
+      <td>retrospective analysis</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>nam</td>
+      <td>acute</td>
+      <td>rhinovirus</td>
+      <td>inflammatory</td>
+      <td>organ</td>
+      <td>indian</td>
+      <td>evidence</td>
+      <td>anti‐hdm</td>
+      <td>yongseok</td>
+      <td>endoscopic</td>
+      <td>tight</td>
+      <td>anti-tuberculosis</td>
+      <td>authors</td>
+      <td>kazuyo</td>
+      <td>exanthemas</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>young-ho</td>
+      <td>admission</td>
+      <td>nonatopic</td>
+      <td>cell</td>
+      <td>adolescence</td>
+      <td>fung</td>
+      <td>history</td>
+      <td>autologous</td>
+      <td>pilar</td>
+      <td>ex vivo</td>
+      <td>almendarez</td>
+      <td>gustavo</td>
+      <td>±</td>
+      <td>cepeda</td>
+      <td>association of</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>joo</td>
+      <td>p38</td>
+      <td>sought</td>
+      <td>exacerbations</td>
+      <td>rhinovirus‐associated</td>
+      <td>breast</td>
+      <td>β-agonist</td>
+      <td>eva</td>
+      <td>childhood asthma</td>
+      <td>intratonsillar</td>
+      <td>diahn-warng</td>
+      <td>technical</td>
+      <td>drainage</td>
+      <td>LPS</td>
+      <td>ozseker</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>allergic</td>
+      <td>health status</td>
+      <td>scores</td>
+      <td>EE</td>
+      <td>greatest</td>
+      <td>fernandez</td>
+      <td>inherited</td>
+      <td>christine</td>
+      <td>suh</td>
+      <td>high-dose</td>
+      <td>koizumi</td>
+      <td>korean red ginseng</td>
+      <td>8.5</td>
+      <td>busan</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>kyu</td>
+      <td>pulmonary exacerbations</td>
+      <td>wheezing</td>
+      <td>0.01</td>
+      <td>affected</td>
+      <td>budesonide</td>
+      <td>body</td>
+      <td>cow</td>
+      <td>effects of</td>
+      <td>theatre</td>
+      <td>nationwide</td>
+      <td>anti-allergic</td>
+      <td>neoplasm</td>
+      <td>toru</td>
+      <td>garcia-marcos</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>hye-ryun</td>
+      <td>microorganisms</td>
+      <td>recorded</td>
+      <td>naturally</td>
+      <td>virus</td>
+      <td>jisun</td>
+      <td>noisy</td>
+      <td>convalescence</td>
+      <td>asthmatics</td>
+      <td>leads</td>
+      <td>kurowski</td>
+      <td>marina</td>
+      <td>approach</td>
+      <td>hea-kyoung</td>
+      <td>DNA</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 51</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>group</td>
+      <td>COVID-19</td>
+      <td>cold</td>
+      <td>studies</td>
+      <td>bone</td>
+      <td>antibiotics</td>
+      <td>CI</td>
+      <td>participants</td>
+      <td>osteonecrosis</td>
+      <td>dogs</td>
+      <td>cats</td>
+      <td>ribavirin</td>
+      <td>children</td>
+      <td>®</td>
+      <td>lozenge</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>patients</td>
+      <td>severe</td>
+      <td>common</td>
+      <td>trials</td>
+      <td>SAON</td>
+      <td>care</td>
+      <td>95</td>
+      <td>vaccine</td>
+      <td>hip</td>
+      <td>ampligen</td>
+      <td>lung</td>
+      <td>interferon</td>
+      <td>wheezing</td>
+      <td>asthma</td>
+      <td>zinc</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>%</td>
+      <td>HCQ</td>
+      <td>nasal</td>
+      <td>medicine</td>
+      <td>steroid-associated</td>
+      <td>intervention</td>
+      <td>%</td>
+      <td>vaccination</td>
+      <td>corticosteroid</td>
+      <td>calves</td>
+      <td>rfeifn-ω</td>
+      <td>life</td>
+      <td>prednisolone</td>
+      <td>liver</td>
+      <td>lozenges</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>treatment</td>
+      <td>hydroxychloroquine</td>
+      <td>colds</td>
+      <td>chinese</td>
+      <td>rabbits</td>
+      <td>bronchiolitis</td>
+      <td>oseltamivir</td>
+      <td>immunogenicity</td>
+      <td>SARS</td>
+      <td>diarrhea</td>
+      <td>therapy</td>
+      <td>mg/2</td>
+      <td>episodes</td>
+      <td>LAT</td>
+      <td>AMC/DCBA</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>days</td>
+      <td>patients</td>
+      <td>symptoms</td>
+      <td>evidence</td>
+      <td>marrow</td>
+      <td>trial</td>
+      <td>children</td>
+      <td>MERS</td>
+      <td>ONFH</td>
+      <td>®</td>
+      <td>99mtc-mdp</td>
+      <td>rt-pa</td>
+      <td>episode</td>
+      <td>VAS</td>
+      <td>izn</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>study</td>
+      <td>sars-cov-2</td>
+      <td>upper</td>
+      <td>review</td>
+      <td>expression</td>
+      <td>antibiotic</td>
+      <td>amoxicillin</td>
+      <td>high-dose group</td>
+      <td>hips</td>
+      <td>hemispherx</td>
+      <td>ARDS</td>
+      <td>amantadine</td>
+      <td>balance</td>
+      <td>haemophilia</td>
+      <td>anaesthesia</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>groups</td>
+      <td>2020</td>
+      <td>placebo</td>
+      <td>ICWM</td>
+      <td>area</td>
+      <td>bronchitis</td>
+      <td>zanamivir</td>
+      <td>VRC</td>
+      <td>AVN</td>
+      <td>chronic fatigue syndrome</td>
+      <td>parenteral</td>
+      <td>quality</td>
+      <td>exercise</td>
+      <td>sinupret</td>
+      <td>throat</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>=</td>
+      <td>coronavirus</td>
+      <td>infections</td>
+      <td>clinical</td>
+      <td>collapse</td>
+      <td>length</td>
+      <td>azithromycin</td>
+      <td>vaccines</td>
+      <td>femoral</td>
+      <td>fatigue</td>
+      <td>steroid</td>
+      <td>cancer</td>
+      <td>MP</td>
+      <td>LI</td>
+      <td>#</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>compared</td>
+      <td>arbidol</td>
+      <td>symptom</td>
+      <td>herbal</td>
+      <td>model</td>
+      <td>primary</td>
+      <td>exacerbations</td>
+      <td>low-dose group</td>
+      <td>necrosis</td>
+      <td>agreement</td>
+      <td>aes</td>
+      <td>PTE</td>
+      <td>tonsillitis</td>
+      <td>MBP</td>
+      <td>surgery</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>day</td>
+      <td>lpv/r</td>
+      <td>spray</td>
+      <td>WM</td>
+      <td>ANFH</td>
+      <td>dengue</td>
+      <td>presatovir</td>
+      <td>mers-cov</td>
+      <td>steroids</td>
+      <td>neonatal</td>
+      <td>NHM</td>
+      <td>XTJYF</td>
+      <td>recurrent</td>
+      <td>anesthetic</td>
+      <td>kg−1</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>randomized</td>
+      <td>convalescent</td>
+      <td>subjects</td>
+      <td>TCM</td>
+      <td>LPS</td>
+      <td>stay</td>
+      <td>clavulanate</td>
+      <td>seroconversion</td>
+      <td>avascular</td>
+      <td>OIT</td>
+      <td>FES</td>
+      <td>drops</td>
+      <td>system</td>
+      <td>GERD</td>
+      <td>sevoflurane</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2</td>
+      <td>standard care</td>
+      <td>iota-carrageenan</td>
+      <td>western</td>
+      <td>steroid-associated osteonecrosis</td>
+      <td>acute bronchitis</td>
+      <td>confidence interval</td>
+      <td>non-adjuvanted</td>
+      <td>head</td>
+      <td>weight</td>
+      <td>nicotine</td>
+      <td>dry</td>
+      <td>STS</td>
+      <td>beriate</td>
+      <td>sufentanil-midazolam</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>received</td>
+      <td>2019</td>
+      <td>cold symptoms</td>
+      <td>decongestants</td>
+      <td>antler</td>
+      <td>POCT</td>
+      <td>confidence</td>
+      <td>solicited</td>
+      <td>diagnosis</td>
+      <td>buprenorphine</td>
+      <td>inss</td>
+      <td>mouth</td>
+      <td>antihistamines</td>
+      <td>lobeglitazone</td>
+      <td>CCK</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td><</td>
+      <td>mortality</td>
+      <td>duration</td>
+      <td>search</td>
+      <td>induction</td>
+      <td>feasibility</td>
+      <td>RSV</td>
+      <td>VLP</td>
+      <td>femoral head</td>
+      <td>animals</td>
+      <td>feline</td>
+      <td>quality of life</td>
+      <td>TG</td>
+      <td>PPI</td>
+      <td>nebulised</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>control</td>
+      <td>standard</td>
+      <td>echinacea</td>
+      <td>systematic</td>
+      <td>rabbit</td>
+      <td>magnesium</td>
+      <td>=</td>
+      <td>events</td>
+      <td>imaging</td>
+      <td>biopharma</td>
+      <td>inflammatory</td>
+      <td>bleeding</td>
+      <td>portfolio</td>
+      <td>vs.</td>
+      <td>sore</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>time</td>
+      <td>IVIG</td>
+      <td>extract</td>
+      <td>treatments</td>
+      <td>cells</td>
+      <td>intervention group</td>
+      <td>risk</td>
+      <td>adverse events</td>
+      <td>MRI</td>
+      <td>FA</td>
+      <td>systemic</td>
+      <td>regimen</td>
+      <td>PMC</td>
+      <td>ifn-β</td>
+      <td>atelectasis</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>clinical</td>
+      <td>plasma</td>
+      <td>nasal spray</td>
+      <td>treatment</td>
+      <td>icaritin</td>
+      <td>sample</td>
+      <td>NNTB</td>
+      <td>™</td>
+      <td>aspirin</td>
+      <td>ADPP</td>
+      <td>dose</td>
+      <td>ampicillin</td>
+      <td>asthma-like</td>
+      <td>gel</td>
+      <td>PEEP</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>significant</td>
+      <td>mechanical</td>
+      <td>natural</td>
+      <td>clinical trials</td>
+      <td>CON</td>
+      <td>secondary outcomes</td>
+      <td>gargling</td>
+      <td>nitazoxanide</td>
+      <td>resonance</td>
+      <td>mice</td>
+      <td>refractory</td>
+      <td>indomethacin</td>
+      <td>AZT</td>
+      <td>sensitivity</td>
+      <td>active</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>1</td>
+      <td>chest</td>
+      <td>viruses</td>
+      <td>data</td>
+      <td>MPS</td>
+      <td>sample size</td>
+      <td>paracetamol</td>
+      <td>immune</td>
+      <td>joints</td>
+      <td>calf</td>
+      <td>FCGS</td>
+      <td>dry mouth</td>
+      <td>loaded</td>
+      <td>hepatic</td>
+      <td>0.1</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>results</td>
+      <td>pandemic</td>
+      <td>influenza-like</td>
+      <td>traditional</td>
+      <td>lipid</td>
+      <td>urtis</td>
+      <td>exacerbation</td>
+      <td>%</td>
+      <td>avascular necrosis</td>
+      <td>excess</td>
+      <td>fluticasone</td>
+      <td>ribavirin therapy</td>
+      <td>strength</td>
+      <td>asthma control</td>
+      <td>μg</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>3</td>
+      <td>therapy</td>
+      <td>respiratory</td>
+      <td>congestion</td>
+      <td>femoral</td>
+      <td>rhinothermy</td>
+      <td>eps</td>
+      <td>low-dose</td>
+      <td>risk</td>
+      <td>AMI</td>
+      <td>micafungin</td>
+      <td>REFRECARE-H</td>
+      <td>statin</td>
+      <td>NAFLD</td>
+      <td>arterial</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>placebo</td>
+      <td>disease</td>
+      <td>rhinovirus</td>
+      <td>western medicine</td>
+      <td>repair</td>
+      <td>primary care</td>
+      <td>7630</td>
+      <td>vaccinations</td>
+      <td>risk factors</td>
+      <td>entered</td>
+      <td>integrative therapy</td>
+      <td>OLP</td>
+      <td>CRP</td>
+      <td>UCVA</td>
+      <td>OTC</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>significantly</td>
+      <td>antiviral</td>
+      <td>viral</td>
+      <td>ID</td>
+      <td>emus</td>
+      <td>fluid</td>
+      <td>bronchiectasis</td>
+      <td>cohorts</td>
+      <td>seizure</td>
+      <td>hemispherx biopharma</td>
+      <td>immunosuppressive</td>
+      <td>biyeom‐go</td>
+      <td>initiation</td>
+      <td>MONT</td>
+      <td>APTT</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>daily</td>
+      <td>treatment</td>
+      <td>volunteers</td>
+      <td>effect</td>
+      <td>femora</td>
+      <td>primary outcome</td>
+      <td>log(10</td>
+      <td>chadox1</td>
+      <td>cirrhosis</td>
+      <td>electrolyte</td>
+      <td>PD</td>
+      <td>sleep</td>
+      <td>macrolide</td>
+      <td>genotype-tailored</td>
+      <td>cool</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>methods</td>
+      <td>CHM</td>
+      <td>prep-001</td>
+      <td>granules</td>
+      <td>src</td>
+      <td>size</td>
+      <td>NNTH</td>
+      <td>SAB-301</td>
+      <td>magnetic</td>
+      <td>mouse</td>
+      <td>IA</td>
+      <td>response</td>
+      <td>RRTI</td>
+      <td>BIS</td>
+      <td>sensorial</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>adverse</td>
+      <td>ventilation</td>
+      <td>carrageenan</td>
+      <td>meta-analysis</td>
+      <td>extravascular</td>
+      <td>outcomes</td>
+      <td>influenza</td>
+      <td>chadox1 mers</td>
+      <td>arthroplasty</td>
+      <td>tannins</td>
+      <td>salivary</td>
+      <td>aex</td>
+      <td>experimental group</td>
+      <td>CAP</td>
+      <td>hexylresorcinol</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>5</td>
+      <td>role</td>
+      <td>KRG</td>
+      <td>interventional</td>
+      <td>formation</td>
+      <td>hospital</td>
+      <td>stratified</td>
+      <td>antibody</td>
+      <td>cumulative</td>
+      <td>metoclopramide</td>
+      <td>ciclesonide</td>
+      <td>pegylated</td>
+      <td>spine</td>
+      <td>lignocaine</td>
+      <td>parainfluenza</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>4</td>
+      <td>negative</td>
+      <td>I-C</td>
+      <td>design</td>
+      <td>showed</td>
+      <td>length of stay</td>
+      <td>D(3</td>
+      <td>phase</td>
+      <td>withdrawal</td>
+      <td>ringer</td>
+      <td>TB</td>
+      <td>rhifn-α</td>
+      <td>LFX</td>
+      <td>four-factor</td>
+      <td>extubation</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>total</td>
+      <td>EVD</td>
+      <td>population</td>
+      <td>topical</td>
+      <td>group</td>
+      <td>PCT</td>
+      <td>HCQ/CQ</td>
+      <td>high-dose</td>
+      <td>MFON</td>
+      <td>maropitant</td>
+      <td>ciclosporin</td>
+      <td>chronic hepatitis c</td>
+      <td>DXC</td>
+      <td>TTP</td>
+      <td>OC43</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>symptoms</td>
+      <td>CQ</td>
+      <td>virus</td>
+      <td>july</td>
+      <td>PTH</td>
+      <td>hours</td>
+      <td>bias</td>
+      <td>GLS-5300</td>
+      <td>reference</td>
+      <td>acidosis</td>
+      <td>obstructive</td>
+      <td>low-risk</td>
+      <td>control medication</td>
+      <td>symbicort</td>
+      <td>medetomidine</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>score</td>
+      <td>virus</td>
+      <td>reduced</td>
+      <td>nasal decongestants</td>
+      <td>micro-ct</td>
+      <td>cost</td>
+      <td>URTI</td>
+      <td>subunit</td>
+      <td>CS</td>
+      <td>metabolic acidosis</td>
+      <td>propionate</td>
+      <td>IFN-B</td>
+      <td>motor</td>
+      <td>salbutamol</td>
+      <td>anaesthetic</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>efficacy</td>
+      <td>china</td>
+      <td>ILI</td>
+      <td>sources</td>
+      <td>adipogenesis</td>
+      <td>TRIAL</td>
+      <td>MEDLINE</td>
+      <td>adverse</td>
+      <td>risk factor</td>
+      <td>kakkonto</td>
+      <td>absorption</td>
+      <td>P>0.05</td>
+      <td>3D</td>
+      <td>values</td>
+      <td>ingredients</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>10</td>
+      <td>pneumonia</td>
+      <td>inosine</td>
+      <td>chinese medicine</td>
+      <td>vessels</td>
+      <td>REGISTRATION</td>
+      <td>HCT</td>
+      <td>responses</td>
+      <td>AED</td>
+      <td>OES</td>
+      <td>inflammation</td>
+      <td>anemia</td>
+      <td>FHC</td>
+      <td>intention</td>
+      <td>ALI</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>acute</td>
+      <td>observational</td>
+      <td>pranobex</td>
+      <td>reviews</td>
+      <td>CD</td>
+      <td>self-management</td>
+      <td>alleviation</td>
+      <td>MVA-MERS-S</td>
+      <td>magnetic resonance imaging</td>
+      <td>ondansetron</td>
+      <td>treated with</td>
+      <td>herbal therapy</td>
+      <td>CST</td>
+      <td>parameters</td>
+      <td>acute sore throat</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>7</td>
+      <td>lopinavir/ritonavir</td>
+      <td>ARMS-I</td>
+      <td>planned</td>
+      <td>ablation</td>
+      <td>readiness</td>
+      <td>lymphopenia</td>
+      <td>0·67</td>
+      <td>LAOD</td>
+      <td>lactated</td>
+      <td>infants</td>
+      <td>comparator</td>
+      <td>79</td>
+      <td>contrast</td>
+      <td>sufentanil</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>control group</td>
+      <td>rapidly</td>
+      <td>tract</td>
+      <td>chinese herbal</td>
+      <td>osteoblasts</td>
+      <td>enrollment</td>
+      <td>AB</td>
+      <td>319</td>
+      <td>lesion</td>
+      <td>metabolic</td>
+      <td>INH</td>
+      <td>HFRS</td>
+      <td>g/1000</td>
+      <td>eye</td>
+      <td>unflavoured</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>-</td>
+      <td>favipiravir</td>
+      <td>antiviral</td>
+      <td>cochrane</td>
+      <td>cell</td>
+      <td>acute</td>
+      <td>prolongation</td>
+      <td>as03-adjuvanted</td>
+      <td>total hip arthroplasty</td>
+      <td>rats</td>
+      <td>hematopoietic</td>
+      <td>oliguria</td>
+      <td>mycoplasma</td>
+      <td>montelukast</td>
+      <td>ICAM-1</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>similar</td>
+      <td>wuhan</td>
+      <td>severity</td>
+      <td>CAM</td>
+      <td>VC</td>
+      <td>myocardial</td>
+      <td>ATP</td>
+      <td>SPR</td>
+      <td>ARCO</td>
+      <td>body weight</td>
+      <td>salvage</td>
+      <td>comparator group</td>
+      <td>internet</td>
+      <td>optivate</td>
+      <td>H2O</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>baseline</td>
+      <td>SOC</td>
+      <td>uris</td>
+      <td>published</td>
+      <td>apoptosis</td>
+      <td>apnea</td>
+      <td>students</td>
+      <td>sub/mf59</td>
+      <td>plain</td>
+      <td>acute diarrhea</td>
+      <td>discontinued</td>
+      <td>UK-2</td>
+      <td>LPB</td>
+      <td>immunochemotherapy</td>
+      <td>releasing</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>24</td>
+      <td>FPV</td>
+      <td>purpurea</td>
+      <td>SARS</td>
+      <td>mirnas</td>
+      <td>length of hospital stay</td>
+      <td>vitamin d(3</td>
+      <td>P+S</td>
+      <td>harris</td>
+      <td>SC</td>
+      <td>KD</td>
+      <td>UK-12</td>
+      <td>second-generation</td>
+      <td>lansoprazole</td>
+      <td>u/day</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>30</td>
+      <td>viral</td>
+      <td>xylometazoline</td>
+      <td>effectiveness</td>
+      <td>ascs</td>
+      <td>TCP</td>
+      <td>adults</td>
+      <td>SCR</td>
+      <td>cm(3</td>
+      <td>NAC</td>
+      <td>subclinical</td>
+      <td>sustained</td>
+      <td>mobility</td>
+      <td>lacerations</td>
+      <td>emotional</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>trial</td>
+      <td>lopinavir</td>
+      <td>inosine pranobex</td>
+      <td>GLED</td>
+      <td>bilateral femora</td>
+      <td>cineole</td>
+      <td>LOS</td>
+      <td>double doses</td>
+      <td>incidence</td>
+      <td>parvo‐infected</td>
+      <td>united states</td>
+      <td>egyptian</td>
+      <td>PG</td>
+      <td>EDN</td>
+      <td>midazolam</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>statistically significant</td>
+      <td>ebola</td>
+      <td>illnesses</td>
+      <td>0.00001</td>
+      <td>H-ICT</td>
+      <td>ethics</td>
+      <td>hrs</td>
+      <td>HAI</td>
+      <td>patients</td>
+      <td>subcutaneous</td>
+      <td>tapered</td>
+      <td>breast cancer</td>
+      <td>first-generation</td>
+      <td>QP</td>
+      <td>non-medicated</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>times</td>
+      <td>influenza</td>
+      <td>illness</td>
+      <td>BF</td>
+      <td>intravascular</td>
+      <td>NUMBER</td>
+      <td>0.88</td>
+      <td>humoral</td>
+      <td>HGF</td>
+      <td>chronic</td>
+      <td>obstructive airway disease</td>
+      <td>SS</td>
+      <td>kcal</td>
+      <td>pccs</td>
+      <td>warm</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>recipients</td>
+      <td>coronavirus disease 2019</td>
+      <td>influenza</td>
+      <td>BLG</td>
+      <td>L-ICT</td>
+      <td>asthma</td>
+      <td>tdp/qt</td>
+      <td>non-adjuvanted group</td>
+      <td>surgical treatment</td>
+      <td>drug</td>
+      <td>biomedicine</td>
+      <td>CRC</td>
+      <td>knee</td>
+      <td>steps</td>
+      <td>rabbits</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>0.001</td>
+      <td>conversion</td>
+      <td>wind-cold</td>
+      <td>WMD</td>
+      <td>increased</td>
+      <td>physician</td>
+      <td>hospitalisation</td>
+      <td>dose</td>
+      <td>corticosteroid-induced</td>
+      <td>solution</td>
+      <td>inflammatory response</td>
+      <td>breast</td>
+      <td>rhinovirus</td>
+      <td>bleeds</td>
+      <td>pressure</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>frequency</td>
+      <td>ALA</td>
+      <td>hand</td>
+      <td>CLD</td>
+      <td>index</td>
+      <td>medical readiness</td>
+      <td>OZ</td>
+      <td>mg</td>
+      <td>BMD</td>
+      <td>LRS</td>
+      <td>fluticasone propionate</td>
+      <td>pilocarpine</td>
+      <td>cholesterol-lowering</td>
+      <td>exoskeleton</td>
+      <td>heparin</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>points</td>
+      <td>ritonavir</td>
+      <td>flu</td>
+      <td>seasonal influenza</td>
+      <td>rats</td>
+      <td>approval</td>
+      <td>non-severe</td>
+      <td>hemagglutination</td>
+      <td>early</td>
+      <td>syndrome</td>
+      <td>nutrition</td>
+      <td>pain</td>
+      <td>medication</td>
+      <td>T2D</td>
+      <td>ionic</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>end</td>
+      <td>CWB</td>
+      <td>antiwei</td>
+      <td>reduqing</td>
+      <td>head</td>
+      <td>real-time</td>
+      <td>child</td>
+      <td>deemed</td>
+      <td>corticosteroids</td>
+      <td>laboratory</td>
+      <td>concurrent</td>
+      <td>hepatitis</td>
+      <td>experimental</td>
+      <td>singapore</td>
+      <td>prothrombin</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>recommended</td>
+      <td>untreated</td>
+      <td>RV</td>
+      <td>RDQ</td>
+      <td>serum</td>
+      <td>dopamine</td>
+      <td>0.90</td>
+      <td>higher</td>
+      <td>hydrocortisone</td>
+      <td>replacer</td>
+      <td>.001</td>
+      <td>herbal</td>
+      <td>7000</td>
+      <td>on‐demand</td>
+      <td>induction</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

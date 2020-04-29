@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 48</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>infection</td>
+      <td>COVID-19</td>
+      <td>SARS</td>
+      <td>AUC</td>
+      <td>proteins</td>
+      <td>ALT</td>
+      <td>dengue</td>
+      <td>calves</td>
+      <td>expression</td>
+      <td>IL-35</td>
+      <td>IP-10</td>
+      <td>cats</td>
+      <td>KD</td>
+      <td>CAP</td>
+      <td>BAL</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>CRP</td>
+      <td>severe</td>
+      <td>platelet</td>
+      <td>curve</td>
+      <td>identified</td>
+      <td>LDH</td>
+      <td>CSF</td>
+      <td>SAA</td>
+      <td>gene</td>
+      <td>mycetoma</td>
+      <td>bronchiolitis</td>
+      <td>FIP</td>
+      <td>osteonecrosis</td>
+      <td>t-cell</td>
+      <td>P<0.001</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>levels</td>
+      <td>lymphocyte</td>
+      <td>neopterin</td>
+      <td>sensitivity</td>
+      <td>LRG</td>
+      <td>AST</td>
+      <td>MS</td>
+      <td>hp</td>
+      <td>FGL2</td>
+      <td>H1N1</td>
+      <td>pg/ml</td>
+      <td>subjects</td>
+      <td>IVIG</td>
+      <td>children</td>
+      <td>fluid</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>study</td>
+      <td>patients</td>
+      <td>patients</td>
+      <td>specificity</td>
+      <td>mass</td>
+      <td>aminotransferase</td>
+      <td>DF</td>
+      <td>diarrhea</td>
+      <td>peripheral</td>
+      <td>IL-37</td>
+      <td>urinary</td>
+      <td>feline</td>
+      <td>ARS</td>
+      <td>mycoplasma</td>
+      <td>MR</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>patients</td>
+      <td>+</td>
+      <td>mortality</td>
+      <td>ROC</td>
+      <td>proteomic</td>
+      <td>biochemical</td>
+      <td>DHF</td>
+      <td>apps</td>
+      <td>mrna</td>
+      <td>cytokines</td>
+      <td>UTI</td>
+      <td>NK</td>
+      <td>AHSG</td>
+      <td>line</td>
+      <td>RA</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>viral</td>
+      <td>cases</td>
+      <td>syndrome</td>
+      <td>sepsis</td>
+      <td>spectrometry</td>
+      <td>activity</td>
+      <td>MBL</td>
+      <td>bovine</td>
+      <td>CPEB4</td>
+      <td>IL-6</td>
+      <td>ARI</td>
+      <td>.05</td>
+      <td>CD</td>
+      <td>sodium</td>
+      <td>mr score</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>serum</td>
+      <td>mild</td>
+      <td>illness</td>
+      <td>characteristic</td>
+      <td>m/z</td>
+      <td>lactate dehydrogenase</td>
+      <td>plasma</td>
+      <td>renal</td>
+      <td>NPD</td>
+      <td>cytokine</td>
+      <td>sputum</td>
+      <td>cells</td>
+      <td>coronary</td>
+      <td>mixed</td>
+      <td>TBI</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>infections</td>
+      <td>2019</td>
+      <td>platelet count</td>
+      <td>receiver</td>
+      <td>apolipoprotein</td>
+      <td>pleural</td>
+      <td>chemokines</td>
+      <td>serum amyloid a</td>
+      <td>PSCC</td>
+      <td>duration</td>
+      <td>exacerbation</td>
+      <td>APTT</td>
+      <td>PDMP</td>
+      <td>pneumoniae</td>
+      <td>bal fluid</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>bacterial</td>
+      <td>subsets</td>
+      <td>acute respiratory syndrome</td>
+      <td>operating</td>
+      <td>TB</td>
+      <td>bilirubin</td>
+      <td>measles</td>
+      <td>LBP</td>
+      <td>HNSCC</td>
+      <td>IL-12</td>
+      <td>children</td>
+      <td>coagulation</td>
+      <td>IBD</td>
+      <td>landrace</td>
+      <td>PTX3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>protein</td>
+      <td>coronavirus</td>
+      <td>outcome</td>
+      <td>count</td>
+      <td>sera</td>
+      <td>aspartate</td>
+      <td>SP‐D</td>
+      <td>dogs</td>
+      <td>GI</td>
+      <td>strem-1</td>
+      <td>μg/l</td>
+      <td>fibrin</td>
+      <td>±</td>
+      <td>HN</td>
+      <td>HBP</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>increased</td>
+      <td>CD8</td>
+      <td>thrombocytopenia</td>
+      <td>%</td>
+      <td>laser</td>
+      <td>SHLH</td>
+      <td>IL-21</td>
+      <td>acute phase proteins</td>
+      <td>cancer</td>
+      <td>il-1β</td>
+      <td>acute bronchiolitis</td>
+      <td>ΔTNC</td>
+      <td>SJIA</td>
+      <td>PA</td>
+      <td>transportation</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>group</td>
+      <td>counts</td>
+      <td>mers-cov</td>
+      <td>accuracy</td>
+      <td>CRC</td>
+      <td>total</td>
+      <td>NB</td>
+      <td>renal injury</td>
+      <td>ICM</td>
+      <td>IP‐10</td>
+      <td>asthma</td>
+      <td>cd158b+</td>
+      <td>UC</td>
+      <td>captive</td>
+      <td>recipients</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>significantly</td>
+      <td>2020</td>
+      <td>acute</td>
+      <td>ICU</td>
+      <td>peaks</td>
+      <td>creatine</td>
+      <td>TBE</td>
+      <td>licorice</td>
+      <td>DC-SIGNR</td>
+      <td>IL‐6</td>
+      <td>srage</td>
+      <td>.01</td>
+      <td>FTLR2</td>
+      <td>LTR</td>
+      <td>RC</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>groups</td>
+      <td>sars-cov-2</td>
+      <td>day</td>
+      <td>roc curve</td>
+      <td>cancer</td>
+      <td>kinase</td>
+      <td>ALF</td>
+      <td>amyloid</td>
+      <td>CFTR</td>
+      <td>levels</td>
+      <td>mxa</td>
+      <td>nk cells</td>
+      <td>post-sars</td>
+      <td>foxes</td>
+      <td>inflammation</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>higher</td>
+      <td>CD4</td>
+      <td>igm</td>
+      <td>diagnosis</td>
+      <td>differentially</td>
+      <td>alanine</td>
+      <td>encephalitis</td>
+      <td>phase</td>
+      <td>genes</td>
+      <td>UA</td>
+      <td>COPD</td>
+      <td>BASO</td>
+      <td>TA-SUA</td>
+      <td>free‐ranging</td>
+      <td>cattle</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>=</td>
+      <td>non-severe</td>
+      <td>level</td>
+      <td>cut-off</td>
+      <td>expressed</td>
+      <td>tests</td>
+      <td>/-</td>
+      <td>GM</td>
+      <td>tissues</td>
+      <td>group</td>
+      <td>CC16</td>
+      <td>cd158b+ nk cells</td>
+      <td>nets</td>
+      <td>200</td>
+      <td>bacterial pneumonia</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>compared</td>
+      <td>characteristics</td>
+      <td>respiratory</td>
+      <td>model</td>
+      <td>western</td>
+      <td>lactate</td>
+      <td>anti-hev</td>
+      <td>dpi</td>
+      <td>lung cancer</td>
+      <td>IL-10</td>
+      <td>IQR</td>
+      <td>FIV</td>
+      <td>cell-free</td>
+      <td>AF-ALB</td>
+      <td>score</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>virus</td>
+      <td>lymphocytes</td>
+      <td>onset</td>
+      <td>diagnostic</td>
+      <td>profiling</td>
+      <td>urea</td>
+      <td>lectin</td>
+      <td>APP</td>
+      <td>iraes</td>
+      <td>MP</td>
+      <td>rhinovirus</td>
+      <td>forced</td>
+      <td>dialysis</td>
+      <td>hyponatraemia</td>
+      <td>amniotic</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>inflammatory</td>
+      <td>wuhan</td>
+      <td>count</td>
+      <td>area</td>
+      <td>surface-enhanced</td>
+      <td>dehydrogenase</td>
+      <td>selenium</td>
+      <td>diarrheic</td>
+      <td>LAMC2</td>
+      <td>IL-8</td>
+      <td>exacerbations</td>
+      <td>alb</td>
+      <td>artery</td>
+      <td>cd4 t-cell count</td>
+      <td>WNV</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>disease</td>
+      <td>china</td>
+      <td>associated with</td>
+      <td>curves</td>
+      <td>SELDI-TOF</td>
+      <td>exudates</td>
+      <td>secretion</td>
+      <td>haptoglobin</td>
+      <td>tim-3</td>
+      <td>documented</td>
+      <td>shock</td>
+      <td>b cells</td>
+      <td>HD</td>
+      <td>sechuran</td>
+      <td>market</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>significant</td>
+      <td>CD3</td>
+      <td>regression</td>
+      <td>NLR</td>
+      <td>LT</td>
+      <td>creatine kinase</td>
+      <td>OPN</td>
+      <td>animals</td>
+      <td>article</td>
+      <td>h1n1 infection</td>
+      <td>PIBO</td>
+      <td>healthy</td>
+      <td>PAI</td>
+      <td>MDTH</td>
+      <td>subclinical</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>PCT</td>
+      <td>cell</td>
+      <td>elevated</td>
+      <td>cutoff</td>
+      <td>candidate</td>
+      <td>aspartate aminotransferase</td>
+      <td>sdpp4</td>
+      <td>dehydration</td>
+      <td>gene expression</td>
+      <td>regulatory</td>
+      <td>RSV</td>
+      <td>leucocytes</td>
+      <td>infusion</td>
+      <td>children hospitalized</td>
+      <td>fibrosis</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>respiratory</td>
+      <td>analyzed</td>
+      <td>viral load</td>
+      <td>granulocyte</td>
+      <td>protein</td>
+      <td>cholesterol</td>
+      <td>schizophrenia</td>
+      <td>APR</td>
+      <td>metastasis</td>
+      <td>mycetoma infection</td>
+      <td>BP</td>
+      <td><</td>
+      <td>NGAL</td>
+      <td>ifn-α2b</td>
+      <td>s100a8</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>results</td>
+      <td>severity</td>
+      <td>serum</td>
+      <td>p<0.001</td>
+      <td>malaria</td>
+      <td>alkaline</td>
+      <td>controls</td>
+      <td>calf</td>
+      <td>ciguatera</td>
+      <td>70</td>
+      <td>median</td>
+      <td>thrombin</td>
+      <td>sil-10</td>
+      <td>M.</td>
+      <td>defb10</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>detected</td>
+      <td>lymphopenia</td>
+      <td>age</td>
+      <td>ability</td>
+      <td>chromatography</td>
+      <td>phosphatase</td>
+      <td>cerebrospinal</td>
+      <td>post-weaned</td>
+      <td>SUPPLEMENTARY</td>
+      <td>oxygen</td>
+      <td>NW</td>
+      <td>peritonitis</td>
+      <td>susceptible</td>
+      <td>nadir</td>
+      <td>MAP</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>%</td>
+      <td>CT</td>
+      <td>95</td>
+      <td>IPS</td>
+      <td>classifier</td>
+      <td>transudates</td>
+      <td>IL-23</td>
+      <td>post-weaned calves</td>
+      <td>CF</td>
+      <td>infection</td>
+      <td>pyelonephritis</td>
+      <td>HR-I</td>
+      <td>mirnas</td>
+      <td>community-acquired</td>
+      <td>P=0.01</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>blood</td>
+      <td>coronavirus pneumonia</td>
+      <td>ARDS</td>
+      <td>pneumonia</td>
+      <td>serum proteins</td>
+      <td>alkaline phosphatase</td>
+      <td>shla-ii</td>
+      <td>CIT</td>
+      <td>version</td>
+      <td>episodes</td>
+      <td>YKL-40</td>
+      <td>fcov</td>
+      <td>mirna</td>
+      <td>non-cap</td>
+      <td>proadm</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>concentrations</td>
+      <td>epidemic</td>
+      <td>multivariate</td>
+      <td>adverse</td>
+      <td>MPP</td>
+      <td>EBV</td>
+      <td>chikungunya</td>
+      <td>neonatal</td>
+      <td>users</td>
+      <td>interleukin</td>
+      <td>young</td>
+      <td>expiratory</td>
+      <td>cell-free dna</td>
+      <td>arbidol</td>
+      <td>P=0.04</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>samples</td>
+      <td>confirmed</td>
+      <td>clinical outcome</td>
+      <td>suspected</td>
+      <td>biomarkers</td>
+      <td>nonspecific</td>
+      <td>dengue fever</td>
+      <td>ARG</td>
+      <td>TG</td>
+      <td>microbial</td>
+      <td>CXCL10/IP-10</td>
+      <td>igg index</td>
+      <td>SUA</td>
+      <td>cells/μl</td>
+      <td>histological</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>treatment</td>
+      <td>%</td>
+      <td>outbreak</td>
+      <td>CI</td>
+      <td>potential</td>
+      <td>transaminase</td>
+      <td>BCL</td>
+      <td>LBSA</td>
+      <td>carcinoma</td>
+      <td>group ii</td>
+      <td>severity</td>
+      <td>fiv‐positive</td>
+      <td>d-dimer</td>
+      <td>hiv-positive</td>
+      <td>HSCT</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>RESULTS</td>
+      <td>reduction</td>
+      <td>features</td>
+      <td>LD</td>
+      <td>serum</td>
+      <td>liver</td>
+      <td>healthy</td>
+      <td>clinical signs</td>
+      <td>authorized</td>
+      <td>©</td>
+      <td>l‐lactate</td>
+      <td>LR-I</td>
+      <td>DNA</td>
+      <td>IL-18</td>
+      <td>early-onset</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>clinical</td>
+      <td>disease</td>
+      <td>albumin</td>
+      <td>receiver operating characteristic</td>
+      <td>biomarker</td>
+      <td>CVD</td>
+      <td>ng/ml</td>
+      <td>signs</td>
+      <td>irae</td>
+      <td>years</td>
+      <td>HRV</td>
+      <td>healthy cats</td>
+      <td>plasminogen</td>
+      <td>mps‐selected</td>
+      <td>timp1</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>level</td>
+      <td>dynamic</td>
+      <td>poor</td>
+      <td>neutrophil</td>
+      <td>plasma</td>
+      <td>MMP-9</td>
+      <td>shla-i</td>
+      <td>marine mammals</td>
+      <td>complement</td>
+      <td>refractory</td>
+      <td>wheezing</td>
+      <td>ranged</td>
+      <td>kawasaki</td>
+      <td>mps‐selected landrace line</td>
+      <td>defb1</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>procalcitonin</td>
+      <td>LYM%</td>
+      <td>prognostic</td>
+      <td>parameters</td>
+      <td>SVM</td>
+      <td>ACE</td>
+      <td>cerebrospinal fluid</td>
+      <td>marine</td>
+      <td>PE</td>
+      <td>lesion</td>
+      <td>cathelicidin</td>
+      <td>nonbacterial</td>
+      <td>µg/ml</td>
+      <td>non‐selected</td>
+      <td>cent</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>0.001</td>
+      <td>prognosis</td>
+      <td>underlying</td>
+      <td>differential</td>
+      <td>blotting</td>
+      <td>calcium</td>
+      <td>leukocytes</td>
+      <td>mammals</td>
+      <td>ICH</td>
+      <td>tumor</td>
+      <td>maternal</td>
+      <td>HB</td>
+      <td>femoral head</td>
+      <td>hospitalized</td>
+      <td>IL‐8</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>3</td>
+      <td>february</td>
+      <td>onset of</td>
+      <td>dcr3</td>
+      <td>flight</td>
+      <td>normal group</td>
+      <td>mediators</td>
+      <td>infected</td>
+      <td>IRE</td>
+      <td>group i</td>
+      <td>viruses</td>
+      <td>infectious peritonitis</td>
+      <td>femoral</td>
+      <td>m. pneumoniae pneumonia</td>
+      <td>preterm</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>associated with</td>
+      <td>normal</td>
+      <td>%</td>
+      <td>cut-off value</td>
+      <td>OSCC</td>
+      <td>contribute</td>
+      <td>G-CSF</td>
+      <td>acute</td>
+      <td>slamc2</td>
+      <td>mann-whitney</td>
+      <td>acute</td>
+      <td>AGP</td>
+      <td>mir-423</td>
+      <td>lgg</td>
+      <td>destination</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td><</td>
+      <td>chest</td>
+      <td>high</td>
+      <td>nomogram</td>
+      <td>seldi-tof ms</td>
+      <td>packed cell volume</td>
+      <td>impairment</td>
+      <td>economic losses</td>
+      <td>online</td>
+      <td>treated with</td>
+      <td>pyuria</td>
+      <td>III</td>
+      <td>B(4</td>
+      <td>mar</td>
+      <td>METAVIR</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>1</td>
+      <td>warning</td>
+      <td>associations</td>
+      <td>NCIP</td>
+      <td>tandem</td>
+      <td>packed</td>
+      <td>pathogenesis</td>
+      <td>diseased</td>
+      <td>online version</td>
+      <td>assay</td>
+      <td>AMI</td>
+      <td>influenza</td>
+      <td>4G/4</td>
+      <td>viral cap</td>
+      <td>rejection</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>2</td>
+      <td>lactic</td>
+      <td>taiwan</td>
+      <td>LCN2</td>
+      <td>flight mass spectrometry</td>
+      <td>ACE2</td>
+      <td>vitamin d</td>
+      <td>pigs</td>
+      <td>encoding</td>
+      <td>necrosis</td>
+      <td>pregnant</td>
+      <td>0.6</td>
+      <td>hormone-nofh</td>
+      <td>MPS</td>
+      <td>serpine1</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>markers</td>
+      <td>group</td>
+      <td>prognostic factors</td>
+      <td>presepsin</td>
+      <td>ATB</td>
+      <td>laboratory</td>
+      <td>concentrations</td>
+      <td>healthy calves</td>
+      <td>P<0.05</td>
+      <td>MCP‐1</td>
+      <td>rsv infection</td>
+      <td>normal control</td>
+      <td>nmol</td>
+      <td>LOS</td>
+      <td>calprotectin</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>CONCLUSION</td>
+      <td>clinical</td>
+      <td>2003</td>
+      <td>SBI</td>
+      <td>liquid</td>
+      <td>blood</td>
+      <td>patients</td>
+      <td>bcov</td>
+      <td>lung</td>
+      <td>diameter</td>
+      <td>TPO</td>
+      <td>HSP70</td>
+      <td>isozyme</td>
+      <td>pneumonia</td>
+      <td>P=0.03</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>investigated</td>
+      <td>epidemiological</td>
+      <td>RNA</td>
+      <td>models</td>
+      <td>chip</td>
+      <td>tuberculous</td>
+      <td>healthy controls</td>
+      <td>PBSA</td>
+      <td>controls</td>
+      <td>wiley</td>
+      <td>d‐lactate</td>
+      <td>fiv/felv</td>
+      <td>WSSV</td>
+      <td>community-acquired pneumonia</td>
+      <td>tfrc</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>tract</td>
+      <td>data</td>
+      <td>=</td>
+      <td>evaluated</td>
+      <td>profiles</td>
+      <td>bangladesh</td>
+      <td>ELISA</td>
+      <td>TSA</td>
+      <td>PI</td>
+      <td>interleukin 18</td>
+      <td>82</td>
+      <td>thromboplastin</td>
+      <td>staff</td>
+      <td>non-asthmatic</td>
+      <td>hr</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>bacterial infection</td>
+      <td>cells</td>
+      <td>release</td>
+      <td>95</td>
+      <td>analysis</td>
+      <td>cardiac</td>
+      <td>observed</td>
+      <td>EDTA</td>
+      <td>CP</td>
+      <td>factor-α</td>
+      <td>cultures</td>
+      <td>agp‐positive</td>
+      <td>5p</td>
+      <td>sexes</td>
+      <td>neutrophilic</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>systemic</td>
+      <td>fatality</td>
+      <td>radiological</td>
+      <td>meningitis</td>
+      <td>precursor</td>
+      <td>YFV</td>
+      <td>higher</td>
+      <td>economic</td>
+      <td>cells</td>
+      <td>scd14</td>
+      <td>ykl-40/cr</td>
+      <td>system</td>
+      <td>SA</td>
+      <td>asthmatic</td>
+      <td>biomolecules</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>0.05</td>
+      <td>survival group</td>
+      <td>ED</td>
+      <td>PLR</td>
+      <td>blot</td>
+      <td>varied</td>
+      <td>cases</td>
+      <td>lf</td>
+      <td>patients</td>
+      <td>lung lesion</td>
+      <td>acute asthma</td>
+      <td>igg</td>
+      <td>control</td>
+      <td>CXCL10</td>
+      <td>PCR</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>50</td>
+      <td>severe/critical</td>
+      <td>nmol/l</td>
+      <td>HCT</td>
+      <td>FM</td>
+      <td>PCV</td>
+      <td>EV71</td>
+      <td>IBV</td>
+      <td>stroke</td>
+      <td>septic</td>
+      <td>pmol/l</td>
+      <td>PPN</td>
+      <td>circulating</td>
+      <td>sows</td>
+      <td>streptococcal</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>viral infections</td>
+      <td>oxygenation index</td>
+      <td>deceased</td>
+      <td>combinations</td>
+      <td>VM</td>
+      <td>total protein</td>
+      <td>ALT≥1000</td>
+      <td>injury</td>
+      <td>ischemic</td>
+      <td>mycetomatis</td>
+      <td>rsv-infected</td>
+      <td>immunofunction</td>
+      <td>NW</td>
+      <td>viral-bacterial</td>
+      <td>injury</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>6</td>
+      <td>records</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>hospital admission</td>
+      <td>leucine-rich</td>
+      <td>values</td>
+      <td>seng</td>
+      <td>concentration</td>
+      <td>inactive</td>
+      <td>tumor necrosis factor-α</td>
+      <td>UTC</td>
+      <td>anti-sars</td>
+      <td>high-risk</td>
+      <td>tachypnoea</td>
+      <td>biomarkers</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

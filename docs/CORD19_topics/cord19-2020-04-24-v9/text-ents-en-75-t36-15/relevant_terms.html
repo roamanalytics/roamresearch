@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 36</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>samples</td>
+      <td>COVID-19</td>
+      <td>SARS</td>
+      <td>swabs</td>
+      <td>load</td>
+      <td>plasma</td>
+      <td>children</td>
+      <td>mers-cov</td>
+      <td>sewage</td>
+      <td>BAL</td>
+      <td>exacerbations</td>
+      <td>hcws</td>
+      <td>hbov</td>
+      <td>hbov1</td>
+      <td>OPS</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>respiratory</td>
+      <td>nucleic</td>
+      <td>sars-cov</td>
+      <td>nasal</td>
+      <td>viral load</td>
+      <td>dogs</td>
+      <td>hcovs</td>
+      <td>pertussis</td>
+      <td>sars-cov-2</td>
+      <td>fluid</td>
+      <td>interval</td>
+      <td>cats</td>
+      <td>PARV4</td>
+      <td>oral</td>
+      <td>dpcr</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>patients</td>
+      <td>sars-cov-2</td>
+      <td>RNA</td>
+      <td>collection</td>
+      <td>viral</td>
+      <td>feces</td>
+      <td>RTI</td>
+      <td>east</td>
+      <td>workers</td>
+      <td>CMV</td>
+      <td>odds</td>
+      <td>nested</td>
+      <td>olfactory</td>
+      <td>oral fluid</td>
+      <td>BKV</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>%</td>
+      <td>acid</td>
+      <td>illness</td>
+      <td>flocked</td>
+      <td>HRV</td>
+      <td>horses</td>
+      <td>AGE</td>
+      <td>middle</td>
+      <td>wards</td>
+      <td>hadv</td>
+      <td>confidence interval</td>
+      <td>faecal</td>
+      <td>hbov2</td>
+      <td>HEV</td>
+      <td>NPS</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>study</td>
+      <td>negative</td>
+      <td>diarrhea</td>
+      <td>NP</td>
+      <td>loads</td>
+      <td>canine</td>
+      <td>wupyv</td>
+      <td>rrt-pcr</td>
+      <td>disinfection</td>
+      <td>bronchoalveolar</td>
+      <td>clearance</td>
+      <td>virus isolation</td>
+      <td>genotype</td>
+      <td>mrna</td>
+      <td>bocavirus</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>positive</td>
+      <td>test</td>
+      <td>igg</td>
+      <td>influenza</td>
+      <td>shedding</td>
+      <td>HIV-1</td>
+      <td>npas</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>environmental</td>
+      <td>lavage</td>
+      <td>ratio</td>
+      <td>first-line</td>
+      <td>B19</td>
+      <td>°</td>
+      <td>RT-PCR</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>detected</td>
+      <td>2019-ncov</td>
+      <td>antibodies</td>
+      <td>throat</td>
+      <td>high</td>
+      <td>equine</td>
+      <td>%</td>
+      <td>saudi</td>
+      <td>surfaces</td>
+      <td>lung</td>
+      <td>odds ratio</td>
+      <td>KD</td>
+      <td>asthmatics</td>
+      <td>stabilizing</td>
+      <td>human</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>PCR</td>
+      <td>2019</td>
+      <td>acute respiratory syndrome</td>
+      <td>respiratory viruses</td>
+      <td>viral loads</td>
+      <td>infected</td>
+      <td>acute gastroenteritis</td>
+      <td>arabia</td>
+      <td>case-patients</td>
+      <td>hpev</td>
+      <td>=</td>
+      <td>MS</td>
+      <td>SARI</td>
+      <td>norovirus</td>
+      <td>fns</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>infection</td>
+      <td>RT-PCR</td>
+      <td>viral rna</td>
+      <td>self-collected</td>
+      <td>copies/ml</td>
+      <td>transmission</td>
+      <td>M.</td>
+      <td>saudi arabia</td>
+      <td>viable</td>
+      <td>ventilator‐associated</td>
+      <td>isolations</td>
+      <td>SHAPU</td>
+      <td>subjects</td>
+      <td>acute hbov1 infection</td>
+      <td>NW</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>detection</td>
+      <td>swabs</td>
+      <td>syndrome</td>
+      <td>viruses</td>
+      <td>log10</td>
+      <td>tissue</td>
+      <td>m. pneumoniae</td>
+      <td>mers-cov.</td>
+      <td>saliva</td>
+      <td>FARP</td>
+      <td>confidence</td>
+      <td>fcov</td>
+      <td>hbov3</td>
+      <td>HHV-6</td>
+      <td>peripheral blood mononuclear cells</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>symptoms</td>
+      <td>CT</td>
+      <td>severe</td>
+      <td>MT</td>
+      <td>×</td>
+      <td>SAFV</td>
+      <td>stool</td>
+      <td>2014</td>
+      <td>transmission</td>
+      <td>DNS</td>
+      <td>95%CI</td>
+      <td>ocular</td>
+      <td>etiologic</td>
+      <td>VIDISCA-NGS</td>
+      <td>cces</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>results</td>
+      <td>china</td>
+      <td>antibody</td>
+      <td>NS</td>
+      <td>prolonged</td>
+      <td>ecov</td>
+      <td>CI</td>
+      <td>mers-cov infection</td>
+      <td>household</td>
+      <td>real‐time</td>
+      <td>concentration</td>
+      <td>storage</td>
+      <td>nasal discharge</td>
+      <td>non-acute</td>
+      <td>cells</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>real-time</td>
+      <td>treatment</td>
+      <td>urine</td>
+      <td>swab</td>
+      <td>associated with</td>
+      <td>genus</td>
+      <td>pneumoniae</td>
+      <td>bordetella</td>
+      <td>isolation wards</td>
+      <td>fumigatus</td>
+      <td>viral</td>
+      <td>feline</td>
+      <td>anosmia</td>
+      <td>−20</td>
+      <td>assay</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>cases</td>
+      <td>positive</td>
+      <td>weeks</td>
+      <td>CF</td>
+      <td>viremia</td>
+      <td>signs</td>
+      <td>stool samples</td>
+      <td>upe</td>
+      <td>contacts</td>
+      <td>APMV</td>
+      <td>+</td>
+      <td>isolation</td>
+      <td>HIV</td>
+      <td>acute samples</td>
+      <td>extraction</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>polymerase</td>
+      <td>2020</td>
+      <td>stool</td>
+      <td>collected</td>
+      <td>HCT</td>
+      <td>229E</td>
+      <td>mcpyv</td>
+      <td>patient 1</td>
+      <td>staffs</td>
+      <td>RT‐PCR</td>
+      <td>viral isolations</td>
+      <td>fluids</td>
+      <td>PVOD</td>
+      <td>stabilizing agent</td>
+      <td>urinary</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>tract</td>
+      <td>false</td>
+      <td>serum</td>
+      <td>virus</td>
+      <td>hydroxychloroquine</td>
+      <td>camels</td>
+      <td>gastroenteritis</td>
+      <td>sputum</td>
+      <td>H7N9</td>
+      <td>DIF</td>
+      <td>influenza</td>
+      <td>VF</td>
+      <td>fbov</td>
+      <td>hbov1 dna</td>
+      <td>respiratory pathogens</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>chain</td>
+      <td>wuhan</td>
+      <td>specimens</td>
+      <td>throat swab</td>
+      <td>RV</td>
+      <td>diversity</td>
+      <td>gastrointestinal</td>
+      <td>sputum samples</td>
+      <td>healthcare</td>
+      <td>antibiotic</td>
+      <td>oseltamivir</td>
+      <td>uveitis</td>
+      <td>gastroenteritis</td>
+      <td>sub-genomic</td>
+      <td>sera</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>tested</td>
+      <td>oropharyngeal</td>
+      <td>week</td>
+      <td>nasal swab</td>
+      <td>pandemic</td>
+      <td>exposure</td>
+      <td>rotavirus</td>
+      <td>suspicion</td>
+      <td>live</td>
+      <td>resequencing</td>
+      <td>nontreated</td>
+      <td>effusions</td>
+      <td>persistent</td>
+      <td>EV109</td>
+      <td>excretion</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>reaction</td>
+      <td>swab</td>
+      <td>detectable</td>
+      <td>foam</td>
+      <td>fatal</td>
+      <td>HCV</td>
+      <td>KIV</td>
+      <td>relatives</td>
+      <td>protective</td>
+      <td>inc.</td>
+      <td>aor</td>
+      <td>OME</td>
+      <td>hbovs</td>
+      <td>agent</td>
+      <td>rna extraction method</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>clinical</td>
+      <td>patients</td>
+      <td>cov</td>
+      <td>washes</td>
+      <td>LRT</td>
+      <td>parvovirus</td>
+      <td>WUV</td>
+      <td>tracheal aspirates</td>
+      <td>hospitals</td>
+      <td>A.</td>
+      <td>viral clearance</td>
+      <td>assays</td>
+      <td>human bocavirus</td>
+      <td>fluid</td>
+      <td>conventional</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>virus</td>
+      <td>rate</td>
+      <td>igm</td>
+      <td>respiratory virus</td>
+      <td>quantitative</td>
+      <td>HKU1</td>
+      <td>95</td>
+      <td>PBS</td>
+      <td>household contacts</td>
+      <td>ventilator‐associated pneumonia</td>
+      <td>convalescent</td>
+      <td>transcriptase-polymerase</td>
+      <td>asthma</td>
+      <td>non‐severe</td>
+      <td>bocavirus 1</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2</td>
+      <td>nasopharyngeal swabs</td>
+      <td>blood</td>
+      <td>flocked swabs</td>
+      <td>recipients</td>
+      <td>vertical</td>
+      <td>asymptomatic</td>
+      <td>failure</td>
+      <td>serial</td>
+      <td>ICH</td>
+      <td>glucocorticoid</td>
+      <td>carried</td>
+      <td>study subjects</td>
+      <td>CNS</td>
+      <td>febrile</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>presence</td>
+      <td>anal</td>
+      <td>coronavirus</td>
+      <td>rhinovirus</td>
+      <td>H1N1</td>
+      <td>genetically</td>
+      <td>symptomatic</td>
+      <td>patient</td>
+      <td>pool</td>
+      <td>©</td>
+      <td>V+</td>
+      <td>faecal samples</td>
+      <td>olfactory dysfunction</td>
+      <td>genomic</td>
+      <td>rt-pcr assay</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>identified</td>
+      <td>throat</td>
+      <td>onset</td>
+      <td>respiratory</td>
+      <td>=</td>
+      <td>infective</td>
+      <td>NPA</td>
+      <td>tracheal</td>
+      <td>equipment</td>
+      <td>IPA</td>
+      <td>NB+</td>
+      <td>anelloviruses</td>
+      <td>ISOA</td>
+      <td>human bocavirus 1</td>
+      <td>epithelial</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>viruses</td>
+      <td>oropharyngeal swabs</td>
+      <td>urine specimens</td>
+      <td>%</td>
+      <td>URT</td>
+      <td>pig</td>
+      <td>hcov-hku1</td>
+      <td>died</td>
+      <td>COVID‐19</td>
+      <td>microarray</td>
+      <td>viral rna</td>
+      <td>AMON</td>
+      <td>dysfunction</td>
+      <td>genomic rna</td>
+      <td>infect</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>infections</td>
+      <td>pharyngeal</td>
+      <td>response</td>
+      <td>versus</td>
+      <td>logistic</td>
+      <td>respiratory signs</td>
+      <td>found</td>
+      <td>syndrome</td>
+      <td>fragment</td>
+      <td>bronchoalveolar lavage</td>
+      <td>day</td>
+      <td>kidney</td>
+      <td>stable</td>
+      <td>microbial</td>
+      <td>pharyngitis</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>nasopharyngeal</td>
+      <td>positive rate</td>
+      <td>early</td>
+      <td>sensitivity</td>
+      <td>duration</td>
+      <td>proposed</td>
+      <td>stools</td>
+      <td>2013</td>
+      <td>precautions</td>
+      <td>bronchoalveolar lavage fluid</td>
+      <td>RNA</td>
+      <td>multiple specimens</td>
+      <td>etiologic agent</td>
+      <td>co-detection</td>
+      <td>reaching</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>specimens</td>
+      <td>results</td>
+      <td>acute</td>
+      <td>mould</td>
+      <td>viral shedding</td>
+      <td>unexplained</td>
+      <td>FS</td>
+      <td>renal</td>
+      <td>health care workers</td>
+      <td>a. fumigatus</td>
+      <td>symptom</td>
+      <td>parechovirus</td>
+      <td>immunodeficiency</td>
+      <td>herpesvirus</td>
+      <td>optimize</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>methods</td>
+      <td>reported</td>
+      <td>serum samples</td>
+      <td>ERV3</td>
+      <td>ct</td>
+      <td>nasal mucosa</td>
+      <td>AB</td>
+      <td>NALC</td>
+      <td>poultry</td>
+      <td>sepsis‐like illness</td>
+      <td>enrolled</td>
+      <td>FIP</td>
+      <td>complained</td>
+      <td>sole</td>
+      <td>1-specific</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>14</td>
+      <td>nucleic acid</td>
+      <td>assay</td>
+      <td>metapneumovirus</td>
+      <td>wheezing</td>
+      <td>vertical transmission</td>
+      <td>human coronaviruses</td>
+      <td>b. pertussis</td>
+      <td>EPS</td>
+      <td>virol</td>
+      <td>factors</td>
+      <td>review</td>
+      <td>psychophysical</td>
+      <td>mini</td>
+      <td>ribonucleic</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>3</td>
+      <td>sars-cov-2 infection</td>
+      <td>sars-cov infection</td>
+      <td>discomfort</td>
+      <td>quantified</td>
+      <td>BRSV</td>
+      <td>tonsils</td>
+      <td>homogenization</td>
+      <td>H7N4</td>
+      <td>result</td>
+      <td>cohort</td>
+      <td>MEE</td>
+      <td>cattle</td>
+      <td>central</td>
+      <td>powerful</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>upper</td>
+      <td>days</td>
+      <td>replication</td>
+      <td>impact</td>
+      <td>students</td>
+      <td>mucosa</td>
+      <td>WU</td>
+      <td>orf1a</td>
+      <td>nosocomial</td>
+      <td>transplant</td>
+      <td>stool specimens</td>
+      <td>highly</td>
+      <td>hbov dna</td>
+      <td>incubated</td>
+      <td>tanzanian</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>conclusions</td>
+      <td>disease</td>
+      <td>serological assay</td>
+      <td>nasal swabs</td>
+      <td>untreated</td>
+      <td>reinfection</td>
+      <td>kipyv</td>
+      <td>cohort</td>
+      <td>patient-collected</td>
+      <td>DNA</td>
+      <td>case patients</td>
+      <td>qrt-pcr</td>
+      <td>rhinoviral</td>
+      <td>primarily</td>
+      <td>messenger</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>1</td>
+      <td>throat swabs</td>
+      <td>viral</td>
+      <td>yield</td>
+      <td>allogeneic</td>
+      <td>nasal</td>
+      <td>hcov-oc43</td>
+      <td>inconclusive</td>
+      <td>personal</td>
+      <td>recipients</td>
+      <td>bronchiectasis</td>
+      <td>infectious</td>
+      <td>reovirus</td>
+      <td>swine</td>
+      <td>HSCT</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>acute</td>
+      <td>coronavirus disease 2019</td>
+      <td>features</td>
+      <td>specimen</td>
+      <td>rhinitis</td>
+      <td>fomites</td>
+      <td>merkel</td>
+      <td>DTT</td>
+      <td>viable virus</td>
+      <td>aspergillus</td>
+      <td>influenza rna</td>
+      <td>‐</td>
+      <td>human</td>
+      <td>causative agent</td>
+      <td>loading</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>pathogens</td>
+      <td>confirmed</td>
+      <td>sars-cov rna</td>
+      <td>rayon</td>
+      <td>human rhinovirus</td>
+      <td>bcov</td>
+      <td>coronaviruses</td>
+      <td>xylosoxidans</td>
+      <td>tongue</td>
+      <td>syndromes</td>
+      <td>VSP</td>
+      <td>n-pcr</td>
+      <td>characterized</td>
+      <td>rneasy</td>
+      <td>extensive</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>12</td>
+      <td>combination</td>
+      <td>pbmcs</td>
+      <td>NAT</td>
+      <td>10(4</td>
+      <td>nasal secretions</td>
+      <td>DNA</td>
+      <td>cohort 1</td>
+      <td>contamination</td>
+      <td>stem</td>
+      <td>staff-collected</td>
+      <td>intra-vitam</td>
+      <td>controls</td>
+      <td>CAP</td>
+      <td>method</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>viral</td>
+      <td>IQR</td>
+      <td>viral replication</td>
+      <td>saliva specimens</td>
+      <td>included</td>
+      <td>contact</td>
+      <td>hadv dna</td>
+      <td>LD-PCR</td>
+      <td>sars-cov-2 rna</td>
+      <td>respiratory syndrome</td>
+      <td>inflammatory</td>
+      <td>carriers</td>
+      <td>acoustic rhinometry</td>
+      <td>agents</td>
+      <td>immunoglobulin</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>suspected</td>
+      <td>anal swab</td>
+      <td>neutralizing</td>
+      <td>throat swabs</td>
+      <td>10(7</td>
+      <td>bats</td>
+      <td>gastrointestinal illness</td>
+      <td>pk-dnase</td>
+      <td>specimen</td>
+      <td>commensal</td>
+      <td>deviation</td>
+      <td>hcov-nh</td>
+      <td>thailand</td>
+      <td>rtis</td>
+      <td>NPA</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>objective</td>
+      <td>stage</td>
+      <td>fecal specimens</td>
+      <td>mid-turbinate</td>
+      <td>immune</td>
+      <td>couples</td>
+      <td>mo</td>
+      <td>case-patient</td>
+      <td>isolation</td>
+      <td>dna load</td>
+      <td>16.7</td>
+      <td>anellovirus</td>
+      <td>hiv-uninfected</td>
+      <td>online version</td>
+      <td>fecal</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>aspirates</td>
+      <td>sars-cov-2 nucleic acid</td>
+      <td>days</td>
+      <td>influenza virus</td>
+      <td>peak</td>
+      <td>cachavirus</td>
+      <td>3.3</td>
+      <td>spiked</td>
+      <td>COVID-19</td>
+      <td>resequencing microarray</td>
+      <td>β-actin</td>
+      <td>human coronavirus</td>
+      <td>human immunodeficiency virus</td>
+      <td>distinguish</td>
+      <td>blood</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>adult</td>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>sars-coronavirus</td>
+      <td>nostril</td>
+      <td>reduction</td>
+      <td>eleven</td>
+      <td>surgery</td>
+      <td>produce</td>
+      <td>outlet</td>
+      <td>microorganisms</td>
+      <td>conversion</td>
+      <td>IBV</td>
+      <td>clinically stable</td>
+      <td>causal</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>addition</td>
+      <td>sputum</td>
+      <td>posterior</td>
+      <td>concordance</td>
+      <td>MPV</td>
+      <td>respiratory swabs</td>
+      <td>diagnostic methods</td>
+      <td>mers-cov rna</td>
+      <td>live virus</td>
+      <td>hrvs</td>
+      <td>standard deviation</td>
+      <td>taiwan</td>
+      <td>typed</td>
+      <td>influenzae</td>
+      <td>neutropenia</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>aim</td>
+      <td>viral rnas</td>
+      <td>enzyme</td>
+      <td>self-collection</td>
+      <td>children</td>
+      <td>parvoviruses</td>
+      <td>hcov-229e</td>
+      <td>RM-PCR</td>
+      <td>worker-collected</td>
+      <td>bal fluid</td>
+      <td>terms</td>
+      <td>sending</td>
+      <td>brain tissue</td>
+      <td>MS2</td>
+      <td>reduced</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>polymerase chain reaction</td>
+      <td>anal swabs</td>
+      <td>feb</td>
+      <td>self-swabs</td>
+      <td>lower</td>
+      <td>exposure to</td>
+      <td>106</td>
+      <td>negative test</td>
+      <td>N1</td>
+      <td>conjunctivitis</td>
+      <td>95</td>
+      <td>faeco-oral</td>
+      <td>rhinometry</td>
+      <td>1229</td>
+      <td>officially</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>design</td>
+      <td>corona</td>
+      <td>guangdong</td>
+      <td>anterior</td>
+      <td>UTM</td>
+      <td>classified</td>
+      <td>polyomavirus</td>
+      <td>highlight</td>
+      <td>sars‐cov‐2</td>
+      <td>rejection</td>
+      <td>prospective</td>
+      <td>human parechovirus</td>
+      <td>questionnaires</td>
+      <td>preliminary</td>
+      <td>deoxyribonucleic</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>frequently</td>
+      <td>pharyngeal swab</td>
+      <td>peripheral blood</td>
+      <td>nylon</td>
+      <td>10(5</td>
+      <td>fecal</td>
+      <td>polyomaviruses</td>
+      <td>PK</td>
+      <td>wild</td>
+      <td>hexon</td>
+      <td>onset</td>
+      <td>titres</td>
+      <td>exhaled</td>
+      <td>post-bmt</td>
+      <td>peaking</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>investigated</td>
+      <td>scan</td>
+      <td>titers</td>
+      <td>saliva</td>
+      <td>historical</td>
+      <td>detected</td>
+      <td>5.4</td>
+      <td>data</td>
+      <td>saliva samples</td>
+      <td>J.</td>
+      <td>chest tightness</td>
+      <td>FHV-1</td>
+      <td>archived</td>
+      <td>microbe</td>
+      <td>paired samples</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>molecular</td>
+      <td>2019-ncov nucleic acid</td>
+      <td>virus culture</td>
+      <td>testing</td>
+      <td>jan</td>
+      <td>hcov</td>
+      <td>2007</td>
+      <td>coronavirus</td>
+      <td>objects</td>
+      <td>culture</td>
+      <td>interquartile</td>
+      <td>association</td>
+      <td>hiv infection</td>
+      <td>central nervous system</td>
+      <td>orfa1ab</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>17</td>
+      <td>nasopharyngeal</td>
+      <td>seropositive</td>
+      <td>feasible</td>
+      <td>medium</td>
+      <td>NG</td>
+      <td>nasal swabs</td>
+      <td>values</td>
+      <td>day-14</td>
+      <td>pneumonia</td>
+      <td>viral isolation</td>
+      <td>sampling</td>
+      <td>AIDS</td>
+      <td>log</td>
+      <td>inaccurate</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

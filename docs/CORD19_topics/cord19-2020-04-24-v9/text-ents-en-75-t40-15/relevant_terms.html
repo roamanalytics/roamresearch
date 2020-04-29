@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 40</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>virus</td>
+      <td>H5N1</td>
+      <td>pandemic</td>
+      <td>assay</td>
+      <td>vaccine</td>
+      <td>H1N1</td>
+      <td>a(h1n1)pdm09</td>
+      <td>H7N9</td>
+      <td>antiviral</td>
+      <td>lung</td>
+      <td>markets</td>
+      <td>bats</td>
+      <td>swine</td>
+      <td>IDV</td>
+      <td>°</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>influenza</td>
+      <td>poultry</td>
+      <td>influenza</td>
+      <td>detection</td>
+      <td>protection</td>
+      <td>2009</td>
+      <td>-</td>
+      <td>mabs</td>
+      <td>oseltamivir</td>
+      <td>cells</td>
+      <td>live</td>
+      <td>H9N2</td>
+      <td>pigs</td>
+      <td>IBV</td>
+      <td>airway</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>viruses</td>
+      <td>spread</td>
+      <td>global</td>
+      <td>specimens</td>
+      <td>vaccines</td>
+      <td>swine</td>
+      <td>sequences</td>
+      <td>neutralizing</td>
+      <td>resistance</td>
+      <td>epithelial</td>
+      <td>aivs</td>
+      <td>ducks</td>
+      <td>dogs</td>
+      <td>HA</td>
+      <td>BST-2</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>human</td>
+      <td>avian</td>
+      <td>pandemics</td>
+      <td>detect</td>
+      <td>challenge</td>
+      <td>pneumonia</td>
+      <td>season</td>
+      <td>monoclonal</td>
+      <td>inhibitors</td>
+      <td>H5N1</td>
+      <td>poultry</td>
+      <td>bat</td>
+      <td>H1N2</td>
+      <td>IAV</td>
+      <td>family</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>avian</td>
+      <td>H5</td>
+      <td>health</td>
+      <td>RT-PCR</td>
+      <td>vaccination</td>
+      <td>%</td>
+      <td>NA</td>
+      <td>antibodies</td>
+      <td>drugs</td>
+      <td>alveolar</td>
+      <td>lbms</td>
+      <td>duck</td>
+      <td>sivs</td>
+      <td>fusion</td>
+      <td>winter</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>infection</td>
+      <td>highly</td>
+      <td>influenza pandemic</td>
+      <td>sensitivity</td>
+      <td>H5N1</td>
+      <td>mexico</td>
+      <td>A(H3N2</td>
+      <td>H7</td>
+      <td>neuraminidase</td>
+      <td>cytokine</td>
+      <td>A(H7N9</td>
+      <td>H9</td>
+      <td>days</td>
+      <td>entry</td>
+      <td>temperature</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>influenza viruses</td>
+      <td>pathogenic</td>
+      <td>vaccines</td>
+      <td>rrt-pcr</td>
+      <td>recombinant</td>
+      <td>pandemic</td>
+      <td>mutation</td>
+      <td>HA</td>
+      <td>drug</td>
+      <td>msc-evs</td>
+      <td>market</td>
+      <td>chickens</td>
+      <td>nasal</td>
+      <td>influenza c virus</td>
+      <td>orthomyxoviridae</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>influenza virus</td>
+      <td>birds</td>
+      <td>influenza pandemics</td>
+      <td>reaction</td>
+      <td>inactivated</td>
+      <td>ph1n1</td>
+      <td>analysis</td>
+      <td>h7n9 virus</td>
+      <td>treatment</td>
+      <td>cytokines</td>
+      <td>prevalence</td>
+      <td>MDCK</td>
+      <td>avian-like</td>
+      <td>HEF</td>
+      <td>organoids</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>viral</td>
+      <td>asia</td>
+      <td>flu</td>
+      <td>influenza</td>
+      <td>responses</td>
+      <td>84</td>
+      <td>mutations</td>
+      <td>epitopes</td>
+      <td>neuraminidase inhibitors</td>
+      <td>macrophages</td>
+      <td>risk</td>
+      <td>bat-influenza</td>
+      <td>pig</td>
+      <td>kallistatin</td>
+      <td>shift</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>respiratory</td>
+      <td>AIV</td>
+      <td>strategies</td>
+      <td>real-time</td>
+      <td>mice</td>
+      <td>test</td>
+      <td>phylogenetic</td>
+      <td>2013</td>
+      <td>agents</td>
+      <td>h5n1 virus</td>
+      <td>conducted</td>
+      <td>chicken</td>
+      <td>nomenclature</td>
+      <td>activation</td>
+      <td>temperatures</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>results</td>
+      <td>HPAI</td>
+      <td>emerging</td>
+      <td>assays</td>
+      <td>antigenic</td>
+      <td>individuals</td>
+      <td>substitution</td>
+      <td>h7n9 viruses</td>
+      <td>amantadine</td>
+      <td>primary</td>
+      <td>practices</td>
+      <td>ecology</td>
+      <td>avian‐like</td>
+      <td>protease</td>
+      <td>flies</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>host</td>
+      <td>domestic</td>
+      <td>recent</td>
+      <td>rapid</td>
+      <td>survival</td>
+      <td>influenza-like</td>
+      <td>orvs</td>
+      <td>ELISA</td>
+      <td>antivirals</td>
+      <td>mdms</td>
+      <td>LBM</td>
+      <td>H17N10</td>
+      <td>inoculated</td>
+      <td>KLK1</td>
+      <td>antigenic shift</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>high</td>
+      <td>humans</td>
+      <td>preparedness</td>
+      <td>sensitive</td>
+      <td>lethal</td>
+      <td>states</td>
+      <td>PB1–216</td>
+      <td>neutralization</td>
+      <td>children</td>
+      <td>h1n1 virus</td>
+      <td>'s</td>
+      <td>H18N11</td>
+      <td>H3N2</td>
+      <td>ph</td>
+      <td>orthomyxoviridae family</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>humans</td>
+      <td>1997</td>
+      <td>strategy</td>
+      <td>H275Y</td>
+      <td>cross-protection</td>
+      <td>herds</td>
+      <td>evolution</td>
+      <td>mab</td>
+      <td>treat</td>
+      <td>chemokines</td>
+      <td>collected</td>
+      <td>h9n2 viruses</td>
+      <td>controls</td>
+      <td>membrane fusion</td>
+      <td>types</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>potential</td>
+      <td>h5n1 viruses</td>
+      <td>concern</td>
+      <td>multiplex</td>
+      <td>heterologous</td>
+      <td>h1n1 infection</td>
+      <td>taiwan</td>
+      <td>stem</td>
+      <td>channel</td>
+      <td>MBL</td>
+      <td>environmental</td>
+      <td>mdck cells</td>
+      <td>sw/gent/08</td>
+      <td>stability</td>
+      <td>persistence</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>suggest</td>
+      <td>H2</td>
+      <td>pandemic influenza</td>
+      <td>clinical</td>
+      <td>DNA</td>
+      <td>hospital</td>
+      <td>japan</td>
+      <td>monoclonal antibodies</td>
+      <td>activity</td>
+      <td>h5n1 disease</td>
+      <td>trading</td>
+      <td>modified</td>
+      <td>thai</td>
+      <td>cattle</td>
+      <td>differentiated</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>infected</td>
+      <td>subtypes</td>
+      <td>future</td>
+      <td>samples</td>
+      <td>proteins</td>
+      <td>bacterial</td>
+      <td>co-infection</td>
+      <td>conserved</td>
+      <td>therapy</td>
+      <td>autophagy</td>
+      <td>LPT</td>
+      <td>PB1-F2</td>
+      <td>H1</td>
+      <td>TBHQ</td>
+      <td>orthomyxoviruses</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>influenza a virus</td>
+      <td>epidemiology</td>
+      <td>years</td>
+      <td>specific</td>
+      <td>peptide</td>
+      <td>influenza-like illness</td>
+      <td>egypt</td>
+      <td>epitope</td>
+      <td>seasonal influenza</td>
+      <td>H9N2/G1</td>
+      <td>live bird</td>
+      <td>HP</td>
+      <td>diversity</td>
+      <td>glycoprotein</td>
+      <td>environmental conditions</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>strains</td>
+      <td>mortality</td>
+      <td>remains</td>
+      <td>developed</td>
+      <td>induced</td>
+      <td>swine flu</td>
+      <td>isolates</td>
+      <td>binding</td>
+      <td>stage</td>
+      <td>pathogenesis</td>
+      <td>network</td>
+      <td>acid</td>
+      <td>revealed</td>
+      <td>proteases</td>
+      <td>human-infective</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>tract</td>
+      <td>countries</td>
+      <td>research</td>
+      <td>clinical specimens</td>
+      <td>NP</td>
+      <td>CRP</td>
+      <td>neuraminidase</td>
+      <td>8C6</td>
+      <td>M2</td>
+      <td>in vitro</td>
+      <td>flocks</td>
+      <td>DV518</td>
+      <td>inoculation</td>
+      <td>proteolytic</td>
+      <td>sore throat</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>caused</td>
+      <td>asian</td>
+      <td>public</td>
+      <td>RNA</td>
+      <td>protected</td>
+      <td>17</td>
+      <td>waves</td>
+      <td>region</td>
+      <td>patients</td>
+      <td>vitro</td>
+      <td>surveillance</td>
+      <td>dromedary</td>
+      <td>avian‐like swine</td>
+      <td>loop</td>
+      <td>sore</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>low</td>
+      <td>domestic poultry</td>
+      <td>current</td>
+      <td>A/H1N1</td>
+      <td>protective</td>
+      <td>united states</td>
+      <td>A/H1N1</td>
+      <td>river</td>
+      <td>±</td>
+      <td>H5N1/97</td>
+      <td>bird</td>
+      <td>jinchai</td>
+      <td>introductions</td>
+      <td>structural</td>
+      <td>conditions</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>study</td>
+      <td>2003</td>
+      <td>response</td>
+      <td>PCR</td>
+      <td>vectors</td>
+      <td>mixed</td>
+      <td>clustered</td>
+      <td>avian-origin</td>
+      <td>D35</td>
+      <td>inflammatory</td>
+      <td>workers</td>
+      <td>dromedary camels</td>
+      <td>H1N1/2009</td>
+      <td>erythrocytes</td>
+      <td>ciliated</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>infections</td>
+      <td>infectious</td>
+      <td>international</td>
+      <td>positive</td>
+      <td>m2e</td>
+      <td>circulated</td>
+      <td>infecting</td>
+      <td>neutralizing antibody</td>
+      <td>NA</td>
+      <td>potent</td>
+      <td>rural</td>
+      <td>amino</td>
+      <td>titers</td>
+      <td>cleavage</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>ability</td>
+      <td>populations</td>
+      <td>epidemic</td>
+      <td>swl</td>
+      <td>immune</td>
+      <td>swine influenza</td>
+      <td>influenza a(h3n2</td>
+      <td>pseudovirus</td>
+      <td>NAI</td>
+      <td>induction</td>
+      <td>wild birds</td>
+      <td>cells</td>
+      <td>reassortant</td>
+      <td>attractive</td>
+      <td>quasispecies</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>virulence</td>
+      <td>transmission</td>
+      <td>work</td>
+      <td>chain</td>
+      <td>igg</td>
+      <td>investigations</td>
+      <td>seasons</td>
+      <td>h7n9 infections</td>
+      <td>zanamivir</td>
+      <td>proinflammatory</td>
+      <td>odds</td>
+      <td>SA</td>
+      <td>guinea</td>
+      <td>inhibits</td>
+      <td>family orthomyxoviridae</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>isolated</td>
+      <td>pathogenic avian influenza</td>
+      <td>studies</td>
+      <td>%</td>
+      <td>antibody</td>
+      <td>swine influenza h1n1 pneumonia</td>
+      <td>strains</td>
+      <td>group</td>
+      <td>rimantadine</td>
+      <td>virus-induced</td>
+      <td>cloacal</td>
+      <td>h9n2 virus</td>
+      <td>excretion</td>
+      <td>membrane</td>
+      <td>single-stranded</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>significant</td>
+      <td>zoonotic</td>
+      <td>development</td>
+      <td>primers</td>
+      <td>t-cell</td>
+      <td>ridts</td>
+      <td>phylogenetic analysis</td>
+      <td>ha protein</td>
+      <td>adamantanes</td>
+      <td>IP-10</td>
+      <td>kenya</td>
+      <td>acids</td>
+      <td>sublineage</td>
+      <td>influenza d virus</td>
+      <td>rna segments</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>respiratory tract</td>
+      <td>large</td>
+      <td>threat</td>
+      <td>probes</td>
+      <td>hetero-protection</td>
+      <td>ilis</td>
+      <td>sequence</td>
+      <td>IAV</td>
+      <td>ion</td>
+      <td>cell</td>
+      <td>free-grazing</td>
+      <td>camels</td>
+      <td>seropositivity</td>
+      <td>32D6</td>
+      <td>single-stranded rna</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>identified</td>
+      <td>wild</td>
+      <td>national</td>
+      <td>reverse</td>
+      <td>wild-type</td>
+      <td>PCT</td>
+      <td>selection</td>
+      <td>delta</td>
+      <td>prophylaxis</td>
+      <td>induced</td>
+      <td>live bird markets</td>
+      <td>p518-l</td>
+      <td>nasal virus</td>
+      <td>quercetin</td>
+      <td>infective</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>studies</td>
+      <td>infections</td>
+      <td>timely</td>
+      <td>screening</td>
+      <td>M2</td>
+      <td>epitope</td>
+      <td>LPAI</td>
+      <td>belonging</td>
+      <td>drug resistance</td>
+      <td>replicated</td>
+      <td>LPM</td>
+      <td>bat cells</td>
+      <td>belonged</td>
+      <td>conformation</td>
+      <td>type c</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>ferrets</td>
+      <td>viruses</td>
+      <td>killed</td>
+      <td>performance</td>
+      <td>influenza vaccine</td>
+      <td>cases</td>
+      <td>2</td>
+      <td>therapeutic</td>
+      <td>proton</td>
+      <td>pdmh1n1</td>
+      <td>wild</td>
+      <td>passages</td>
+      <td>3</td>
+      <td>pseudotyped</td>
+      <td>ivs</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>causing</td>
+      <td>economic</td>
+      <td>critical</td>
+      <td>detecting</td>
+      <td>clades</td>
+      <td>adults</td>
+      <td>online</td>
+      <td>china</td>
+      <td>young</td>
+      <td>PVA</td>
+      <td>year</td>
+      <td>intestinal</td>
+      <td>antibodies</td>
+      <td>TMPRSS2</td>
+      <td>influenza illness</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>previously</td>
+      <td>control</td>
+      <td>led</td>
+      <td>a/h1n1v</td>
+      <td>HPAI</td>
+      <td>patients</td>
+      <td>viral interference</td>
+      <td>h7n9 influenza</td>
+      <td>μg/ml</td>
+      <td>alveolar epithelial cells</td>
+      <td>spatial</td>
+      <td>bat species</td>
+      <td>1</td>
+      <td>matriptase/st</td>
+      <td>ISAV</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>genetic</td>
+      <td>mortality rate</td>
+      <td>production</td>
+      <td>a/h1n1pdm</td>
+      <td>antigens</td>
+      <td>ph1n1 virus</td>
+      <td>supplementary</td>
+      <td>ten</td>
+      <td>drug-resistant</td>
+      <td>evs</td>
+      <td>backyard</td>
+      <td>IFITM1</td>
+      <td>h1n1pdm09</td>
+      <td>bativs</td>
+      <td>RNA</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>reduced</td>
+      <td>including</td>
+      <td>system</td>
+      <td>2009</td>
+      <td>protect</td>
+      <td>producing</td>
+      <td>authorized</td>
+      <td>PN-SIA28</td>
+      <td>therapies</td>
+      <td>polarized</td>
+      <td>farmers</td>
+      <td>acquired</td>
+      <td>domestic ducks</td>
+      <td>infectivity</td>
+      <td>airways</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>transmitted</td>
+      <td>species</td>
+      <td>plans</td>
+      <td>commercial</td>
+      <td>hemagglutinin</td>
+      <td>mexico city</td>
+      <td>SUPPLEMENTARY</td>
+      <td>MN</td>
+      <td>compound</td>
+      <td>pathways</td>
+      <td>environmental samples</td>
+      <td>tracheas</td>
+      <td>web-accessible</td>
+      <td>determinant</td>
+      <td>transmission</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>pathogenic</td>
+      <td>east</td>
+      <td>recommendations</td>
+      <td>negative</td>
+      <td>HA</td>
+      <td>clones</td>
+      <td>signatures</td>
+      <td>reacted</td>
+      <td>infants</td>
+      <td>apical</td>
+      <td>movement</td>
+      <td>bat-influenza virus</td>
+      <td>dog</td>
+      <td>permeability</td>
+      <td>fever</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>pandemic</td>
+      <td>emergence</td>
+      <td>care</td>
+      <td>analytical</td>
+      <td>encoding</td>
+      <td>pandemic influenza a</td>
+      <td>monitor</td>
+      <td>monoclonal antibody</td>
+      <td>seasonal</td>
+      <td>apoptosis</td>
+      <td>contacts</td>
+      <td>species</td>
+      <td>danish</td>
+      <td>CPIV</td>
+      <td>environmental</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>unique</td>
+      <td>2.3.4.4</td>
+      <td><</td>
+      <td>one-step</td>
+      <td>immunization</td>
+      <td>clinical</td>
+      <td>users</td>
+      <td>vlps-tm</td>
+      <td>regimen</td>
+      <td>expression</td>
+      <td>H4N9</td>
+      <td>role</td>
+      <td>intranasally</td>
+      <td>myxoviruses</td>
+      <td>productive</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>transmission</td>
+      <td>influenza a viruses</td>
+      <td>bird</td>
+      <td>RT‐PCR</td>
+      <td>immunized</td>
+      <td>flu</td>
+      <td>phylogeography</td>
+      <td>sandwich</td>
+      <td>TCAD</td>
+      <td>lung epithelial cells</td>
+      <td>H7N4</td>
+      <td>p518-s</td>
+      <td>comparisons</td>
+      <td>anti-iav</td>
+      <td>h7n9/ah</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>influenza virus infection</td>
+      <td>subtype</td>
+      <td>h5n1 avian influenza</td>
+      <td>seasonal</td>
+      <td>m2e-map</td>
+      <td>variant</td>
+      <td>gene</td>
+      <td>PN</td>
+      <td>febrile</td>
+      <td>basolateral</td>
+      <td>urban</td>
+      <td>α2,6-gal</td>
+      <td>equine</td>
+      <td>proteolytic cleavage</td>
+      <td>h1n1sw</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>tissue</td>
+      <td>difficult</td>
+      <td>controlling</td>
+      <td>gene</td>
+      <td>TM</td>
+      <td>non-seasonal</td>
+      <td>PB1–216S</td>
+      <td>pseudotypes</td>
+      <td>avian flu</td>
+      <td>chemokine</td>
+      <td>risk factors</td>
+      <td>primates</td>
+      <td>cross‐protection</td>
+      <td>kallikrein</td>
+      <td>adar1-like</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>demonstrate</td>
+      <td>terms</td>
+      <td>pandemic influenza vaccines</td>
+      <td>pandemic influenza a/h1n1</td>
+      <td>immune responses</td>
+      <td>make</td>
+      <td>tree</td>
+      <td>specific</td>
+      <td>shikimic</td>
+      <td>mscs</td>
+      <td>birds</td>
+      <td>madin-darby canine kidney</td>
+      <td>contemporary</td>
+      <td>ICV</td>
+      <td>headache</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>syndrome</td>
+      <td>H2N2</td>
+      <td>manufacturing</td>
+      <td>clinical samples</td>
+      <td>effective</td>
+      <td>procalcitonin</td>
+      <td>al</td>
+      <td>blot</td>
+      <td>OS</td>
+      <td>inducers</td>
+      <td>samples</td>
+      <td>explain</td>
+      <td>virus titers</td>
+      <td>utilizes</td>
+      <td>droplets</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>persons</td>
+      <td>potential</td>
+      <td>(0)(F</td>
+      <td>H1N1</td>
+      <td>h5n1 virus</td>
+      <td>39</td>
+      <td>influenza a/h1n1 viruses</td>
+      <td>a/anhui/1/2013</td>
+      <td>clinical features</td>
+      <td>H5N1/04</td>
+      <td>chickens</td>
+      <td>DV413</td>
+      <td>household</td>
+      <td>stabilizing</td>
+      <td>tilv</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>subtypes</td>
+      <td>human</td>
+      <td>emergence</td>
+      <td>influenza a h1n1</td>
+      <td>weight loss</td>
+      <td>division</td>
+      <td>inhibition assay</td>
+      <td>subunits</td>
+      <td>viral</td>
+      <td>organ</td>
+      <td>patient</td>
+      <td>ns1 protein</td>
+      <td>wash</td>
+      <td>low-ph</td>
+      <td>house</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>disease</td>
+      <td>transmissible</td>
+      <td>correlates</td>
+      <td>rtrt-pcr</td>
+      <td>vector</td>
+      <td>originating</td>
+      <td>ELECTRONIC</td>
+      <td>coverage</td>
+      <td>severe</td>
+      <td>dysregulation</td>
+      <td>2013</td>
+      <td>bat influenza viruses</td>
+      <td>arose</td>
+      <td>enzymes</td>
+      <td>3D</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>vivo</td>
+      <td>routes</td>
+      <td>spreading</td>
+      <td>procedures</td>
+      <td>LAIV</td>
+      <td>thought</td>
+      <td>MATERIAL</td>
+      <td>rhmbl</td>
+      <td>suppressed</td>
+      <td>microvascular</td>
+      <td>circulation</td>
+      <td>ch9cn2/h18</td>
+      <td>genetic</td>
+      <td>viral spread</td>
+      <td>2D</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>objective</td>
+      <td>south-east asia</td>
+      <td>mathematical</td>
+      <td>RT-LAMP</td>
+      <td>sh5(3</td>
+      <td>reverse transcription polymerase chain reaction</td>
+      <td>HA</td>
+      <td>anti-hemagglutinin</td>
+      <td>AD3BF2D</td>
+      <td>signalling</td>
+      <td>%</td>
+      <td>ch9cn2/h17</td>
+      <td>genes</td>
+      <td>bativ</td>
+      <td>aerosols</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

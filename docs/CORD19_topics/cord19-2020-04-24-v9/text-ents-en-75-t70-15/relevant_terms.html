@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 70</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>dogs</td>
+      <td>strains</td>
+      <td>wild</td>
+      <td>CPV</td>
+      <td>L.</td>
+      <td>feline</td>
+      <td>respiratory</td>
+      <td>ticks</td>
+      <td>N.</td>
+      <td>borrelia</td>
+      <td>fish</td>
+      <td>cheetahs</td>
+      <td>G.</td>
+      <td>CDV</td>
+      <td>flies</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>%</td>
+      <td>ccov</td>
+      <td>exposure</td>
+      <td>CPV-2</td>
+      <td>infantum</td>
+      <td>cats</td>
+      <td>crcov</td>
+      <td>mice</td>
+      <td>caninum</td>
+      <td>burgdorferi</td>
+      <td>bees</td>
+      <td>captive</td>
+      <td>puppies</td>
+      <td>giant</td>
+      <td>house</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>detected</td>
+      <td>samples</td>
+      <td>domestic</td>
+      <td>canine parvovirus</td>
+      <td>leishmania</td>
+      <td>lynx</td>
+      <td>CIRD</td>
+      <td>snow</td>
+      <td>n. caninum</td>
+      <td>spp</td>
+      <td>bumble</td>
+      <td>cheetah</td>
+      <td>hominis</td>
+      <td>SLAM</td>
+      <td>diaperinus</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>study</td>
+      <td>analysis</td>
+      <td>carnivores</td>
+      <td>VP2</td>
+      <td>l. infantum</td>
+      <td>felis</td>
+      <td>·</td>
+      <td>MAT</td>
+      <td>cattle</td>
+      <td>leptospira</td>
+      <td>FHMNV</td>
+      <td>captive population</td>
+      <td>pallidipes</td>
+      <td>pandas</td>
+      <td>fly</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>positive</td>
+      <td>sequence</td>
+      <td>wild carnivores</td>
+      <td>cpv-2a</td>
+      <td>leishmaniasis</td>
+      <td>H.</td>
+      <td>cynos</td>
+      <td>tick</td>
+      <td>oocysts</td>
+      <td>leptospira spp</td>
+      <td>bee</td>
+      <td>beluga</td>
+      <td>finches</td>
+      <td>expressing</td>
+      <td>poultry</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>clinical</td>
+      <td>gene</td>
+      <td>exposure to</td>
+      <td>parvovirus</td>
+      <td>anti-leishmania</td>
+      <td>felv</td>
+      <td>CHV</td>
+      <td>tick-borne</td>
+      <td>adult</td>
+      <td>serovars</td>
+      <td>devil</td>
+      <td>sea</td>
+      <td>gpsghv</td>
+      <td>CDV-H</td>
+      <td>pheromone</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>antibodies</td>
+      <td>phylogenetic</td>
+      <td>distemper</td>
+      <td>type</td>
+      <td>vaccine</td>
+      <td>lynxes</td>
+      <td>bronchiseptica</td>
+      <td>leopards</td>
+      <td>tissues</td>
+      <td>burnetii</td>
+      <td>avian</td>
+      <td>whales</td>
+      <td>packs</td>
+      <td>titers</td>
+      <td>NDV</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>infection</td>
+      <td>genome</td>
+      <td>fox</td>
+      <td>cpv-2c</td>
+      <td>immune</td>
+      <td>iberian</td>
+      <td>M.</td>
+      <td>T.</td>
+      <td>infestation</td>
+      <td>blood</td>
+      <td>commercial</td>
+      <td>seals</td>
+      <td>ecological</td>
+      <td>CI</td>
+      <td>lure</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>virus</td>
+      <td>strain</td>
+      <td>diseases</td>
+      <td>2c</td>
+      <td>sand</td>
+      <td>cat</td>
+      <td>intracellularis</td>
+      <td>rabbit</td>
+      <td>globin</td>
+      <td>leptospiral</td>
+      <td>DFTD</td>
+      <td>fur</td>
+      <td>p. hominis</td>
+      <td>serengeti</td>
+      <td>larvae</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>results</td>
+      <td>gastroenteritis</td>
+      <td>wolf</td>
+      <td>cpv-2b</td>
+      <td>response</td>
+      <td>spain</td>
+      <td>CPIV</td>
+      <td>leptospirosis</td>
+      <td>sporulated</td>
+      <td>leptospiral serovars</td>
+      <td>honey</td>
+      <td>jubatus</td>
+      <td>cystoisospora</td>
+      <td>cells</td>
+      <td>mealworm</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>presence</td>
+      <td>fecal samples</td>
+      <td>wolves</td>
+      <td>2b</td>
+      <td>lbsap</td>
+      <td>domestic cats</td>
+      <td>enteroids</td>
+      <td>trypanosoma</td>
+      <td>heart</td>
+      <td>lyme</td>
+      <td>baitfish</td>
+      <td>adventure</td>
+      <td>morsitans</td>
+      <td>epidemic</td>
+      <td>lesser</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>signs</td>
+      <td>ccov-ii</td>
+      <td>red</td>
+      <td>variants</td>
+      <td>picv</td>
+      <td>genetta</td>
+      <td>m. cynos</td>
+      <td>leash</td>
+      <td>liver</td>
+      <td>fever</td>
+      <td>hives</td>
+      <td>population</td>
+      <td>dipylidium</td>
+      <td>traits</td>
+      <td>alphitobius</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>canine</td>
+      <td>fecal</td>
+      <td>foxes</td>
+      <td>antigenic</td>
+      <td>visceral</td>
+      <td>leukemia</td>
+      <td>cnpnv</td>
+      <td>effects</td>
+      <td>brain</td>
+      <td>pigs</td>
+      <td>fathead</td>
+      <td>haemoproteus</td>
+      <td>g. pallidipes</td>
+      <td>—</td>
+      <td>adults</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>tested</td>
+      <td>identified</td>
+      <td>infectious diseases</td>
+      <td>canine</td>
+      <td>visceral leishmaniasis</td>
+      <td>immunodeficiency</td>
+      <td>zooepidemicus</td>
+      <td>interactions</td>
+      <td>nematode</td>
+      <td>anaplasma</td>
+      <td>lots</td>
+      <td>sumatran</td>
+      <td>m.</td>
+      <td>environments</td>
+      <td>resistance</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>CCV</td>
+      <td>UK</td>
+      <td>pathogens</td>
+      <td>2a</td>
+      <td>cats</td>
+      <td>feline leukemia virus</td>
+      <td>equi</td>
+      <td>rats</td>
+      <td>vasorum</td>
+      <td>wild pigs</td>
+      <td>tasmanian</td>
+      <td>zoos</td>
+      <td>juveniles</td>
+      <td>in vitro</td>
+      <td>a. diaperinus</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>animals</td>
+      <td>ccov-iia</td>
+      <td>gondii</td>
+      <td>caninecv</td>
+      <td>orientalis</td>
+      <td>h. felis</td>
+      <td>bb</td>
+      <td>european rabbit</td>
+      <td>fed</td>
+      <td>camels</td>
+      <td>wild bumble</td>
+      <td>acinonyx</td>
+      <td>house finches</td>
+      <td>CDV‐H</td>
+      <td>facility</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>test</td>
+      <td>coronavirus</td>
+      <td>parvovirus</td>
+      <td>vp2 gene</td>
+      <td>igg</td>
+      <td>vulnificus</td>
+      <td>infectious respiratory disease</td>
+      <td>tick species</td>
+      <td>cnnphv</td>
+      <td>lyme disease</td>
+      <td>minnow</td>
+      <td>facilities</td>
+      <td>spp</td>
+      <td>asia-1</td>
+      <td>alphitobius diaperinus</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>infections</td>
+      <td>phylogenetic analysis</td>
+      <td>populations</td>
+      <td>cpv‐2c</td>
+      <td>IFAT</td>
+      <td>hepatozoon</td>
+      <td>swine</td>
+      <td>IL17A</td>
+      <td>A.</td>
+      <td>coxiella</td>
+      <td>muskellunge</td>
+      <td>lions</td>
+      <td>PNALM</td>
+      <td>RV</td>
+      <td>tetrachlorvinphos</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>=</td>
+      <td>ccov-i</td>
+      <td>risk</td>
+      <td>mpcr</td>
+      <td>salivary</td>
+      <td>feline immunodeficiency virus</td>
+      <td>CIRDC</td>
+      <td>trypanosome</td>
+      <td>stages</td>
+      <td>borrelia burgdorferi</td>
+      <td>bombi</td>
+      <td>breeding</td>
+      <td>g. m. morsitans</td>
+      <td>VN</td>
+      <td>house flies</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>disease</td>
+      <td>partial</td>
+      <td>distemper virus</td>
+      <td>variant</td>
+      <td>longipalpis</td>
+      <td>V.</td>
+      <td>subsp</td>
+      <td>vegrandis</td>
+      <td>intermediate</td>
+      <td>B.</td>
+      <td>multocida</td>
+      <td>cubs</td>
+      <td>SGH</td>
+      <td>molecular epidemiology</td>
+      <td>AIV</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>clinical signs</td>
+      <td>nucleotide</td>
+      <td>disease</td>
+      <td>types</td>
+      <td>ifn-γ</td>
+      <td>v. vulnificus</td>
+      <td>influenza</td>
+      <td>benin</td>
+      <td>truncata</td>
+      <td>abortion</td>
+      <td>greenhouses</td>
+      <td>mountain</td>
+      <td>rlow</td>
+      <td>95</td>
+      <td>numbers</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>reported</td>
+      <td>cakv</td>
+      <td>toxoplasma</td>
+      <td>original</td>
+      <td>leishmaniosis</td>
+      <td>meles</td>
+      <td>b. bronchiseptica</td>
+      <td>localities</td>
+      <td>death</td>
+      <td>city</td>
+      <td>spillover</td>
+      <td>dolphins</td>
+      <td>trichomonad</td>
+      <td>vitro</td>
+      <td>a.i./cm(2</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>role</td>
+      <td>RT-PCR</td>
+      <td>virus</td>
+      <td>multiplex</td>
+      <td>antigen</td>
+      <td>portugal</td>
+      <td>respiratory signs</td>
+      <td>boophilus</td>
+      <td>PBL</td>
+      <td>cross-reactivity</td>
+      <td>bombus</td>
+      <td>lawrence</td>
+      <td>cystoisospora spp</td>
+      <td>receptors</td>
+      <td>µg</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>prevalence</td>
+      <td>genes</td>
+      <td>domestic dogs</td>
+      <td>field strains</td>
+      <td>parasite</td>
+      <td>genet</td>
+      <td>respiratory coronavirus</td>
+      <td>laboratories</td>
+      <td>tick-infested cattle</td>
+      <td>babesia</td>
+      <td>crithidia</td>
+      <td>beluga whales</td>
+      <td>dens</td>
+      <td>dog</td>
+      <td>adace2</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>sequencing</td>
+      <td>ccov-iib</td>
+      <td>canids</td>
+      <td>taiwan</td>
+      <td>proteins</td>
+      <td>lutra</td>
+      <td>bordetella</td>
+      <td>affect</td>
+      <td>sporulated oocysts</td>
+      <td>brucella</td>
+      <td>hatchery</td>
+      <td>sea lions</td>
+      <td>glossina</td>
+      <td>protein</td>
+      <td>bioassays</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>found</td>
+      <td>canine</td>
+      <td>canine</td>
+      <td>CAV-1</td>
+      <td>adjuvant</td>
+      <td>silvestris</td>
+      <td>bordetella bronchiseptica</td>
+      <td>species</td>
+      <td>tick-infested</td>
+      <td>b. burgdorferi</td>
+      <td>metagenomics</td>
+      <td>tigris</td>
+      <td>PNM</td>
+      <td>meta-analysis</td>
+      <td>mutations</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>samples</td>
+      <td>genetic</td>
+      <td>vulpes</td>
+      <td>sensitive</td>
+      <td>lbsapsal</td>
+      <td>mongooses</td>
+      <td>respiratory disease</td>
+      <td>rhipicephalus</td>
+      <td>marinus</td>
+      <td>CME</td>
+      <td>rhusiopathiae</td>
+      <td>travel</td>
+      <td>hec</td>
+      <td>balkan</td>
+      <td>cypermethrin</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>associated with</td>
+      <td>revealed</td>
+      <td>rabies</td>
+      <td>rapid</td>
+      <td>saliva</td>
+      <td>pardinus</td>
+      <td>culture</td>
+      <td>serogroup</td>
+      <td>beetles</td>
+      <td>neonatal</td>
+      <td>amsterdam</td>
+      <td>tigers</td>
+      <td>giardia</td>
+      <td>Y549H</td>
+      <td>ache</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>viral</td>
+      <td>sequences</td>
+      <td>wildlife</td>
+      <td>vaccines</td>
+      <td>anti-leishmania igg</td>
+      <td>martes</td>
+      <td>mycoplasma cynos</td>
+      <td>leporids</td>
+      <td>lungs</td>
+      <td>coxiella burnetii</td>
+      <td>VLP</td>
+      <td>frigatebirds</td>
+      <td>HF1995</td>
+      <td>deletion</td>
+      <td>adace1</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>antibody</td>
+      <td>ccov strains</td>
+      <td>%</td>
+      <td>parvoviruses</td>
+      <td>rcp</td>
+      <td>feline parvovirus</td>
+      <td>CIV</td>
+      <td>DBA/1</td>
+      <td>confirmed</td>
+      <td>e. canis</td>
+      <td>devils</td>
+      <td>adenoviruses</td>
+      <td>MO</td>
+      <td>noncanids</td>
+      <td>attractive</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>PCR</td>
+      <td>kobuvirus</td>
+      <td>infectious</td>
+      <td>antigenic variants</td>
+      <td>immune response</td>
+      <td>lynx pardinus</td>
+      <td>qpcr</td>
+      <td>rm</td>
+      <td>experimentally</td>
+      <td>ehrlichiosis</td>
+      <td>birds</td>
+      <td>1994</td>
+      <td>P.</td>
+      <td>favor</td>
+      <td>anatis</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>significant</td>
+      <td>stool</td>
+      <td>feral</td>
+      <td>CPV‐2</td>
+      <td>groups</td>
+      <td>felid</td>
+      <td>mycoplasma</td>
+      <td>microflora</td>
+      <td>CB/05</td>
+      <td>province</td>
+      <td>2016</td>
+      <td>self‐sustaining</td>
+      <td>host</td>
+      <td>import</td>
+      <td>chlorpyrifos</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>2</td>
+      <td>sequence analysis</td>
+      <td>lupus</td>
+      <td>limit</td>
+      <td>expression</td>
+      <td>hepatozoonosis</td>
+      <td>pneumovirus</td>
+      <td>tick-borne diseases</td>
+      <td>bone</td>
+      <td>rrna</td>
+      <td>tumour</td>
+      <td>importation</td>
+      <td>forms</td>
+      <td>nephropathy</td>
+      <td>LC(50</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>collected</td>
+      <td>type</td>
+      <td>wild canids</td>
+      <td>2014</td>
+      <td>saponin</td>
+      <td>FIV</td>
+      <td>clinically healthy</td>
+      <td>tick-borne infections</td>
+      <td>abstrusus</td>
+      <td>E.</td>
+      <td>lakes</td>
+      <td>activities</td>
+      <td>pair</td>
+      <td>non-dog</td>
+      <td>chicken</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>serum</td>
+      <td>diarrheic</td>
+      <td>’s</td>
+      <td>circulating</td>
+      <td>protection</td>
+      <td>iberian lynxes</td>
+      <td>s. equi subsp</td>
+      <td>work</td>
+      <td>inoculum</td>
+      <td>zoonotic</td>
+      <td>nosema</td>
+      <td>hippoboscid</td>
+      <td>toxocara</td>
+      <td>ailuropoda melanoleuca</td>
+      <td>pitfall</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>serological</td>
+      <td>china</td>
+      <td>wild dogs</td>
+      <td>2</td>
+      <td>chagasi</td>
+      <td>scabiei</td>
+      <td>baits</td>
+      <td>animal</td>
+      <td>litter</td>
+      <td>bats</td>
+      <td>rose</td>
+      <td>captive cheetahs</td>
+      <td>overt</td>
+      <td>KDK-1</td>
+      <td>two-choice</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>infected</td>
+      <td>II</td>
+      <td>species</td>
+      <td>MGB</td>
+      <td>uninfected</td>
+      <td>mongoose</td>
+      <td>l. intracellularis infection</td>
+      <td>research</td>
+      <td>a. vasorum</td>
+      <td>rickettsiae</td>
+      <td>e. rhusiopathiae</td>
+      <td>ocean</td>
+      <td>sufficient</td>
+      <td>519I/549H</td>
+      <td>lesser mealworm</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>investigate</td>
+      <td>cakov</td>
+      <td>CDV</td>
+      <td>differentiate</td>
+      <td>fel</td>
+      <td>ichneumon</td>
+      <td>KM22</td>
+      <td>public</td>
+      <td>CAV‐1</td>
+      <td>rickettsia</td>
+      <td>pollinators</td>
+      <td>suliformes</td>
+      <td>kelpie</td>
+      <td>melanoleuca</td>
+      <td>cyfluthrin</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>acute</td>
+      <td>RNA</td>
+      <td>canis lupus</td>
+      <td>asian</td>
+      <td>symptomatic</td>
+      <td>natural</td>
+      <td>l. intracellularis</td>
+      <td>livestock</td>
+      <td>metamorphs</td>
+      <td>c. burnetii</td>
+      <td>lake</td>
+      <td>segregation</td>
+      <td>isospora</td>
+      <td>specialist</td>
+      <td>laboratory</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td><</td>
+      <td>recombination</td>
+      <td>YNP</td>
+      <td>replaced</td>
+      <td>endemic areas</td>
+      <td>family</td>
+      <td>seroprevalence</td>
+      <td>cruzi</td>
+      <td>cabov-2</td>
+      <td>stillbirth</td>
+      <td>declining</td>
+      <td>nonvaccinated</td>
+      <td>acute diarrhoea</td>
+      <td>ailuropoda</td>
+      <td>musca domestica l.</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>circovirus</td>
+      <td>tgev-like</td>
+      <td>domestic animals</td>
+      <td>wild-type</td>
+      <td>higher</td>
+      <td>DNA</td>
+      <td>canine</td>
+      <td>18S</td>
+      <td>male</td>
+      <td>borrelia spp</td>
+      <td>greenhouse</td>
+      <td>bred</td>
+      <td>communal</td>
+      <td>canine distemper virus</td>
+      <td>roakin</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>healthy dogs</td>
+      <td>subtype</td>
+      <td>reservoirs</td>
+      <td>cpv infection</td>
+      <td>infected</td>
+      <td>badger</td>
+      <td>disease</td>
+      <td>hare</td>
+      <td>beta</td>
+      <td>risticii</td>
+      <td>MUS‐WL</td>
+      <td>nevada</td>
+      <td>sarcocystis</td>
+      <td>distemper</td>
+      <td>A271S</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>performed</td>
+      <td>%</td>
+      <td>threats</td>
+      <td>henan province</td>
+      <td>stimulation</td>
+      <td>doñana</td>
+      <td>pathogens</td>
+      <td>parasites</td>
+      <td>marrow</td>
+      <td>anaplasmataceae</td>
+      <td>meta-transcriptomics</td>
+      <td>captivity</td>
+      <td>flea</td>
+      <td>assay</td>
+      <td>panzer</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>dogcv</td>
+      <td>full-length</td>
+      <td>prevalence</td>
+      <td>henan</td>
+      <td>igg2</td>
+      <td>antigenemic</td>
+      <td>B.</td>
+      <td>pet</td>
+      <td>bone marrow</td>
+      <td>melitensis</td>
+      <td>scavenger</td>
+      <td>*</td>
+      <td>190</td>
+      <td>titer</td>
+      <td>chickens</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>IP</td>
+      <td>hyenas</td>
+      <td>villages</td>
+      <td>vaccine</td>
+      <td>CVL</td>
+      <td>europe</td>
+      <td>pathogen</td>
+      <td>health</td>
+      <td>patent</td>
+      <td>canis</td>
+      <td>facial</td>
+      <td>rafting</td>
+      <td>3</td>
+      <td>epidemiology</td>
+      <td>attraction</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>pathogenic</td>
+      <td>mastv5</td>
+      <td>nucleic</td>
+      <td>characterized</td>
+      <td>kdna</td>
+      <td>carnivores</td>
+      <td>infectious</td>
+      <td>prevalent</td>
+      <td>tadpoles</td>
+      <td>mqpcr</td>
+      <td>cancer</td>
+      <td>boobies</td>
+      <td>national</td>
+      <td>obtained</td>
+      <td>catarina</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>serum samples</td>
+      <td>pantropic</td>
+      <td>2005</td>
+      <td>discriminate</td>
+      <td>sand flies</td>
+      <td>genetic</td>
+      <td>streptococcal</td>
+      <td>european</td>
+      <td>infected</td>
+      <td>camel</td>
+      <td>viruses</td>
+      <td>SSP</td>
+      <td>increased</td>
+      <td>confined</td>
+      <td>domestica</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>cent</td>
+      <td>TGEV</td>
+      <td>prey</td>
+      <td>CRV</td>
+      <td>lbsap vaccine</td>
+      <td>sequences</td>
+      <td>antimicrobials</td>
+      <td>walked</td>
+      <td>naturally</td>
+      <td>bartonella spp</td>
+      <td>conservation</td>
+      <td>whitewater</td>
+      <td>authorized</td>
+      <td>246</td>
+      <td>insects</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>21</td>
+      <td>detected</td>
+      <td>pack</td>
+      <td>immunochromatography</td>
+      <td>infection</td>
+      <td>common</td>
+      <td>sixty-one</td>
+      <td>buffalo</td>
+      <td>necrotizing</td>
+      <td>rickettsia spp</td>
+      <td>endangered</td>
+      <td>hexon</td>
+      <td>SUPPLEMENTARY</td>
+      <td>canines</td>
+      <td>A.</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>housed</td>
+      <td>cecov</td>
+      <td>coyote</td>
+      <td>1970s</td>
+      <td>levels</td>
+      <td>mediterranean</td>
+      <td>transit</td>
+      <td>impairing</td>
+      <td>feces</td>
+      <td>abortigenic</td>
+      <td>pathogen</td>
+      <td>1986</td>
+      <td>sanitary</td>
+      <td>vietnamese</td>
+      <td>wild birds</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

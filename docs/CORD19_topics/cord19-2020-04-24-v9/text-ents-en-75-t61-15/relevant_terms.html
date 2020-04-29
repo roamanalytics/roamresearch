@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 61</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>development</td>
+      <td>tourism</td>
+      <td>efficiency</td>
+      <td>travel</td>
+      <td>air</td>
+      <td>SARS</td>
+      <td>kong</td>
+      <td>health</td>
+      <td>climate</td>
+      <td>waste</td>
+      <td>consumers</td>
+      <td>tourists</td>
+      <td>estate</td>
+      <td>$</td>
+      <td>HSR</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>economic</td>
+      <td>demand</td>
+      <td>intensity</td>
+      <td>infectious</td>
+      <td>airlines</td>
+      <td>crisis</td>
+      <td>hong</td>
+      <td>insurance</td>
+      <td>aviation</td>
+      <td>pollution</td>
+      <td>poultry</td>
+      <td>travelers</td>
+      <td>price</td>
+      <td>NR</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>urban</td>
+      <td>results</td>
+      <td>carbon</td>
+      <td>risk</td>
+      <td>passenger</td>
+      <td>firms</td>
+      <td>hong kong</td>
+      <td>wildlife</td>
+      <td>climate change</td>
+      <td>contracting</td>
+      <td>products</td>
+      <td>trip</td>
+      <td>prices</td>
+      <td>stearns</td>
+      <td>unmet</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>industries</td>
+      <td>model</td>
+      <td>emissions</td>
+      <td>disease</td>
+      <td>airline</td>
+      <td>disaster</td>
+      <td>housing</td>
+      <td>healthcare</td>
+      <td>change</td>
+      <td>green</td>
+      <td>H7N9</td>
+      <td>chinese</td>
+      <td>volatility</td>
+      <td>bear</td>
+      <td>HGS</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>research</td>
+      <td>empirical</td>
+      <td>spatial</td>
+      <td>diseases</td>
+      <td>passengers</td>
+      <td>outbreak</td>
+      <td>power</td>
+      <td>inequality</td>
+      <td>emissions</td>
+      <td>dangerous</td>
+      <td>customers</td>
+      <td>economic impact</td>
+      <td>species</td>
+      <td>investor</td>
+      <td>lines</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>service</td>
+      <td>stock</td>
+      <td>CO2</td>
+      <td>influenza</td>
+      <td>airport</td>
+      <td>disasters</td>
+      <td>scheme</td>
+      <td>outsourcing</td>
+      <td>RF</td>
+      <td>cargo</td>
+      <td>illegal</td>
+      <td>business travelers</td>
+      <td>bubble</td>
+      <td>hedge</td>
+      <td>operating</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>chapter</td>
+      <td>performance</td>
+      <td>productivity</td>
+      <td>spread</td>
+      <td>airports</td>
+      <td>event</td>
+      <td>labor market</td>
+      <td>hospitals</td>
+      <td>forcing</td>
+      <td>air</td>
+      <td>US$</td>
+      <td>school</td>
+      <td>real</td>
+      <td>sentiment</td>
+      <td>las</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>systems</td>
+      <td>tourist</td>
+      <td>energy</td>
+      <td>infectious diseases</td>
+      <td>competition</td>
+      <td>events</td>
+      <td>CSSA</td>
+      <td>public</td>
+      <td>gas</td>
+      <td>air pollution</td>
+      <td>burden</td>
+      <td>£</td>
+      <td>trading</td>
+      <td>gold</td>
+      <td>entitlement</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>regional</td>
+      <td>arrivals</td>
+      <td>urbanization</td>
+      <td>travellers</td>
+      <td>flight</td>
+      <td>severe</td>
+      <td>land</td>
+      <td>reform</td>
+      <td>%</td>
+      <td>goods</td>
+      <td>live-poultry</td>
+      <td>‘</td>
+      <td>HSI</td>
+      <td>futures</td>
+      <td>LGS</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>study</td>
+      <td>market</td>
+      <td>consumption</td>
+      <td>countries</td>
+      <td>transportation</td>
+      <td>crises</td>
+      <td>people</td>
+      <td>quality</td>
+      <td>greenhouse</td>
+      <td>mobility</td>
+      <td>tuberculosis</td>
+      <td>cultural</td>
+      <td>real estate prices</td>
+      <td>ebola</td>
+      <td>yr</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>policy</td>
+      <td>financial</td>
+      <td>effect</td>
+      <td>pandemic</td>
+      <td>transport</td>
+      <td>tourism industry</td>
+      <td>alcohol</td>
+      <td>medical</td>
+      <td>dioxide</td>
+      <td>water</td>
+      <td>patients</td>
+      <td>china</td>
+      <td>financial</td>
+      <td>months</td>
+      <td>pitas</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>governance</td>
+      <td>study</td>
+      <td>%</td>
+      <td>medical</td>
+      <td>network</td>
+      <td>acute</td>
+      <td>space</td>
+      <td>government</td>
+      <td>mitigation</td>
+      <td>geography</td>
+      <td>transshipment</td>
+      <td>stay</td>
+      <td>wild</td>
+      <td>oil</td>
+      <td>expo</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>paper</td>
+      <td>returns</td>
+      <td>−</td>
+      <td>infection</td>
+      <td>flights</td>
+      <td>hotel</td>
+      <td>park</td>
+      <td>care</td>
+      <td>vrs</td>
+      <td>WTO</td>
+      <td>guangdong</td>
+      <td>IVS</td>
+      <td>fluctuations</td>
+      <td>report</td>
+      <td>cal</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>national</td>
+      <td>models</td>
+      <td>urban</td>
+      <td>health</td>
+      <td>air transport</td>
+      <td>news</td>
+      <td>cross-boundary</td>
+      <td>china</td>
+      <td>cirrus</td>
+      <td>SCS</td>
+      <td>¥</td>
+      <td>packaged</td>
+      <td>TCM</td>
+      <td>perform</td>
+      <td>public pension</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>environmental</td>
+      <td>data</td>
+      <td>tax</td>
+      <td>infectious disease</td>
+      <td>traffic</td>
+      <td>industry</td>
+      <td>social</td>
+      <td>EDI</td>
+      <td>electric</td>
+      <td>incinerators</td>
+      <td>NIS</td>
+      <td>tours</td>
+      <td>jump</td>
+      <td>securities</td>
+      <td>pension</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>framework</td>
+      <td>markets</td>
+      <td>flows</td>
+      <td>pre-travel</td>
+      <td>routes</td>
+      <td>respiratory</td>
+      <td>labor</td>
+      <td>aboriginal</td>
+      <td>range</td>
+      <td>final</td>
+      <td>online</td>
+      <td>term</td>
+      <td>real estate markets</td>
+      <td>-</td>
+      <td>B.P.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>case</td>
+      <td>impact</td>
+      <td>population</td>
+      <td>infections</td>
+      <td>hub</td>
+      <td>recovery</td>
+      <td>revitalisation</td>
+      <td>subsidies</td>
+      <td>adaptation</td>
+      <td>annex</td>
+      <td>costs</td>
+      <td>mainland</td>
+      <td>similarity</td>
+      <td>▀</td>
+      <td>cruise</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>political</td>
+      <td>show</td>
+      <td>inefficiency</td>
+      <td>increased</td>
+      <td>regulation</td>
+      <td>2003</td>
+      <td>middle</td>
+      <td>PHW</td>
+      <td>90</td>
+      <td>states</td>
+      <td>retailers</td>
+      <td>australia</td>
+      <td>property</td>
+      <td>endogenous</td>
+      <td>rail</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>role</td>
+      <td>return</td>
+      <td>rural</td>
+      <td>transmission</td>
+      <td>capacity</td>
+      <td>syndrome</td>
+      <td>vulnerability</td>
+      <td>conservation</td>
+      <td>carbon dioxide</td>
+      <td>carried</td>
+      <td>publishing</td>
+      <td>taiwan</td>
+      <td>bubbles</td>
+      <td>2020</td>
+      <td>architectural</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>supply</td>
+      <td>rate</td>
+      <td>electricity</td>
+      <td>incidence</td>
+      <td>air passenger</td>
+      <td>flu</td>
+      <td>office</td>
+      <td>pahs</td>
+      <td>temperature</td>
+      <td>south africa</td>
+      <td>agents</td>
+      <td>differences</td>
+      <td>harvest</td>
+      <td>ebola outbreak</td>
+      <td>cancers</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>literature</td>
+      <td>hotel</td>
+      <td>output</td>
+      <td>nepal</td>
+      <td>issues</td>
+      <td>avian</td>
+      <td>NDA</td>
+      <td>hospital</td>
+      <td>likelihood range</td>
+      <td>geographers</td>
+      <td>chickens</td>
+      <td>vaccine</td>
+      <td>entropy</td>
+      <td>publication</td>
+      <td>miriguaca</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>china</td>
+      <td>effects</td>
+      <td>product</td>
+      <td>typhus</td>
+      <td>long-haul</td>
+      <td>hospitality</td>
+      <td>examines</td>
+      <td>chinese government</td>
+      <td>ventilation</td>
+      <td>legislation</td>
+      <td>ftas</td>
+      <td>economic</td>
+      <td>market</td>
+      <td>/</td>
+      <td>CI</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>integration</td>
+      <td>negative</td>
+      <td>input-output flows</td>
+      <td>dengue</td>
+      <td>baggage</td>
+      <td>safety</td>
+      <td>age</td>
+      <td>usage</td>
+      <td>electric two-wheelers</td>
+      <td>navigation</td>
+      <td>farm</td>
+      <td>downgrade</td>
+      <td>cultivation</td>
+      <td>contained</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>challenges</td>
+      <td>effect</td>
+      <td>variations</td>
+      <td>scrub</td>
+      <td>HKIA</td>
+      <td>acute respiratory syndrome</td>
+      <td>’s</td>
+      <td>herding</td>
+      <td>warming</td>
+      <td>dangerous goods</td>
+      <td>maximization</td>
+      <td>length of stay</td>
+      <td>multiple</td>
+      <td>peer</td>
+      <td>.01</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>approach</td>
+      <td>paper</td>
+      <td>proportion</td>
+      <td>prevention</td>
+      <td>collusion</td>
+      <td>resilience</td>
+      <td>middle east respiratory syndrome</td>
+      <td>coverage</td>
+      <td>cooling</td>
+      <td>wastes</td>
+      <td>cases</td>
+      <td>greater</td>
+      <td>crashes</td>
+      <td>H2</td>
+      <td>socioeconomic development</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>important</td>
+      <td>hotels</td>
+      <td>beijing</td>
+      <td>outbreaks</td>
+      <td>lccs</td>
+      <td>severe acute respiratory syndrome</td>
+      <td>sars</td>
+      <td>inequalities</td>
+      <td>two-wheelers</td>
+      <td>disposal</td>
+      <td>billion</td>
+      <td>econometric</td>
+      <td>straddle</td>
+      <td>analyst(s</td>
+      <td>urban-rural</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cities</td>
+      <td>significant</td>
+      <td>input-output</td>
+      <td>scrub typhus</td>
+      <td>air transportation</td>
+      <td>food</td>
+      <td>hong kong's</td>
+      <td>breeding</td>
+      <td>mw</td>
+      <td>provisions</td>
+      <td>live</td>
+      <td>square</td>
+      <td>sinensis</td>
+      <td>spot</td>
+      <td>UGIC</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>services</td>
+      <td>growth</td>
+      <td>YRD</td>
+      <td>vaccination</td>
+      <td>light-handed</td>
+      <td>deaths</td>
+      <td>shenzhen</td>
+      <td>health inequality</td>
+      <td>m−2</td>
+      <td>regulations</td>
+      <td>chicken</td>
+      <td>sites</td>
+      <td>polyphylla</td>
+      <td>pharma</td>
+      <td>shexian</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>strategies</td>
+      <td>variables</td>
+      <td>abatement</td>
+      <td>livestock</td>
+      <td>LCC</td>
+      <td>food safety</td>
+      <td>macao</td>
+      <td>smthes</td>
+      <td>IA</td>
+      <td>construction</td>
+      <td>farm workers</td>
+      <td>southeast</td>
+      <td>MISMIS</td>
+      <td>optimism</td>
+      <td>cruise lines</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>integrated</td>
+      <td>test</td>
+      <td>mt</td>
+      <td>advice</td>
+      <td>carriers</td>
+      <td>natural disasters</td>
+      <td>community</td>
+      <td>describes</td>
+      <td>likelihood</td>
+      <td>responsible</td>
+      <td>disruptions</td>
+      <td>macau</td>
+      <td>copper</td>
+      <td>underperform</td>
+      <td>unmet medical</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>recent</td>
+      <td>dynamic</td>
+      <td>gross</td>
+      <td>visiting</td>
+      <td>light-handed regulation</td>
+      <td>epidemic</td>
+      <td>east</td>
+      <td>captive</td>
+      <td>desiccant</td>
+      <td>convention</td>
+      <td>users</td>
+      <td>citizens</td>
+      <td>ingredients</td>
+      <td>12</td>
+      <td>disparity</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>region</td>
+      <td>taiwan</td>
+      <td>policies</td>
+      <td>VFR</td>
+      <td>airline industry</td>
+      <td>operational</td>
+      <td>respiratory</td>
+      <td>utilization</td>
+      <td>anthropogenic</td>
+      <td>energy</td>
+      <td>illegal animal products</td>
+      <td>authoritarian</td>
+      <td>scarcity</td>
+      <td>expect</td>
+      <td>spanish</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>explores</td>
+      <td>empirical results</td>
+      <td>transportation</td>
+      <td>pathogens</td>
+      <td>carousel</td>
+      <td>step</td>
+      <td>child</td>
+      <td>reforms</td>
+      <td>camels</td>
+      <td>technology</td>
+      <td>losses</td>
+      <td>propinquity</td>
+      <td>indices</td>
+      <td>stocks</td>
+      <td>nuclear</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>context</td>
+      <td>tests</td>
+      <td>DEA</td>
+      <td>workers</td>
+      <td>low-cost</td>
+      <td>restaurants</td>
+      <td>hard</td>
+      <td>distribution</td>
+      <td>wet</td>
+      <td>mobilities</td>
+      <td>treatment</td>
+      <td>package</td>
+      <td>transaction</td>
+      <td>R&D</td>
+      <td>europe</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>tourism</td>
+      <td>exchange</td>
+      <td>reduction</td>
+      <td>elderly</td>
+      <td>in-flight</td>
+      <td>tourism</td>
+      <td>rescaling</td>
+      <td>chinese</td>
+      <td>fuels</td>
+      <td>solid</td>
+      <td>WTP</td>
+      <td>e-government</td>
+      <td>investors</td>
+      <td>smes</td>
+      <td>river</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>growing</td>
+      <td>factors</td>
+      <td>envelopment</td>
+      <td>friends</td>
+      <td>tend</td>
+      <td>findings</td>
+      <td>tradable</td>
+      <td>expenditure</td>
+      <td>assessment</td>
+      <td>municipal solid waste</td>
+      <td>TX</td>
+      <td>chinese travelers</td>
+      <td>medicinal</td>
+      <td>outperform</td>
+      <td>accident</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>sustainability</td>
+      <td>long-run</td>
+      <td>agglomerations</td>
+      <td>pandemics</td>
+      <td>SAAN</td>
+      <td>donate</td>
+      <td>hong kong government</td>
+      <td>highlight</td>
+      <td>nitrogen</td>
+      <td>veterinary</td>
+      <td>illegal wildlife</td>
+      <td>heritage</td>
+      <td>channel-wide</td>
+      <td>crude</td>
+      <td>older persons</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>evolution</td>
+      <td>inbound</td>
+      <td>economic integration</td>
+      <td>viruses</td>
+      <td>time</td>
+      <td>faced</td>
+      <td>attractions</td>
+      <td>problems</td>
+      <td>potentials</td>
+      <td>cavern</td>
+      <td>ESS</td>
+      <td>prophylactic</td>
+      <td>P.</td>
+      <td>referred</td>
+      <td>km</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>stakeholders</td>
+      <td>international</td>
+      <td>energy consumption</td>
+      <td>FSI</td>
+      <td>travel</td>
+      <td>war</td>
+      <td>taxation</td>
+      <td>healthcare market</td>
+      <td>classroom</td>
+      <td>populated</td>
+      <td>ZJG</td>
+      <td>america</td>
+      <td>VPM</td>
+      <td>pessimism</td>
+      <td>.00</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>urban areas</td>
+      <td>assets</td>
+      <td>technical</td>
+      <td>RAMPP</td>
+      <td>services</td>
+      <td>signal</td>
+      <td>beijing</td>
+      <td>HKHA</td>
+      <td>global warming</td>
+      <td>incineration</td>
+      <td>purchased</td>
+      <td>area</td>
+      <td>projections</td>
+      <td>cross</td>
+      <td>ASR</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>aspects</td>
+      <td>monthly</td>
+      <td>effects</td>
+      <td>vfrs</td>
+      <td>structure</td>
+      <td>bed</td>
+      <td>syndrome</td>
+      <td>health insurance coverage</td>
+      <td>cloudiness</td>
+      <td>africa</td>
+      <td>policy</td>
+      <td>overseas</td>
+      <td>semantic</td>
+      <td>brent</td>
+      <td>3000</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>good</td>
+      <td>terrorist</td>
+      <td>china</td>
+      <td>infected</td>
+      <td>AWA</td>
+      <td>disaster events</td>
+      <td>tenants</td>
+      <td>payment</td>
+      <td>IPCC</td>
+      <td>article</td>
+      <td>total</td>
+      <td>business</td>
+      <td>dynamical</td>
+      <td>companies</td>
+      <td>THI</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>aims</td>
+      <td>hotel stock</td>
+      <td>analysis</td>
+      <td>relatives</td>
+      <td>freight</td>
+      <td>week</td>
+      <td>police</td>
+      <td>health care sectors</td>
+      <td>global</td>
+      <td>set</td>
+      <td>party-state</td>
+      <td>tianyi</td>
+      <td>gecko</td>
+      <td>investors</td>
+      <td>homebuyers</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>analysis</td>
+      <td>analysis</td>
+      <td>domestic product</td>
+      <td>consultation</td>
+      <td>journey</td>
+      <td>study</td>
+      <td>enjoyed</td>
+      <td>WPL</td>
+      <td>impacts</td>
+      <td>manner</td>
+      <td>channel</td>
+      <td>matched</td>
+      <td>desirable</td>
+      <td>private</td>
+      <td>biomanufacturing</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>focus</td>
+      <td>managers</td>
+      <td>variable</td>
+      <td>surveillance</td>
+      <td>ticket</td>
+      <td>management</td>
+      <td>neighbourhood</td>
+      <td>non-life</td>
+      <td>fuel</td>
+      <td>wind</td>
+      <td>vendors</td>
+      <td>eventually</td>
+      <td>O.</td>
+      <td>year</td>
+      <td>FNA</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>global</td>
+      <td>germany</td>
+      <td>specialization</td>
+      <td>volumes</td>
+      <td>seat</td>
+      <td>officials</td>
+      <td>lagged</td>
+      <td>monetary</td>
+      <td>CO2</td>
+      <td>waste management</td>
+      <td>purchasing</td>
+      <td>visa</td>
+      <td>S.</td>
+      <td>multiplier</td>
+      <td>cancer</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>industry</td>
+      <td>tourist arrivals</td>
+      <td>TQIP</td>
+      <td>asia</td>
+      <td>settings</td>
+      <td>guests</td>
+      <td>exploratory</td>
+      <td>investigators</td>
+      <td>wet markets</td>
+      <td>fundamental</td>
+      <td>consultants</td>
+      <td>school closure</td>
+      <td>OD</td>
+      <td>FCV</td>
+      <td>attributes</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>chains</td>
+      <td>Δ</td>
+      <td>prefecture-level</td>
+      <td>international</td>
+      <td>kaohsiung</td>
+      <td>characterize</td>
+      <td>protests</td>
+      <td>household</td>
+      <td>l/s‐person</td>
+      <td>facilitating</td>
+      <td>CNY</td>
+      <td>circle</td>
+      <td>efsm</td>
+      <td>cell</td>
+      <td>2012</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>outcomes</td>
+      <td>outbound</td>
+      <td>yangtze river delta</td>
+      <td>potential</td>
+      <td>aviation</td>
+      <td>absorption</td>
+      <td>hypoventilation</td>
+      <td>state-owned</td>
+      <td>particles</td>
+      <td>shale</td>
+      <td>hospitalization</td>
+      <td>WHL</td>
+      <td>adulteration</td>
+      <td>3-month</td>
+      <td>capital</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>growth</td>
+      <td>U.S.</td>
+      <td>energy-saving</td>
+      <td>cities</td>
+      <td>strategy</td>
+      <td>swine</td>
+      <td>disney</td>
+      <td>mortgage</td>
+      <td>ozone</td>
+      <td>laws</td>
+      <td>lbms</td>
+      <td>chinese tourists</td>
+      <td>modeling</td>
+      <td>illustrative</td>
+      <td>=</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

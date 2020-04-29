@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 60</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>compounds</td>
+      <td>virus</td>
+      <td>chinese</td>
+      <td>pharmacological</td>
+      <td>genes</td>
+      <td>chromatography</td>
+      <td>GA</td>
+      <td>antioxidant</td>
+      <td>oxidative</td>
+      <td>sars-cov</td>
+      <td>L.</td>
+      <td>alkaloids</td>
+      <td>essential</td>
+      <td>shrimp</td>
+      <td>cordyceps</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>plant</td>
+      <td>extract</td>
+      <td>herbal</td>
+      <td>constituents</td>
+      <td>biosynthesis</td>
+      <td>mass</td>
+      <td>glycyrrhizin</td>
+      <td>scavenging</td>
+      <td>mice</td>
+      <td>intestinal</td>
+      <td>OS</td>
+      <td>J.</td>
+      <td>oil</td>
+      <td>WSSV</td>
+      <td>tea</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>plants</td>
+      <td>antiviral</td>
+      <td>TCM</td>
+      <td>emodin</td>
+      <td>japonica</td>
+      <td>liquid</td>
+      <td>hairy</td>
+      <td>tinctoria</td>
+      <td>oxidative stress</td>
+      <td>3clpro</td>
+      <td>prices</td>
+      <td>indole</td>
+      <td>essential oil</td>
+      <td>M.</td>
+      <td>fungus</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>natural</td>
+      <td>cells</td>
+      <td>herbs</td>
+      <td>genus</td>
+      <td>gene</td>
+      <td>method</td>
+      <td>licorice</td>
+      <td>±</td>
+      <td>da</td>
+      <td>wound</td>
+      <td>species</td>
+      <td>apoptosis</td>
+      <td>h. cordata</td>
+      <td>tuberculosis</td>
+      <td>tfs</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>marine</td>
+      <td>viral</td>
+      <td>medicine</td>
+      <td>bupleuri</td>
+      <td>unigenes</td>
+      <td>samples</td>
+      <td>G.</td>
+      <td>antioxidant activity</td>
+      <td>stress</td>
+      <td>baicalensis</td>
+      <td>plants</td>
+      <td>3</td>
+      <td>H.</td>
+      <td>YHV</td>
+      <td>fungi</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>properties</td>
+      <td>activity</td>
+      <td>traditional</td>
+      <td>science</td>
+      <td>tissues</td>
+      <td>spectrometry</td>
+      <td>root</td>
+      <td>phenolic</td>
+      <td>reduced</td>
+      <td>phenolic acids</td>
+      <td>RS</td>
+      <td>TSL-EO</td>
+      <td>essential oils</td>
+      <td>hesperetin</td>
+      <td>sweet</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>potential</td>
+      <td>μg/ml</td>
+      <td>treatment</td>
+      <td>scientific</td>
+      <td>expression</td>
+      <td>separation</td>
+      <td>glycyrrhiza</td>
+      <td>content</td>
+      <td>cold</td>
+      <td>EF</td>
+      <td>ethnoveterinary</td>
+      <td>cell</td>
+      <td>oils</td>
+      <td>white</td>
+      <td>c. sinensis</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>biological</td>
+      <td>extracts</td>
+      <td>ingredients</td>
+      <td>phytochemistry</td>
+      <td>indigotica</td>
+      <td>plasma</td>
+      <td>uralensis</td>
+      <td>radical</td>
+      <td>nf-κb</td>
+      <td>UA</td>
+      <td>price</td>
+      <td>c-geranylated</td>
+      <td>cordata</td>
+      <td>cd</td>
+      <td>TF3</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>health</td>
+      <td>antiviral activity</td>
+      <td>diseases</td>
+      <td>coumarins</td>
+      <td>involved</td>
+      <td>HPLC</td>
+      <td>glabra</td>
+      <td>DPPH</td>
+      <td>glutathione</td>
+      <td>IC50</td>
+      <td>farmers</td>
+      <td>alkaloid</td>
+      <td>eos</td>
+      <td>mjltl2</td>
+      <td>sinensis</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>products</td>
+      <td>effect</td>
+      <td>clinical</td>
+      <td>betula</td>
+      <td>lonicera</td>
+      <td>column</td>
+      <td>production</td>
+      <td>extracts</td>
+      <td>necrosis</td>
+      <td>TCLL</td>
+      <td>tomato</td>
+      <td>isolated</td>
+      <td>bacterial</td>
+      <td>japonicus</td>
+      <td>green</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>applications</td>
+      <td>infection</td>
+      <td>chinese medicine</td>
+      <td>radix bupleuri</td>
+      <td>tobacco</td>
+      <td>quality</td>
+      <td>cultures</td>
+      <td>DW</td>
+      <td>si-ni-san</td>
+      <td>inhibitors</td>
+      <td>medicinal plants</td>
+      <td>cells</td>
+      <td>mg/ml</td>
+      <td>protα</td>
+      <td>black</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>chapter</td>
+      <td>replication</td>
+      <td>formulae</td>
+      <td>activities</td>
+      <td>l. japonica</td>
+      <td>detection</td>
+      <td>roots</td>
+      <td>flavonoid</td>
+      <td>MC</td>
+      <td>anticomplementary</td>
+      <td>gaertn</td>
+      <td>2</td>
+      <td>streptococcus</td>
+      <td>melatonin</td>
+      <td>fish</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>recent</td>
+      <td>assay</td>
+      <td>medicines</td>
+      <td>pharmacological activities</td>
+      <td>i. indigotica</td>
+      <td>rat</td>
+      <td>g. glabra</td>
+      <td>lycorine</td>
+      <td>oxide</td>
+      <td>COS</td>
+      <td>officinalis</td>
+      <td>cancer cells</td>
+      <td>MIC</td>
+      <td>immune</td>
+      <td>ibmads1</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>research</td>
+      <td>influenza</td>
+      <td>targets</td>
+      <td>polygonum</td>
+      <td>transcriptome</td>
+      <td>analysis</td>
+      <td>liquorice</td>
+      <td>ithrcs</td>
+      <td>nitric oxide</td>
+      <td>flos</td>
+      <td>veterinary</td>
+      <td>lines</td>
+      <td>minimum</td>
+      <td>indigo</td>
+      <td>EGCG</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>activities</td>
+      <td>inhibition</td>
+      <td>guidelines</td>
+      <td>web</td>
+      <td>nitrogen</td>
+      <td>%</td>
+      <td>UV-B</td>
+      <td>free</td>
+      <td>mg/kg</td>
+      <td>acids</td>
+      <td>lychee</td>
+      <td>isoquinoline</td>
+      <td>EA</td>
+      <td>shrimps</td>
+      <td>potato</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>food</td>
+      <td>showed</td>
+      <td>herbal formulae</td>
+      <td>multiflorum</td>
+      <td>pathways</td>
+      <td>quantification</td>
+      <td>g. uralensis</td>
+      <td>24</td>
+      <td>model</td>
+      <td>lonicerae</td>
+      <td>l. houdyshelii</td>
+      <td>narcissus</td>
+      <td>bacteria</td>
+      <td>NOS</td>
+      <td>3cl(pro</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>review</td>
+      <td>fraction</td>
+      <td>efficacy</td>
+      <td>phytochemical</td>
+      <td>stages</td>
+      <td>m/z</td>
+      <td>glycyrrhizic</td>
+      <td>photosynthetic</td>
+      <td>inflammatory</td>
+      <td>SARS</td>
+      <td>l. aurea</td>
+      <td>litwinowii</td>
+      <td>monoterpenes</td>
+      <td>hainan</td>
+      <td>catechins</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>species</td>
+      <td>inhibit</td>
+      <td>components</td>
+      <td>triterpenoid</td>
+      <td>biosynthetic</td>
+      <td>quantitative</td>
+      <td>ergosterol</td>
+      <td>capacity</td>
+      <td>dismutase</td>
+      <td>gel</td>
+      <td>houdyshelii</td>
+      <td>MGC-803</td>
+      <td>cinnamon</td>
+      <td>polysaccharide</td>
+      <td>sweet potato</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>polysaccharides</td>
+      <td>%</td>
+      <td>bear</td>
+      <td>chemical constituents</td>
+      <td>I.</td>
+      <td>sensitive</td>
+      <td>glycyrrhizic acid</td>
+      <td>rate</td>
+      <td>models</td>
+      <td>tomentosa</td>
+      <td>aurea</td>
+      <td>isoquinoline alkaloids</td>
+      <td>eucalyptus</td>
+      <td>li</td>
+      <td>mycelia</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>natural products</td>
+      <td>evaluated</td>
+      <td>studies</td>
+      <td>glycosides</td>
+      <td>transformation</td>
+      <td>developed</td>
+      <td>spaceflight</td>
+      <td>anti-inflammatory activities</td>
+      <td>nitric</td>
+      <td>mag</td>
+      <td>horses</td>
+      <td>fortumei</td>
+      <td>MHV</td>
+      <td>challenge</td>
+      <td>teas</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>diseases</td>
+      <td>aqueous</td>
+      <td>herbal medicine</td>
+      <td>hepatoprotective</td>
+      <td>glycosyltransferases</td>
+      <td>YPFS</td>
+      <td>drought</td>
+      <td>μg/mg</td>
+      <td>cough</td>
+      <td>wound healing</td>
+      <td>influenced</td>
+      <td>5</td>
+      <td>thyme</td>
+      <td>miao</td>
+      <td>C.</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>bioactive</td>
+      <td>inhibitory</td>
+      <td>SST</td>
+      <td>ginseng</td>
+      <td>accumulation</td>
+      <td>acid</td>
+      <td>pastoris</td>
+      <td>water</td>
+      <td>icariin</td>
+      <td>sars-cov-2</td>
+      <td>scarcity</td>
+      <td>cancer</td>
+      <td>camaldulensis</td>
+      <td>NFP-1</td>
+      <td>green tea</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>biological activities</td>
+      <td>cell</td>
+      <td>chinese herbal medicines</td>
+      <td>chrysophanol</td>
+      <td>cytochrome</td>
+      <td>QC</td>
+      <td>culture</td>
+      <td>potassium</td>
+      <td>induced</td>
+      <td>flora</td>
+      <td>BC</td>
+      <td>death</td>
+      <td>mediterranean</td>
+      <td>mortality</td>
+      <td>inophyllum</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>drugs</td>
+      <td>significantly</td>
+      <td>drug</td>
+      <td>cimicifuga</td>
+      <td>t. sinensis</td>
+      <td>pharmacokinetic</td>
+      <td>glycyrrhiza glabra</td>
+      <td>rutin</td>
+      <td>attenuated</td>
+      <td>FTA</td>
+      <td>fluctuations</td>
+      <td>smith</td>
+      <td>niclosamide</td>
+      <td>m. japonicus</td>
+      <td>sterols</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>source</td>
+      <td>glycyrrhizae</td>
+      <td>results</td>
+      <td>review</td>
+      <td>macranthoides</td>
+      <td>rats</td>
+      <td>GL</td>
+      <td>I.</td>
+      <td>arbidol</td>
+      <td>hct</td>
+      <td>french</td>
+      <td>indole alkaloids</td>
+      <td>2-undecanone</td>
+      <td>dyers</td>
+      <td>hepiali</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>range</td>
+      <td>IC(50</td>
+      <td>liver</td>
+      <td>saponins</td>
+      <td>CGA</td>
+      <td>applied</td>
+      <td>fisch</td>
+      <td>contents</td>
+      <td>tf-ee</td>
+      <td>ulcers</td>
+      <td>trinidad</td>
+      <td>miscellaneous</td>
+      <td>antibacterial activity</td>
+      <td>azedarach</td>
+      <td>pepper</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>important</td>
+      <td>PEP</td>
+      <td>safety</td>
+      <td>pubmed</td>
+      <td>expressed</td>
+      <td>spectroscopy</td>
+      <td>glycyrrhetinic</td>
+      <td>reducing</td>
+      <td>p-icariin</td>
+      <td>caffeic</td>
+      <td>symphytum</td>
+      <td>dai</td>
+      <td>rice</td>
+      <td>crayfish</td>
+      <td>carp</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>metabolites</td>
+      <td>45</td>
+      <td>active components</td>
+      <td>CR</td>
+      <td>metabolism</td>
+      <td>accurate</td>
+      <td>hairy roots</td>
+      <td>oxalate</td>
+      <td>marama</td>
+      <td>protease</td>
+      <td>albiflora</td>
+      <td>qing</td>
+      <td>b[a]p-induced</td>
+      <td>vp28-sirna</td>
+      <td>spices</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>antimicrobial</td>
+      <td>reduction</td>
+      <td>pis</td>
+      <td>serrata</td>
+      <td>LTB</td>
+      <td>high-performance</td>
+      <td>glycyrrhiza uralensis fisch</td>
+      <td>muticum</td>
+      <td>TSL-1</td>
+      <td>caffeic acid</td>
+      <td>UR</td>
+      <td>12</td>
+      <td>e. camaldulensis</td>
+      <td>CBP1S</td>
+      <td>anti‐saprolegnia</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>include</td>
+      <td>potent</td>
+      <td>bile</td>
+      <td>toxicity</td>
+      <td>pathway</td>
+      <td>qualitative</td>
+      <td>p. pastoris</td>
+      <td>asiaticum</td>
+      <td>common</td>
+      <td>pomegranate</td>
+      <td>symphytum officinale</td>
+      <td>targets</td>
+      <td>mutans</td>
+      <td>lectins</td>
+      <td>oolong</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>molecules</td>
+      <td>attachment</td>
+      <td>experimental</td>
+      <td>P.</td>
+      <td>RNA</td>
+      <td>linearity</td>
+      <td>radiation</td>
+      <td>%</td>
+      <td>damage</td>
+      <td>hon</td>
+      <td>l. albiflora</td>
+      <td>cluster</td>
+      <td>cinnamon bark</td>
+      <td>m. azedarach</td>
+      <td>theaflavins</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>diverse</td>
+      <td>nakai</td>
+      <td>infections</td>
+      <td>effects</td>
+      <td>encoding</td>
+      <td>gas</td>
+      <td>secondary metabolites</td>
+      <td>quercetin</td>
+      <td>signaling</td>
+      <td>p. tomentosa</td>
+      <td>linearis</td>
+      <td>aureus</td>
+      <td>steviol</td>
+      <td>nitrite/nitrate</td>
+      <td>black tea</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>sources</td>
+      <td>herpes</td>
+      <td>role</td>
+      <td>information</td>
+      <td>integration</td>
+      <td>ionization</td>
+      <td>transgenic</td>
+      <td>flavonoids</td>
+      <td>superoxide dismutase</td>
+      <td>s. baicalensis</td>
+      <td>aspalathus</td>
+      <td>cyrtomium fortumei</td>
+      <td>chemical composition</td>
+      <td>DHI</td>
+      <td>phenol-rich</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>therapeutic</td>
+      <td>cytotoxicity</td>
+      <td>data</td>
+      <td>polygoneae</td>
+      <td>annotated</td>
+      <td>CMM</td>
+      <td>glycyrrhiza uralensis</td>
+      <td>total</td>
+      <td>LPS</td>
+      <td>cell-based</td>
+      <td>harvest</td>
+      <td>keiskei</td>
+      <td>haemophilus</td>
+      <td>HCP-2</td>
+      <td>TF1</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>structural</td>
+      <td>results</td>
+      <td>traditional chinese medicine</td>
+      <td>c. serrata</td>
+      <td>assembly</td>
+      <td>rigida</td>
+      <td>gusqs1</td>
+      <td>PRRSV</td>
+      <td>factor-α</td>
+      <td>intestinal bacteria</td>
+      <td>aspalathus linearis</td>
+      <td>caspase-3</td>
+      <td>DENV-2</td>
+      <td>molecular weight</td>
+      <td>ipomoea</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>medicinal</td>
+      <td>plaque</td>
+      <td>interaction</td>
+      <td>autophagy</td>
+      <td>mosaic</td>
+      <td>high-performance liquid chromatography</td>
+      <td>elicitation</td>
+      <td>i. tinctoria hairy root cultures</td>
+      <td>QGG</td>
+      <td>hcov-nl63</td>
+      <td>calanthe</td>
+      <td>m. cordata</td>
+      <td>grandisol</td>
+      <td>l. chinensis</td>
+      <td>theaflavin</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>microorganisms</td>
+      <td>respiratory</td>
+      <td>sidoides</td>
+      <td>saikosaponins</td>
+      <td>leaves</td>
+      <td>isatidis</td>
+      <td>hairy root cultures</td>
+      <td>dry</td>
+      <td>ROS</td>
+      <td>rabbit</td>
+      <td>high</td>
+      <td>staphylococcus</td>
+      <td>α‐pinene</td>
+      <td>phosphor</td>
+      <td>anti-hiv</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>numerous</td>
+      <td>vero</td>
+      <td>COVID-19</td>
+      <td>chaihu</td>
+      <td>identified</td>
+      <td>FCE</td>
+      <td>HMGR</td>
+      <td>c. asiaticum</td>
+      <td>nrf2</td>
+      <td>aggregation</td>
+      <td>r.dahlgren</td>
+      <td>cyrtomium</td>
+      <td>perennial</td>
+      <td>CPP-2</td>
+      <td>‘</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>human</td>
+      <td>epigoitrin</td>
+      <td>pelargonium sidoides</td>
+      <td>polygonum multiflorum</td>
+      <td>genomics</td>
+      <td>chrysoeriol</td>
+      <td>anti‐hcv</td>
+      <td>UMAE</td>
+      <td>ducklings</td>
+      <td>complement</td>
+      <td>switzerland</td>
+      <td>IL-17A</td>
+      <td>sempervirens</td>
+      <td>CPP-1</td>
+      <td>gibelio</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>attention</td>
+      <td>in vitro</td>
+      <td>pelargonium</td>
+      <td>web of science</td>
+      <td>stems</td>
+      <td>isatidis radix</td>
+      <td>secondary</td>
+      <td>C.</td>
+      <td>QGR</td>
+      <td>flos lonicerae extract</td>
+      <td>traders</td>
+      <td>1</td>
+      <td>oxycedrus</td>
+      <td>m. tuberculosis</td>
+      <td>bloch</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>interest</td>
+      <td>study</td>
+      <td>disease</td>
+      <td>rheum</td>
+      <td>plastid</td>
+      <td>precision</td>
+      <td>β-glucuronidase</td>
+      <td>SFE</td>
+      <td>anti-inflammatory</td>
+      <td>sambucus</td>
+      <td>homemade</td>
+      <td>10</td>
+      <td>μg/mouse</td>
+      <td>indigo-yielding</td>
+      <td>TF2A</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>activity</td>
+      <td>virucidal</td>
+      <td>effects</td>
+      <td>scholar</td>
+      <td>lonicera japonica</td>
+      <td>PAP-1</td>
+      <td>copy</td>
+      <td>sappan</td>
+      <td>inflammation</td>
+      <td>G-90</td>
+      <td>adulteration</td>
+      <td>13</td>
+      <td>sea</td>
+      <td>postchallenge</td>
+      <td>epicatechin</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>great</td>
+      <td>radix glycyrrhizae</td>
+      <td>prescriptions</td>
+      <td>studies</td>
+      <td>genomic</td>
+      <td>analytes</td>
+      <td>stress</td>
+      <td>mg/100</td>
+      <td>acute</td>
+      <td>anticomplement</td>
+      <td>interviews</td>
+      <td>protect</td>
+      <td>pyogenes</td>
+      <td>fructan</td>
+      <td>mads-box</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>algae</td>
+      <td>EV71</td>
+      <td>regulation</td>
+      <td>traditional</td>
+      <td>l. macranthoides</td>
+      <td>radix</td>
+      <td>GAMG</td>
+      <td>chlorophyll</td>
+      <td>assessed</td>
+      <td>metabolized</td>
+      <td>mutant</td>
+      <td>26</td>
+      <td>antimicrobial activity</td>
+      <td>anti-m.</td>
+      <td>1782</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>phenolics</td>
+      <td>treatment</td>
+      <td>methods</td>
+      <td>clinical</td>
+      <td>L.</td>
+      <td>components</td>
+      <td>isoliquiritigenin</td>
+      <td>leaf area</td>
+      <td>spleen</td>
+      <td>gluconolactone</td>
+      <td>nelumbo</td>
+      <td>hela</td>
+      <td>antibacterial</td>
+      <td>main-group</td>
+      <td>ophiocordyceps</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>potentially</td>
+      <td>CVA16</td>
+      <td>related</td>
+      <td>pharmacological studies</td>
+      <td>iipals</td>
+      <td>tandem</td>
+      <td>ugats</td>
+      <td>2,2-diphenyl-1-picrylhydrazyl</td>
+      <td>7630</td>
+      <td>tender</td>
+      <td>salix</td>
+      <td>short</td>
+      <td>S.</td>
+      <td>l-citrulline</td>
+      <td>anamorphic</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>published</td>
+      <td>effects</td>
+      <td>widely</td>
+      <td>google scholar</td>
+      <td>hbsag</td>
+      <td>s-goitrin</td>
+      <td>gucyb5</td>
+      <td>antioxidant capacity</td>
+      <td>HCI</td>
+      <td>AP</td>
+      <td>influence</td>
+      <td>MCF-7</td>
+      <td>lung</td>
+      <td>chinensis</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>biological activity</td>
+      <td>acetone</td>
+      <td>barley</td>
+      <td>bupleurum</td>
+      <td>leadzyme</td>
+      <td>LA</td>
+      <td>IAN</td>
+      <td>i. tinctoria</td>
+      <td>chickens</td>
+      <td>WESB</td>
+      <td>wild</td>
+      <td>apoptotic</td>
+      <td>strains</td>
+      <td>hemocytes</td>
+      <td>SC</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>anti-viral</td>
+      <td>methanol extract</td>
+      <td>prescription</td>
+      <td>cassiae</td>
+      <td>P450</td>
+      <td>electrospray</td>
+      <td>glucuronosylation</td>
+      <td>viscozyme</td>
+      <td>pathological</td>
+      <td>HNEI</td>
+      <td>factors</td>
+      <td>TS</td>
+      <td>composition</td>
+      <td>system</td>
+      <td>fruiting</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>endophytes</td>
+      <td>HCV</td>
+      <td>formula</td>
+      <td>cassiae semen</td>
+      <td>iiplr1</td>
+      <td>progoitrin</td>
+      <td>chalcone</td>
+      <td>deficit</td>
+      <td>ear</td>
+      <td>inhibitory activity</td>
+      <td>cultivation</td>
+      <td>SGC7901</td>
+      <td>activity</td>
+      <td>egg</td>
+      <td>peaks</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

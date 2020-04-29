@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 09</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>phylogenetic</td>
+      <td>amino</td>
+      <td>genome</td>
+      <td>IBV</td>
+      <td>chickens</td>
+      <td>PEDV</td>
+      <td>canine</td>
+      <td>influenza</td>
+      <td>PCR</td>
+      <td>M41</td>
+      <td>TGEV</td>
+      <td>bcov</td>
+      <td>astrovirus</td>
+      <td>bat</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>analysis</td>
+      <td>acid</td>
+      <td>recombination</td>
+      <td>S1</td>
+      <td>attenuated</td>
+      <td>porcine</td>
+      <td>dogs</td>
+      <td>flocks</td>
+      <td>reaction</td>
+      <td>beaudette</td>
+      <td>tcov</td>
+      <td>respiratory</td>
+      <td>rotavirus</td>
+      <td>bats</td>
+      <td>version</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>sequences</td>
+      <td>%</td>
+      <td>complete</td>
+      <td>bronchitis</td>
+      <td>vaccines</td>
+      <td>pdcov</td>
+      <td>samples</td>
+      <td>broiler</td>
+      <td>chain</td>
+      <td>cells</td>
+      <td>coronavirus</td>
+      <td>hcov-oc43</td>
+      <td>segments</td>
+      <td>SARS</td>
+      <td>online</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>molecular</td>
+      <td>nucleotide</td>
+      <td>sequence</td>
+      <td>infectious</td>
+      <td>protection</td>
+      <td>diarrhea</td>
+      <td>fecal</td>
+      <td>broilers</td>
+      <td>reverse</td>
+      <td>binding</td>
+      <td>turkey</td>
+      <td>bovine</td>
+      <td>astroviruses</td>
+      <td>sars-cov</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>genotypes</td>
+      <td>amino acid</td>
+      <td>genomic</td>
+      <td>infectious bronchitis virus</td>
+      <td>eggs</td>
+      <td>epidemic</td>
+      <td>fecal samples</td>
+      <td>birds</td>
+      <td>polymerase</td>
+      <td>expressing</td>
+      <td>orfs</td>
+      <td>crcov</td>
+      <td>castv</td>
+      <td>mers-cov</td>
+      <td>supplementary</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>circulating</td>
+      <td>sequence</td>
+      <td>genome sequence</td>
+      <td>s1 gene</td>
+      <td>lesions</td>
+      <td>piglets</td>
+      <td>cats</td>
+      <td>farms</td>
+      <td>RT-PCR</td>
+      <td>IBV</td>
+      <td>coronaviruses</td>
+      <td>bovine coronavirus</td>
+      <td>segment</td>
+      <td>syndrome</td>
+      <td>ELECTRONIC</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>genotype</td>
+      <td>protein</td>
+      <td>strain</td>
+      <td>ibvs</td>
+      <td>embryonated</td>
+      <td>pigs</td>
+      <td>ccov</td>
+      <td>avian</td>
+      <td>primers</td>
+      <td>recombinant</td>
+      <td>PRRSV</td>
+      <td>BRSV</td>
+      <td>reovirus</td>
+      <td>WNV</td>
+      <td>online version</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>genetic</td>
+      <td>sequences</td>
+      <td>genes</td>
+      <td>vaccine</td>
+      <td>chicks</td>
+      <td>strains</td>
+      <td>CPV</td>
+      <td>backyard</td>
+      <td>samples</td>
+      <td>mabs</td>
+      <td>transmissible</td>
+      <td>EV71</td>
+      <td>PBV</td>
+      <td>human</td>
+      <td>SUPPLEMENTARY</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>diversity</td>
+      <td>identity</td>
+      <td>recombinant</td>
+      <td>massachusetts</td>
+      <td>vaccine</td>
+      <td>CV777</td>
+      <td>%</td>
+      <td>%</td>
+      <td>method</td>
+      <td>avirulent</td>
+      <td>ORF</td>
+      <td>×</td>
+      <td>rotaviruses</td>
+      <td>middle</td>
+      <td>authorized</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>study</td>
+      <td>strains</td>
+      <td>virus</td>
+      <td>strains</td>
+      <td>passage</td>
+      <td>PED</td>
+      <td>VP2</td>
+      <td>wild</td>
+      <td>transcription</td>
+      <td>in vitro</td>
+      <td>turkey coronavirus</td>
+      <td>patients</td>
+      <td>RVA</td>
+      <td>covs</td>
+      <td>MATERIAL</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>data</td>
+      <td>compared</td>
+      <td>3′</td>
+      <td>variants</td>
+      <td>kidney</td>
+      <td>epidemic diarrhea virus</td>
+      <td>feline</td>
+      <td>NDV</td>
+      <td>detection</td>
+      <td>virulent</td>
+      <td>CCV</td>
+      <td>bcovs</td>
+      <td>orthoreovirus</td>
+      <td>2019-ncov</td>
+      <td>material</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>lineages</td>
+      <td>isolates</td>
+      <td>genomes</td>
+      <td>4/91</td>
+      <td>IBV</td>
+      <td>china</td>
+      <td>diarrheic</td>
+      <td>wild birds</td>
+      <td>assay</td>
+      <td>vaccinia</td>
+      <td>transmissible gastroenteritis virus</td>
+      <td>HMPV</td>
+      <td>reoviruses</td>
+      <td>east</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>lineage</td>
+      <td>gene</td>
+      <td>determined</td>
+      <td>mass</td>
+      <td>vaccinated</td>
+      <td>pedvs</td>
+      <td>ptov</td>
+      <td>iran</td>
+      <td>CDV</td>
+      <td>vitro</td>
+      <td>protein</td>
+      <td>adult</td>
+      <td>species</td>
+      <td>arabia</td>
+      <td>doi:10.1007/s00705</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>epidemiology</td>
+      <td>amino acid sequence</td>
+      <td>full-length</td>
+      <td>poultry</td>
+      <td>challenge</td>
+      <td>swine</td>
+      <td>VP1</td>
+      <td>poultry</td>
+      <td>RFLP</td>
+      <td>cdna</td>
+      <td>FIPV</td>
+      <td>children</td>
+      <td>VP7</td>
+      <td>saudi</td>
+      <td>01</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>cases</td>
+      <td>acids</td>
+      <td>report</td>
+      <td>qx-like</td>
+      <td>SPF</td>
+      <td>ORF3</td>
+      <td>rdrp</td>
+      <td>H9N2</td>
+      <td>sensitive</td>
+      <td>ribvs</td>
+      <td>3b</td>
+      <td>WD</td>
+      <td>genogroup</td>
+      <td>saudi arabia</td>
+      <td>FHV-1</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>evolution</td>
+      <td>amino acids</td>
+      <td>region</td>
+      <td>emergence</td>
+      <td>passages</td>
+      <td>g2b</td>
+      <td>CPV-2</td>
+      <td>ORT</td>
+      <td>developed</td>
+      <td>expression</td>
+      <td>PRCV</td>
+      <td>enteric</td>
+      <td>chicken astrovirus</td>
+      <td>bufavirus</td>
+      <td>019</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>spread</td>
+      <td>published</td>
+      <td>5′</td>
+      <td>field</td>
+      <td>trachea</td>
+      <td>diarrhoea</td>
+      <td>dog</td>
+      <td>commercial</td>
+      <td>detect</td>
+      <td>genetics</td>
+      <td>229E</td>
+      <td>human</td>
+      <td>BRV</td>
+      <td>acute respiratory syndrome</td>
+      <td>isolates</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>clustered</td>
+      <td>nucleotide sequence</td>
+      <td>isolated</td>
+      <td>vaccine strains</td>
+      <td>kidneys</td>
+      <td>outbreaks</td>
+      <td>btov</td>
+      <td>AIV</td>
+      <td>products</td>
+      <td>vaccinia virus</td>
+      <td>gastroenteritis</td>
+      <td>hcov-nl63</td>
+      <td>BTV-3</td>
+      <td>JEV</td>
+      <td>TBTV</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>characterization</td>
+      <td>korean</td>
+      <td>analyses</td>
+      <td>isolates</td>
+      <td>signs</td>
+      <td>porcine deltacoronavirus</td>
+      <td>bnov</td>
+      <td>ampv</td>
+      <td>amplified</td>
+      <td>attachment</td>
+      <td>miller</td>
+      <td>horses</td>
+      <td>pbvs</td>
+      <td>camel</td>
+      <td>ma5</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>strains</td>
+      <td>conserved</td>
+      <td>structural</td>
+      <td>IB</td>
+      <td>live</td>
+      <td>vietnam</td>
+      <td>ccov-i</td>
+      <td>flock</td>
+      <td>polymerase chain reaction</td>
+      <td>vero</td>
+      <td>3a</td>
+      <td>bcov strains</td>
+      <td>genome segments</td>
+      <td>coronaviruses</td>
+      <td>016</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>years</td>
+      <td>deduced</td>
+      <td>events</td>
+      <td>flocks</td>
+      <td>egg</td>
+      <td>field</td>
+      <td>capsid</td>
+      <td>IBDV</td>
+      <td>methods</td>
+      <td>beaur-m41(s</td>
+      <td>ORF7</td>
+      <td>mebus</td>
+      <td>EV-G</td>
+      <td>coronavirus</td>
+      <td>015</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>italy</td>
+      <td>amino acid sequences</td>
+      <td>gene</td>
+      <td>industry</td>
+      <td>infection</td>
+      <td>korea</td>
+      <td>norovirus</td>
+      <td>HA</td>
+      <td>amplify</td>
+      <td>ovo</td>
+      <td>purdue</td>
+      <td>dairy</td>
+      <td>reassortant</td>
+      <td>cov</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>epidemiological</td>
+      <td>aa</td>
+      <td>event</td>
+      <td>GI-19</td>
+      <td>strain</td>
+      <td>INDEL</td>
+      <td>PCV3</td>
+      <td>bird</td>
+      <td>restriction</td>
+      <td>vero cells</td>
+      <td>open reading frames</td>
+      <td>calves</td>
+      <td>RSS</td>
+      <td>dromedary</td>
+      <td>10.1007/s00705</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>time</td>
+      <td>residues</td>
+      <td>viruses</td>
+      <td>viruses</td>
+      <td>embryo</td>
+      <td>deltacoronavirus</td>
+      <td>kobuvirus</td>
+      <td>disease</td>
+      <td>fragment</td>
+      <td>beaudette strain</td>
+      <td>SD</td>
+      <td>hcov-229e</td>
+      <td>orthoreoviruses</td>
+      <td>sars-like</td>
+      <td>doi:10.1007/s11262</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>china</td>
+      <td>substitutions</td>
+      <td>suggested</td>
+      <td>H120</td>
+      <td>clinical signs</td>
+      <td>pig</td>
+      <td>nov</td>
+      <td>mixed</td>
+      <td>rapid</td>
+      <td>activity</td>
+      <td>ORF4</td>
+      <td>bocv</td>
+      <td>MRV</td>
+      <td>shrimp</td>
+      <td>02</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>present</td>
+      <td>proteins</td>
+      <td>nucleotides</td>
+      <td>ark</td>
+      <td>mortality</td>
+      <td>DR13</td>
+      <td>cakv</td>
+      <td>pathogens</td>
+      <td>RT‐PCR</td>
+      <td>newcastle</td>
+      <td>frames</td>
+      <td>hadv</td>
+      <td>cattle</td>
+      <td>2019‐ncov</td>
+      <td>korean ibv</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>selection</td>
+      <td>strain</td>
+      <td>end</td>
+      <td>chickens</td>
+      <td>immune</td>
+      <td>south korea</td>
+      <td>cbov</td>
+      <td>IBV</td>
+      <td>amplification</td>
+      <td>proteins</td>
+      <td>open</td>
+      <td>hadv-b14</td>
+      <td>NS-1</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>017</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>worldwide</td>
+      <td>homology</td>
+      <td>comparative</td>
+      <td>conn</td>
+      <td>birds</td>
+      <td>chinese</td>
+      <td>fcov</td>
+      <td>broiler farms</td>
+      <td>multiplex</td>
+      <td>reverse genetics system</td>
+      <td>MHV</td>
+      <td>hcov-hku1</td>
+      <td>sivs</td>
+      <td>usage</td>
+      <td>CA16</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>evolutionary</td>
+      <td>encoding</td>
+      <td>identified</td>
+      <td>virus</td>
+      <td>days</td>
+      <td>variant</td>
+      <td>prevalence</td>
+      <td>backyard chickens</td>
+      <td>curve</td>
+      <td>blot</td>
+      <td>FECV</td>
+      <td>outbreak</td>
+      <td>reassortment</td>
+      <td>codon</td>
+      <td>018</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>studies</td>
+      <td>genes</td>
+      <td>parental</td>
+      <td>vaccination</td>
+      <td>embryos</td>
+      <td>G2</td>
+      <td>kobuviruses</td>
+      <td>ILTV</td>
+      <td>reverse transcription polymerase chain reaction</td>
+      <td>S1</td>
+      <td>ORF5</td>
+      <td>cattle</td>
+      <td>tastv-2</td>
+      <td>camels</td>
+      <td>mahed</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>detected</td>
+      <td>site</td>
+      <td>similarity</td>
+      <td>serotypes</td>
+      <td>inoculated</td>
+      <td>deletion</td>
+      <td>strains</td>
+      <td>MG</td>
+      <td>positive</td>
+      <td>NDV</td>
+      <td>MHV-A59</td>
+      <td>illness</td>
+      <td>goose</td>
+      <td>HBV</td>
+      <td>PIV5</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>isolates</td>
+      <td>revealed</td>
+      <td>orf1a</td>
+      <td>gene</td>
+      <td>nephropathogenic</td>
+      <td>south</td>
+      <td>rna-dependent</td>
+      <td>exposure</td>
+      <td>typing</td>
+      <td>infectious</td>
+      <td>5a</td>
+      <td>dysentery</td>
+      <td>ANV</td>
+      <td>reservoirs</td>
+      <td>HLJ-073</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>population</td>
+      <td>level</td>
+      <td>untranslated</td>
+      <td>hypervariable</td>
+      <td>tissue</td>
+      <td>spike</td>
+      <td>fekov</td>
+      <td>exposure to</td>
+      <td>diagnosis</td>
+      <td>protein</td>
+      <td>ferret</td>
+      <td>bcov.</td>
+      <td>mrvs</td>
+      <td>papillomavirus</td>
+      <td>non-korean ibv strains</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>2010</td>
+      <td>region</td>
+      <td>recombinants</td>
+      <td>recombination</td>
+      <td>virus</td>
+      <td>mexico</td>
+      <td>noroviruses</td>
+      <td>agents</td>
+      <td>field samples</td>
+      <td>ark99</td>
+      <td>tcov.</td>
+      <td>BPIV3</td>
+      <td>NC98</td>
+      <td>dromedaries</td>
+      <td>cynos</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>phylogenetic analysis</td>
+      <td>contained</td>
+      <td>evolution</td>
+      <td>infectious bronchitis viruses</td>
+      <td>challenged</td>
+      <td>pandemic</td>
+      <td>btovs</td>
+      <td>immunosorbent</td>
+      <td>identification</td>
+      <td>CAM</td>
+      <td>poults</td>
+      <td>coronavirus</td>
+      <td>condition</td>
+      <td>clade</td>
+      <td>NC1</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>italian</td>
+      <td>sequenced</td>
+      <td>UTR</td>
+      <td>793B</td>
+      <td>attenuation</td>
+      <td>strain</td>
+      <td>ccov-ii</td>
+      <td>aavv‐6</td>
+      <td>test</td>
+      <td>virus</td>
+      <td>enteritis</td>
+      <td>RBCV</td>
+      <td>rpmrv-yn2012</td>
+      <td>ratg13</td>
+      <td>10.1186/s12917</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>asia</td>
+      <td>substitution</td>
+      <td>organization</td>
+      <td>genotype</td>
+      <td>chicken</td>
+      <td>suckling</td>
+      <td>positive</td>
+      <td>seropositive</td>
+      <td>pcr products</td>
+      <td>spike</td>
+      <td>3c</td>
+      <td>EV-D68</td>
+      <td>rvas</td>
+      <td>scovs</td>
+      <td>03</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>revealed</td>
+      <td>m gene</td>
+      <td>additional</td>
+      <td>isolated</td>
+      <td>clinical</td>
+      <td>orf3 genes</td>
+      <td>CV</td>
+      <td>respiratory</td>
+      <td>differential</td>
+      <td>rescued</td>
+      <td>spike</td>
+      <td>ireland</td>
+      <td>rab1404</td>
+      <td>horseshoe</td>
+      <td>doi:10.1186/s12985</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>january</td>
+      <td>domains</td>
+      <td>closely</td>
+      <td>showed</td>
+      <td>inoculation</td>
+      <td>epidemic diarrhoea virus</td>
+      <td>bovine</td>
+      <td>mycoplasma</td>
+      <td>reverse-transcription</td>
+      <td>hrluc</td>
+      <td>type</td>
+      <td>C1</td>
+      <td>tastv</td>
+      <td>16BO133</td>
+      <td>ESA</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>pressure</td>
+      <td>showed</td>
+      <td>analysis</td>
+      <td>TW</td>
+      <td>infected</td>
+      <td>orf3 gene</td>
+      <td>vp2 gene</td>
+      <td>H9</td>
+      <td>real‐time</td>
+      <td>KM22</td>
+      <td>FCV</td>
+      <td>EBCV</td>
+      <td>goslings</td>
+      <td>bartonella</td>
+      <td>PL/G032/2015</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>variability</td>
+      <td>cleavage</td>
+      <td>kb</td>
+      <td>GI-13</td>
+      <td>day</td>
+      <td>epidemic diarrhea</td>
+      <td>femv</td>
+      <td>sonali</td>
+      <td>serotypes</td>
+      <td>bind</td>
+      <td>TCV</td>
+      <td>hadv-7</td>
+      <td>avian‐like</td>
+      <td>sarsr-covs</td>
+      <td>united</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>results</td>
+      <td>analysis</td>
+      <td>genetic</td>
+      <td>JMK</td>
+      <td>pathogenicity</td>
+      <td>jeju</td>
+      <td>ccov-iia</td>
+      <td>virus</td>
+      <td>sensitivity</td>
+      <td>chicken</td>
+      <td>FRECV</td>
+      <td>ARD</td>
+      <td>G9</td>
+      <td>zoo</td>
+      <td>leading</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>bayesian</td>
+      <td>phylogenetic</td>
+      <td>coronaviridae</td>
+      <td>DPI</td>
+      <td>titers</td>
+      <td>pdcov strains</td>
+      <td>cpv-2c</td>
+      <td>tracheal swabs</td>
+      <td>ECE</td>
+      <td>subunit</td>
+      <td>4b</td>
+      <td>ecov</td>
+      <td>humans</td>
+      <td>bat species</td>
+      <td>united states</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>southern</td>
+      <td>chinju99</td>
+      <td>isolate</td>
+      <td>GI-23</td>
+      <td>viral</td>
+      <td>chinese pedv</td>
+      <td>felv</td>
+      <td>AI</td>
+      <td>degenerate</td>
+      <td>peptides</td>
+      <td>reading</td>
+      <td>hexon</td>
+      <td>genus</td>
+      <td>respiratory</td>
+      <td>states</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>disease</td>
+      <td>peptide</td>
+      <td>simplot</td>
+      <td>mass-type</td>
+      <td>responses</td>
+      <td>central china</td>
+      <td>nevs</td>
+      <td>enzyme-linked</td>
+      <td>HRM</td>
+      <td>rational</td>
+      <td>european</td>
+      <td>10−4</td>
+      <td>group</td>
+      <td>acute</td>
+      <td>RESULTS</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>geographical</td>
+      <td>group</td>
+      <td>genomic sequences</td>
+      <td>s1 gene sequences</td>
+      <td>serial</td>
+      <td>piglet</td>
+      <td>aichivirus</td>
+      <td>acovs</td>
+      <td>restriction fragment length polymorphism</td>
+      <td>modifications</td>
+      <td>ferrets</td>
+      <td>ARI</td>
+      <td>2</td>
+      <td>bat-cov</td>
+      <td>psvs</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>geographic</td>
+      <td>isolated</td>
+      <td>sequences</td>
+      <td>spike</td>
+      <td>bronchitis</td>
+      <td>g2a</td>
+      <td>savs</td>
+      <td>infections</td>
+      <td>faecal samples</td>
+      <td>ribv</td>
+      <td>fipv type i</td>
+      <td>ERBV3</td>
+      <td>K71</td>
+      <td>mers-covs</td>
+      <td>rdrp-coding</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>year</td>
+      <td>-</td>
+      <td>structural genes</td>
+      <td>GI-1</td>
+      <td>protective</td>
+      <td>henan</td>
+      <td>study</td>
+      <td>bursal</td>
+      <td>obtained</td>
+      <td>rndv</td>
+      <td>structures</td>
+      <td>10−3</td>
+      <td>constellation</td>
+      <td>severe</td>
+      <td>doi:10.1007/s13337</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>spreading</td>
+      <td>br1/87</td>
+      <td>genetic recombination</td>
+      <td>GVI-1</td>
+      <td>infectious</td>
+      <td>swine industry</td>
+      <td>diarrhea</td>
+      <td>backyard flocks</td>
+      <td>RNA</td>
+      <td>ectodomain</td>
+      <td>respiratory syndrome virus</td>
+      <td>beijing</td>
+      <td>σ1</td>
+      <td>UAE</td>
+      <td>cluster</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>viral</td>
+      <td>amino acid residues</td>
+      <td>showed</td>
+      <td>cross-neutralization</td>
+      <td>lungs</td>
+      <td>PKV</td>
+      <td>collected</td>
+      <td>variant 2</td>
+      <td>sequencing</td>
+      <td>embryonic</td>
+      <td>ontario</td>
+      <td>prototype</td>
+      <td>K5</td>
+      <td>arab</td>
+      <td>evidence</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

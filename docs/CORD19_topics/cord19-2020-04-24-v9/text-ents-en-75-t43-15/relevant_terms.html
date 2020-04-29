@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 43</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>RVA</td>
+      <td>disease</td>
+      <td>herds</td>
+      <td>coli</td>
+      <td>BVDV</td>
+      <td>diarrhoea</td>
+      <td>vaccinated</td>
+      <td>bcov</td>
+      <td>parvum</td>
+      <td>rotavirus</td>
+      <td>difficile</td>
+      <td>ETEC</td>
+      <td>oocysts</td>
+      <td>mink</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>calves</td>
+      <td>genotype</td>
+      <td>important</td>
+      <td>BRSV</td>
+      <td>e. coli</td>
+      <td>respiratory</td>
+      <td>faecal</td>
+      <td>-</td>
+      <td>bovine coronavirus</td>
+      <td>cryptosporidium</td>
+      <td>ELISA</td>
+      <td>perfringens</td>
+      <td>intestine</td>
+      <td>shedding</td>
+      <td>farms</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>=</td>
+      <td>btov</td>
+      <td>economic</td>
+      <td>herd</td>
+      <td>E.</td>
+      <td>bovine</td>
+      <td>lambs</td>
+      <td>vaccine</td>
+      <td>coronavirus</td>
+      <td>C.</td>
+      <td>patients</td>
+      <td>clostridium</td>
+      <td>F4</td>
+      <td>oocyst</td>
+      <td>kits</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>farms</td>
+      <td>sequences</td>
+      <td>mortality</td>
+      <td>veal</td>
+      <td>salmonella</td>
+      <td>BRD</td>
+      <td>diarrhoeic</td>
+      <td>calves</td>
+      <td>BCV</td>
+      <td>c. parvum</td>
+      <td>electron</td>
+      <td>C.</td>
+      <td>enterotoxigenic</td>
+      <td>suis</td>
+      <td>water</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>samples</td>
+      <td>strains</td>
+      <td>outbreaks</td>
+      <td>cows</td>
+      <td>isolates</td>
+      <td>virus</td>
+      <td>faecal samples</td>
+      <td>antibody</td>
+      <td>cattle</td>
+      <td>giardia</td>
+      <td>agglutination</td>
+      <td>c. difficile</td>
+      <td>small intestine</td>
+      <td>I.</td>
+      <td>visitors</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>age</td>
+      <td>genetic</td>
+      <td>losses</td>
+      <td>risk</td>
+      <td>isolated</td>
+      <td>somni</td>
+      <td>clinical</td>
+      <td>PI3V</td>
+      <td>assay</td>
+      <td>cryptosporidiosis</td>
+      <td>PAGE</td>
+      <td>dogs</td>
+      <td>fimbrial</td>
+      <td>×</td>
+      <td>mink kits</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>study</td>
+      <td>sequence</td>
+      <td>diarrhea</td>
+      <td>seroprevalence</td>
+      <td>virulence</td>
+      <td>viral</td>
+      <td>faeces</td>
+      <td>iga</td>
+      <td>BRV</td>
+      <td>subtype</td>
+      <td>india</td>
+      <td>foals</td>
+      <td>fimbriae</td>
+      <td>dose</td>
+      <td>sites</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>diarrhea</td>
+      <td>phylogenetic</td>
+      <td>treatment</td>
+      <td>incidence</td>
+      <td>antimicrobial</td>
+      <td>mycoplasma</td>
+      <td>signs</td>
+      <td>igg1</td>
+      <td>WD</td>
+      <td>cryptosporidium parvum</td>
+      <td>gel</td>
+      <td>c. perfringens</td>
+      <td>VTEC</td>
+      <td>toltrazuril</td>
+      <td>biogas</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><</td>
+      <td>genotypes</td>
+      <td>economic losses</td>
+      <td>BCV</td>
+      <td>STEC</td>
+      <td>BHV-1</td>
+      <td>calf diarrhoea</td>
+      <td>ELECTRONIC</td>
+      <td>adult</td>
+      <td>zoonotic</td>
+      <td>test</td>
+      <td>clostridium perfringens</td>
+      <td>intestinal</td>
+      <td>halofuginone</td>
+      <td>slurry</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>prevalence</td>
+      <td>torovirus</td>
+      <td>diseases</td>
+      <td>milk</td>
+      <td>escherichia</td>
+      <td>haemolytica</td>
+      <td>puppies</td>
+      <td>authorized</td>
+      <td>BRCV</td>
+      <td>bieneusi</td>
+      <td>PBV</td>
+      <td>clostridium difficile</td>
+      <td>produce</td>
+      <td>E.</td>
+      <td>runoff</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>calf</td>
+      <td>nucleotide</td>
+      <td>pathogenesis</td>
+      <td>swedish</td>
+      <td>escherichia coli</td>
+      <td>disease</td>
+      <td>2</td>
+      <td>serum</td>
+      <td>aichivirus</td>
+      <td>subtypes</td>
+      <td>latex</td>
+      <td>type</td>
+      <td>mucosal</td>
+      <td>i. suis</td>
+      <td>indicator</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>95</td>
+      <td>bovine</td>
+      <td>severe</td>
+      <td>herd size</td>
+      <td>strains</td>
+      <td>M.</td>
+      <td>clinical signs</td>
+      <td>dams</td>
+      <td>winter dysentery</td>
+      <td>G.</td>
+      <td>specimens</td>
+      <td>toxin</td>
+      <td>cells</td>
+      <td>eimeria</td>
+      <td>contact</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>spp</td>
+      <td>gene</td>
+      <td>main</td>
+      <td>high</td>
+      <td>salmonella spp</td>
+      <td>mannheimia</td>
+      <td>scouring</td>
+      <td>titers</td>
+      <td>bovine</td>
+      <td>cryptosporidium spp</td>
+      <td>children</td>
+      <td>dog</td>
+      <td>epithelial</td>
+      <td>treated</td>
+      <td>stream</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>days</td>
+      <td>strain</td>
+      <td>major</td>
+      <td>risk factors</td>
+      <td>S.</td>
+      <td>H.</td>
+      <td>examination</td>
+      <td>online</td>
+      <td>nasal</td>
+      <td>duodenalis</td>
+      <td>electrophoresis</td>
+      <td>FMT</td>
+      <td>colonization</td>
+      <td>isospora</td>
+      <td>pastures</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>found</td>
+      <td>norovirus</td>
+      <td>neonatal</td>
+      <td>sweden</td>
+      <td>EHEC</td>
+      <td>parainfluenza</td>
+      <td>findings</td>
+      <td>online version</td>
+      <td>detection</td>
+      <td>cryptosporidium species</td>
+      <td>immunosorbent</td>
+      <td>piglets</td>
+      <td>3d8scfv</td>
+      <td>pens</td>
+      <td>effluent</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>detected</td>
+      <td>genome</td>
+      <td>cases</td>
+      <td>bulk</td>
+      <td>+</td>
+      <td>h. somni</td>
+      <td>months</td>
+      <td>infected</td>
+      <td>RT-PCR</td>
+      <td>e. bieneusi</td>
+      <td>stools</td>
+      <td>toxigenic</td>
+      <td>attachment</td>
+      <td>sows</td>
+      <td>non-case</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>dairy</td>
+      <td>porcine</td>
+      <td>health</td>
+      <td>BTM</td>
+      <td>shiga</td>
+      <td>multocida</td>
+      <td>astv</td>
+      <td>vaccines</td>
+      <td>brazilian</td>
+      <td>species</td>
+      <td>sensitivity</td>
+      <td>equi</td>
+      <td>intestines</td>
+      <td>treatment</td>
+      <td>drinking water</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>CI</td>
+      <td>china</td>
+      <td>rearing</td>
+      <td>antibody</td>
+      <td>typhimurium</td>
+      <td>mycoplasma bovis</td>
+      <td>acute diarrhoea</td>
+      <td>response</td>
+      <td>assays</td>
+      <td>cysts</td>
+      <td>gastroenteritis</td>
+      <td>CPV</td>
+      <td>binding</td>
+      <td>groups</td>
+      <td>drinking</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>infections</td>
+      <td>analysis</td>
+      <td>management</td>
+      <td>‘</td>
+      <td>pathogenic</td>
+      <td>pasteurella</td>
+      <td>newborn</td>
+      <td>SUPPLEMENTARY</td>
+      <td>CD</td>
+      <td>c. bovis</td>
+      <td>method</td>
+      <td>toxins</td>
+      <td>inoculated</td>
+      <td>fecal oocyst</td>
+      <td>non-case farms</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>presence</td>
+      <td>ptov</td>
+      <td>development</td>
+      <td>models</td>
+      <td>serotypes</td>
+      <td>histophilus</td>
+      <td>rotavirus infection</td>
+      <td>users</td>
+      <td>fragment</td>
+      <td>rrna</td>
+      <td>stool</td>
+      <td>NNPDS</td>
+      <td>lesions</td>
+      <td>OPG</td>
+      <td>grazing</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>significant</td>
+      <td>phylogenetic analysis</td>
+      <td>diagnosis</td>
+      <td>purchase</td>
+      <td>spp</td>
+      <td>PI-3</td>
+      <td>diarrhoeal</td>
+      <td>supplementary</td>
+      <td>dysentery</td>
+      <td>iia</td>
+      <td>microscopy</td>
+      <td>spo0a</td>
+      <td>adherence</td>
+      <td>gram</td>
+      <td>pasture</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>enteropathogens</td>
+      <td>noroviruses</td>
+      <td>leading</td>
+      <td>negative</td>
+      <td>K99</td>
+      <td>swabs</td>
+      <td>week</td>
+      <td>rotavirus</td>
+      <td>swab</td>
+      <td>ryanae</td>
+      <td>cent</td>
+      <td>coinfections</td>
+      <td>enterotoxigenic escherichia coli</td>
+      <td>excretion</td>
+      <td>pools</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>collected</td>
+      <td>molecular</td>
+      <td>death</td>
+      <td>antibodies</td>
+      <td>profiles</td>
+      <td>BAV-3</td>
+      <td>non-diarrhoeic</td>
+      <td>material</td>
+      <td>aichivirus b</td>
+      <td>pre-weaned</td>
+      <td>polyacrylamide</td>
+      <td>parks</td>
+      <td>F18</td>
+      <td>efficacy</td>
+      <td>non-diarrheic</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>associated with</td>
+      <td>closely</td>
+      <td>swine</td>
+      <td>status</td>
+      <td>virulence genes</td>
+      <td>respiratory disease</td>
+      <td>days</td>
+      <td>newborn calves</td>
+      <td>NS-1</td>
+      <td>g. duodenalis</td>
+      <td>tests</td>
+      <td>infectious</td>
+      <td>probe</td>
+      <td>litters</td>
+      <td>biosecurity</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>eimeria spp</td>
+      <td>korean</td>
+      <td>dairy</td>
+      <td>veal calves</td>
+      <td>eae</td>
+      <td>bovine respiratory disease</td>
+      <td>aetiological</td>
+      <td>PI</td>
+      <td>gene</td>
+      <td>parasites</td>
+      <td>rotaviruses</td>
+      <td>laboratory</td>
+      <td>activity</td>
+      <td>coccidiosis</td>
+      <td>PWD</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>higher</td>
+      <td>amino</td>
+      <td>beef</td>
+      <td>spatial</td>
+      <td>dublin</td>
+      <td>pasteurella multocida</td>
+      <td>post</td>
+      <td>MATERIAL</td>
+      <td>pestiviruses</td>
+      <td>gp60</td>
+      <td>antigen</td>
+      <td>cystoisospora</td>
+      <td>expression</td>
+      <td>lime</td>
+      <td>staphylococcus</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>rotavirus</td>
+      <td>diversity</td>
+      <td>morbidity</td>
+      <td>respiratory</td>
+      <td>resistance</td>
+      <td>histophilus somni</td>
+      <td>analysis</td>
+      <td>version</td>
+      <td>nasal swab</td>
+      <td>c. ryanae</td>
+      <td>LAT</td>
+      <td>spain</td>
+      <td>mutations</td>
+      <td>oral</td>
+      <td>case farms</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>occurrence</td>
+      <td>viruses</td>
+      <td>animals</td>
+      <td>year</td>
+      <td>intimin</td>
+      <td>syncytial</td>
+      <td>3</td>
+      <td>responses</td>
+      <td>PAG-IEM</td>
+      <td>assemblage</td>
+      <td>specificity</td>
+      <td>clostridial</td>
+      <td>enterotoxins</td>
+      <td>control</td>
+      <td>ng/ml</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>factors</td>
+      <td>identity</td>
+      <td>calf</td>
+      <td>animal</td>
+      <td>antimicrobial resistance</td>
+      <td>herpesvirus</td>
+      <td>10</td>
+      <td>GMT</td>
+      <td>winter</td>
+      <td>PCR</td>
+      <td>detection</td>
+      <td>parvovirus</td>
+      <td>small</td>
+      <td>cryptosporidiosis</td>
+      <td>BHV4</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>month</td>
+      <td>korea</td>
+      <td>prevention</td>
+      <td>production</td>
+      <td>stx2</td>
+      <td>bovis</td>
+      <td>infection</td>
+      <td>igg</td>
+      <td>beef</td>
+      <td>bovis</td>
+      <td>adults</td>
+      <td>lesions</td>
+      <td>toxin</td>
+      <td>onset</td>
+      <td>PCV2</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>mixed</td>
+      <td>genetic diversity</td>
+      <td>antibiotic</td>
+      <td>size</td>
+      <td>O157:H7</td>
+      <td>pathogens</td>
+      <td>age</td>
+      <td>BLV</td>
+      <td>multiplex</td>
+      <td>c. parvum infection</td>
+      <td>polyacrylamide gel electrophoresis</td>
+      <td>tcdc</td>
+      <td>surface</td>
+      <td>group</td>
+      <td>pre-weaning</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>diarrheic</td>
+      <td>samples</td>
+      <td>worldwide</td>
+      <td>reproductive</td>
+      <td>virulence factors</td>
+      <td>mannheimia haemolytica</td>
+      <td>D0</td>
+      <td>MLV</td>
+      <td>1-step</td>
+      <td>peafowl</td>
+      <td>summary</td>
+      <td>tcdb</td>
+      <td>adhesins</td>
+      <td>infected</td>
+      <td>delphini</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>0.05</td>
+      <td>rotaviruses</td>
+      <td>scours</td>
+      <td>veal calf</td>
+      <td>enterica</td>
+      <td>bovine viral diarrhea virus</td>
+      <td>general</td>
+      <td>bonov</td>
+      <td>SN-PCR</td>
+      <td>GP60</td>
+      <td>GBR</td>
+      <td>R.</td>
+      <td>receptors</td>
+      <td>untreated</td>
+      <td>CSU</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>coronavirus</td>
+      <td>genes</td>
+      <td>needed</td>
+      <td>free</td>
+      <td>diarrheic</td>
+      <td>transferrin</td>
+      <td>concluded</td>
+      <td>tnf-α</td>
+      <td>feces</td>
+      <td>pre-weaned calves</td>
+      <td>electropherotype</td>
+      <td>toxocara</td>
+      <td>toxoid</td>
+      <td>doses</td>
+      <td>control farms</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>conducted</td>
+      <td>report</td>
+      <td>productivity</td>
+      <td>tank</td>
+      <td>stx1</td>
+      <td>bovine respiratory syncytial virus</td>
+      <td>microbiological</td>
+      <td>cells</td>
+      <td>developed</td>
+      <td>iiaa15g2r1</td>
+      <td>sp</td>
+      <td>ccov</td>
+      <td>O157:H7</td>
+      <td>mg/kg</td>
+      <td>pastv4</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>odds</td>
+      <td>genetically</td>
+      <td>camelids</td>
+      <td>positive</td>
+      <td>EPEC</td>
+      <td>BRDC</td>
+      <td>linked</td>
+      <td>VI</td>
+      <td>mabs</td>
+      <td>recreational</td>
+      <td>pbvs</td>
+      <td>toxigenic c. difficile</td>
+      <td>escherichia</td>
+      <td>IBV</td>
+      <td>QMRA</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>30</td>
+      <td>bovine norovirus</td>
+      <td>farm</td>
+      <td>data</td>
+      <td>culture</td>
+      <td>parainfluenza-3</td>
+      <td>weeks</td>
+      <td>SA11</td>
+      <td>1-step rt-pcr</td>
+      <td>giardia spp</td>
+      <td>simple</td>
+      <td>r. equi</td>
+      <td>toxins</td>
+      <td>piglets</td>
+      <td>vegetated</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>infection</td>
+      <td>RT-PCR</td>
+      <td>research</td>
+      <td>CM</td>
+      <td>pathogens</td>
+      <td>BVDV-1</td>
+      <td>diarrhoeal calves</td>
+      <td>BNP</td>
+      <td>bcov strains</td>
+      <td>iid</td>
+      <td>picobirnavirus</td>
+      <td>transmissible gastroenteritis virus</td>
+      <td>histopathological</td>
+      <td>fecal</td>
+      <td>coccoid</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>15</td>
+      <td>segments</td>
+      <td>environment</td>
+      <td>OM</td>
+      <td>pathotypes</td>
+      <td>m. haemolytica</td>
+      <td>pathology</td>
+      <td>colostrum</td>
+      <td>one-step</td>
+      <td>andersoni</td>
+      <td>viral agents</td>
+      <td>submissions</td>
+      <td>gut</td>
+      <td>counted</td>
+      <td>enterococci</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>cryptosporidium</td>
+      <td>GCRV</td>
+      <td>properties</td>
+      <td>herd-level</td>
+      <td>s. typhimurium</td>
+      <td>nasal</td>
+      <td>4</td>
+      <td>igm</td>
+      <td>B641</td>
+      <td>g. intestinalis</td>
+      <td>HIV+</td>
+      <td>nondiarrheic</td>
+      <td>NTEC</td>
+      <td>BW</td>
+      <td>contacts</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>difference</td>
+      <td>primers</td>
+      <td>pathogens</td>
+      <td>HR</td>
+      <td>camel</td>
+      <td>lung</td>
+      <td>evaluation</td>
+      <td>persistently</td>
+      <td>transcriptase</td>
+      <td>18S</td>
+      <td>fragilis</td>
+      <td>tcda</td>
+      <td>LT</td>
+      <td>calf-level</td>
+      <td>farm-specific</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>problems</td>
+      <td>btovs</td>
+      <td>concern</td>
+      <td>seropositivity</td>
+      <td>variety</td>
+      <td>lavage</td>
+      <td>neonatal diarrhoea</td>
+      <td>S102</td>
+      <td>fecal</td>
+      <td>SSU</td>
+      <td>assay</td>
+      <td>β2</td>
+      <td>bacteria</td>
+      <td>turnout</td>
+      <td>pre-weaning diarrhea</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>0.001</td>
+      <td>clustered</td>
+      <td>colibacillosis</td>
+      <td>stock</td>
+      <td>bacteriological</td>
+      <td>haptoglobin</td>
+      <td>flock</td>
+      <td>antibodies</td>
+      <td>detected</td>
+      <td>ubiquitum</td>
+      <td>samples</td>
+      <td>spp</td>
+      <td>epitope</td>
+      <td>alabamensis</td>
+      <td>digesters</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>positive</td>
+      <td>constellation</td>
+      <td>common</td>
+      <td>cattle</td>
+      <td>eae/stx</td>
+      <td>acute phase proteins</td>
+      <td>excreting</td>
+      <td>vaccination</td>
+      <td>nucleic</td>
+      <td>samples</td>
+      <td>latex agglutination</td>
+      <td>intestinal</td>
+      <td>epithelium</td>
+      <td>full</td>
+      <td>reads</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>times</td>
+      <td>bnov</td>
+      <td>cattle</td>
+      <td>animals</td>
+      <td>antimicrobial susceptibility</td>
+      <td>rhinotracheitis</td>
+      <td>examinations</td>
+      <td>infection</td>
+      <td>hobi’-like</td>
+      <td>subtyped</td>
+      <td>enzyme‐linked</td>
+      <td>CDI</td>
+      <td>probes</td>
+      <td>HN</td>
+      <td>lambing</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>statistical</td>
+      <td>kobuvirus</td>
+      <td>enteric</td>
+      <td>factors</td>
+      <td>genes</td>
+      <td>respiratory pathogens</td>
+      <td>neonatal</td>
+      <td>VLP</td>
+      <td>bcov.</td>
+      <td>parvum-positive</td>
+      <td>D+</td>
+      <td>infectious agent</td>
+      <td>MEFA</td>
+      <td>species</td>
+      <td>farmers</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>interval</td>
+      <td>G6P[5</td>
+      <td>clinical disease</td>
+      <td>GP</td>
+      <td>phylogroup</td>
+      <td>m. bovis</td>
+      <td>animals</td>
+      <td>non-vaccinated</td>
+      <td>semi-nested</td>
+      <td>DFA</td>
+      <td>rotaviral</td>
+      <td>KNC</td>
+      <td>APN</td>
+      <td>fecal consistency scores</td>
+      <td>size</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>0.0001</td>
+      <td>bats</td>
+      <td>infection</td>
+      <td>bulk tank milk</td>
+      <td>antimicrobial agents</td>
+      <td>blood</td>
+      <td>presence</td>
+      <td>G10</td>
+      <td>respiratory symptoms</td>
+      <td>trails</td>
+      <td>CB‐ELISA</td>
+      <td>intracellularis</td>
+      <td>VT1</td>
+      <td>parenteral</td>
+      <td>densities</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>assessed</td>
+      <td>south korea</td>
+      <td>literature</td>
+      <td>elisas</td>
+      <td>diarrheagenic</td>
+      <td>BRSV</td>
+      <td>temperature</td>
+      <td>PID</td>
+      <td>BECV</td>
+      <td>4.4</td>
+      <td>IGEM</td>
+      <td>spiroforme</td>
+      <td>casei</td>
+      <td>goose</td>
+      <td>unrestricted</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>age groups</td>
+      <td>bat</td>
+      <td>approach</td>
+      <td>postpfree</td>
+      <td>O26</td>
+      <td>bovine respiratory disease complex</td>
+      <td>successful</td>
+      <td>inoculated</td>
+      <td>breda</td>
+      <td>ribosomal</td>
+      <td>gold</td>
+      <td>1.2</td>
+      <td>heat-labile</td>
+      <td>anticoccidial</td>
+      <td>ferret</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

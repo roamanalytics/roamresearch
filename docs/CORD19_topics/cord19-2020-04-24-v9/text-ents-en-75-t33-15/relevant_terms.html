@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 33</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>polymorphisms</td>
+      <td>children</td>
+      <td>COVID-19</td>
+      <td>HR</td>
+      <td>wheezing</td>
+      <td>AOR</td>
+      <td>-</td>
+      <td>herds</td>
+      <td>temperature</td>
+      <td>cats</td>
+      <td>IBD</td>
+      <td>mers-cov</td>
+      <td>90-day</td>
+      <td>CARV</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>95</td>
+      <td>allele</td>
+      <td>viral</td>
+      <td>studies</td>
+      <td>hazard</td>
+      <td>asthma</td>
+      <td>vaccine</td>
+      <td>measles</td>
+      <td>calves</td>
+      <td>lag</td>
+      <td>cannabis</td>
+      <td>women</td>
+      <td>MERS</td>
+      <td>LRTD</td>
+      <td>dogs</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>CI</td>
+      <td>susceptibility</td>
+      <td>viruses</td>
+      <td>meta-analysis</td>
+      <td>cox</td>
+      <td>recurrent</td>
+      <td>influenza</td>
+      <td>0.97</td>
+      <td>herd</td>
+      <td>PM2.5</td>
+      <td>cold</td>
+      <td>dentists</td>
+      <td>delays</td>
+      <td>ffas</td>
+      <td>antibiotics</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>risk</td>
+      <td>genotype</td>
+      <td>RSV</td>
+      <td>-</td>
+      <td>hazard ratio</td>
+      <td>respiratory infections</td>
+      <td>FRI</td>
+      <td>0.96</td>
+      <td>farms</td>
+      <td>humidity</td>
+      <td>exposures</td>
+      <td>cardiovascular</td>
+      <td>OM</td>
+      <td>critically</td>
+      <td>CDV</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>associated with</td>
+      <td>snps</td>
+      <td>aor</td>
+      <td>WMD</td>
+      <td>lung</td>
+      <td>atopic</td>
+      <td>hand</td>
+      <td>readmission</td>
+      <td>calf</td>
+      <td>air</td>
+      <td>dampness-related</td>
+      <td>T2DM</td>
+      <td>east</td>
+      <td>PLT</td>
+      <td>anxiety</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>=</td>
+      <td>TT</td>
+      <td>oxygen</td>
+      <td>databases</td>
+      <td>patients</td>
+      <td>home</td>
+      <td>masks</td>
+      <td>TTDS</td>
+      <td>BNP</td>
+      <td>daily</td>
+      <td>CFR</td>
+      <td>ACE2</td>
+      <td>middle</td>
+      <td>critically ill</td>
+      <td>gay</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>factors</td>
+      <td>polymorphism</td>
+      <td>bronchiolitis</td>
+      <td>pubmed</td>
+      <td>LRTI</td>
+      <td>infants</td>
+      <td>hcws</td>
+      <td>specificity</td>
+      <td>HM</td>
+      <td>average</td>
+      <td>deaths</td>
+      <td>ED</td>
+      <td>camels</td>
+      <td>floods</td>
+      <td>IFD</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>infection</td>
+      <td>SARS</td>
+      <td>apnea</td>
+      <td>severe</td>
+      <td>proportional</td>
+      <td>infections</td>
+      <td>washing</td>
+      <td>DNI</td>
+      <td>feeding</td>
+      <td>O3</td>
+      <td>duration</td>
+      <td>outcomes</td>
+      <td>hyponatremia</td>
+      <td>BRL</td>
+      <td>nonadherence</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>study</td>
+      <td>genotypes</td>
+      <td>coinfection</td>
+      <td>RR</td>
+      <td>HC</td>
+      <td>dampness</td>
+      <td>household</td>
+      <td>stay</td>
+      <td>ci</td>
+      <td>ambient</td>
+      <td>ige</td>
+      <td>events</td>
+      <td>rbv/rifn</td>
+      <td>immunocompromised</td>
+      <td>transplant</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>interval</td>
+      <td>NPC</td>
+      <td>virus</td>
+      <td>subgroup</td>
+      <td>cancer</td>
+      <td>children</td>
+      <td>vaccination</td>
+      <td>medicare</td>
+      <td>cirrhosis</td>
+      <td>T(1</td>
+      <td>CVIR</td>
+      <td>tangminling</td>
+      <td>mers-cov infection</td>
+      <td>infectious diseases</td>
+      <td>saunas</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>confidence</td>
+      <td>CC</td>
+      <td>respiratory</td>
+      <td>severity</td>
+      <td>transplantation</td>
+      <td>airway</td>
+      <td>H7N9</td>
+      <td>patients</td>
+      <td>faeces</td>
+      <td>meteorological</td>
+      <td>PEDV</td>
+      <td>MI</td>
+      <td>stlr4</td>
+      <td>LRRC16A</td>
+      <td>internet</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>confidence interval</td>
+      <td>gene</td>
+      <td>PICU</td>
+      <td>hypertension</td>
+      <td>cmv disease</td>
+      <td>lrtis</td>
+      <td>respiratory infection</td>
+      <td>length of stay</td>
+      <td>dairy</td>
+      <td>visibility</td>
+      <td>counties</td>
+      <td>spousal</td>
+      <td>stlr2</td>
+      <td>viral pneumonia</td>
+      <td>allo-hct</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>odds</td>
+      <td>cryptococcal</td>
+      <td>detection</td>
+      <td>searched</td>
+      <td>HCT</td>
+      <td>nasal</td>
+      <td>effectiveness</td>
+      <td>PTB</td>
+      <td>milk</td>
+      <td>counts</td>
+      <td>mold</td>
+      <td>UA</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>ill</td>
+      <td>birds</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>results</td>
+      <td>ifn-γ</td>
+      <td>human</td>
+      <td>systematic</td>
+      <td>ILD</td>
+      <td>environment</td>
+      <td>transmission</td>
+      <td>negative</td>
+      <td>avascular</td>
+      <td>2003</td>
+      <td>social</td>
+      <td>activity</td>
+      <td>correlated</td>
+      <td>infectious</td>
+      <td>MSM</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td><</td>
+      <td>genetic</td>
+      <td>respiratory viruses</td>
+      <td>pooled</td>
+      <td>treatment</td>
+      <td>respiratory</td>
+      <td>personnel</td>
+      <td>younger</td>
+      <td>reproductive</td>
+      <td>pollutants</td>
+      <td>county</td>
+      <td>HF</td>
+      <td>health-system</td>
+      <td>at-risk control</td>
+      <td>HIV</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>age</td>
+      <td>+</td>
+      <td>NVHAP</td>
+      <td>systematic review</td>
+      <td>ARDS</td>
+      <td>95%CI</td>
+      <td>protective</td>
+      <td>in-hospital</td>
+      <td>BRD</td>
+      <td>pollution</td>
+      <td>respirator</td>
+      <td>COC</td>
+      <td>delay</td>
+      <td>hcov</td>
+      <td>avian</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>data</td>
+      <td>genotyped</td>
+      <td>polymerase</td>
+      <td>published</td>
+      <td>CMV</td>
+      <td>atopy</td>
+      <td>compliance</td>
+      <td>0.94</td>
+      <td>avascular necrosis</td>
+      <td>°</td>
+      <td>FIV</td>
+      <td>influenza‐like</td>
+      <td>RNA</td>
+      <td>MPP</td>
+      <td>bars</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>ratio</td>
+      <td>cryptococcal meningitis</td>
+      <td>SARI</td>
+      <td>prognosis</td>
+      <td>RSI</td>
+      <td>RSV</td>
+      <td>water</td>
+      <td>length</td>
+      <td>necrosis</td>
+      <td>SARS</td>
+      <td>felv</td>
+      <td>COCI</td>
+      <td>inflammation</td>
+      <td>prophylaxis</td>
+      <td>syphilis</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>adjusted</td>
+      <td>ONFH</td>
+      <td>hypoxemia</td>
+      <td>disease severity</td>
+      <td>ahr</td>
+      <td>rhinitis</td>
+      <td>perceived</td>
+      <td>hbov1</td>
+      <td>swine</td>
+      <td>visits</td>
+      <td>common</td>
+      <td>MACE</td>
+      <td>hajj</td>
+      <td>pneumonia</td>
+      <td>parks</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>regression</td>
+      <td>=</td>
+      <td>IV</td>
+      <td>trials</td>
+      <td>LRI</td>
+      <td>prednisolone</td>
+      <td>nurses</td>
+      <td>outbreaks</td>
+      <td>liquid</td>
+      <td>increase</td>
+      <td>effects</td>
+      <td>pregnancy</td>
+      <td>production</td>
+      <td>attributed</td>
+      <td>sourcing</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>cases</td>
+      <td>meningitis</td>
+      <td>bacterial</td>
+      <td>bias</td>
+      <td>lung cancer</td>
+      <td>subsequent</td>
+      <td>working</td>
+      <td>30-day</td>
+      <td>practices</td>
+      <td>diurnal</td>
+      <td>antibodies</td>
+      <td>unadjusted</td>
+      <td>red</td>
+      <td>readmission</td>
+      <td>allo‐hsct</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>risk factors</td>
+      <td>variant</td>
+      <td>pneumoniae</td>
+      <td>web</td>
+      <td>mortality</td>
+      <td>episodes</td>
+      <td>conferred</td>
+      <td>readmissions</td>
+      <td>±</td>
+      <td>myocardium</td>
+      <td>santa</td>
+      <td>taiwan</td>
+      <td>tnfα</td>
+      <td>at-risk</td>
+      <td>H9</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>higher</td>
+      <td>AA</td>
+      <td>syncytial</td>
+      <td>NCP</td>
+      <td>allo-lss</td>
+      <td>episode</td>
+      <td>hygiene</td>
+      <td>RT-PCR</td>
+      <td>cows</td>
+      <td>outpatient visits</td>
+      <td>clara</td>
+      <td>adverse</td>
+      <td>0.0001</td>
+      <td>diseases</td>
+      <td>urinary</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>patients</td>
+      <td>DC-SIGN</td>
+      <td>admission</td>
+      <td>2019</td>
+      <td>fatal</td>
+      <td>rhinovirus</td>
+      <td>willingness</td>
+      <td>acute myocardial infarction</td>
+      <td>URI</td>
+      <td>air pollution</td>
+      <td>colds</td>
+      <td>elderly</td>
+      <td>SFTSV</td>
+      <td>ARDS</td>
+      <td>posttraumatic</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>analysis</td>
+      <td>nucleotide</td>
+      <td>burden</td>
+      <td>protective effect</td>
+      <td>25(OH)D</td>
+      <td>months</td>
+      <td>ILI</td>
+      <td>0.81</td>
+      <td>traits</td>
+      <td>AH</td>
+      <td>p-value</td>
+      <td>year</td>
+      <td>clearance</td>
+      <td>bacteria</td>
+      <td>community</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>odds ratio</td>
+      <td>steroid-induced</td>
+      <td>reaction</td>
+      <td>CT</td>
+      <td>survival</td>
+      <td>current</td>
+      <td>hand washing</td>
+      <td>AUC</td>
+      <td>liquid faeces</td>
+      <td>PED</td>
+      <td>epidemic</td>
+      <td>apgar</td>
+      <td>r(s</td>
+      <td>H1N1</td>
+      <td>prevalence</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>compared</td>
+      <td>association</td>
+      <td>metapneumovirus</td>
+      <td>wuhan</td>
+      <td>corticosteroids</td>
+      <td>atopic asthma</td>
+      <td>pandemic</td>
+      <td>0.98</td>
+      <td>herd size</td>
+      <td>outpatient</td>
+      <td>sensitization</td>
+      <td>bereaved</td>
+      <td>saudi</td>
+      <td>permissive</td>
+      <td>cages</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>increased</td>
+      <td>versus</td>
+      <td>pneumococcal</td>
+      <td>MD</td>
+      <td>serum</td>
+      <td>nonatopic</td>
+      <td>precautions</td>
+      <td>in-hospital mortality</td>
+      <td>elimination</td>
+      <td>parameters</td>
+      <td>health</td>
+      <td>peritoneal</td>
+      <td>alloimmunisation</td>
+      <td>chemoprophylaxis</td>
+      <td>canine</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>significantly</td>
+      <td>genes</td>
+      <td>inpatient</td>
+      <td>science</td>
+      <td>noninfectious</td>
+      <td>home environment</td>
+      <td>120</td>
+      <td>heart failure</td>
+      <td>parvum</td>
+      <td>1.5</td>
+      <td>seropositive</td>
+      <td>oads</td>
+      <td>source</td>
+      <td>brazilian</td>
+      <td>partners</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>respiratory</td>
+      <td>SNP</td>
+      <td>nsaids</td>
+      <td>0.001</td>
+      <td>IA</td>
+      <td>factor</td>
+      <td>mask-wearing</td>
+      <td>heart</td>
+      <td>amor</td>
+      <td>language</td>
+      <td>adoption</td>
+      <td>infection-associated</td>
+      <td>CRP</td>
+      <td>adverse events</td>
+      <td>C.I.</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>mortality</td>
+      <td>HIV-1</td>
+      <td>nasopharyngeal</td>
+      <td>subgroup analysis</td>
+      <td>HC+AZ</td>
+      <td>medication</td>
+      <td>influenza-like</td>
+      <td>LOS</td>
+      <td>hip</td>
+      <td>psychiatric diseases</td>
+      <td>IFR</td>
+      <td>ACO</td>
+      <td>IL6</td>
+      <td>platelet count</td>
+      <td>H9N2</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>2</td>
+      <td>chinese</td>
+      <td>infants</td>
+      <td>controlled</td>
+      <td>ACEI</td>
+      <td>RV-C</td>
+      <td>influenza-like illness</td>
+      <td>0.74</td>
+      <td>estimates</td>
+      <td>ozone</td>
+      <td>centres</td>
+      <td>stroke</td>
+      <td>arr</td>
+      <td>underfeeding</td>
+      <td>coping</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>logistic</td>
+      <td>HBV</td>
+      <td>infections</td>
+      <td>random-effects</td>
+      <td>hydroxychloroquine</td>
+      <td>participated</td>
+      <td>sick</td>
+      <td>0.73</td>
+      <td>TRR</td>
+      <td>pollutant</td>
+      <td>echinacea</td>
+      <td>obstructive</td>
+      <td>burkina faso</td>
+      <td>culture-negative</td>
+      <td>college</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>multivariate</td>
+      <td>tnf-α</td>
+      <td>pneumonia</td>
+      <td>I2</td>
+      <td>anti-ntm</td>
+      <td>entry</td>
+      <td>lunch</td>
+      <td>curve</td>
+      <td>TNB</td>
+      <td>DAWV</td>
+      <td>donning</td>
+      <td>birth</td>
+      <td>released</td>
+      <td>culture-negative pneumonia</td>
+      <td>live</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>identified</td>
+      <td>promoter</td>
+      <td>respiratory syncytial virus</td>
+      <td>antiviral agents</td>
+      <td>RV</td>
+      <td>infancy</td>
+      <td>school</td>
+      <td>volume</td>
+      <td>dam</td>
+      <td>relative humidity</td>
+      <td>95CI</td>
+      <td>visits</td>
+      <td>diagnostic delays</td>
+      <td>DSST</td>
+      <td>condom</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>positive</td>
+      <td>GG</td>
+      <td>isolated</td>
+      <td>review</td>
+      <td>median</td>
+      <td>pilots</td>
+      <td>flu</td>
+      <td>melanoma</td>
+      <td>lactation</td>
+      <td>acute upper respiratory infections</td>
+      <td>students</td>
+      <td>fluad</td>
+      <td>faso</td>
+      <td>antibiotic-resistant</td>
+      <td>hiv/syphilis</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>ratios</td>
+      <td>intron</td>
+      <td>human metapneumovirus</td>
+      <td>CVD</td>
+      <td>ARB</td>
+      <td>airway infections</td>
+      <td>-</td>
+      <td>readmission rates</td>
+      <td>NBA</td>
+      <td>sec</td>
+      <td>facility</td>
+      <td>crossover</td>
+      <td>aware</td>
+      <td>hav-seropositive</td>
+      <td>partner</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>independent</td>
+      <td>IFITM3</td>
+      <td>oxygen therapy</td>
+      <td>plots</td>
+      <td>NTM</td>
+      <td>gargling</td>
+      <td>2009</td>
+      <td>sars-cov-2</td>
+      <td>veterinary</td>
+      <td>35</td>
+      <td>u.s. counties</td>
+      <td>CAD</td>
+      <td>hajj pilgrims</td>
+      <td>antibiotic-resistant bacteria</td>
+      <td>knowledge</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>4</td>
+      <td>SONFH</td>
+      <td>inpatient apnea</td>
+      <td>randomized</td>
+      <td>initiation</td>
+      <td>buildings</td>
+      <td>nurse</td>
+      <td>flu+</td>
+      <td>LM</td>
+      <td>max</td>
+      <td>social distancing</td>
+      <td>myocardial infarction</td>
+      <td>saudi arabia</td>
+      <td>nonimmunocompromised</td>
+      <td>2006</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>low</td>
+      <td>carriers</td>
+      <td>empyema</td>
+      <td>cochrane</td>
+      <td>received</td>
+      <td>risk factor</td>
+      <td>sore throat</td>
+      <td>CAP</td>
+      <td>pregsure</td>
+      <td>hong</td>
+      <td>distancing</td>
+      <td>bereavement</td>
+      <td>end</td>
+      <td>SD</td>
+      <td>keeping</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>unit</td>
+      <td>874</td>
+      <td>influenza virus</td>
+      <td>influenza pneumonia</td>
+      <td>lung disease</td>
+      <td>MBL</td>
+      <td>CRI</td>
+      <td>0.93</td>
+      <td>diarrhoea</td>
+      <td>codes</td>
+      <td>stronger</td>
+      <td>population-based study</td>
+      <td>sftsv infection</td>
+      <td>influenza a</td>
+      <td>distemper</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>CONCLUSION</td>
+      <td>allelic</td>
+      <td>pneumococcal pneumonia</td>
+      <td>covid-19 infection</td>
+      <td>autologous</td>
+      <td>history</td>
+      <td>h7n9 vaccine</td>
+      <td>diagnostic</td>
+      <td>outbreak</td>
+      <td>probable</td>
+      <td>vitamin c</td>
+      <td>married</td>
+      <td>E2</td>
+      <td>points</td>
+      <td>recipients</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>11</td>
+      <td>dengue</td>
+      <td>sbis</td>
+      <td>DM</td>
+      <td>nomogram</td>
+      <td>bronchiolitis</td>
+      <td>seroconversion</td>
+      <td>sensitivity</td>
+      <td>control</td>
+      <td>air pollutant</td>
+      <td>COVID-19</td>
+      <td>CS</td>
+      <td>arabia</td>
+      <td>hcov infection</td>
+      <td>sex</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>medical</td>
+      <td>MBL</td>
+      <td>admitted</td>
+      <td>95%CI</td>
+      <td>aceis</td>
+      <td>mother</td>
+      <td>influenza vaccine</td>
+      <td>cxrs</td>
+      <td>management</td>
+      <td>1blood</td>
+      <td>-</td>
+      <td>pill</td>
+      <td>time-varying</td>
+      <td>USD</td>
+      <td>mental</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>confounders</td>
+      <td>subjects</td>
+      <td>illness</td>
+      <td>evidence</td>
+      <td>URTI</td>
+      <td>window</td>
+      <td>absenteeism</td>
+      <td>non-covid-19</td>
+      <td>5-year</td>
+      <td>DAAP</td>
+      <td>industry</td>
+      <td>taiwanese</td>
+      <td>pilgrims</td>
+      <td>ambulatory care</td>
+      <td>receipt</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>suggest</td>
+      <td>found</td>
+      <td>exposure</td>
+      <td>clinical</td>
+      <td>BAL</td>
+      <td>nonatopic asthma</td>
+      <td>healthcare workers</td>
+      <td>rt-pcr test</td>
+      <td>replacer</td>
+      <td>orders</td>
+      <td>disease-19</td>
+      <td>preterm</td>
+      <td>burkina</td>
+      <td>expression</td>
+      <td>december</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>gender</td>
+      <td>EV71</td>
+      <td>ICU</td>
+      <td>meta-regression</td>
+      <td>P<0.01</td>
+      <td>condensation</td>
+      <td>RFCS</td>
+      <td>private</td>
+      <td>BVD</td>
+      <td>DARH</td>
+      <td>2.44</td>
+      <td>LBW</td>
+      <td>cytokine</td>
+      <td>immunocompromised state</td>
+      <td>.001</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>observational</td>
+      <td>associations</td>
+      <td>s. pneumoniae</td>
+      <td>CNKI</td>
+      <td>predicts</td>
+      <td>breathlessness</td>
+      <td>sore</td>
+      <td>nov+</td>
+      <td>norm</td>
+      <td>air pollutants</td>
+      <td>ship</td>
+      <td>pessimism</td>
+      <td>non-infectious</td>
+      <td>mediated</td>
+      <td>tract</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>influence</td>
+      <td>controls</td>
+      <td>iv detection</td>
+      <td>weighted mean difference</td>
+      <td>lung transplantation</td>
+      <td>acute asthma</td>
+      <td>inflexal</td>
+      <td>lethality</td>
+      <td>0.08</td>
+      <td>DHS</td>
+      <td>P<10</td>
+      <td>preterm birth</td>
+      <td>intermittent</td>
+      <td>QALY</td>
+      <td>2009</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>2012</td>
+      <td>DC-SIGNR</td>
+      <td>africa</td>
+      <td>publication bias</td>
+      <td>reliable</td>
+      <td>eczema</td>
+      <td>participants</td>
+      <td>risk-standardized</td>
+      <td>genetic</td>
+      <td>NO2</td>
+      <td>quartiles</td>
+      <td>SGA</td>
+      <td>middle east respiratory syndrome</td>
+      <td>cost-effectiveness</td>
+      <td>3.04</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

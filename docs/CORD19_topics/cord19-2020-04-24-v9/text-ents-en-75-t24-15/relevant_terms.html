@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 24</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>%</td>
+      <td>influenza</td>
+      <td>care</td>
+      <td>COVID-19</td>
+      <td>factors</td>
+      <td>95</td>
+      <td>critically</td>
+      <td>ECMO</td>
+      <td>ARDS</td>
+      <td>group</td>
+      <td>treatment</td>
+      <td>children</td>
+      <td>SARS</td>
+      <td>MERS</td>
+      <td>SARI</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>patients</td>
+      <td>ICU</td>
+      <td>management</td>
+      <td>wuhan</td>
+      <td>risk</td>
+      <td>CI</td>
+      <td>critically ill</td>
+      <td>oxygenation</td>
+      <td>sepsis</td>
+      <td>VAP</td>
+      <td>antiviral</td>
+      <td>CAP</td>
+      <td>acute respiratory syndrome</td>
+      <td>mers-cov</td>
+      <td>scores</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>hospital</td>
+      <td>virus</td>
+      <td>disease</td>
+      <td>2019</td>
+      <td>AKI</td>
+      <td>in-hospital mortality</td>
+      <td>ill</td>
+      <td>extracorporeal</td>
+      <td>shock</td>
+      <td>bronchiolitis</td>
+      <td>dose</td>
+      <td>PICU</td>
+      <td>workers</td>
+      <td>ED</td>
+      <td>recovery</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>days</td>
+      <td>respiratory</td>
+      <td>intensive</td>
+      <td>sars-cov-2</td>
+      <td>risk factors</td>
+      <td>in-hospital</td>
+      <td>NIV</td>
+      <td>membrane</td>
+      <td>septic</td>
+      <td>groups</td>
+      <td>clearance</td>
+      <td>RSV</td>
+      <td>kong</td>
+      <td>middle</td>
+      <td>tpa</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>years</td>
+      <td>viral</td>
+      <td>specific</td>
+      <td>coronavirus</td>
+      <td>kidney</td>
+      <td>interval</td>
+      <td>invasive</td>
+      <td>prone</td>
+      <td>septic shock</td>
+      <td>ventilator-associated</td>
+      <td>ribavirin</td>
+      <td>pneumonia</td>
+      <td>hong</td>
+      <td>east</td>
+      <td>TACS</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>clinical</td>
+      <td>H1N1</td>
+      <td>improve</td>
+      <td>2020</td>
+      <td>regression</td>
+      <td>confidence interval</td>
+      <td>ventilation</td>
+      <td>extracorporeal membrane oxygenation</td>
+      <td>distress</td>
+      <td>infants</td>
+      <td>therapy</td>
+      <td>pneumoniae</td>
+      <td>acute</td>
+      <td>saudi</td>
+      <td>MATERIAL</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>median</td>
+      <td>2009</td>
+      <td>supportive</td>
+      <td>disease</td>
+      <td>serum</td>
+      <td>confidence</td>
+      <td>intubation</td>
+      <td>mmhg</td>
+      <td>dysfunction</td>
+      <td>rate</td>
+      <td>treated</td>
+      <td>community-acquired pneumonia</td>
+      <td>2003</td>
+      <td>middle east respiratory syndrome</td>
+      <td>material</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>age</td>
+      <td>patients</td>
+      <td>include</td>
+      <td>cardiac</td>
+      <td>independent</td>
+      <td>%</td>
+      <td>HFNC</td>
+      <td>rescue</td>
+      <td>AGI</td>
+      <td>mechanically</td>
+      <td>respiratory failure</td>
+      <td>pathogens</td>
+      <td>acute renal impairment</td>
+      <td>arabia</td>
+      <td>curve</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1</td>
+      <td>intensive</td>
+      <td>chronic obstructive pulmonary disease</td>
+      <td>china</td>
+      <td>analysis</td>
+      <td>=</td>
+      <td>failure</td>
+      <td>pao(2)/fio(2</td>
+      <td>lung</td>
+      <td>ventilated</td>
+      <td>RNA</td>
+      <td>readmission</td>
+      <td>hong kong</td>
+      <td>saudi arabia</td>
+      <td>supplementary</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>-</td>
+      <td>co-infection</td>
+      <td>studies</td>
+      <td>coronavirus disease 2019</td>
+      <td>multivariate</td>
+      <td>odds</td>
+      <td>noninvasive</td>
+      <td>positioning</td>
+      <td>pulmonary</td>
+      <td>events</td>
+      <td>cidofovir</td>
+      <td>identification</td>
+      <td>health-care</td>
+      <td>mers-cov infection</td>
+      <td>SUPPLEMENTARY</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>data</td>
+      <td>bacterial</td>
+      <td>early</td>
+      <td>severe</td>
+      <td>levels</td>
+      <td>odds ratio</td>
+      <td>non-invasive</td>
+      <td>tidal</td>
+      <td>perfusion</td>
+      <td>MDR</td>
+      <td>cultures</td>
+      <td>admissions</td>
+      <td>health care workers</td>
+      <td>hcws</td>
+      <td>specificity</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>results</td>
+      <td>viruses</td>
+      <td>remains</td>
+      <td>patients</td>
+      <td>increase</td>
+      <td>ratio</td>
+      <td>acute respiratory failure</td>
+      <td>rescue therapy</td>
+      <td>fluid</td>
+      <td>ventilator-associated pneumonia</td>
+      <td>delayed</td>
+      <td>community-acquired</td>
+      <td>health</td>
+      <td>2015</td>
+      <td>score</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>died</td>
+      <td>intensive care unit</td>
+      <td>patients</td>
+      <td>hypertension</td>
+      <td>95%CI</td>
+      <td>MV</td>
+      <td>invasive ventilation</td>
+      <td>±</td>
+      <td>inflammation</td>
+      <td>IABP</td>
+      <td>isolation</td>
+      <td>hospitalisation</td>
+      <td>NIPPV</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>H7N9</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>outcomes</td>
+      <td>admitted</td>
+      <td>obstructive</td>
+      <td>cardiac injury</td>
+      <td>CRP</td>
+      <td>adjusted</td>
+      <td>noninvasive ventilation</td>
+      <td>prone positioning</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>mechanically ventilated</td>
+      <td>oseltamivir</td>
+      <td>aureus</td>
+      <td>health-care workers</td>
+      <td>outbreak</td>
+      <td>online</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>included</td>
+      <td>pneumonia</td>
+      <td>measures</td>
+      <td>death</td>
+      <td>age</td>
+      <td>arrest</td>
+      <td>IMV</td>
+      <td>transport</td>
+      <td>systemic</td>
+      <td>recorded</td>
+      <td>treated with</td>
+      <td>ventilator‐associated</td>
+      <td>syndrome</td>
+      <td>statistically</td>
+      <td>version</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>5</td>
+      <td>infections</td>
+      <td>high</td>
+      <td>2019-ncov</td>
+      <td>logistic</td>
+      <td><</td>
+      <td>nasal</td>
+      <td>position</td>
+      <td>edema</td>
+      <td>ventilator-associated events</td>
+      <td>combination</td>
+      <td>congenital</td>
+      <td>NPPV</td>
+      <td>revisits</td>
+      <td>recovery delay</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>range</td>
+      <td>unit</td>
+      <td>morbidity</td>
+      <td>covid-19 pneumonia</td>
+      <td>progression</td>
+      <td>ffas</td>
+      <td>high-flow</td>
+      <td>hypoxemia</td>
+      <td>biomarkers</td>
+      <td>ALA</td>
+      <td>patient</td>
+      <td>SCAP</td>
+      <td>non-invasive ventilation</td>
+      <td>HH</td>
+      <td>authorized</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>onset</td>
+      <td>infection</td>
+      <td>review</td>
+      <td>CML</td>
+      <td>c-reactive</td>
+      <td>aor</td>
+      <td>oxygen</td>
+      <td>support</td>
+      <td>vascular</td>
+      <td>control group</td>
+      <td>viral rna</td>
+      <td>APMV</td>
+      <td>non‐pregnant</td>
+      <td>expired</td>
+      <td>tdl-vent</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>admitted</td>
+      <td>admission</td>
+      <td>quality</td>
+      <td>cough</td>
+      <td>CRRT</td>
+      <td>mortality</td>
+      <td>IPA</td>
+      <td>volume</td>
+      <td>oxygenated</td>
+      <td>relocation</td>
+      <td>methylprednisolone</td>
+      <td>streptococcus</td>
+      <td>world</td>
+      <td>A(H7N9</td>
+      <td>SVS</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>total</td>
+      <td>respiratory viruses</td>
+      <td>research</td>
+      <td>comorbidities</td>
+      <td>count</td>
+      <td>NVHAP</td>
+      <td>cannula</td>
+      <td>pertussis</td>
+      <td>response</td>
+      <td>FOB</td>
+      <td>empiric</td>
+      <td>neurologic disorders</td>
+      <td>impairment</td>
+      <td>72-hour</td>
+      <td>calculated</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>confirmed</td>
+      <td>care</td>
+      <td>potential</td>
+      <td>jan</td>
+      <td>cox</td>
+      <td>length of stay</td>
+      <td>respiratory</td>
+      <td>HFOV</td>
+      <td>hg</td>
+      <td>preterm</td>
+      <td>vitamin</td>
+      <td>streptococcus pneumoniae</td>
+      <td>P=</td>
+      <td>emergency department</td>
+      <td>delay</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>14</td>
+      <td>severe</td>
+      <td>respiratory</td>
+      <td>feb</td>
+      <td>LDH</td>
+      <td>0.001</td>
+      <td>CS</td>
+      <td>refractory</td>
+      <td>injury</td>
+      <td>length</td>
+      <td>intravenous</td>
+      <td>LOS</td>
+      <td>airborne</td>
+      <td>0.05</td>
+      <td>ELECTRONIC</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>10</td>
+      <td>chain</td>
+      <td>interventions</td>
+      <td>older</td>
+      <td>associated with</td>
+      <td>cardiopulmonary</td>
+      <td>ventilatory</td>
+      <td>ventilator</td>
+      <td>damage</td>
+      <td>CXR</td>
+      <td>administration</td>
+      <td>NP</td>
+      <td>contact</td>
+      <td>visit</td>
+      <td>dataset</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>study</td>
+      <td>reaction</td>
+      <td>diagnosis</td>
+      <td>cardiovascular disease</td>
+      <td>prognostic</td>
+      <td>spo2</td>
+      <td>respiratory support</td>
+      <td>safe</td>
+      <td>blood</td>
+      <td>placebo</td>
+      <td>recipients</td>
+      <td>underlying</td>
+      <td>ARF</td>
+      <td>corona</td>
+      <td>mers‐cov</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>cases</td>
+      <td>icu admission</td>
+      <td>infectious</td>
+      <td>fever</td>
+      <td>higher</td>
+      <td>RSI</td>
+      <td>high-flow nasal cannula</td>
+      <td>vs.</td>
+      <td>host</td>
+      <td>desaturation</td>
+      <td>anti-pcp</td>
+      <td>microbial</td>
+      <td>pneumothorax</td>
+      <td>corona virus</td>
+      <td>PTSD</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>15</td>
+      <td>pandemic</td>
+      <td>staff</td>
+      <td>cases</td>
+      <td>mortality</td>
+      <td>hazard</td>
+      <td>support</td>
+      <td>gas</td>
+      <td>coagulation</td>
+      <td>snps</td>
+      <td>transplant</td>
+      <td>non-neurologic</td>
+      <td>renal</td>
+      <td>138</td>
+      <td>LT</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>illness</td>
+      <td>detection</td>
+      <td>cancer</td>
+      <td>type</td>
+      <td>development</td>
+      <td>hospitals</td>
+      <td>success</td>
+      <td>lung</td>
+      <td>PARDS</td>
+      <td>breastfeeding</td>
+      <td>vitamin c</td>
+      <td>viral identification</td>
+      <td>regional</td>
+      <td>king</td>
+      <td>validation</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>25</td>
+      <td>similar</td>
+      <td>COPD</td>
+      <td>cardiovascular</td>
+      <td>c-reactive protein</td>
+      <td>associated with</td>
+      <td>strict</td>
+      <td>successfully</td>
+      <td>diffuse</td>
+      <td>IFV</td>
+      <td>remdesivir</td>
+      <td>ACT</td>
+      <td>I/D</td>
+      <td>department</td>
+      <td>CT</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>characteristics</td>
+      <td>viral pneumonia</td>
+      <td>treatment</td>
+      <td>pneumonia</td>
+      <td>predicted</td>
+      <td>versus</td>
+      <td>mask</td>
+      <td>tidal volume</td>
+      <td>saline</td>
+      <td>control</td>
+      <td>antiviral therapy</td>
+      <td>aeruginosa</td>
+      <td>susceptibility</td>
+      <td>adult</td>
+      <td>discharge</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>outcome</td>
+      <td>APACHE</td>
+      <td>systems</td>
+      <td>injury</td>
+      <td>prognostic factors</td>
+      <td>baseline</td>
+      <td>controversial</td>
+      <td>DU</td>
+      <td>pancreatitis</td>
+      <td>60-day</td>
+      <td>failure</td>
+      <td>prospective study</td>
+      <td>ACE</td>
+      <td>statistically significant</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>methods</td>
+      <td>pregnant</td>
+      <td>literature</td>
+      <td>male</td>
+      <td>study</td>
+      <td>independently</td>
+      <td>avoid</td>
+      <td>pressure</td>
+      <td>h1n1 influenza</td>
+      <td>mechanical ventilation</td>
+      <td>time</td>
+      <td>persons</td>
+      <td>barotrauma</td>
+      <td>visits</td>
+      <td>TDL</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>period</td>
+      <td>icus</td>
+      <td>including</td>
+      <td>interpretation</td>
+      <td>protein</td>
+      <td>corticosteroids</td>
+      <td>pulmonary</td>
+      <td>conventional</td>
+      <td>zheng</td>
+      <td>differ</td>
+      <td>antibiotics</td>
+      <td>resistant</td>
+      <td>world health organization</td>
+      <td>renal</td>
+      <td>psychological</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>occurred</td>
+      <td>2016</td>
+      <td>unit</td>
+      <td>electronic medical records</td>
+      <td>acute kidney injury</td>
+      <td>cardiopulmonary arrest</td>
+      <td>components</td>
+      <td>ARDS</td>
+      <td>viral load</td>
+      <td>group i</td>
+      <td>TB</td>
+      <td>staphylococcus</td>
+      <td>0.006</td>
+      <td>korea</td>
+      <td>TRPV1</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>20</td>
+      <td>adult</td>
+      <td>acute</td>
+      <td>non-survivors</td>
+      <td>albumin</td>
+      <td>LRI</td>
+      <td>treatment failure</td>
+      <td>ecmonet</td>
+      <td>animals</td>
+      <td>VAE</td>
+      <td>presented</td>
+      <td>anaerobic</td>
+      <td>polymorphism</td>
+      <td>demographic information</td>
+      <td>AUC</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>describe</td>
+      <td>requiring</td>
+      <td>requires</td>
+      <td>methods</td>
+      <td>dehydrogenase</td>
+      <td>hazard ratio</td>
+      <td>attempt</td>
+      <td>km</td>
+      <td>malaria</td>
+      <td>group ii</td>
+      <td>pulsed</td>
+      <td>antibiotic</td>
+      <td>intubation</td>
+      <td>riyadh</td>
+      <td>algorithm</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>discharged</td>
+      <td>HAP</td>
+      <td>acute exacerbations</td>
+      <td>coronavirus disease</td>
+      <td>early</td>
+      <td>macrolide therapy</td>
+      <td>(h1n1)v</td>
+      <td>activity</td>
+      <td>syndrome</td>
+      <td>assigned</td>
+      <td>adv</td>
+      <td>suspected</td>
+      <td>respiratory</td>
+      <td>ORA</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>18</td>
+      <td>polymerase</td>
+      <td>chapter</td>
+      <td>antibody</td>
+      <td>patients</td>
+      <td>COVID−19</td>
+      <td>piperacillin</td>
+      <td>minutes</td>
+      <td>arterial</td>
+      <td>HMPV</td>
+      <td>high dose</td>
+      <td>disorders</td>
+      <td>non-invasive</td>
+      <td>CFR</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>=</td>
+      <td>measles</td>
+      <td>infection</td>
+      <td>igg</td>
+      <td>clinicians</td>
+      <td>stratification</td>
+      <td>piperacillin-tazobactam</td>
+      <td>ratios</td>
+      <td>multiple</td>
+      <td>intermittent</td>
+      <td>kidney transplant</td>
+      <td>conditions</td>
+      <td>march</td>
+      <td>mers-cov.</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>IQR</td>
+      <td>tested</td>
+      <td>past</td>
+      <td>AMI</td>
+      <td>lymphocyte</td>
+      <td>.01</td>
+      <td>oedema</td>
+      <td>PP</td>
+      <td>acute</td>
+      <td>difference</td>
+      <td>PCP</td>
+      <td>neurologic</td>
+      <td>airflow</td>
+      <td>P=0.001</td>
+      <td>VZV-CAP</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>31</td>
+      <td>mechanical</td>
+      <td>understanding</td>
+      <td>non-severe</td>
+      <td>hospitalized</td>
+      <td>abstracted</td>
+      <td>ETI</td>
+      <td>ventilation</td>
+      <td>yang-xu</td>
+      <td>significantly</td>
+      <td>broad-spectrum</td>
+      <td>antibiotics</td>
+      <td>seng</td>
+      <td>abdulaziz</td>
+      <td>stationary</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>11</td>
+      <td>mechanical ventilation</td>
+      <td>increasingly</td>
+      <td>nt-probnp</td>
+      <td>univariate</td>
+      <td>CA-RVI</td>
+      <td>SOFA</td>
+      <td>pump</td>
+      <td>horses</td>
+      <td>stay</td>
+      <td>hadv-55</td>
+      <td>prematurity</td>
+      <td>tock</td>
+      <td>insurance</td>
+      <td>ROC</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>21</td>
+      <td>mortality</td>
+      <td>intensive care unit</td>
+      <td>sars-cov-2 pneumonia</td>
+      <td>level</td>
+      <td>cardiac arrest</td>
+      <td>patients</td>
+      <td>end-expiratory</td>
+      <td>fulminant</td>
+      <td>cuff</td>
+      <td>RP</td>
+      <td>MPP</td>
+      <td>tan</td>
+      <td>interferon</td>
+      <td>rrt‐pcr</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>17</td>
+      <td>a(h1n1)pdm09</td>
+      <td>associated with</td>
+      <td>characteristics</td>
+      <td>severity</td>
+      <td>por</td>
+      <td>extremely</td>
+      <td>cmh(2)o</td>
+      <td>glutathione</td>
+      <td>ADE</td>
+      <td>resolution</td>
+      <td>S.</td>
+      <td>plasma creatinine</td>
+      <td>largest</td>
+      <td>HRQL</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>rate</td>
+      <td>A(H1N1</td>
+      <td>pulmonary</td>
+      <td>common</td>
+      <td>aminotransferase</td>
+      <td>university-affiliated</td>
+      <td>tazobactam</td>
+      <td>prone position</td>
+      <td>overload</td>
+      <td>suction</td>
+      <td>hemodialysis</td>
+      <td>310</td>
+      <td>sars-coronavirus</td>
+      <td>emergency</td>
+      <td>assessment</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>high</td>
+      <td>respiratory virus</td>
+      <td>patient</td>
+      <td>diseases</td>
+      <td>platelet</td>
+      <td>mmol/l</td>
+      <td>first-line therapy</td>
+      <td>200</td>
+      <td>fluid therapy</td>
+      <td>hmpv-associated</td>
+      <td>viral</td>
+      <td>asp</td>
+      <td>tan tock seng hospital</td>
+      <td>pediatric</td>
+      <td>transition</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>admission</td>
+      <td>RVP</td>
+      <td>scoring</td>
+      <td>conclusions</td>
+      <td>proportional</td>
+      <td>non-transplant</td>
+      <td>guangdong province</td>
+      <td>interstitial</td>
+      <td>axis</td>
+      <td>pilot</td>
+      <td>supportive treatment</td>
+      <td>aged</td>
+      <td>401</td>
+      <td>king abdulaziz medical city</td>
+      <td>PAMV</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>27</td>
+      <td>pregnant women</td>
+      <td>recommended</td>
+      <td>computed</td>
+      <td>aspartate</td>
+      <td>ca-rvs</td>
+      <td>h1n1 virus infection</td>
+      <td>severe</td>
+      <td>acute pancreatitis</td>
+      <td>usefulness</td>
+      <td>IFN</td>
+      <td>pathogen</td>
+      <td>contracting</td>
+      <td>health insurance coverage</td>
+      <td>PRESERVE</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>22</td>
+      <td>immunocompetent</td>
+      <td>crucial</td>
+      <td>lymphocytes</td>
+      <td>death</td>
+      <td>IHCA</td>
+      <td>bronchoscopy</td>
+      <td>paco(2</td>
+      <td>organ</td>
+      <td>mechanical</td>
+      <td>hadv</td>
+      <td>type</td>
+      <td>allele</td>
+      <td>practices</td>
+      <td>characteristic</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>retrospectively</td>
+      <td>acute</td>
+      <td>lack</td>
+      <td>lymphocytopenia</td>
+      <td>serum creatinine</td>
+      <td>feeding</td>
+      <td>2nd</td>
+      <td>training</td>
+      <td>pediatric</td>
+      <td>=</td>
+      <td>hiv-negative</td>
+      <td>incidence</td>
+      <td>sars-coronavirus infection</td>
+      <td>mers-designated</td>
+      <td>survival group</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>29</td>
+      <td>coinfection</td>
+      <td>procedures</td>
+      <td>clinical</td>
+      <td>proteinuria</td>
+      <td>G2</td>
+      <td>PIC</td>
+      <td>paralysis</td>
+      <td>activation</td>
+      <td>ventilation</td>
+      <td>benefits</td>
+      <td>picus</td>
+      <td>aerosol-generating procedures</td>
+      <td>rate</td>
+      <td>doi:10.1007/s00134</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

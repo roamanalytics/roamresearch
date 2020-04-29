@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 16</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>COVID-19</td>
+      <td>diseases</td>
+      <td>mortality</td>
+      <td>SARS</td>
+      <td>seasonal</td>
+      <td>africa</td>
+      <td>burden</td>
+      <td>influenza</td>
+      <td>hospital</td>
+      <td>TB</td>
+      <td>BCG</td>
+      <td>CI</td>
+      <td>diarrhoea</td>
+      <td>search</td>
+      <td>material</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>countries</td>
+      <td>infectious</td>
+      <td>death</td>
+      <td>clusters</td>
+      <td>regression</td>
+      <td>asia</td>
+      <td>dalys</td>
+      <td>viruses</td>
+      <td>patients</td>
+      <td>malaria</td>
+      <td>vaccination</td>
+      <td>95</td>
+      <td>measles</td>
+      <td>rabies</td>
+      <td>tourists</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020</td>
+      <td>infectious diseases</td>
+      <td>deaths</td>
+      <td>areas</td>
+      <td>seasonality</td>
+      <td>travel</td>
+      <td>disease</td>
+      <td>pandemic</td>
+      <td>pediatric</td>
+      <td>tuberculosis</td>
+      <td>BRSV</td>
+      <td>%</td>
+      <td>hepatitis</td>
+      <td>interest</td>
+      <td>online</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>case</td>
+      <td>surveillance</td>
+      <td>%</td>
+      <td>identified</td>
+      <td>incidence</td>
+      <td>countries</td>
+      <td>risk factors</td>
+      <td>temperate</td>
+      <td>dentists</td>
+      <td>elimination</td>
+      <td>PEDV</td>
+      <td>HCV</td>
+      <td>spatial</td>
+      <td>ebola</td>
+      <td>online version</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>CFR</td>
+      <td>cases</td>
+      <td>population</td>
+      <td>epidemic</td>
+      <td>temperature</td>
+      <td>dengue</td>
+      <td>life</td>
+      <td>southern</td>
+      <td>taiwan</td>
+      <td>amplitude</td>
+      <td>pdcov</td>
+      <td>injury</td>
+      <td>events</td>
+      <td>canine</td>
+      <td>SUPPLEMENTARY</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>fatality</td>
+      <td>incidence</td>
+      <td>age</td>
+      <td>temporal</td>
+      <td>variables</td>
+      <td>pacific</td>
+      <td>1990</td>
+      <td>tropical</td>
+      <td>TKR</td>
+      <td>PTB</td>
+      <td>buffalo</td>
+      <td>AIDS</td>
+      <td>vaccination</td>
+      <td>smallpox</td>
+      <td>PNIRS</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>number</td>
+      <td>disease</td>
+      <td>pneumonia</td>
+      <td>spatial</td>
+      <td>monthly</td>
+      <td>importation</td>
+      <td>budget</td>
+      <td>winter</td>
+      <td>person-years</td>
+      <td>treatment</td>
+      <td>samples</td>
+      <td>positivity</td>
+      <td>HA</td>
+      <td>media</td>
+      <td>ELECTRONIC</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>cases</td>
+      <td>000</td>
+      <td>years</td>
+      <td>beijing</td>
+      <td>HFMD</td>
+      <td>travelers</td>
+      <td>UI</td>
+      <td>hemisphere</td>
+      <td>asthma</td>
+      <td>ESRD</td>
+      <td>cattle</td>
+      <td>HIV</td>
+      <td>farmers</td>
+      <td>PEP</td>
+      <td>iids</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>italy</td>
+      <td>reported</td>
+      <td>mortality rates</td>
+      <td>geographic</td>
+      <td>humidity</td>
+      <td>risk</td>
+      <td>GBD</td>
+      <td>virus</td>
+      <td>gonorrhoea</td>
+      <td>seasonal amplitude</td>
+      <td>diarrhea</td>
+      <td>crew</td>
+      <td>adverse</td>
+      <td>google</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>country</td>
+      <td>china</td>
+      <td>elderly</td>
+      <td>mers-cov</td>
+      <td>effects</td>
+      <td>japan</td>
+      <td>chronic</td>
+      <td>H5N1</td>
+      <td>indications</td>
+      <td>default</td>
+      <td>kg</td>
+      <td>LTC</td>
+      <td>felv</td>
+      <td>SFTS</td>
+      <td>users</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>coronavirus</td>
+      <td>years</td>
+      <td>increased</td>
+      <td>county</td>
+      <td>series</td>
+      <td>air</td>
+      <td>injuries</td>
+      <td>H1N1</td>
+      <td>ICD-9</td>
+      <td>active</td>
+      <td>herds</td>
+      <td>confidence</td>
+      <td>adverse events</td>
+      <td>pearson</td>
+      <td>authorized</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>spain</td>
+      <td>imported</td>
+      <td>rates</td>
+      <td>clustering</td>
+      <td>results</td>
+      <td>europe</td>
+      <td>funding</td>
+      <td>human</td>
+      <td>insurance</td>
+      <td>active tb</td>
+      <td>animals</td>
+      <td>claims</td>
+      <td>dogs</td>
+      <td>queries</td>
+      <td>MATERIAL</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>march</td>
+      <td>data</td>
+      <td><</td>
+      <td>syndrome</td>
+      <td>effect</td>
+      <td>north america</td>
+      <td>LRI</td>
+      <td>2009</td>
+      <td>admission</td>
+      <td>P4P</td>
+      <td>swine</td>
+      <td>ontario</td>
+      <td>FIV</td>
+      <td>engine</td>
+      <td>LE</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>infected</td>
+      <td>100</td>
+      <td>care</td>
+      <td>analysis</td>
+      <td>association</td>
+      <td>india</td>
+      <td>lost</td>
+      <td>activity</td>
+      <td>revision</td>
+      <td>goal</td>
+      <td>PED</td>
+      <td>IFR</td>
+      <td>RABV</td>
+      <td>GDT</td>
+      <td>arctonyx</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>deaths</td>
+      <td>prevention</td>
+      <td>65</td>
+      <td>tianjin</td>
+      <td>model</td>
+      <td>african</td>
+      <td>disability-adjusted</td>
+      <td>states</td>
+      <td>smokers</td>
+      <td>ebola-virus-disease</td>
+      <td>porcine</td>
+      <td>±</td>
+      <td>coverage</td>
+      <td>CPV</td>
+      <td>melioidosis</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>pandemic</td>
+      <td>system</td>
+      <td>children</td>
+      <td>scan</td>
+      <td>significant</td>
+      <td>publications</td>
+      <td>communicable</td>
+      <td>patterns</td>
+      <td>emm</td>
+      <td>patients</td>
+      <td>buffaloes</td>
+      <td>agws</td>
+      <td>hepatitis a</td>
+      <td>previous</td>
+      <td>A.</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>rates</td>
+      <td>reporting</td>
+      <td>women</td>
+      <td>space</td>
+      <td>months</td>
+      <td>america</td>
+      <td>korean</td>
+      <td>climate</td>
+      <td>stroke</td>
+      <td>NHAR</td>
+      <td>EV-D68</td>
+      <td>RI</td>
+      <td>spatial distribution</td>
+      <td>disadvantage</td>
+      <td>partial</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>confirmed</td>
+      <td>female</td>
+      <td>mortality rate</td>
+      <td>high-risk</td>
+      <td>models</td>
+      <td>japanese</td>
+      <td>disease burden</td>
+      <td>subtropical</td>
+      <td>codes</td>
+      <td>ebola-virus-disease epidemic</td>
+      <td>milk</td>
+      <td>infection</td>
+      <td>bats</td>
+      <td>ozone</td>
+      <td>harm</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>case fatality</td>
+      <td>2017</td>
+      <td>risk</td>
+      <td>cluster</td>
+      <td>correlation</td>
+      <td>north</td>
+      <td>non-communicable</td>
+      <td>respiratory</td>
+      <td>subgroup</td>
+      <td>sputum</td>
+      <td>protection</td>
+      <td>occupational</td>
+      <td>bat</td>
+      <td>human</td>
+      <td>hemorrhagic</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>reported</td>
+      <td>fever</td>
+      <td>individuals</td>
+      <td>MRSA</td>
+      <td>study</td>
+      <td>south</td>
+      <td>lris</td>
+      <td>HSP</td>
+      <td>TJR</td>
+      <td>smear-positive</td>
+      <td>BCV</td>
+      <td>lombardia</td>
+      <td>proportional</td>
+      <td>weekly</td>
+      <td>version</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>estimate</td>
+      <td>2005</td>
+      <td>groups</td>
+      <td>distribution</td>
+      <td>hospitals</td>
+      <td>2019-ncov</td>
+      <td>diarrhoeal diseases</td>
+      <td>A/H1N1</td>
+      <td>ARDS</td>
+      <td>smear</td>
+      <td>dairy</td>
+      <td>seasonal synchrony</td>
+      <td>facility</td>
+      <td>correlation</td>
+      <td>flu</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>-</td>
+      <td>information</td>
+      <td>excess</td>
+      <td>level</td>
+      <td>found</td>
+      <td>global</td>
+      <td>pollution</td>
+      <td>A(H7N9</td>
+      <td>sex</td>
+      <td>DM</td>
+      <td>reared</td>
+      <td>confidence interval</td>
+      <td>proportional morbidity ratio</td>
+      <td>calves</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>estimates</td>
+      <td>collected</td>
+      <td>trends</td>
+      <td>density</td>
+      <td>°</td>
+      <td>east</td>
+      <td>factors</td>
+      <td>survival</td>
+      <td>hospital level</td>
+      <td>health facilities</td>
+      <td>detected</td>
+      <td>illnesses</td>
+      <td>transfusion</td>
+      <td>promed</td>
+      <td>PWID</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>transmission</td>
+      <td>notifiable</td>
+      <td>covid-19 death</td>
+      <td>statistic</td>
+      <td>associated with</td>
+      <td>international</td>
+      <td>health</td>
+      <td>outbreaks</td>
+      <td>sex ratio</td>
+      <td>urban-rural</td>
+      <td>universal</td>
+      <td>northwest</td>
+      <td>H5N6</td>
+      <td>monkeypox</td>
+      <td>web</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>european</td>
+      <td>control</td>
+      <td>child</td>
+      <td>spread</td>
+      <td>services</td>
+      <td>research</td>
+      <td>leptospirosis</td>
+      <td>united states</td>
+      <td>smoking</td>
+      <td>program</td>
+      <td>ABRD</td>
+      <td>interval</td>
+      <td>feline</td>
+      <td>manila</td>
+      <td>swine flu</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2019</td>
+      <td>2007</td>
+      <td>exposure</td>
+      <td>control</td>
+      <td>average</td>
+      <td>capacity</td>
+      <td>life expectancy</td>
+      <td>RSV</td>
+      <td>enrolled</td>
+      <td>survey</td>
+      <td>doubling</td>
+      <td>synchrony</td>
+      <td>RBC</td>
+      <td>postcode</td>
+      <td>plague</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>outbreak</td>
+      <td>developing</td>
+      <td>high</td>
+      <td>PRRS</td>
+      <td>negative</td>
+      <td>overseas</td>
+      <td>diarrhoeal</td>
+      <td>poultry</td>
+      <td>rate</td>
+      <td>GDP</td>
+      <td>testing</td>
+      <td>seroprevalence</td>
+      <td>khandanama</td>
+      <td>otitis</td>
+      <td>fevers</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>highest</td>
+      <td>epidemiological</td>
+      <td>group</td>
+      <td>spatiotemporal</td>
+      <td>=</td>
+      <td>dengue fever</td>
+      <td>leading</td>
+      <td>waves</td>
+      <td>%</td>
+      <td>case management</td>
+      <td>farm</td>
+      <td>cri</td>
+      <td>khandanama river</td>
+      <td>ROK</td>
+      <td>asia-pacific</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>germany</td>
+      <td>male</td>
+      <td>relative</td>
+      <td>characteristics</td>
+      <td>significantly</td>
+      <td>toxocariasis</td>
+      <td>conditions</td>
+      <td>migration</td>
+      <td>procedures</td>
+      <td>text</td>
+      <td>rotavirus</td>
+      <td>herd‐level</td>
+      <td>SARI</td>
+      <td>visitors</td>
+      <td>oldest-old</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>sars-cov-2</td>
+      <td>2004</td>
+      <td>decreased</td>
+      <td>notification</td>
+      <td>factors</td>
+      <td>world</td>
+      <td>$</td>
+      <td>influenza-associated</td>
+      <td>study</td>
+      <td>prefectures</td>
+      <td>cov-2</td>
+      <td>hcv infections</td>
+      <td>united states</td>
+      <td>0.0001</td>
+      <td>successive</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>time</td>
+      <td>national</td>
+      <td>lower</td>
+      <td>urban</td>
+      <td>summer</td>
+      <td>korea</td>
+      <td>NIH</td>
+      <td>a(h1n1)pdm09</td>
+      <td>1000</td>
+      <td>dialysis</td>
+      <td>causative</td>
+      <td>mcis</td>
+      <td>tank</td>
+      <td>volumes</td>
+      <td>DFLE</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>age-specific</td>
+      <td>infectious disease</td>
+      <td>cardiovascular</td>
+      <td>occurring</td>
+      <td>incidences</td>
+      <td>member</td>
+      <td>ylds</td>
+      <td>reproduction</td>
+      <td>+</td>
+      <td>2014</td>
+      <td>herd</td>
+      <td>disasters</td>
+      <td>distribution</td>
+      <td>correlations</td>
+      <td>hemorrhagic fevers</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>covid-19 pandemic</td>
+      <td>morbidity</td>
+      <td>decline</td>
+      <td>H7N9</td>
+      <td>rainfall</td>
+      <td>western</td>
+      <td>SEYLL</td>
+      <td>avian</td>
+      <td>participants</td>
+      <td>%</td>
+      <td>production</td>
+      <td>IRR</td>
+      <td>IH</td>
+      <td>otitis media</td>
+      <td>maternal</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>end</td>
+      <td>children</td>
+      <td>period</td>
+      <td>time</td>
+      <td>variation</td>
+      <td>sub-saharan</td>
+      <td>diseases</td>
+      <td>infections</td>
+      <td>classification</td>
+      <td>health</td>
+      <td>1966</td>
+      <td>non-fracture</td>
+      <td>relative risk</td>
+      <td>GT</td>
+      <td>HIV</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>estimated</td>
+      <td>shigellosis</td>
+      <td>living</td>
+      <td>geographic distribution</td>
+      <td>seasonal variation</td>
+      <td>african countries</td>
+      <td>expectancy</td>
+      <td>cities</td>
+      <td>scarlet fever</td>
+      <td>percent</td>
+      <td>captive</td>
+      <td>0.5</td>
+      <td>DDD</td>
+      <td>thousands</td>
+      <td>mexico</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>hubei</td>
+      <td>total</td>
+      <td>higher</td>
+      <td>transmission</td>
+      <td>linear</td>
+      <td>territories</td>
+      <td>allocated</td>
+      <td>R(0</td>
+      <td>men</td>
+      <td>national</td>
+      <td>herd size</td>
+      <td>fall-related</td>
+      <td>malawi</td>
+      <td>dengue-related</td>
+      <td>supplementary</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>data</td>
+      <td>syphilis</td>
+      <td>amenable</td>
+      <td>information</td>
+      <td>associations</td>
+      <td>airports</td>
+      <td>communicable diseases</td>
+      <td>HPIV</td>
+      <td>total</td>
+      <td>hospitals</td>
+      <td>investigations</td>
+      <td>timeloss</td>
+      <td>reactions</td>
+      <td>DI</td>
+      <td>remained</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>publicly</td>
+      <td>upsurge</td>
+      <td>medical care</td>
+      <td>significant</td>
+      <td>differences</td>
+      <td>region</td>
+      <td>G20</td>
+      <td>P&I</td>
+      <td>isolates</td>
+      <td>pulmonary tb</td>
+      <td>450</td>
+      <td>between-region</td>
+      <td>veterinary-treated</td>
+      <td>new south wales</td>
+      <td>western</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>predict</td>
+      <td>class</td>
+      <td>infection</td>
+      <td>space-time</td>
+      <td>moving</td>
+      <td>neglected</td>
+      <td>global</td>
+      <td>southern hemisphere</td>
+      <td>acute</td>
+      <td>bacteriologically</td>
+      <td>bovine</td>
+      <td>attendance</td>
+      <td>hiv-infected</td>
+      <td>smallpox transmission</td>
+      <td>octogenarians</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>netherlands</td>
+      <td>×</td>
+      <td>people</td>
+      <td>moran</td>
+      <td>latitude</td>
+      <td>compliance</td>
+      <td>influenzae</td>
+      <td>latitudes</td>
+      <td>acscs</td>
+      <td>managers</td>
+      <td>sequence</td>
+      <td>bergamo</td>
+      <td>IAT</td>
+      <td>extracted</td>
+      <td>commitment</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>covid-19</td>
+      <td>availability</td>
+      <td>infant</td>
+      <td>qinghai</td>
+      <td>lag</td>
+      <td>quantile</td>
+      <td>COPD</td>
+      <td>northern</td>
+      <td>1987</td>
+      <td>township</td>
+      <td>pigs</td>
+      <td>injuries</td>
+      <td>haemovigilance</td>
+      <td>dengue</td>
+      <td>rabbit</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>coronavirus disease 2019</td>
+      <td>diarrheal</td>
+      <td>p<0.001</td>
+      <td>china</td>
+      <td>data</td>
+      <td>respond</td>
+      <td>disability-adjusted life years</td>
+      <td>IAV</td>
+      <td>community-acquired pneumonia</td>
+      <td>eastern china</td>
+      <td>bacillus</td>
+      <td>100,000</td>
+      <td>united</td>
+      <td>post-exposure</td>
+      <td>dysentery</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>epidemic</td>
+      <td>%</td>
+      <td>rate</td>
+      <td>cases</td>
+      <td>r(t</td>
+      <td>islands</td>
+      <td>DALY</td>
+      <td>peru</td>
+      <td>in-hospital</td>
+      <td>resurgence</td>
+      <td>pig</td>
+      <td>suffering</td>
+      <td>morbidity</td>
+      <td>global level</td>
+      <td>scientific production</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>results</td>
+      <td>rate</td>
+      <td>health</td>
+      <td>detect</td>
+      <td>collection</td>
+      <td>IHR</td>
+      <td>2010</td>
+      <td>brazilian</td>
+      <td>GAS</td>
+      <td>jiangsu</td>
+      <td>causative agents</td>
+      <td>hws</td>
+      <td>states</td>
+      <td>internet</td>
+      <td>development</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>china</td>
+      <td>adolescents</td>
+      <td>episodes</td>
+      <td>flow</td>
+      <td>expenditure</td>
+      <td>nosocomial</td>
+      <td>approach</td>
+      <td>northern hemisphere</td>
+      <td>IVIG</td>
+      <td>unemployment</td>
+      <td>sequences</td>
+      <td>needlestick</td>
+      <td>comparative</td>
+      <td>vaccination status</td>
+      <td>epidemics</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>case-fatality</td>
+      <td>25</td>
+      <td>contribution</td>
+      <td>spatial-temporal</td>
+      <td>increase</td>
+      <td>high-income</td>
+      <td>estimates</td>
+      <td>influenza a</td>
+      <td>emm12</td>
+      <td>interviewed</td>
+      <td>vaccine</td>
+      <td>acute respiratory infection</td>
+      <td>HPAI</td>
+      <td>case numbers</td>
+      <td>collaris</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>distancing</td>
+      <td>age</td>
+      <td>autopsy</td>
+      <td>respiratory</td>
+      <td>meteorological</td>
+      <td>vector-borne diseases</td>
+      <td>noncommunicable</td>
+      <td>chile</td>
+      <td>gallstone</td>
+      <td>PM2.5</td>
+      <td>type</td>
+      <td>nsis</td>
+      <td>canadians</td>
+      <td>ebola-related</td>
+      <td>musculus</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>wavelength</td>
+      <td>zhejiang</td>
+      <td>verbal</td>
+      <td>county level</td>
+      <td>SARIMA</td>
+      <td>gap</td>
+      <td>KSA</td>
+      <td>pandemic influenza</td>
+      <td>incidence</td>
+      <td>plasmodium</td>
+      <td>policy</td>
+      <td>barbados</td>
+      <td>hiv-uninfected</td>
+      <td>google trends</td>
+      <td>inbred</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>rate</td>
+      <td>sporadic</td>
+      <td>new york city</td>
+      <td>clustered</td>
+      <td>stock</td>
+      <td>hantavirus</td>
+      <td>disability-adjusted life-years</td>
+      <td>A(H5N1</td>
+      <td>database</td>
+      <td>100,000</td>
+      <td>prevalence</td>
+      <td>herpangina</td>
+      <td>molossidae</td>
+      <td>≥100</td>
+      <td>nonagenarians</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>social distancing</td>
+      <td>≤</td>
+      <td>poverty</td>
+      <td>map</td>
+      <td>encephalitis</td>
+      <td>air travel</td>
+      <td>ambient</td>
+      <td>vacation</td>
+      <td>diagnosis</td>
+      <td>rate</td>
+      <td>clinical</td>
+      <td>workplace</td>
+      <td>gastro-intestinal</td>
+      <td>composite</td>
+      <td>AMI</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

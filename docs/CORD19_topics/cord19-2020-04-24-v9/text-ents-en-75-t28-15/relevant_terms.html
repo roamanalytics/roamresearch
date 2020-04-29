@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 28</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>diagnostic</td>
+      <td>%</td>
+      <td>xtag</td>
+      <td>patients</td>
+      <td>microbiology</td>
+      <td>COVID-19</td>
+      <td>%</td>
+      <td>culture</td>
+      <td>antibodies</td>
+      <td>mers-cov</td>
+      <td>POCT</td>
+      <td>influenza</td>
+      <td>dogs</td>
+      <td>filmarray</td>
+      <td>TAC</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>diagnosis</td>
+      <td>samples</td>
+      <td>assay</td>
+      <td>BAL</td>
+      <td>virology</td>
+      <td>sars-cov-2</td>
+      <td>flu</td>
+      <td>respiratory</td>
+      <td>igg</td>
+      <td>laboratories</td>
+      <td>POC</td>
+      <td>H1N1</td>
+      <td>rotavirus</td>
+      <td>RP</td>
+      <td>PLEX-ID</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>tests</td>
+      <td>results</td>
+      <td>multiplex</td>
+      <td>antibiotic</td>
+      <td>sequencing</td>
+      <td>testing</td>
+      <td>influenza</td>
+      <td>respiratory viruses</td>
+      <td>EIA</td>
+      <td>EQA</td>
+      <td>utilization</td>
+      <td>legionnaires</td>
+      <td>electron</td>
+      <td>filmarray rp</td>
+      <td>blood</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>molecular</td>
+      <td>positive</td>
+      <td>RVP</td>
+      <td>pneumonia</td>
+      <td>introduced</td>
+      <td>false</td>
+      <td>RSV</td>
+      <td>viruses</td>
+      <td>monoclonal</td>
+      <td>quality</td>
+      <td>care</td>
+      <td>legionnaires' disease</td>
+      <td>EM</td>
+      <td>LDT</td>
+      <td>respanel</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>infections</td>
+      <td>study</td>
+      <td>respiratory</td>
+      <td>antibiotics</td>
+      <td>techniques</td>
+      <td>pooling</td>
+      <td>95</td>
+      <td>ad</td>
+      <td>PEDV</td>
+      <td>east</td>
+      <td>laboratory</td>
+      <td>pandemic</td>
+      <td>agglutination</td>
+      <td>fusion</td>
+      <td>microarray</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>methods</td>
+      <td>sensitivity</td>
+      <td>viruses</td>
+      <td>adults</td>
+      <td>biology</td>
+      <td>prevalence</td>
+      <td>CI</td>
+      <td>DFA</td>
+      <td>rabies</td>
+      <td>middle</td>
+      <td>ED</td>
+      <td>weighted</td>
+      <td>microscopy</td>
+      <td>panel</td>
+      <td>biochemical</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>clinical</td>
+      <td>performance</td>
+      <td>%</td>
+      <td>microbiological</td>
+      <td>NA</td>
+      <td>pandemic</td>
+      <td>xpert</td>
+      <td>cell culture</td>
+      <td>serological</td>
+      <td>external</td>
+      <td>dengue</td>
+      <td>ridts</td>
+      <td>ELISA</td>
+      <td>eplex</td>
+      <td>ureaplasma</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>pathogens</td>
+      <td>tested</td>
+      <td>RV16</td>
+      <td>testing</td>
+      <td>extraction</td>
+      <td>pool</td>
+      <td>-</td>
+      <td>nasopharyngeal aspirates</td>
+      <td>proteins</td>
+      <td>syndrome</td>
+      <td>healthcare</td>
+      <td>seasonal</td>
+      <td>canine</td>
+      <td>panther</td>
+      <td>blood culture</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>detection</td>
+      <td>compared</td>
+      <td>luminex</td>
+      <td>atypical</td>
+      <td>preparation</td>
+      <td>group</td>
+      <td>100</td>
+      <td>aspirates</td>
+      <td>sera</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>devices</td>
+      <td>score</td>
+      <td>MAT</td>
+      <td>RV+</td>
+      <td>susceptibility</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>infectious</td>
+      <td>detection</td>
+      <td>nxtag</td>
+      <td>days</td>
+      <td>mngs</td>
+      <td>pooled</td>
+      <td>A&B</td>
+      <td>cell</td>
+      <td>recombinant</td>
+      <td>assessment</td>
+      <td>point</td>
+      <td>disease</td>
+      <td>faecal</td>
+      <td>filmarray respiratory panel</td>
+      <td>MALDI-TOF/MS</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>rapid</td>
+      <td>negative</td>
+      <td>virus</td>
+      <td><</td>
+      <td>nucleic</td>
+      <td>individuals</td>
+      <td>alere</td>
+      <td>immunofluorescence</td>
+      <td>serological assays</td>
+      <td>upe</td>
+      <td>decision</td>
+      <td>2009</td>
+      <td>electron microscopy</td>
+      <td>biofire</td>
+      <td>pcr assays</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>assays</td>
+      <td>test</td>
+      <td>RV</td>
+      <td>unnecessary</td>
+      <td>clinical virology</td>
+      <td>positive</td>
+      <td>specificity</td>
+      <td>conventional</td>
+      <td>TR-FIA</td>
+      <td>LASV</td>
+      <td>savings</td>
+      <td>legionella</td>
+      <td>leptospirosis</td>
+      <td>flua</td>
+      <td>array</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>techniques</td>
+      <td>design</td>
+      <td>panel</td>
+      <td>yield</td>
+      <td>internal</td>
+      <td>CT</td>
+      <td>flu a</td>
+      <td>RT-PCR/ESI-MS</td>
+      <td>monoclonal antibodies</td>
+      <td>in-house</td>
+      <td>pocts</td>
+      <td>avian</td>
+      <td>disorders</td>
+      <td>RAD</td>
+      <td>simultaneous</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>important</td>
+      <td>background</td>
+      <td>seeplex</td>
+      <td>impact</td>
+      <td>NGS</td>
+      <td>strategy</td>
+      <td>NPV</td>
+      <td>viral culture</td>
+      <td>igm</td>
+      <td>participants</td>
+      <td>pcr.ai</td>
+      <td>swine</td>
+      <td>tsutsugamushi</td>
+      <td>nxtag‐rpp</td>
+      <td>sepsis</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>diseases</td>
+      <td>analytical</td>
+      <td>advansure</td>
+      <td>episodes</td>
+      <td>EBV</td>
+      <td>acid</td>
+      <td>sensitivity</td>
+      <td>maripoc</td>
+      <td>antigens</td>
+      <td>korea</td>
+      <td>lab</td>
+      <td>H3N2</td>
+      <td>latex</td>
+      <td>verigene</td>
+      <td>genes</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>viral</td>
+      <td>100</td>
+      <td>fast</td>
+      <td>asthma</td>
+      <td>technological</td>
+      <td>approach</td>
+      <td>confidence</td>
+      <td>nats</td>
+      <td>porcine</td>
+      <td>SARS</td>
+      <td>diagnostic accuracy</td>
+      <td>ilis</td>
+      <td>feline</td>
+      <td>inc.</td>
+      <td>PCR-ESI/MS</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>review</td>
+      <td>evaluated</td>
+      <td>RV15</td>
+      <td>ARI</td>
+      <td>DNA</td>
+      <td>probability</td>
+      <td>™</td>
+      <td>hmpv</td>
+      <td>immunoassays</td>
+      <td>orf1a</td>
+      <td>reporting</td>
+      <td>winthrop-university</td>
+      <td>PCI</td>
+      <td>PP</td>
+      <td>phenotypic</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>amplification</td>
+      <td>conclusions</td>
+      <td>FTD</td>
+      <td>bacteria</td>
+      <td>characterization</td>
+      <td>2019</td>
+      <td>TB</td>
+      <td>shell</td>
+      <td>ELISA</td>
+      <td>MERS</td>
+      <td>trends</td>
+      <td>triad</td>
+      <td>BCV</td>
+      <td>RP2</td>
+      <td>hominis</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>specific</td>
+      <td>specificity</td>
+      <td>PCR</td>
+      <td>prescription</td>
+      <td>clinical</td>
+      <td>covid-19 pandemic</td>
+      <td>allplex</td>
+      <td>vial</td>
+      <td>virus</td>
+      <td>coronavirus</td>
+      <td>staff</td>
+      <td>point</td>
+      <td>intestinalis</td>
+      <td>FARP</td>
+      <td>FTDRP21</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>agents</td>
+      <td>objectives</td>
+      <td>v2</td>
+      <td>CCQ</td>
+      <td>advanced</td>
+      <td>false negatives</td>
+      <td>PPV</td>
+      <td>r-mix</td>
+      <td>antibody</td>
+      <td>correctly</td>
+      <td>utilization management</td>
+      <td>division</td>
+      <td>cats</td>
+      <td>RF‐22</td>
+      <td>spectrometry</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>accurate</td>
+      <td>assay</td>
+      <td>rhinovirus</td>
+      <td>outcome</td>
+      <td>made</td>
+      <td>RT-PCR</td>
+      <td>confidence interval</td>
+      <td>syncytial</td>
+      <td>neutralization</td>
+      <td>in-house assays</td>
+      <td>physicians</td>
+      <td>influenza-like</td>
+      <td>O.</td>
+      <td>EI</td>
+      <td>fungi</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>development</td>
+      <td>detected</td>
+      <td>II</td>
+      <td>PJ-CMV</td>
+      <td>amplification</td>
+      <td>size</td>
+      <td>smear</td>
+      <td>children</td>
+      <td>pigs</td>
+      <td>survey</td>
+      <td>access</td>
+      <td>H7N9</td>
+      <td>foetus</td>
+      <td>rp panel</td>
+      <td>identification</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>laboratory</td>
+      <td>study design</td>
+      <td>adenovirus</td>
+      <td>CAP</td>
+      <td>field</td>
+      <td>current</td>
+      <td>interval</td>
+      <td>pediatric</td>
+      <td>zika</td>
+      <td>saudi</td>
+      <td>making</td>
+      <td>diagnostic legionnaires' disease triad</td>
+      <td>faecal samples</td>
+      <td>respiratory pathogens</td>
+      <td>pathogens</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>patient</td>
+      <td>PCR</td>
+      <td>seegene</td>
+      <td>50</td>
+      <td>quality</td>
+      <td>population</td>
+      <td>flu b</td>
+      <td>viral</td>
+      <td>GICA</td>
+      <td>saudi arabia</td>
+      <td>—</td>
+      <td>departments</td>
+      <td>enzyme-linked</td>
+      <td>®</td>
+      <td>emag</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>diagnostic tests</td>
+      <td>rapid</td>
+      <td>human</td>
+      <td>symptoms</td>
+      <td>introduce</td>
+      <td>suspected</td>
+      <td>A+B</td>
+      <td>flow</td>
+      <td>PCV2</td>
+      <td>proficiency</td>
+      <td>database</td>
+      <td>circulating</td>
+      <td>immunochromatography</td>
+      <td>salt</td>
+      <td>m. hominis</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>disease</td>
+      <td>clinical</td>
+      <td>parainfluenza</td>
+      <td>period</td>
+      <td>molecular</td>
+      <td>negatives</td>
+      <td>binaxnow</td>
+      <td>antigen</td>
+      <td>belisa</td>
+      <td>participating</td>
+      <td>confirmation</td>
+      <td>influenza-positive samples</td>
+      <td>immunosorbent</td>
+      <td>lake</td>
+      <td>customized</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>infection</td>
+      <td>high</td>
+      <td>respiratory viruses</td>
+      <td>immunocompromised</td>
+      <td>sample</td>
+      <td>large</td>
+      <td>TAT</td>
+      <td>RPII</td>
+      <td>PRRSV</td>
+      <td>arabia</td>
+      <td>complexity</td>
+      <td>influenza-positive</td>
+      <td>clinical signs</td>
+      <td>idaho</td>
+      <td>tacs</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>diagnostics</td>
+      <td>2</td>
+      <td>anyplex</td>
+      <td>exacerbation</td>
+      <td>molecular diagnostics</td>
+      <td>nucleic</td>
+      <td>cepheid</td>
+      <td>PCR/ESI‐MS</td>
+      <td>RDT</td>
+      <td>assurance</td>
+      <td>cartridge-based</td>
+      <td>swine influenza</td>
+      <td>o. tsutsugamushi</td>
+      <td>coinfections</td>
+      <td>bloodstream infections</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>infectious diseases</td>
+      <td>obtained</td>
+      <td>detected</td>
+      <td>FA‐RP</td>
+      <td>automation</td>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>LAMP</td>
+      <td>conventional methods</td>
+      <td>sars-cov</td>
+      <td>phase</td>
+      <td>united states</td>
+      <td>swine influenza h1n1 pneumonia</td>
+      <td>G.</td>
+      <td>salt lake city</td>
+      <td>bloodstream</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>nucleic</td>
+      <td>assays</td>
+      <td>metapneumovirus</td>
+      <td>exacerbations</td>
+      <td>technologies</td>
+      <td>sars-cov-2 infection</td>
+      <td>TB-LAMP</td>
+      <td>viral isolation</td>
+      <td>serum</td>
+      <td>RNA</td>
+      <td>data</td>
+      <td>resulting</td>
+      <td>fecal</td>
+      <td>laboratory-developed</td>
+      <td>ldts</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>surveillance</td>
+      <td>predictive</td>
+      <td>percent</td>
+      <td>associated with</td>
+      <td>costs</td>
+      <td>pools</td>
+      <td>99.6</td>
+      <td>virus</td>
+      <td>exposure</td>
+      <td>2012</td>
+      <td>cost</td>
+      <td>pneumonia</td>
+      <td>g. intestinalis</td>
+      <td>hr</td>
+      <td>concordance</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>based</td>
+      <td>kits</td>
+      <td>monoplex</td>
+      <td>pulmonary</td>
+      <td>introduction</td>
+      <td>false negative</td>
+      <td>influenza a</td>
+      <td>CC</td>
+      <td>FMIA</td>
+      <td>quality assessment</td>
+      <td>primary</td>
+      <td>hospital</td>
+      <td>typhi</td>
+      <td>rhinovirus/enterovirus</td>
+      <td>led</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>recent</td>
+      <td>determined</td>
+      <td>RPP</td>
+      <td>adult</td>
+      <td>control</td>
+      <td>microg/g</td>
+      <td>near-patient</td>
+      <td>cytometry</td>
+      <td>ielisa</td>
+      <td>mers‐cov</td>
+      <td>physician</td>
+      <td>diagnostic</td>
+      <td>t. foetus</td>
+      <td>ANM‐PCR</td>
+      <td>culture</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>acid</td>
+      <td>confirmed</td>
+      <td>hundred</td>
+      <td>bacterial</td>
+      <td>acid</td>
+      <td>false positives</td>
+      <td>NAT</td>
+      <td>respiratory syncytial virus</td>
+      <td>developed</td>
+      <td>achieve</td>
+      <td>tests</td>
+      <td>'s</td>
+      <td>T.</td>
+      <td>forensic</td>
+      <td>mass</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>advantages</td>
+      <td>observed</td>
+      <td>prospectively</td>
+      <td>PCR</td>
+      <td>examples</td>
+      <td>coronavirus disease 2019</td>
+      <td>CI(95</td>
+      <td>nasopharyngeal</td>
+      <td>immunoassay</td>
+      <td>mers-cov rna</td>
+      <td>input</td>
+      <td>antigen tests</td>
+      <td>bovine</td>
+      <td>sample-to-answer</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>include</td>
+      <td>comparison</td>
+      <td>assays</td>
+      <td>lavage</td>
+      <td>universal</td>
+      <td>coronavirus</td>
+      <td>RP1</td>
+      <td>pneumovir</td>
+      <td>nucleoprotein</td>
+      <td>improvement</td>
+      <td>rules</td>
+      <td>influenza infection</td>
+      <td>sucrose</td>
+      <td>xpt</td>
+      <td>CNSI</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>advances</td>
+      <td>real-time</td>
+      <td>RV12</td>
+      <td>febridx</td>
+      <td>culture techniques</td>
+      <td>test</td>
+      <td>POC-PCR</td>
+      <td>clart</td>
+      <td>hepatitis</td>
+      <td>clinical laboratories</td>
+      <td>discontinuation</td>
+      <td>diagnostic weighted point score system</td>
+      <td>R.</td>
+      <td>ciab</td>
+      <td>CHAMPS</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>challenges</td>
+      <td>conclusion</td>
+      <td>FAST</td>
+      <td>department</td>
+      <td>diagnostic microbiology</td>
+      <td>group testing</td>
+      <td>SDB</td>
+      <td>flow cytometry</td>
+      <td>enzyme</td>
+      <td>countries</td>
+      <td>appearance</td>
+      <td>caps</td>
+      <td>radioimmunoassay</td>
+      <td>bacterial</td>
+      <td>VZV</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>future</td>
+      <td>specimens</td>
+      <td>H1</td>
+      <td>immunosuppressed</td>
+      <td>interest</td>
+      <td>RT-LAMP</td>
+      <td>SPX</td>
+      <td>direct</td>
+      <td>serological diagnosis</td>
+      <td>PTP</td>
+      <td>acquired</td>
+      <td>influenza diagnostic tests</td>
+      <td>BRSV</td>
+      <td>time</td>
+      <td>plate</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>increasingly</td>
+      <td>method</td>
+      <td>specimens</td>
+      <td>prescribing</td>
+      <td>clinical setting</td>
+      <td>NTS</td>
+      <td>proflu</td>
+      <td>isolation</td>
+      <td>zika rdt</td>
+      <td>gaps</td>
+      <td>metrics</td>
+      <td>clinical syndromic diagnosis</td>
+      <td>in-practice</td>
+      <td>pathogens</td>
+      <td>SM</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>emerging</td>
+      <td>></td>
+      <td>®</td>
+      <td>significantly</td>
+      <td>relevance</td>
+      <td>covid-19 testing</td>
+      <td>al-flu</td>
+      <td>shell vial</td>
+      <td>biotin-eia</td>
+      <td>inhibition</td>
+      <td>OBJECTIVE</td>
+      <td>winthrop-university hospital</td>
+      <td>RPA</td>
+      <td>respiratory</td>
+      <td>strip-tube</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>timely</td>
+      <td>ranged</td>
+      <td>NL63</td>
+      <td>=</td>
+      <td>turn</td>
+      <td>window</td>
+      <td>reference</td>
+      <td>consensus</td>
+      <td>demonstration</td>
+      <td>MN</td>
+      <td>privacy</td>
+      <td>extrapulmonary</td>
+      <td>r. typhi</td>
+      <td>systems</td>
+      <td>platform</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>testing</td>
+      <td>limit</td>
+      <td>subtyping</td>
+      <td>treatment</td>
+      <td>RNA</td>
+      <td>cases</td>
+      <td>FLUAV</td>
+      <td>lines</td>
+      <td>neutralizing</td>
+      <td>realstar</td>
+      <td>VL</td>
+      <td>A(H1N1</td>
+      <td>immunochromatography test</td>
+      <td>isolation</td>
+      <td>targets</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>tools</td>
+      <td>excellent</td>
+      <td>all16</td>
+      <td>viral</td>
+      <td>sequence-based</td>
+      <td>single</td>
+      <td>LIAT</td>
+      <td>rtis</td>
+      <td>tr-fias</td>
+      <td>copies/reaction</td>
+      <td>test</td>
+      <td>older adults</td>
+      <td>intestinal</td>
+      <td>PIV3</td>
+      <td>pathogen</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>risk</td>
+      <td>respifinder</td>
+      <td>RT‐PCR</td>
+      <td>march</td>
+      <td>synthetic</td>
+      <td>tests</td>
+      <td>proflu plus</td>
+      <td>spain</td>
+      <td>98.2</td>
+      <td>confirmatory</td>
+      <td>point-of-care</td>
+      <td>influenza virus infection</td>
+      <td>CPV</td>
+      <td>antibacterial/antiviral</td>
+      <td>cards</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>applications</td>
+      <td>7</td>
+      <td>custom</td>
+      <td>underwent</td>
+      <td>classical</td>
+      <td>images</td>
+      <td>near-patient assays</td>
+      <td>antibody</td>
+      <td>seromp</td>
+      <td>quality assurance</td>
+      <td>present</td>
+      <td>h1n1 pneumonia</td>
+      <td>signs</td>
+      <td>carlsbad</td>
+      <td>ELECTRONIC</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>approaches</td>
+      <td>analytical performance</td>
+      <td>HKU1</td>
+      <td>jirovecii</td>
+      <td>metagenomic</td>
+      <td>sizes</td>
+      <td>1.00</td>
+      <td>tract</td>
+      <td>hcov-19</td>
+      <td>amendments</td>
+      <td>biothreat agents</td>
+      <td>system</td>
+      <td>FIP</td>
+      <td>rsvs</td>
+      <td>aetiological</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>respiratory</td>
+      <td>cross-reactivity</td>
+      <td>results</td>
+      <td>pj-cmv pcr</td>
+      <td>laboratories</td>
+      <td>chance</td>
+      <td>0.83</td>
+      <td>pcr/esi‐ms assay</td>
+      <td>ICT</td>
+      <td>capacity</td>
+      <td>molecular platforms</td>
+      <td>adults</td>
+      <td>technique</td>
+      <td>1</td>
+      <td>sealed</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>discussed</td>
+      <td>hbov1</td>
+      <td>samples</td>
+      <td>pneumocystis</td>
+      <td>molecular biology</td>
+      <td>aor</td>
+      <td>proflu+</td>
+      <td>cell lines</td>
+      <td>biotin-eias</td>
+      <td>outbreak</td>
+      <td>prescribed</td>
+      <td>antigen</td>
+      <td>serogroup</td>
+      <td>specimens</td>
+      <td>bottles</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>discuss</td>
+      <td>11</td>
+      <td>95</td>
+      <td>acute</td>
+      <td>virology laboratories</td>
+      <td>sars-cov-2 igm</td>
+      <td>swabs</td>
+      <td>multiplex nats</td>
+      <td>tool</td>
+      <td>laboratory</td>
+      <td>menu</td>
+      <td>empiric</td>
+      <td>test</td>
+      <td>analysis</td>
+      <td>authorized</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

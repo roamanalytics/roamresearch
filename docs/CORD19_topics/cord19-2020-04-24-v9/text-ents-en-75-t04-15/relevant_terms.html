@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 04</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>literature</td>
+      <td>china</td>
+      <td>pandemic</td>
+      <td>%</td>
+      <td>ebola</td>
+      <td>surveillance</td>
+      <td>public</td>
+      <td>animal</td>
+      <td>global</td>
+      <td>laboratory</td>
+      <td>care</td>
+      <td>emergency</td>
+      <td>vaccine</td>
+      <td>media</td>
+      <td>research</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>policy</td>
+      <td>health</td>
+      <td>influenza</td>
+      <td>RESULTS</td>
+      <td>IHR</td>
+      <td>data</td>
+      <td>ethical</td>
+      <td>human</td>
+      <td>governance</td>
+      <td>laboratories</td>
+      <td>training</td>
+      <td>disaster</td>
+      <td>vaccines</td>
+      <td>communication</td>
+      <td>science</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>framework</td>
+      <td>countries</td>
+      <td>SARS</td>
+      <td>METHODS</td>
+      <td>africa</td>
+      <td>information</td>
+      <td>health</td>
+      <td>environmental</td>
+      <td>security</td>
+      <td>european</td>
+      <td>health</td>
+      <td>disasters</td>
+      <td>immunization</td>
+      <td>social media</td>
+      <td>scientific</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>review</td>
+      <td>development</td>
+      <td>respiratory</td>
+      <td>BACKGROUND</td>
+      <td>international</td>
+      <td>systems</td>
+      <td>public health</td>
+      <td>zoonotic</td>
+      <td>actors</td>
+      <td>biosafety</td>
+      <td>education</td>
+      <td>response</td>
+      <td>vaccination</td>
+      <td>tourism</td>
+      <td>sciences</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>context</td>
+      <td>services</td>
+      <td>syndrome</td>
+      <td>-</td>
+      <td>west</td>
+      <td>detection</td>
+      <td>law</td>
+      <td>climate</td>
+      <td>diplomacy</td>
+      <td>EU</td>
+      <td>professionals</td>
+      <td>management</td>
+      <td>eradication</td>
+      <td>taiwan</td>
+      <td>genomic</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>paper</td>
+      <td>financial</td>
+      <td>outbreak</td>
+      <td>participants</td>
+      <td>capacities</td>
+      <td>reporting</td>
+      <td>issues</td>
+      <td>diseases</td>
+      <td>international</td>
+      <td>national</td>
+      <td>public</td>
+      <td>resilience</td>
+      <td>polio</td>
+      <td>risk communication</td>
+      <td>genomics</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>process</td>
+      <td>developing</td>
+      <td>acute</td>
+      <td>CONCLUSIONS</td>
+      <td>EVD</td>
+      <td>system</td>
+      <td>legal</td>
+      <td>climate change</td>
+      <td>foreign</td>
+      <td>agents</td>
+      <td>practice</td>
+      <td>preparedness</td>
+      <td>influenza</td>
+      <td>risk</td>
+      <td>genetic</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>research</td>
+      <td>system</td>
+      <td>response</td>
+      <td>conducted</td>
+      <td>2005</td>
+      <td>disease</td>
+      <td>individuals</td>
+      <td>change</td>
+      <td>world</td>
+      <td>biosecurity</td>
+      <td>workforce</td>
+      <td>emergency response</td>
+      <td>meeting</td>
+      <td>crisis</td>
+      <td>technologies</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>evidence</td>
+      <td>goals</td>
+      <td>severe</td>
+      <td>interviews</td>
+      <td>countries</td>
+      <td>surveillance systems</td>
+      <td>ethics</td>
+      <td>animals</td>
+      <td>global health</td>
+      <td>states</td>
+      <td>pharmacists</td>
+      <td>exercises</td>
+      <td>virus</td>
+      <td>hong</td>
+      <td>scientists</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>model</td>
+      <td>'s</td>
+      <td>COVID-19</td>
+      <td>study</td>
+      <td>west africa</td>
+      <td>early</td>
+      <td>mental</td>
+      <td>zoonoses</td>
+      <td>health</td>
+      <td>united</td>
+      <td>service</td>
+      <td>disaster management</td>
+      <td>viral</td>
+      <td>social</td>
+      <td>grants</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>studies</td>
+      <td>sustainable</td>
+      <td>infectious</td>
+      <td>=</td>
+      <td>international health regulations</td>
+      <td>warning</td>
+      <td>individual</td>
+      <td>resistance</td>
+      <td>trade</td>
+      <td>safety</td>
+      <td>nursing</td>
+      <td>natural</td>
+      <td>pathogens</td>
+      <td>kong</td>
+      <td>biology</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>decisions</td>
+      <td>chinese</td>
+      <td>epidemic</td>
+      <td>qualitative</td>
+      <td>health</td>
+      <td>syndromic</td>
+      <td>concerns</td>
+      <td>infectious</td>
+      <td>‘</td>
+      <td>testing</td>
+      <td>pharmacy</td>
+      <td>surge</td>
+      <td>hepatitis</td>
+      <td>government</td>
+      <td>researchers</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>design</td>
+      <td>developing countries</td>
+      <td>infection</td>
+      <td>2</td>
+      <td>mass</td>
+      <td>sources</td>
+      <td>canada</td>
+      <td>health</td>
+      <td>political</td>
+      <td>CDC</td>
+      <td>physicians</td>
+      <td>bioterrorism</td>
+      <td>CEPI</td>
+      <td>hong kong</td>
+      <td>sequencing</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>understanding</td>
+      <td>investment</td>
+      <td>acute respiratory syndrome</td>
+      <td>CONCLUSION</td>
+      <td>capacity</td>
+      <td>electronic</td>
+      <td>population</td>
+      <td>ecological</td>
+      <td>—</td>
+      <td>reference</td>
+      <td>students</td>
+      <td>incident</td>
+      <td>viruses</td>
+      <td>industry</td>
+      <td>scientific research</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>setting</td>
+      <td>HIV/AIDS</td>
+      <td>control</td>
+      <td>authorized</td>
+      <td>security</td>
+      <td>internet</td>
+      <td>duty</td>
+      <td>humans</td>
+      <td>power</td>
+      <td>biological</td>
+      <td>competencies</td>
+      <td>emergencies</td>
+      <td>trials</td>
+      <td>TCM</td>
+      <td>synthetic</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>key</td>
+      <td>urban</td>
+      <td>pandemics</td>
+      <td>users</td>
+      <td>ebola virus disease</td>
+      <td>digital</td>
+      <td>communicable</td>
+      <td>approach</td>
+      <td>article</td>
+      <td>europe</td>
+      <td>curriculum</td>
+      <td>exercise</td>
+      <td>fever</td>
+      <td>news</td>
+      <td>medicines</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>decision-making</td>
+      <td>government</td>
+      <td>disease</td>
+      <td>version</td>
+      <td>regulations</td>
+      <td>surveillance system</td>
+      <td>social</td>
+      <td>water</td>
+      <td>chapter</td>
+      <td>pathogens</td>
+      <td>nurses</td>
+      <td>crises</td>
+      <td>dengue</td>
+      <td>chinese</td>
+      <td>therapies</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>decision</td>
+      <td>middle-income</td>
+      <td>measures</td>
+      <td>indicators</td>
+      <td>detect</td>
+      <td>disease surveillance</td>
+      <td>moral</td>
+      <td>veterinary</td>
+      <td>regional</td>
+      <td>regulations</td>
+      <td>patient</td>
+      <td>disaster response</td>
+      <td>GVN</td>
+      <td>corporate</td>
+      <td>innovation</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>study</td>
+      <td>policies</td>
+      <td>H1N1</td>
+      <td>survey</td>
+      <td>outbreak</td>
+      <td>timely</td>
+      <td>cultural</td>
+      <td>emerging</td>
+      <td>relations</td>
+      <td>projects</td>
+      <td>skills</td>
+      <td>departments</td>
+      <td>zika</td>
+      <td>weibo</td>
+      <td>allergy</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>models</td>
+      <td>economic</td>
+      <td>coronavirus</td>
+      <td>1</td>
+      <td>gatherings</td>
+      <td>real-time</td>
+      <td>act</td>
+      <td>infectious diseases</td>
+      <td>global health diplomacy</td>
+      <td>program</td>
+      <td>occupational</td>
+      <td>recovery</td>
+      <td>priority</td>
+      <td>messages</td>
+      <td>grant</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>approach</td>
+      <td>initiatives</td>
+      <td>2003</td>
+      <td>supplementary</td>
+      <td>respond</td>
+      <td>collection</td>
+      <td>powers</td>
+      <td>rabies</td>
+      <td>organization</td>
+      <td>network</td>
+      <td>patients</td>
+      <td>emergency management</td>
+      <td>manufacturing</td>
+      <td>trust</td>
+      <td>engineering</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>articles</td>
+      <td>coverage</td>
+      <td>infectious disease</td>
+      <td>SUPPLEMENTARY</td>
+      <td>disease</td>
+      <td>mobile</td>
+      <td>mental health</td>
+      <td>zoonotic diseases</td>
+      <td>argues</td>
+      <td>oversight</td>
+      <td>medicine</td>
+      <td>korea</td>
+      <td>smallpox</td>
+      <td>discourse</td>
+      <td>commons</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>existing</td>
+      <td>funding</td>
+      <td>pandemic influenza</td>
+      <td>themes</td>
+      <td>travel</td>
+      <td>tools</td>
+      <td>privacy</td>
+      <td>TB</td>
+      <td>states</td>
+      <td>advice</td>
+      <td>field</td>
+      <td>responders</td>
+      <td>poliovirus</td>
+      <td>hotel</td>
+      <td>social science</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>finally</td>
+      <td>efforts</td>
+      <td>spread</td>
+      <td>online version</td>
+      <td>global</td>
+      <td>monitoring</td>
+      <td>personal</td>
+      <td>antimicrobial</td>
+      <td>economic</td>
+      <td>U.S.</td>
+      <td>FETP</td>
+      <td>resilient</td>
+      <td>mediterranean</td>
+      <td>’s</td>
+      <td>funding</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>systematic</td>
+      <td>middle-income countries</td>
+      <td>outbreaks</td>
+      <td>online</td>
+      <td>outbreaks</td>
+      <td>technology</td>
+      <td>principles</td>
+      <td>AMR</td>
+      <td>de</td>
+      <td>diagnostic</td>
+      <td>investigations</td>
+      <td>events</td>
+      <td>influenza surveillance</td>
+      <td>information</td>
+      <td>dual-use</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>resources</td>
+      <td>HIV</td>
+      <td>preparedness</td>
+      <td>ELECTRONIC</td>
+      <td>2014</td>
+      <td>outbreaks</td>
+      <td>chronic disease</td>
+      <td>health approach</td>
+      <td>politics</td>
+      <td>products</td>
+      <td>professional</td>
+      <td>command</td>
+      <td>adults</td>
+      <td>tourism industry</td>
+      <td>dangerous</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>based</td>
+      <td>mortality</td>
+      <td>community</td>
+      <td>respondents</td>
+      <td>preparedness</td>
+      <td>epidemiological</td>
+      <td>conflict</td>
+      <td>sectors</td>
+      <td>increasingly</td>
+      <td>united states</td>
+      <td>graduates</td>
+      <td>natural disasters</td>
+      <td>seasonal</td>
+      <td>e-government</td>
+      <td>meetings</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>practical</td>
+      <td>access</td>
+      <td>responses</td>
+      <td>IDSR</td>
+      <td>hajj</td>
+      <td>public</td>
+      <td>accountability</td>
+      <td>approaches</td>
+      <td>nutrition</td>
+      <td>molecular</td>
+      <td>clinicians</td>
+      <td>hazards</td>
+      <td>vaccine-preventable</td>
+      <td>citizen</td>
+      <td>experimental</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>management</td>
+      <td>UHC</td>
+      <td>cases</td>
+      <td>MATERIAL</td>
+      <td>virus</td>
+      <td>health</td>
+      <td>health promotion</td>
+      <td>disease</td>
+      <td>’s</td>
+      <td>microbiology</td>
+      <td>medical</td>
+      <td>agencies</td>
+      <td>NVAC</td>
+      <td>english</td>
+      <td>dilemma</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>methods</td>
+      <td>challenges</td>
+      <td>infectious diseases</td>
+      <td>improvement</td>
+      <td>health security</td>
+      <td>dissemination</td>
+      <td>chronic</td>
+      <td>eids</td>
+      <td>policy</td>
+      <td>toxins</td>
+      <td>chws</td>
+      <td>crisis</td>
+      <td>pertussis</td>
+      <td>explain</td>
+      <td>biological</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>impact</td>
+      <td>poor</td>
+      <td>public</td>
+      <td>groups</td>
+      <td>ebola outbreak</td>
+      <td>syndromic surveillance</td>
+      <td>consent</td>
+      <td>endemic</td>
+      <td>domestic</td>
+      <td>guidelines</td>
+      <td>university</td>
+      <td>RA</td>
+      <td>clinical trials</td>
+      <td>destination</td>
+      <td>traditional</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>potential</td>
+      <td>increasing</td>
+      <td>prevention</td>
+      <td>thematic</td>
+      <td>emergencies</td>
+      <td>emerging</td>
+      <td>promotion</td>
+      <td>food</td>
+      <td>foreign policy</td>
+      <td>transport</td>
+      <td>healthcare</td>
+      <td>chapter</td>
+      <td>regulatory</td>
+      <td>discourses</td>
+      <td>open</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>important</td>
+      <td>equity</td>
+      <td>experiences</td>
+      <td>included</td>
+      <td>ZIKV</td>
+      <td>big</td>
+      <td>limits</td>
+      <td>antimicrobial resistance</td>
+      <td>sovereignty</td>
+      <td>ECDC</td>
+      <td>public health professionals</td>
+      <td>local health departments</td>
+      <td>yellow</td>
+      <td>lay</td>
+      <td>life sciences</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>analysis</td>
+      <td>financing</td>
+      <td>east</td>
+      <td>implementation</td>
+      <td>mass gatherings</td>
+      <td>event-based</td>
+      <td>obligations</td>
+      <td>wildlife</td>
+      <td>global health governance</td>
+      <td>cross-border</td>
+      <td>patient care</td>
+      <td>disaster risk</td>
+      <td>licensure</td>
+      <td>mainstream</td>
+      <td>social sciences</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>conceptual</td>
+      <td>reforms</td>
+      <td>H5N1</td>
+      <td>core</td>
+      <td>events</td>
+      <td>infectious</td>
+      <td>confidentiality</td>
+      <td>livestock</td>
+      <td>narratives</td>
+      <td>tests</td>
+      <td>evaluations</td>
+      <td>man-made</td>
+      <td>region</td>
+      <td>handwashing</td>
+      <td>firms</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>aspects</td>
+      <td>universal</td>
+      <td>MERS</td>
+      <td>questionnaire</td>
+      <td>global health security</td>
+      <td>alerts</td>
+      <td>welfare</td>
+      <td>EID</td>
+      <td>ngos</td>
+      <td>commission</td>
+      <td>resource-limited</td>
+      <td>local</td>
+      <td>held</td>
+      <td>analysis</td>
+      <td>PNIRS</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>making</td>
+      <td>major</td>
+      <td>future</td>
+      <td>health</td>
+      <td>importation</td>
+      <td>definitions</td>
+      <td>obligation</td>
+      <td>environment</td>
+      <td>agenda</td>
+      <td>MBDS</td>
+      <td>program</td>
+      <td>metropolitan</td>
+      <td>priority group</td>
+      <td>references</td>
+      <td>dual use</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>proposed</td>
+      <td>low-</td>
+      <td>influenza pandemic</td>
+      <td>assessment</td>
+      <td>risk</td>
+      <td>automated</td>
+      <td>public health law</td>
+      <td>threats</td>
+      <td>bank</td>
+      <td>prevention</td>
+      <td>programs</td>
+      <td>earthquake</td>
+      <td>yellow fever</td>
+      <td>embedded</td>
+      <td>synthetic biology</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>problem</td>
+      <td>ASEAN</td>
+      <td>middle east respiratory syndrome</td>
+      <td>ontario</td>
+      <td>infectious</td>
+      <td>informatics</td>
+      <td>medical</td>
+      <td>animal health</td>
+      <td>diplomatic</td>
+      <td>centers</td>
+      <td>health care system</td>
+      <td>terrorist</td>
+      <td>countries</td>
+      <td>event</td>
+      <td>GOF</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>local</td>
+      <td>inequalities</td>
+      <td>diseases</td>
+      <td>semi-structured</td>
+      <td>GHSA</td>
+      <td>sentinel</td>
+      <td>medical care</td>
+      <td>transdisciplinary</td>
+      <td>dimension</td>
+      <td>biological agents</td>
+      <td>doctors</td>
+      <td>ANT</td>
+      <td>experts</td>
+      <td>emergency risk communication</td>
+      <td>medicine</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>information</td>
+      <td>systems</td>
+      <td>mers-cov</td>
+      <td>statistics</td>
+      <td>saudi</td>
+      <td>district</td>
+      <td>ethical issues</td>
+      <td>collaboration</td>
+      <td>tensions</td>
+      <td>laboratory testing</td>
+      <td>PHS</td>
+      <td>plan</td>
+      <td>meningitis</td>
+      <td>study</td>
+      <td>audience</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>makers</td>
+      <td>years</td>
+      <td>H7N9</td>
+      <td>guideline</td>
+      <td>mgs</td>
+      <td>PHI</td>
+      <td>sociology</td>
+      <td>environmental health</td>
+      <td>facemask</td>
+      <td>category</td>
+      <td>clinical</td>
+      <td>biological</td>
+      <td>aedes</td>
+      <td>SARS</td>
+      <td>knowledge</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>social</td>
+      <td>resources</td>
+      <td>emerging</td>
+      <td>public</td>
+      <td>world</td>
+      <td>real time</td>
+      <td>measures</td>
+      <td>ecosystems</td>
+      <td>world health organization</td>
+      <td>activities</td>
+      <td>EIS</td>
+      <td>tabletop</td>
+      <td>treatments</td>
+      <td>findings</td>
+      <td>advances</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>community</td>
+      <td>national</td>
+      <td>severe acute respiratory syndrome</td>
+      <td>methods</td>
+      <td>infectious disease</td>
+      <td>events</td>
+      <td>public health issues</td>
+      <td>intersectoral</td>
+      <td>facemasks</td>
+      <td>programs</td>
+      <td>POCT</td>
+      <td>EMS</td>
+      <td>candidates</td>
+      <td>china</td>
+      <td>drug discovery</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>methodology</td>
+      <td>targets</td>
+      <td>covid-19 pandemic</td>
+      <td>results</td>
+      <td>west african</td>
+      <td>weekly</td>
+      <td>care</td>
+      <td>toc</td>
+      <td>norm</td>
+      <td>IBC</td>
+      <td>clinical care</td>
+      <td>cyber</td>
+      <td>liver</td>
+      <td>hotel industry</td>
+      <td>gain-of-function</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>identifies</td>
+      <td>funds</td>
+      <td>global</td>
+      <td>informants</td>
+      <td>public</td>
+      <td>AI</td>
+      <td>susceptibility</td>
+      <td>conservation</td>
+      <td>WHA</td>
+      <td>organization</td>
+      <td>resource-limited settings</td>
+      <td>NHS</td>
+      <td>vaccine-preventable diseases</td>
+      <td>SCS</td>
+      <td>life</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>challenges</td>
+      <td>global</td>
+      <td>toronto</td>
+      <td>process</td>
+      <td>PHEIC</td>
+      <td>public health</td>
+      <td>state</td>
+      <td>zoonotic disease</td>
+      <td>health governance</td>
+      <td>harmonization</td>
+      <td>icps</td>
+      <td>health departments</td>
+      <td>mosquito</td>
+      <td>wiley</td>
+      <td>interdisciplinarity</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>special</td>
+      <td>migrants</td>
+      <td>hcws</td>
+      <td>questionnaires</td>
+      <td>core capacities</td>
+      <td>infectious disease</td>
+      <td>article</td>
+      <td>SETAC</td>
+      <td>las</td>
+      <td>european centre for disease prevention</td>
+      <td>community pharmacists</td>
+      <td>system</td>
+      <td>development</td>
+      <td>shock</td>
+      <td>CIHR</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>generate</td>
+      <td>blood</td>
+      <td>national</td>
+      <td>PH</td>
+      <td>port</td>
+      <td>methods</td>
+      <td>PHAC</td>
+      <td>ecohealth</td>
+      <td>global governance</td>
+      <td>surveillance programs</td>
+      <td>public health education</td>
+      <td>NLM</td>
+      <td>burden</td>
+      <td>communicators</td>
+      <td>forensics</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>policymakers</td>
+      <td>including</td>
+      <td>influenza pandemics</td>
+      <td>identified</td>
+      <td>arabia</td>
+      <td>promed</td>
+      <td>canadians</td>
+      <td>control</td>
+      <td>prominent</td>
+      <td>drug safety</td>
+      <td>trainees</td>
+      <td>shocks</td>
+      <td>jordan</td>
+      <td>newspaper</td>
+      <td>inquiry</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

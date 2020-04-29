@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 18</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>coronavirus</td>
+      <td>hubei</td>
+      <td>italy</td>
+      <td>patients</td>
+      <td>model</td>
+      <td>95</td>
+      <td>care</td>
+      <td>fatality</td>
+      <td>temperature</td>
+      <td>drugs</td>
+      <td>genome</td>
+      <td>contact</td>
+      <td>covid-19</td>
+      <td>R0</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>disease</td>
+      <td>province</td>
+      <td>countries</td>
+      <td>%</td>
+      <td>predict</td>
+      <td>CI</td>
+      <td>patients</td>
+      <td>rate</td>
+      <td>correlation</td>
+      <td>cells</td>
+      <td>genomes</td>
+      <td>market</td>
+      <td>mental</td>
+      <td>lombardy</td>
+      <td>el</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>respiratory</td>
+      <td>china</td>
+      <td>iran</td>
+      <td>detection</td>
+      <td>models</td>
+      <td>interval</td>
+      <td>experience</td>
+      <td>%</td>
+      <td>interest</td>
+      <td>immune</td>
+      <td>sars-cov-2</td>
+      <td>seafood</td>
+      <td>media</td>
+      <td>total population</td>
+      <td>en</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2019</td>
+      <td>hubei province</td>
+      <td>south</td>
+      <td>symptoms</td>
+      <td>peak</td>
+      <td>estimated</td>
+      <td>hospital</td>
+      <td>cure</td>
+      <td>factors</td>
+      <td>drug</td>
+      <td>host</td>
+      <td>taiwan</td>
+      <td>social media</td>
+      <td>simulations</td>
+      <td>children</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>health</td>
+      <td>february</td>
+      <td>india</td>
+      <td>fever</td>
+      <td>method</td>
+      <td>reproduction</td>
+      <td>department</td>
+      <td>mortality rate</td>
+      <td>incidence</td>
+      <td>cardiovascular</td>
+      <td>phylogenetic</td>
+      <td>united states</td>
+      <td>social</td>
+      <td>COVID−19</td>
+      <td>pediatric</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>syndrome</td>
+      <td>epidemic</td>
+      <td>korea</td>
+      <td>nucleic</td>
+      <td>epidemic</td>
+      <td>exported</td>
+      <td>cancer</td>
+      <td>death</td>
+      <td>correlations</td>
+      <td>lung</td>
+      <td>molecular</td>
+      <td>cluster</td>
+      <td>public</td>
+      <td>95%-CI</td>
+      <td>con</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>caused</td>
+      <td>wuhan</td>
+      <td>south korea</td>
+      <td>clinical</td>
+      <td>april</td>
+      <td>travel</td>
+      <td>staff</td>
+      <td>case fatality</td>
+      <td>humidity</td>
+      <td>approved</td>
+      <td>pangolin-cov</td>
+      <td>animal</td>
+      <td>health</td>
+      <td>SIRD</td>
+      <td>casos</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>acute</td>
+      <td>city</td>
+      <td>country</td>
+      <td>acid</td>
+      <td>mathematical</td>
+      <td>mainland china</td>
+      <td>management</td>
+      <td>CFR</td>
+      <td>climate</td>
+      <td>liver</td>
+      <td>mutations</td>
+      <td>united</td>
+      <td>facemask</td>
+      <td>tccpm</td>
+      <td>gi symptoms</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>world</td>
+      <td>cases</td>
+      <td>march</td>
+      <td>positive</td>
+      <td>based</td>
+      <td>estimate</td>
+      <td>COVID-19</td>
+      <td>ill</td>
+      <td>daily</td>
+      <td>HD</td>
+      <td>sequences</td>
+      <td>route</td>
+      <td>H7N9</td>
+      <td>bound</td>
+      <td>su</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>china</td>
+      <td>2020</td>
+      <td>growth</td>
+      <td>chest</td>
+      <td>prediction</td>
+      <td>estimates</td>
+      <td>dental</td>
+      <td>aged</td>
+      <td>significant</td>
+      <td>trials</td>
+      <td>ratg13</td>
+      <td>close</td>
+      <td>avian</td>
+      <td>+</td>
+      <td>las</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>virus</td>
+      <td>control</td>
+      <td>cases</td>
+      <td>swab</td>
+      <td>data</td>
+      <td>wuhan</td>
+      <td>guidelines</td>
+      <td>years</td>
+      <td>p<0.001</td>
+      <td>injury</td>
+      <td>protein</td>
+      <td>animals</td>
+      <td>supplies</td>
+      <td>=</td>
+      <td>GI</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>sars-cov-2</td>
+      <td>COVID-19</td>
+      <td>spain</td>
+      <td>samples</td>
+      <td>time</td>
+      <td>%</td>
+      <td>departments</td>
+      <td>critically</td>
+      <td>meteorological</td>
+      <td>COVID-2019</td>
+      <td>genetic</td>
+      <td>droplets</td>
+      <td>attention</td>
+      <td>parameters</td>
+      <td>los</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>december</td>
+      <td>provinces</td>
+      <td>COVID-19</td>
+      <td>swabs</td>
+      <td>predicted</td>
+      <td>mainland</td>
+      <td>protection</td>
+      <td>cure rate</td>
+      <td>COVID-19</td>
+      <td>therapeutic</td>
+      <td>proteins</td>
+      <td>transmitted</td>
+      <td>sina</td>
+      <td>wenzhou</td>
+      <td>salud</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>severe</td>
+      <td>confirmed</td>
+      <td>pandemic</td>
+      <td>test</td>
+      <td>SEIR</td>
+      <td>95%CI</td>
+      <td>treatment</td>
+      <td>age</td>
+      <td>variables</td>
+      <td>ACE2</td>
+      <td>genomic</td>
+      <td>clusters</td>
+      <td>microblog</td>
+      <td>number</td>
+      <td>para</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>outbreak</td>
+      <td>measures</td>
+      <td>social distancing</td>
+      <td>RT-PCR</td>
+      <td>trend</td>
+      <td>cities</td>
+      <td>medical</td>
+      <td>mar</td>
+      <td>°</td>
+      <td>chloroquine</td>
+      <td>epitopes</td>
+      <td>transmission</td>
+      <td>mental health</td>
+      <td>interquartile</td>
+      <td>paediatric</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-ncov</td>
+      <td>january</td>
+      <td>distancing</td>
+      <td>CT</td>
+      <td>SIR</td>
+      <td>january</td>
+      <td>hospitals</td>
+      <td>mortality</td>
+      <td>activity</td>
+      <td>cytokines</td>
+      <td>sequencing</td>
+      <td>seafood market</td>
+      <td>PTSS</td>
+      <td>interquartile range</td>
+      <td>como</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>spread</td>
+      <td>wuhan city</td>
+      <td>exponential</td>
+      <td>mild</td>
+      <td>ARIMA</td>
+      <td>serial</td>
+      <td>emergency</td>
+      <td>case</td>
+      <td>examine</td>
+      <td>heart</td>
+      <td>strains</td>
+      <td>person</td>
+      <td>news</td>
+      <td>based</td>
+      <td>por</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>organization</td>
+      <td>number</td>
+      <td>phase</td>
+      <td>covid-19 pneumonia</td>
+      <td>predictions</td>
+      <td>-</td>
+      <td>oncology</td>
+      <td>critically ill</td>
+      <td>meta-analysis</td>
+      <td>cardiac</td>
+      <td>intermediate</td>
+      <td>huanan</td>
+      <td>prevalence</td>
+      <td>recovery</td>
+      <td>mundial</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>global</td>
+      <td>population</td>
+      <td>interventions</td>
+      <td>pneumonia</td>
+      <td>daily</td>
+      <td>confidence interval</td>
+      <td>expert</td>
+      <td>severity</td>
+      <td>weather</td>
+      <td>inflammatory</td>
+      <td>S1</td>
+      <td>bats</td>
+      <td>disposal</td>
+      <td>madrid</td>
+      <td>sarscov‐2</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2</td>
+      <td>days</td>
+      <td>weeks</td>
+      <td>throat</td>
+      <td>situation</td>
+      <td>sustained</td>
+      <td>radiology</td>
+      <td>-</td>
+      <td>pearson</td>
+      <td>clinical trials</td>
+      <td>pangolin</td>
+      <td>spatiotemporal</td>
+      <td>disorders</td>
+      <td>recovery rates</td>
+      <td>se</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>COVID-19</td>
+      <td>transmission</td>
+      <td>2020</td>
+      <td>sars-cov-2</td>
+      <td>dynamic</td>
+      <td>reporting</td>
+      <td>guideline</td>
+      <td>older</td>
+      <td>highest</td>
+      <td>plasma</td>
+      <td>diversity</td>
+      <td>oral</td>
+      <td>sleep</td>
+      <td>class</td>
+      <td>fue</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>world health organization</td>
+      <td>cities</td>
+      <td>number</td>
+      <td>cough</td>
+      <td>day</td>
+      <td>chinese cities</td>
+      <td>pandemic</td>
+      <td>ratio</td>
+      <td>cases</td>
+      <td>patients</td>
+      <td>spike</td>
+      <td>source</td>
+      <td>h7n9 avian influenza</td>
+      <td>fade</td>
+      <td>provincia</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>pneumonia</td>
+      <td>early</td>
+      <td>affected</td>
+      <td>laboratory</td>
+      <td>future</td>
+      <td>locations</td>
+      <td>professionals</td>
+      <td>workers</td>
+      <td>students</td>
+      <td>treatment</td>
+      <td>human</td>
+      <td>family</td>
+      <td>public health emergencies</td>
+      <td>twenty</td>
+      <td>es</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>infection</td>
+      <td>NCP</td>
+      <td>governments</td>
+      <td>COVID-19</td>
+      <td>mathematical model</td>
+      <td>basic</td>
+      <td>lessons</td>
+      <td>COVID19</td>
+      <td>search</td>
+      <td>damage</td>
+      <td>cell</td>
+      <td>person-to-person</td>
+      <td>shortage</td>
+      <td>−</td>
+      <td>diciembre</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>public</td>
+      <td>total</td>
+      <td>days</td>
+      <td>blood</td>
+      <td>probability</td>
+      <td>serial interval</td>
+      <td>healthcare</td>
+      <td>disease severity</td>
+      <td>PM10</td>
+      <td>treat</td>
+      <td>mutation</td>
+      <td>kong</td>
+      <td>shelter</td>
+      <td>forty</td>
+      <td>número</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>coronavirus disease 2019</td>
+      <td>control measures</td>
+      <td>lockdown</td>
+      <td>imaging</td>
+      <td>number</td>
+      <td>23</td>
+      <td>suspected</td>
+      <td>PIBA</td>
+      <td>google</td>
+      <td>pre-existing</td>
+      <td>sars-cov-2 outbreak</td>
+      <td>states</td>
+      <td>caring</td>
+      <td>french</td>
+      <td>brote</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>declared</td>
+      <td>quarantine</td>
+      <td>measures</td>
+      <td>patient</td>
+      <td>proposed</td>
+      <td>dec</td>
+      <td>radiotherapy</td>
+      <td>instant</td>
+      <td>RR</td>
+      <td>chronic</td>
+      <td>bat</td>
+      <td>linked</td>
+      <td>keywords</td>
+      <td>r0 value</td>
+      <td>nuevo</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>named</td>
+      <td>outbreak</td>
+      <td>social</td>
+      <td>hospitalized</td>
+      <td>forecast</td>
+      <td>number</td>
+      <td>nosocomial</td>
+      <td>IFP</td>
+      <td>associations</td>
+      <td>hydroxychloroquine</td>
+      <td>orf1ab</td>
+      <td>wuhan pneumonia</td>
+      <td>hot</td>
+      <td>per-day</td>
+      <td>zoonosis</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>international</td>
+      <td>'s</td>
+      <td>units</td>
+      <td>infection</td>
+      <td>forecasting</td>
+      <td>cordon sanitaire</td>
+      <td>systems</td>
+      <td>conditions</td>
+      <td>correlated</td>
+      <td>rdrp</td>
+      <td>MHC</td>
+      <td>huanan seafood market</td>
+      <td>distress</td>
+      <td>500</td>
+      <td>recomendaciones</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>concern</td>
+      <td>1</td>
+      <td>italian</td>
+      <td>pathogens</td>
+      <td>simple</td>
+      <td>sanitaire</td>
+      <td>protect</td>
+      <td>moderate</td>
+      <td>relative</td>
+      <td>COVID-19</td>
+      <td>phylogenetic analysis</td>
+      <td>home quarantine</td>
+      <td>covid-19 outbreak</td>
+      <td>scenario</td>
+      <td>646</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>acute respiratory syndrome coronavirus 2</td>
+      <td>chinese</td>
+      <td>deaths</td>
+      <td>severe</td>
+      <td>infected</td>
+      <td>cordon</td>
+      <td>radiation</td>
+      <td>increment</td>
+      <td>relationship</td>
+      <td>antiviral</td>
+      <td>residues</td>
+      <td>network</td>
+      <td>early</td>
+      <td>found</td>
+      <td>severe/critical</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>coronaviruses</td>
+      <td>feb</td>
+      <td>european</td>
+      <td>assay</td>
+      <td>covid-19</td>
+      <td>jan</td>
+      <td>working</td>
+      <td>non-severe</td>
+      <td>composite</td>
+      <td>targets</td>
+      <td>haplotype</td>
+      <td>hong</td>
+      <td>emergencies</td>
+      <td>ratio</td>
+      <td>resumen</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>countries</td>
+      <td>2019</td>
+      <td>mitigation</td>
+      <td>fatigue</td>
+      <td>fitting</td>
+      <td>internationally</td>
+      <td>procedures</td>
+      <td>resource</td>
+      <td>lag</td>
+      <td>cardiac injury</td>
+      <td>revealed</td>
+      <td>0</td>
+      <td>psychological</td>
+      <td>90</td>
+      <td>mundo</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>globally</td>
+      <td>spread</td>
+      <td>intensive care units</td>
+      <td>serum</td>
+      <td>predicting</td>
+      <td>cri</td>
+      <td>planning</td>
+      <td>pessimistic</td>
+      <td>0.01</td>
+      <td>expression</td>
+      <td>NYC</td>
+      <td>contact history</td>
+      <td>facemasks</td>
+      <td>recovered</td>
+      <td>la</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>causing</td>
+      <td>guangdong</td>
+      <td>spread</td>
+      <td>vertical</td>
+      <td>forecasts</td>
+      <td>cases</td>
+      <td>general</td>
+      <td>LYM%</td>
+      <td>ARH</td>
+      <td>TCM</td>
+      <td>intermediate host</td>
+      <td>ferrets</td>
+      <td>reasons</td>
+      <td>actual</td>
+      <td>objetivo</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>studies</td>
+      <td>shenzhen</td>
+      <td>policies</td>
+      <td>admitted</td>
+      <td>analysis</td>
+      <td>volume</td>
+      <td>special</td>
+      <td>optimistic</td>
+      <td>relative humidity</td>
+      <td>targeting</td>
+      <td>polyprotein</td>
+      <td>wet</td>
+      <td>list</td>
+      <td>reported</td>
+      <td>síntomas</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>emerging</td>
+      <td>results</td>
+      <td>UK</td>
+      <td>cases</td>
+      <td>march</td>
+      <td>data</td>
+      <td>ICU</td>
+      <td>numbers</td>
+      <td>hypothesis</td>
+      <td>cytokine</td>
+      <td>genome sequences</td>
+      <td>republic of korea</td>
+      <td>fangcang</td>
+      <td>total</td>
+      <td>este</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>pathogen</td>
+      <td>controlled</td>
+      <td>diffusion</td>
+      <td>characteristics</td>
+      <td>points</td>
+      <td>SI</td>
+      <td>risk</td>
+      <td>elderly people</td>
+      <td>searches</td>
+      <td>single-cell</td>
+      <td>amino</td>
+      <td>macao</td>
+      <td>public attention</td>
+      <td>DAY-ZERO</td>
+      <td>desde</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>reported</td>
+      <td>migration</td>
+      <td>study</td>
+      <td>HBV</td>
+      <td>results</td>
+      <td>reporting rate</td>
+      <td>consensus</td>
+      <td>recoveries</td>
+      <td>ros</td>
+      <td>traditional chinese medicine</td>
+      <td>domain</td>
+      <td>wholesale</td>
+      <td>advance</td>
+      <td>evolves</td>
+      <td>familia</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>wuhan</td>
+      <td>27</td>
+      <td>canada</td>
+      <td>2</td>
+      <td>2020</td>
+      <td>importations</td>
+      <td>examinations</td>
+      <td>kinetics</td>
+      <td>rates</td>
+      <td>storm</td>
+      <td>genetic diversity</td>
+      <td>ministry of health</td>
+      <td>topics</td>
+      <td>cells/mm3</td>
+      <td>dehydrogenase/glucose</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>months</td>
+      <td>movement</td>
+      <td>active cases</td>
+      <td>igm</td>
+      <td>accuracy</td>
+      <td>outbound</td>
+      <td>west</td>
+      <td>2003-SARS</td>
+      <td>schools</td>
+      <td>medicines</td>
+      <td>analysis</td>
+      <td>faced</td>
+      <td>mental health problems</td>
+      <td>45,000</td>
+      <td>ethical</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>acute respiratory syndrome</td>
+      <td>nationwide</td>
+      <td>infected</td>
+      <td>qingdao</td>
+      <td>simulation</td>
+      <td>findings</td>
+      <td>diagnosed</td>
+      <td>age-stratified</td>
+      <td>england</td>
+      <td>convalescent</td>
+      <td>2019‐ncov</td>
+      <td>cats</td>
+      <td>posts</td>
+      <td>exceed</td>
+      <td>sputum production</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>knowledge</td>
+      <td>restrictions</td>
+      <td>population</td>
+      <td>report</td>
+      <td>peak time</td>
+      <td>2020</td>
+      <td>major</td>
+      <td>0.9</td>
+      <td>temperate</td>
+      <td>addition</td>
+      <td>coverage</td>
+      <td>identify</td>
+      <td>fangcang shelter hospitals</td>
+      <td>simulator</td>
+      <td>cantidad</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>pandemic</td>
+      <td>data</td>
+      <td>24th</td>
+      <td>sputum</td>
+      <td>website</td>
+      <td>2019-ncov</td>
+      <td>infection</td>
+      <td>viral load</td>
+      <td>mild covid-19</td>
+      <td>failure</td>
+      <td>detecting</td>
+      <td>human</td>
+      <td>health authorities</td>
+      <td>courses</td>
+      <td>aislamiento</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>east</td>
+      <td>exposed</td>
+      <td>hopkins</td>
+      <td>nasopharyngeal swabs</td>
+      <td>MCO</td>
+      <td>demographic characteristics</td>
+      <td>opinion</td>
+      <td>medical</td>
+      <td>reopening</td>
+      <td>microenvironment</td>
+      <td>introductions</td>
+      <td>authorities</td>
+      <td>crisis</td>
+      <td>plots</td>
+      <td>COVID‐2019</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>viruses</td>
+      <td>closure</td>
+      <td>beds</td>
+      <td>tomography</td>
+      <td>non-hubei</td>
+      <td>undocumented</td>
+      <td>prepared</td>
+      <td>patients</td>
+      <td>meteorological variables</td>
+      <td>therapies</td>
+      <td>isolates</td>
+      <td>simplified</td>
+      <td>pertinent</td>
+      <td>considers</td>
+      <td>pandemia</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>MERS</td>
+      <td>chinese government</td>
+      <td>rate</td>
+      <td>hospital</td>
+      <td>outbreak</td>
+      <td>destination</td>
+      <td>surgery</td>
+      <td>deaths</td>
+      <td>P<0.001</td>
+      <td>γδ</td>
+      <td>haplotypes</td>
+      <td>category</td>
+      <td>health emergency</td>
+      <td>worth</td>
+      <td>animales</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>2019-ncov.</td>
+      <td>spatial</td>
+      <td>health</td>
+      <td>IQR</td>
+      <td>h value</td>
+      <td>younger</td>
+      <td>examination</td>
+      <td>infected</td>
+      <td>μg/m3</td>
+      <td>nelfinavir</td>
+      <td>immunoinformatics</td>
+      <td>sarbecovirus</td>
+      <td>health professionals</td>
+      <td>expected</td>
+      <td>7.31</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>review</td>
+      <td>provincial</td>
+      <td>case</td>
+      <td>anal</td>
+      <td>infection</td>
+      <td>evacuation</td>
+      <td>preventive measures</td>
+      <td>albeit</td>
+      <td>16th</td>
+      <td>cardiovascular diseases</td>
+      <td>diagnosing</td>
+      <td>subgenus</td>
+      <td>mood</td>
+      <td>population</td>
+      <td>1117</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>’s</td>
+      <td>traffic</td>
+      <td>european countries</td>
+      <td>gastrointestinal</td>
+      <td>confirmed</td>
+      <td>boltzmann</td>
+      <td>learned</td>
+      <td>3.6</td>
+      <td>wind</td>
+      <td>bioinformatics</td>
+      <td>sars-cov-2 genomes</td>
+      <td>entry</td>
+      <td>compiled</td>
+      <td>infected</td>
+      <td>otros</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

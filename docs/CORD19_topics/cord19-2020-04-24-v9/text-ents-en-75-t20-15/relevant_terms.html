@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 20</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>care</td>
+      <td>COVID-19</td>
+      <td>SARS</td>
+      <td>hospitals</td>
+      <td>disaster</td>
+      <td>%</td>
+      <td>critical</td>
+      <td>waste</td>
+      <td>influenza</td>
+      <td>asthma</td>
+      <td>system</td>
+      <td>ED</td>
+      <td>blood</td>
+      <td>training</td>
+      <td>nursing</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>health</td>
+      <td>pandemic</td>
+      <td>respiratory</td>
+      <td>study</td>
+      <td>planning</td>
+      <td>period</td>
+      <td>ICU</td>
+      <td>diseases</td>
+      <td>infection</td>
+      <td>guideline</td>
+      <td>technology</td>
+      <td>emergency department</td>
+      <td>surgery</td>
+      <td>competencies</td>
+      <td>nurses</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>services</td>
+      <td>coronavirus</td>
+      <td>outbreak</td>
+      <td>%</td>
+      <td>preparedness</td>
+      <td>visits</td>
+      <td>beds</td>
+      <td>ebola</td>
+      <td>pandemic</td>
+      <td>clinical</td>
+      <td>application</td>
+      <td>department</td>
+      <td>transfusion</td>
+      <td>protocol</td>
+      <td>mental</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>providers</td>
+      <td>covid-19 pandemic</td>
+      <td>syndrome</td>
+      <td>survey</td>
+      <td>disasters</td>
+      <td><</td>
+      <td>intensive</td>
+      <td>infectious</td>
+      <td>H1N1</td>
+      <td>pediatric</td>
+      <td>health-care</td>
+      <td>emergency</td>
+      <td>surgical</td>
+      <td>students</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>patient</td>
+      <td>patients</td>
+      <td>severe</td>
+      <td>conducted</td>
+      <td>mass</td>
+      <td>average</td>
+      <td>capacity</td>
+      <td>EVD</td>
+      <td>control</td>
+      <td>diagnosis</td>
+      <td>medical</td>
+      <td>eds</td>
+      <td>elective</td>
+      <td>programs</td>
+      <td>psychiatric</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>public</td>
+      <td>2019</td>
+      <td>acute</td>
+      <td>interviews</td>
+      <td>emergency</td>
+      <td>95</td>
+      <td>critical care</td>
+      <td>highly</td>
+      <td>prevention</td>
+      <td>tests</td>
+      <td>china</td>
+      <td>crowding</td>
+      <td>surgeries</td>
+      <td>project</td>
+      <td>hong</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>provide</td>
+      <td>cancer</td>
+      <td>protective</td>
+      <td>RESULTS</td>
+      <td>response</td>
+      <td>compared</td>
+      <td>ill</td>
+      <td>facilities</td>
+      <td>influenza pandemic</td>
+      <td>therapy</td>
+      <td>private</td>
+      <td>privacy</td>
+      <td>neck</td>
+      <td>program</td>
+      <td>kong</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>pharmacists</td>
+      <td>2020</td>
+      <td>acute respiratory syndrome</td>
+      <td>questionnaire</td>
+      <td>plan</td>
+      <td>utilization</td>
+      <td>critically ill</td>
+      <td>infectious diseases</td>
+      <td>health</td>
+      <td>evidence-based</td>
+      <td>technologies</td>
+      <td>emergency physicians</td>
+      <td>babies</td>
+      <td>skills</td>
+      <td>hong kong</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>community</td>
+      <td>disease</td>
+      <td>PPE</td>
+      <td>METHODS</td>
+      <td>events</td>
+      <td>±</td>
+      <td>care</td>
+      <td>european</td>
+      <td>2009</td>
+      <td>management</td>
+      <td>telemedicine</td>
+      <td>emergency departments</td>
+      <td>surgical procedures</td>
+      <td>residents</td>
+      <td>emergency nurses</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>ethical</td>
+      <td>sars-cov-2</td>
+      <td>staff</td>
+      <td>CONCLUSIONS</td>
+      <td>literature</td>
+      <td>costs</td>
+      <td>critically</td>
+      <td>ebola virus disease</td>
+      <td>pandemic influenza</td>
+      <td>antibiotic</td>
+      <td>RFID</td>
+      <td>confidentiality</td>
+      <td>elective surgeries</td>
+      <td>education</td>
+      <td>nuclear</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>physicians</td>
+      <td>coronavirus disease 2019</td>
+      <td>patients</td>
+      <td>implementation</td>
+      <td>evacuation</td>
+      <td>inpatient</td>
+      <td>demand</td>
+      <td>isolation</td>
+      <td>workers</td>
+      <td>infections</td>
+      <td>reform</td>
+      <td>patients</td>
+      <td>newborn</td>
+      <td>mini-cex</td>
+      <td>ward</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>professional</td>
+      <td>treatment</td>
+      <td>infection</td>
+      <td>tertiary</td>
+      <td>emergencies</td>
+      <td>outpatient</td>
+      <td>model</td>
+      <td>hids</td>
+      <td>infections</td>
+      <td>antimicrobial</td>
+      <td>applications</td>
+      <td>screening</td>
+      <td>postponed</td>
+      <td>curriculum</td>
+      <td>covid-19</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>palliative</td>
+      <td>radiation</td>
+      <td>control</td>
+      <td>improvement</td>
+      <td>casualty</td>
+      <td>increased</td>
+      <td>icus</td>
+      <td>communicable</td>
+      <td>measures</td>
+      <td>antibiotics</td>
+      <td>platform</td>
+      <td>contacts</td>
+      <td>elasticity</td>
+      <td>travel</td>
+      <td>tribunal</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>practice</td>
+      <td>oncology</td>
+      <td>workers</td>
+      <td>ASP</td>
+      <td>incident</td>
+      <td>patients</td>
+      <td>intensive care unit</td>
+      <td>HID</td>
+      <td>health care workers</td>
+      <td>laboratory</td>
+      <td>healthcare</td>
+      <td>radiology department</td>
+      <td>procedures</td>
+      <td>simulation</td>
+      <td>en</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>role</td>
+      <td>epidemic</td>
+      <td>personal</td>
+      <td>results</td>
+      <td>management</td>
+      <td>total</td>
+      <td>ventilation</td>
+      <td>isolation facilities</td>
+      <td>avian</td>
+      <td>clinical practice</td>
+      <td>chinese</td>
+      <td>symptoms</td>
+      <td>head</td>
+      <td>medicine</td>
+      <td>line</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>professionals</td>
+      <td>world</td>
+      <td>isolation</td>
+      <td>adherence</td>
+      <td>incidents</td>
+      <td>ER</td>
+      <td>ventilators</td>
+      <td>technical</td>
+      <td>ips</td>
+      <td>guidelines</td>
+      <td>hospitals</td>
+      <td>hajj</td>
+      <td>evidence</td>
+      <td>disaster medicine</td>
+      <td>psychiatrist</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>framework</td>
+      <td>italy</td>
+      <td>personal protective equipment</td>
+      <td>consultation</td>
+      <td>plans</td>
+      <td>reduction</td>
+      <td>icu beds</td>
+      <td>biocontainment</td>
+      <td>home</td>
+      <td>classification</td>
+      <td>industry</td>
+      <td>departments</td>
+      <td>blood transfusion</td>
+      <td>faculty</td>
+      <td>mental health</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>environment</td>
+      <td>radiotherapy</td>
+      <td>unit</td>
+      <td>data</td>
+      <td>emergency management</td>
+      <td>0.001</td>
+      <td>intensive care units</td>
+      <td>medical waste</td>
+      <td>work</td>
+      <td>acute bronchitis</td>
+      <td>computer</td>
+      <td>compliance</td>
+      <td>health professionals</td>
+      <td>training programs</td>
+      <td>front</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>systems</td>
+      <td>consultations</td>
+      <td>MERS</td>
+      <td>BACKGROUND</td>
+      <td>victims</td>
+      <td>decreased</td>
+      <td>bed</td>
+      <td>management</td>
+      <td>zika</td>
+      <td>professor</td>
+      <td>prosthesis</td>
+      <td>triage</td>
+      <td>in-service</td>
+      <td>JSTH</td>
+      <td>stress</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>pharmacy</td>
+      <td>pharmaceutical</td>
+      <td>negative</td>
+      <td>participants</td>
+      <td>natural</td>
+      <td>waiting</td>
+      <td>number</td>
+      <td>contagious</td>
+      <td>centers for disease control</td>
+      <td>bronchitis</td>
+      <td>data</td>
+      <td>beijing</td>
+      <td>cochrane</td>
+      <td>airway</td>
+      <td>‘</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>providing</td>
+      <td>worldwide</td>
+      <td>designated</td>
+      <td>qualitative</td>
+      <td>triage</td>
+      <td>rate</td>
+      <td>units</td>
+      <td>hazardous</td>
+      <td>occupational</td>
+      <td>prescribing</td>
+      <td>patient safety</td>
+      <td>HAV</td>
+      <td>arthroplasty</td>
+      <td>training program</td>
+      <td>IFT</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>discuss</td>
+      <td>march</td>
+      <td>infectious disease</td>
+      <td>hospital</td>
+      <td>surge</td>
+      <td>CI</td>
+      <td>estimates</td>
+      <td>disposal</td>
+      <td>event</td>
+      <td>microbiology</td>
+      <td>handheld</td>
+      <td>febrile</td>
+      <td>COVID19</td>
+      <td>teaching</td>
+      <td>para</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>health care</td>
+      <td>china</td>
+      <td>suspected</td>
+      <td>reported</td>
+      <td>contingency</td>
+      <td>years</td>
+      <td>hospital beds</td>
+      <td>virus</td>
+      <td>imperative</td>
+      <td>steering</td>
+      <td>yearbook</td>
+      <td>hcais</td>
+      <td>cardiac</td>
+      <td>2018</td>
+      <td>accident</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>crisis</td>
+      <td>spread</td>
+      <td>outbreaks</td>
+      <td>13</td>
+      <td>command</td>
+      <td>number</td>
+      <td>hospital</td>
+      <td>collection</td>
+      <td>CDC</td>
+      <td>children</td>
+      <td>HUMS</td>
+      <td>pathogens</td>
+      <td>courses</td>
+      <td>cyprus</td>
+      <td>disaster-related</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>communication</td>
+      <td>situation</td>
+      <td>patient</td>
+      <td>12</td>
+      <td>exercise</td>
+      <td>0.01</td>
+      <td>geographic</td>
+      <td>high-level</td>
+      <td>antiviral</td>
+      <td>treatment</td>
+      <td>cybercare</td>
+      <td>threats</td>
+      <td>usual care</td>
+      <td>residency</td>
+      <td>confinement</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>duty</td>
+      <td>wuhan</td>
+      <td>2003</td>
+      <td>group</td>
+      <td>responding</td>
+      <td>ED</td>
+      <td>ventilator</td>
+      <td>transport</td>
+      <td>flu</td>
+      <td>categories</td>
+      <td>information</td>
+      <td>isolate</td>
+      <td>poor countries</td>
+      <td>instructors</td>
+      <td>coping</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>ethics</td>
+      <td>considered</td>
+      <td>hemodialysis</td>
+      <td>examined</td>
+      <td>coordination</td>
+      <td>data</td>
+      <td>mechanical</td>
+      <td>disease</td>
+      <td>workforce</td>
+      <td>practice</td>
+      <td>internet</td>
+      <td>differential</td>
+      <td>general anesthesia</td>
+      <td>PGY-1</td>
+      <td>hospital nurses</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>challenges</td>
+      <td>outpatient</td>
+      <td>symptoms</td>
+      <td>aimed</td>
+      <td>event</td>
+      <td>significantly</td>
+      <td>population</td>
+      <td>communicable diseases</td>
+      <td>drugs</td>
+      <td>metastases</td>
+      <td>cost</td>
+      <td>presenting</td>
+      <td>donor</td>
+      <td>taiwan</td>
+      <td>consultant</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>patient care</td>
+      <td>coronavirus disease</td>
+      <td>confirmed</td>
+      <td>types</td>
+      <td>education</td>
+      <td>=</td>
+      <td>surge</td>
+      <td>person</td>
+      <td>icps</td>
+      <td>supportive</td>
+      <td>module</td>
+      <td>JPS</td>
+      <td>tracheostomy</td>
+      <td>specialty</td>
+      <td>spanish</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>clinicians</td>
+      <td>healthcare</td>
+      <td>2</td>
+      <td>determine</td>
+      <td>sops</td>
+      <td>versus</td>
+      <td>scenario</td>
+      <td>disinfection</td>
+      <td>exposed</td>
+      <td>recommendations</td>
+      <td>virtual</td>
+      <td>respiratory hygiene</td>
+      <td>anesthesia</td>
+      <td>programme</td>
+      <td>phase</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>make</td>
+      <td>cardiovascular</td>
+      <td>III-C</td>
+      <td>surveyed</td>
+      <td>suggestions</td>
+      <td>2002</td>
+      <td>task</td>
+      <td>wastes</td>
+      <td>exposed to</td>
+      <td>testing</td>
+      <td>accessed</td>
+      <td>arriving</td>
+      <td>studies</td>
+      <td>clinical</td>
+      <td>staggering</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>important</td>
+      <td>in-person</td>
+      <td>hospital</td>
+      <td>selected</td>
+      <td>ambulance</td>
+      <td>odds</td>
+      <td>states</td>
+      <td>waste management</td>
+      <td>respirator</td>
+      <td>pneumonia</td>
+      <td>medical resources</td>
+      <td>detection</td>
+      <td>certainty</td>
+      <td>2011</td>
+      <td>disorders</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>family</td>
+      <td>affected</td>
+      <td>equipment</td>
+      <td>in-depth</td>
+      <td>natural disasters</td>
+      <td>regression</td>
+      <td>EMCC</td>
+      <td>centres</td>
+      <td>irish</td>
+      <td>common</td>
+      <td>editorial</td>
+      <td>precautions</td>
+      <td>newborns</td>
+      <td>postgraduate</td>
+      <td>traumatic</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>healthcare</td>
+      <td>resources</td>
+      <td>disease</td>
+      <td>republic</td>
+      <td>responders</td>
+      <td>admitted</td>
+      <td>access</td>
+      <td>africa</td>
+      <td>rpps</td>
+      <td>evidence</td>
+      <td>private sector</td>
+      <td>bioterrorism</td>
+      <td>surgeon</td>
+      <td>ACGME</td>
+      <td>front line</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>safety</td>
+      <td>coverage</td>
+      <td>cases</td>
+      <td>improve</td>
+      <td>disaster management</td>
+      <td>GB</td>
+      <td>unit</td>
+      <td>european countries</td>
+      <td>preventionists</td>
+      <td>utilization management</td>
+      <td>shelter</td>
+      <td>chief</td>
+      <td>postponing</td>
+      <td>clinics</td>
+      <td>SEMICYUC</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>medical</td>
+      <td>anesthesiologists</td>
+      <td>infectious</td>
+      <td>included</td>
+      <td>resilience</td>
+      <td>LOS</td>
+      <td>intensive care</td>
+      <td>network</td>
+      <td>planning</td>
+      <td>bronchiolitis</td>
+      <td>insurance</td>
+      <td>overcrowding</td>
+      <td>otolaryngology</td>
+      <td>2010</td>
+      <td>PTSD</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>people</td>
+      <td>covid-19 infection</td>
+      <td>team</td>
+      <td>south</td>
+      <td>chiropractic</td>
+      <td>baseline</td>
+      <td>geographic access</td>
+      <td>countries</td>
+      <td>residents</td>
+      <td>tolerance</td>
+      <td>'s</td>
+      <td>bioterrorism agents</td>
+      <td>ill newborns</td>
+      <td>septicemia-related</td>
+      <td>mental disorders</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>article</td>
+      <td>high</td>
+      <td>pregnant</td>
+      <td>willingness</td>
+      <td>entities</td>
+      <td>length</td>
+      <td>shortages</td>
+      <td>level</td>
+      <td>virus</td>
+      <td>cited</td>
+      <td>adoption</td>
+      <td>notes</td>
+      <td>low-income</td>
+      <td>EM</td>
+      <td>los</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>medicine</td>
+      <td>setting</td>
+      <td>toronto</td>
+      <td>nosocomial infection</td>
+      <td>issues</td>
+      <td>predicted</td>
+      <td>hospitals</td>
+      <td>european network</td>
+      <td>settings</td>
+      <td>bone</td>
+      <td>class</td>
+      <td>psychiatric symptoms</td>
+      <td>transfusions</td>
+      <td>syllabus</td>
+      <td>nursing education</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>palliative care</td>
+      <td>risk</td>
+      <td>occurred</td>
+      <td>medical</td>
+      <td>disaster preparedness</td>
+      <td>community hospitals</td>
+      <td>ECMO</td>
+      <td>CF</td>
+      <td>disease</td>
+      <td>ESCMID</td>
+      <td>EPR</td>
+      <td>younger</td>
+      <td>newborn babies</td>
+      <td>medical students</td>
+      <td>PHS</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>roles</td>
+      <td>current</td>
+      <td>20</td>
+      <td>identified</td>
+      <td>exercises</td>
+      <td>patient visits</td>
+      <td>mechanical ventilation</td>
+      <td>equipment</td>
+      <td>care</td>
+      <td>draft</td>
+      <td>digital</td>
+      <td>radiology</td>
+      <td>gastrointestinal</td>
+      <td>EGDT</td>
+      <td>undergraduate</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>current</td>
+      <td>covid-19 outbreak</td>
+      <td>airborne</td>
+      <td>physicians</td>
+      <td>motivation</td>
+      <td>CKD</td>
+      <td>hospital capacity</td>
+      <td>ebola outbreak</td>
+      <td>IP</td>
+      <td>obstetric</td>
+      <td>introduce</td>
+      <td>illnesses</td>
+      <td>review authors</td>
+      <td>specialty training</td>
+      <td>las</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>goals</td>
+      <td>societies</td>
+      <td>risk</td>
+      <td>variability</td>
+      <td>delphi</td>
+      <td>significant</td>
+      <td>assumptions</td>
+      <td>pathogen</td>
+      <td>zika virus</td>
+      <td>encephalitis</td>
+      <td>architecture</td>
+      <td>proximity</td>
+      <td>demand elasticity</td>
+      <td>clinical instructors</td>
+      <td>psychological</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>organizations</td>
+      <td>high risk</td>
+      <td>negative-pressure</td>
+      <td>audits</td>
+      <td>major</td>
+      <td>impact</td>
+      <td>exceed</td>
+      <td>HLCC</td>
+      <td>acuity</td>
+      <td>ASE</td>
+      <td>incineration</td>
+      <td>RG</td>
+      <td>children</td>
+      <td>public health competencies</td>
+      <td>nurse</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>specialist</td>
+      <td>urology</td>
+      <td>labour</td>
+      <td>tertiary hospitals</td>
+      <td>resources</td>
+      <td>trend</td>
+      <td>resource-limited settings</td>
+      <td>centers</td>
+      <td>respiratory pathogens</td>
+      <td>ICD</td>
+      <td>limb prosthesis</td>
+      <td>•</td>
+      <td>urologic</td>
+      <td>PGYD</td>
+      <td>psychiatrists</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>health care professionals</td>
+      <td>recommendations</td>
+      <td>icms</td>
+      <td>control</td>
+      <td>MCI</td>
+      <td>monthly</td>
+      <td>surges</td>
+      <td>biosafety</td>
+      <td>control measures</td>
+      <td>medical event</td>
+      <td>manual</td>
+      <td>reminders</td>
+      <td>multilevel</td>
+      <td>SSC</td>
+      <td>emergency departments</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>system</td>
+      <td>globe</td>
+      <td>isolated</td>
+      <td>training</td>
+      <td>hurricane</td>
+      <td>odds ratio</td>
+      <td>critical illness</td>
+      <td>contagious diseases</td>
+      <td>gps</td>
+      <td>empiric</td>
+      <td>hospital</td>
+      <td>303</td>
+      <td>covid-19-specific</td>
+      <td>presidents</td>
+      <td>staff</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>provider</td>
+      <td>COVID</td>
+      <td>nursing staff</td>
+      <td>face-to-face</td>
+      <td>standard operating procedures</td>
+      <td>COC</td>
+      <td>resource-limited</td>
+      <td>specifications</td>
+      <td>contribute</td>
+      <td>supportive care</td>
+      <td>aggregate</td>
+      <td>constant</td>
+      <td>library</td>
+      <td>knowledge</td>
+      <td>emergency</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>maintaining</td>
+      <td>pharmaceutical care</td>
+      <td>parents</td>
+      <td>masks</td>
+      <td>injured</td>
+      <td>study</td>
+      <td>counties</td>
+      <td>technical specifications</td>
+      <td>h1n1 influenza pandemic</td>
+      <td>risk tolerance</td>
+      <td>establishes</td>
+      <td>physiologic</td>
+      <td>nasopharynx</td>
+      <td>educational</td>
+      <td>pandemia</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>harm</td>
+      <td>provide</td>
+      <td>HEICS</td>
+      <td>percent</td>
+      <td>including</td>
+      <td>non-emergent</td>
+      <td>trusts</td>
+      <td>specimens</td>
+      <td>health care settings</td>
+      <td>consequential</td>
+      <td>incentive</td>
+      <td>evacuees</td>
+      <td>ferrets</td>
+      <td>fellows</td>
+      <td>dormitory</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

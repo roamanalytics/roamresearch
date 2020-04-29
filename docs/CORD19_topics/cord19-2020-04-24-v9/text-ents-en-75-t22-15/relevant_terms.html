@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 22</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>group</td>
+      <td>infection</td>
+      <td>rotavirus</td>
+      <td>cats</td>
+      <td>pigs</td>
+      <td>antiviral</td>
+      <td>IBV</td>
+      <td>calves</td>
+      <td>piglets</td>
+      <td>mice</td>
+      <td>PEDV</td>
+      <td>rats</td>
+      <td>patients</td>
+      <td>dogs</td>
+      <td>PEMF</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>groups</td>
+      <td>infected</td>
+      <td>iga</td>
+      <td>vaccinated</td>
+      <td>PRRSV</td>
+      <td>mdef201</td>
+      <td>chickens</td>
+      <td>oocyst</td>
+      <td>sows</td>
+      <td>MHV</td>
+      <td>pigs</td>
+      <td>exposed</td>
+      <td>bats</td>
+      <td>ccov</td>
+      <td>olfactory</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1</td>
+      <td>viral</td>
+      <td>calves</td>
+      <td>vaccine</td>
+      <td>PRV</td>
+      <td>ribavirin</td>
+      <td>chicks</td>
+      <td>oocysts</td>
+      <td>TCV</td>
+      <td>resistance</td>
+      <td>TGEV</td>
+      <td>exposure</td>
+      <td>children</td>
+      <td>trazodone</td>
+      <td>MPSL</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>significantly</td>
+      <td>animals</td>
+      <td>antibody</td>
+      <td>vaccination</td>
+      <td>PCV2</td>
+      <td>mice</td>
+      <td>bronchitis</td>
+      <td>E.</td>
+      <td>KO</td>
+      <td>brain</td>
+      <td>weaned</td>
+      <td>male</td>
+      <td>SARS</td>
+      <td>i.m</td>
+      <td>rats</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2</td>
+      <td>virus</td>
+      <td>igm</td>
+      <td>challenge</td>
+      <td>SIV</td>
+      <td>vivo</td>
+      <td>NDV</td>
+      <td>×</td>
+      <td>poults</td>
+      <td>salmonella</td>
+      <td>-</td>
+      <td>hamsters</td>
+      <td>onset</td>
+      <td>biomarkers</td>
+      <td>ONFH</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>control</td>
+      <td>detected</td>
+      <td>igg</td>
+      <td>felv</td>
+      <td>respiratory</td>
+      <td>in vivo</td>
+      <td>birds</td>
+      <td>lambs</td>
+      <td>experiments</td>
+      <td>hepatitis</td>
+      <td>NK</td>
+      <td>200</td>
+      <td>cov</td>
+      <td>jejunostomy</td>
+      <td>MU314</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>study</td>
+      <td>disease</td>
+      <td>antibodies</td>
+      <td>feline</td>
+      <td>tnf-α</td>
+      <td>rhuifn-α</td>
+      <td>tracheal</td>
+      <td>profilin</td>
+      <td>litters</td>
+      <td>MHV3</td>
+      <td>porcine</td>
+      <td>female</td>
+      <td>niv</td>
+      <td>parasite</td>
+      <td>osteonecrosis</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>3</td>
+      <td>strain</td>
+      <td>serum</td>
+      <td>inactivated</td>
+      <td>swine</td>
+      <td>asmq</td>
+      <td>H120</td>
+      <td>parvum</td>
+      <td>turkeys</td>
+      <td>susceptible</td>
+      <td>dpi</td>
+      <td>exposed to</td>
+      <td>volunteers</td>
+      <td>migrating</td>
+      <td>5HT</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>days</td>
+      <td>signs</td>
+      <td>colostrum</td>
+      <td>weeks</td>
+      <td>porcine</td>
+      <td>dose</td>
+      <td>infectious bronchitis virus</td>
+      <td>cryptosporidiosis</td>
+      <td>fetal</td>
+      <td>mouse</td>
+      <td>epidemic</td>
+      <td>ADA</td>
+      <td>rinse</td>
+      <td>macaques</td>
+      <td>pcs</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>compared</td>
+      <td>days</td>
+      <td>ASC</td>
+      <td>dose</td>
+      <td>respiratory syndrome virus</td>
+      <td>doses</td>
+      <td>quails</td>
+      <td>QCDC</td>
+      <td>exp</td>
+      <td>mouse hepatitis virus</td>
+      <td>PED</td>
+      <td>ppm</td>
+      <td>rhesus</td>
+      <td>tacrolimus</td>
+      <td>ALV-J</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>higher</td>
+      <td>cells</td>
+      <td>milk</td>
+      <td>non-vaccinated</td>
+      <td>BAL</td>
+      <td>lethal</td>
+      <td>infectious</td>
+      <td>fecal oocyst</td>
+      <td>pregnancy</td>
+      <td>csa</td>
+      <td>g2b</td>
+      <td>PQ</td>
+      <td>mers‐cov</td>
+      <td>transplantation</td>
+      <td>space</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>treatment</td>
+      <td>clinical</td>
+      <td>BRV</td>
+      <td>kittens</td>
+      <td>BALF</td>
+      <td>MHV‐2</td>
+      <td>broiler</td>
+      <td>1.5</td>
+      <td>gilts</td>
+      <td>liver</td>
+      <td>semen</td>
+      <td>germ-free</td>
+      <td>allergic</td>
+      <td>grafts</td>
+      <td>wistar</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>day</td>
+      <td>RNA</td>
+      <td>cows</td>
+      <td>immunity</td>
+      <td>LPS</td>
+      <td>vitro</td>
+      <td>CR88</td>
+      <td>cryptosporidium</td>
+      <td>offspring</td>
+      <td>c57bl</td>
+      <td>shedding</td>
+      <td>3500</td>
+      <td>human</td>
+      <td>canine</td>
+      <td>density</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>results</td>
+      <td>viral rna</td>
+      <td>responses</td>
+      <td>protected</td>
+      <td>subtype</td>
+      <td>IFN</td>
+      <td>kidney</td>
+      <td>shedding</td>
+      <td>PI</td>
+      <td>macrophages</td>
+      <td>pids</td>
+      <td>mg</td>
+      <td>ISH</td>
+      <td>horses</td>
+      <td>E2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>7</td>
+      <td>tissues</td>
+      <td>cattle</td>
+      <td>protection</td>
+      <td>IV</td>
+      <td>DEF201</td>
+      <td>eggs</td>
+      <td>SAA</td>
+      <td>piglet</td>
+      <td>MHV-JHM</td>
+      <td>S102</td>
+      <td>toxicity</td>
+      <td>tonsillitis</td>
+      <td>chinese</td>
+      <td>CA2</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>effect</td>
+      <td>inoculation</td>
+      <td>specific</td>
+      <td>virulent</td>
+      <td>reproductive</td>
+      <td>hiltonol</td>
+      <td>chicken</td>
+      <td>coli</td>
+      <td>PEMS</td>
+      <td>cortex</td>
+      <td>diarrhea</td>
+      <td>H.</td>
+      <td>sars-cov</td>
+      <td>TBI</td>
+      <td>neuroepithelium</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>levels</td>
+      <td>observed</td>
+      <td>igg1</td>
+      <td>median</td>
+      <td>H1N1</td>
+      <td>survival</td>
+      <td>live</td>
+      <td>hp</td>
+      <td>pregnant</td>
+      <td>routes</td>
+      <td>SDPP</td>
+      <td>IDPN</td>
+      <td>months</td>
+      <td>VSV</td>
+      <td>ALP</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>significant</td>
+      <td>experimentally</td>
+      <td>BCV</td>
+      <td>unvaccinated</td>
+      <td>piglets</td>
+      <td>OK‐432</td>
+      <td>poultry</td>
+      <td>fecal</td>
+      <td>turkey</td>
+      <td>BALB</td>
+      <td>anti-pedv</td>
+      <td>ferrocene</td>
+      <td>illness</td>
+      <td>IES</td>
+      <td>resting</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>5</td>
+      <td>isolated</td>
+      <td>bovine</td>
+      <td>neutralising</td>
+      <td>H3N2</td>
+      <td>RVFV</td>
+      <td>vaccine</td>
+      <td>e. coli</td>
+      <td>CMAH</td>
+      <td>LPAIV</td>
+      <td>bovsdp</td>
+      <td>buprenorphine</td>
+      <td>east</td>
+      <td>HSS</td>
+      <td>NW</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>+</td>
+      <td>coronavirus</td>
+      <td>response</td>
+      <td>minimum</td>
+      <td>hps</td>
+      <td>U27</td>
+      <td>vaccinated</td>
+      <td>duodenalis</td>
+      <td>IFA</td>
+      <td>H4N6</td>
+      <td>pig</td>
+      <td>1500</td>
+      <td>min</td>
+      <td>cardiopulmonary</td>
+      <td>mucosa</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>4</td>
+      <td>inoculated</td>
+      <td>RBCV</td>
+      <td>camels</td>
+      <td>lung</td>
+      <td>in vitro</td>
+      <td>variant</td>
+      <td>cryptosporidium parvum</td>
+      <td>weaning</td>
+      <td>T-2</td>
+      <td>transmissible</td>
+      <td>noted</td>
+      <td>alpacas</td>
+      <td>dehydration</td>
+      <td>wistar rats</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>%</td>
+      <td>high</td>
+      <td>gnotobiotic</td>
+      <td>viraemia</td>
+      <td>°</td>
+      <td>administered</td>
+      <td>trachea</td>
+      <td>eimeria</td>
+      <td>dam</td>
+      <td>SJL</td>
+      <td>fecal</td>
+      <td>reference</td>
+      <td>A(H7N9</td>
+      <td>bypass</td>
+      <td>CA1</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>increased</td>
+      <td>p.i</td>
+      <td>iga antibodies</td>
+      <td>transmission</td>
+      <td>syndrome</td>
+      <td>single dose</td>
+      <td>ampv</td>
+      <td>106</td>
+      <td>ptov</td>
+      <td>resistant</td>
+      <td>atrophic</td>
+      <td>PR</td>
+      <td>colts</td>
+      <td>oral administration</td>
+      <td>pharyngeal</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>control group</td>
+      <td>detection</td>
+      <td>BVDV</td>
+      <td>challenged</td>
+      <td>influenza</td>
+      <td>mg/kg/day</td>
+      <td>vaccinated groups</td>
+      <td>diarrhoea</td>
+      <td>ncs</td>
+      <td>virus</td>
+      <td>pdcov</td>
+      <td>pullorum</td>
+      <td>AZT</td>
+      <td>convalescent</td>
+      <td>echt</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>30</td>
+      <td>tract</td>
+      <td>nasal secretions</td>
+      <td>morbidity</td>
+      <td>choleraesuis</td>
+      <td>USPIO</td>
+      <td>MBL</td>
+      <td>C.</td>
+      <td>forming</td>
+      <td>CNS</td>
+      <td>atrophic enteritis</td>
+      <td>exposures</td>
+      <td>onset of</td>
+      <td>presented</td>
+      <td>unsoiled</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>21</td>
+      <td>post</td>
+      <td>immunoglobulin</td>
+      <td>FECV</td>
+      <td>bronchoalveolar</td>
+      <td>vaccinia</td>
+      <td>quail</td>
+      <td>G.</td>
+      <td>PRNT(80</td>
+      <td>c3h mice</td>
+      <td>transmissible gastroenteritis virus</td>
+      <td>ELF-EMF</td>
+      <td>d.p.i</td>
+      <td>MARV</td>
+      <td>lacked</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>divided</td>
+      <td>studied</td>
+      <td>propria</td>
+      <td>range</td>
+      <td>fluids</td>
+      <td>interferon</td>
+      <td>B1648</td>
+      <td>adjuvant</td>
+      <td>hpi</td>
+      <td>cerebral</td>
+      <td>=</td>
+      <td>weights</td>
+      <td>zoonotic</td>
+      <td>complex</td>
+      <td>ca2 cells</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>total</td>
+      <td>investigated</td>
+      <td>bovine rotavirus</td>
+      <td>seronegative</td>
+      <td>fever</td>
+      <td>therapeutic</td>
+      <td>eos</td>
+      <td>dairy</td>
+      <td>pregnant sows</td>
+      <td>balb/cbyj</td>
+      <td>cell</td>
+      <td>400</td>
+      <td>carrier</td>
+      <td>ultrafiltration</td>
+      <td>cages</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>blood</td>
+      <td>clinical signs</td>
+      <td>calf</td>
+      <td>PCR</td>
+      <td>lavage</td>
+      <td>tumor</td>
+      <td>AIV</td>
+      <td>c. parvum</td>
+      <td>WT</td>
+      <td>JHM</td>
+      <td>PID</td>
+      <td>rat</td>
+      <td>marv-ang</td>
+      <td>leishmania</td>
+      <td>LDH</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>group 2</td>
+      <td>associated with</td>
+      <td>secretions</td>
+      <td>virus</td>
+      <td>ifn-α</td>
+      <td>24</td>
+      <td>groups</td>
+      <td>diarrhea</td>
+      <td>farrowing</td>
+      <td>C3H</td>
+      <td>RNA</td>
+      <td>behavior</td>
+      <td>a.i</td>
+      <td>cardiopulmonary bypass</td>
+      <td>isozyme</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td><</td>
+      <td>isolation</td>
+      <td>diarrhea</td>
+      <td>FIV</td>
+      <td>PRRS</td>
+      <td>ifn‐α</td>
+      <td>avian</td>
+      <td>g. duodenalis</td>
+      <td>acid</td>
+      <td>pups</td>
+      <td>epidemic diarrhea virus</td>
+      <td>acquisition</td>
+      <td>therapeutics</td>
+      <td>chinese herbs</td>
+      <td>damp-heat</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>group 1</td>
+      <td>respiratory</td>
+      <td>ELISA</td>
+      <td>fiv-positive</td>
+      <td>lena</td>
+      <td>TP</td>
+      <td>L10H</td>
+      <td>zinc</td>
+      <td>experiment</td>
+      <td>dams</td>
+      <td>nc16845b</td>
+      <td>exposure-related</td>
+      <td>anti-sars</td>
+      <td>herbs</td>
+      <td>decoction</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>parameters</td>
+      <td>primary</td>
+      <td>elisas</td>
+      <td>protective</td>
+      <td>s. choleraesuis</td>
+      <td>SCBLC</td>
+      <td>doa</td>
+      <td>haptoglobin</td>
+      <td>rate</td>
+      <td>i.n</td>
+      <td>genomic</td>
+      <td>smoke</td>
+      <td>HIB</td>
+      <td>motility</td>
+      <td>application</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>observed</td>
+      <td>lymph</td>
+      <td>DX</td>
+      <td>cmt</td>
+      <td>swh1n1</td>
+      <td>antiviral effect</td>
+      <td>793/B</td>
+      <td>NTZ</td>
+      <td>fetus</td>
+      <td>reovirus</td>
+      <td>bonov</td>
+      <td>subcutaneous</td>
+      <td>rhesus macaques</td>
+      <td>CB/05</td>
+      <td>PS</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>showed</td>
+      <td>important</td>
+      <td>titers</td>
+      <td>boosted</td>
+      <td>NA</td>
+      <td>100</td>
+      <td>AIV-H9N2</td>
+      <td>zuernii</td>
+      <td>length</td>
+      <td>i.c</td>
+      <td>OH-FD22</td>
+      <td>mg/kg/day</td>
+      <td>process</td>
+      <td>rvsv</td>
+      <td>MOB</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>response</td>
+      <td>day</td>
+      <td>nasal</td>
+      <td>vaccinations</td>
+      <td>porpv</td>
+      <td>mouse</td>
+      <td>garlic</td>
+      <td>gain</td>
+      <td>contents</td>
+      <td>KUL01</td>
+      <td>tcid(50)/ml</td>
+      <td>fields</td>
+      <td>model</td>
+      <td>beagle</td>
+      <td>trend</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>6</td>
+      <td>shown</td>
+      <td>epizootic</td>
+      <td>cat</td>
+      <td>PMWS</td>
+      <td>cancer</td>
+      <td>hens</td>
+      <td>weight</td>
+      <td>astrovirus</td>
+      <td>cord</td>
+      <td>ge/ml</td>
+      <td>apmvs</td>
+      <td>echinacea</td>
+      <td>anemia</td>
+      <td>OVX</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>lymphocyte</td>
+      <td>nasal</td>
+      <td>SA11</td>
+      <td>con</td>
+      <td>pcv2-infected</td>
+      <td>H5N1</td>
+      <td>chick</td>
+      <td>faecal</td>
+      <td>ewes</td>
+      <td>spinal</td>
+      <td>VR-2385</td>
+      <td>RAM</td>
+      <td>reproductive tract</td>
+      <td>gondii</td>
+      <td>radiodermatitis</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>group 3</td>
+      <td>outbreaks</td>
+      <td>cell-mediated</td>
+      <td>MVA-VP2</td>
+      <td>lesions</td>
+      <td>poly</td>
+      <td>dpi</td>
+      <td>isospora</td>
+      <td>FHC</td>
+      <td>encephalomyelitis</td>
+      <td>9</td>
+      <td>ada/m3</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>slow</td>
+      <td>WSSV</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>infected</td>
+      <td>pathogens</td>
+      <td>rotavirus infection</td>
+      <td>blood</td>
+      <td>H1N2</td>
+      <td>ifn‐γ</td>
+      <td>broilers</td>
+      <td>cysts</td>
+      <td>exps</td>
+      <td>suppressed</td>
+      <td>naïve</td>
+      <td>ossme</td>
+      <td>herpes</td>
+      <td>engraftment</td>
+      <td>modeling</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>saline</td>
+      <td>experimental infection</td>
+      <td>ETEC</td>
+      <td>clinical</td>
+      <td>cd8+ cells</td>
+      <td>D-USPIO</td>
+      <td>M41</td>
+      <td>biochemical</td>
+      <td>experiment 3</td>
+      <td>inoculation</td>
+      <td>intestinal</td>
+      <td>CQ</td>
+      <td>rhinovirus</td>
+      <td>AVI-7288</td>
+      <td>poly(i</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>infection</td>
+      <td>absence</td>
+      <td>WD</td>
+      <td>fipv</td>
+      <td>pmws-affected</td>
+      <td>EV71</td>
+      <td>pvax1</td>
+      <td>excretion</td>
+      <td>RVF</td>
+      <td>spinal cord</td>
+      <td>neonatal</td>
+      <td>h. pullorum</td>
+      <td>demyelinating</td>
+      <td>myeloperoxidase</td>
+      <td>cage</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>untreated</td>
+      <td>study</td>
+      <td>intestinal</td>
+      <td>ccv</td>
+      <td>PID</td>
+      <td>activity</td>
+      <td>NIBV</td>
+      <td>body</td>
+      <td>PES</td>
+      <td>salmonella infection</td>
+      <td>GIII.2</td>
+      <td>PR+PQ</td>
+      <td>ferrets</td>
+      <td>zebov-makona</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>35</td>
+      <td>persistently</td>
+      <td>CC</td>
+      <td>mycoplasma</td>
+      <td>-α</td>
+      <td>model</td>
+      <td>layers</td>
+      <td>CFU</td>
+      <td>TGEV</td>
+      <td>MHV-S</td>
+      <td>N/C</td>
+      <td>test</td>
+      <td>anti-measles</td>
+      <td>up-regulated</td>
+      <td>B(4</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>effects of</td>
+      <td>proteins</td>
+      <td>VLP</td>
+      <td>peritonitis</td>
+      <td>PRRSV-1</td>
+      <td>treatment</td>
+      <td>L10L</td>
+      <td>halofuginone</td>
+      <td>neutralizing</td>
+      <td>dissemination</td>
+      <td>vac-im-2b</td>
+      <td>drug</td>
+      <td>NT</td>
+      <td>animals</td>
+      <td>sandwich</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>control groups</td>
+      <td>common</td>
+      <td>oral inoculation</td>
+      <td>protective effect</td>
+      <td>faecium</td>
+      <td>8-cl-7-dzguo</td>
+      <td>embryos</td>
+      <td>HN</td>
+      <td>ml</td>
+      <td>dieldrin</td>
+      <td>naïve pigs</td>
+      <td>mg/ml</td>
+      <td>prospective</td>
+      <td>administration</td>
+      <td>innate</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>96</td>
+      <td>levels</td>
+      <td>isotype-specific</td>
+      <td>vaccinated group</td>
+      <td>tcid50/ml</td>
+      <td>transplanted</td>
+      <td>rdev-n</td>
+      <td>HL</td>
+      <td>PEDV</td>
+      <td>C(3)H</td>
+      <td>states</td>
+      <td>body-weight</td>
+      <td>hcov-nl63</td>
+      <td>oral</td>
+      <td>rat</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>ifn-γ</td>
+      <td>viral antigen</td>
+      <td>isotypes</td>
+      <td>vaccinates</td>
+      <td>group iv</td>
+      <td>MS</td>
+      <td>broiler chickens</td>
+      <td>isotonic</td>
+      <td>gestation</td>
+      <td>cerebral cortex</td>
+      <td>coinfected</td>
+      <td>fish</td>
+      <td>peripubertal</td>
+      <td>9</td>
+      <td>A(4</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>baseline</td>
+      <td>5</td>
+      <td>PGA</td>
+      <td>control</td>
+      <td>belgium</td>
+      <td>pfu/mouse</td>
+      <td>caninum</td>
+      <td>treated</td>
+      <td>avirulent</td>
+      <td>balb mice</td>
+      <td>piglets</td>
+      <td>deficits</td>
+      <td>%</td>
+      <td>week</td>
+      <td>C57BL/6J</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>consisted</td>
+      <td>serum</td>
+      <td>reinfected</td>
+      <td>doses</td>
+      <td>prrsv</td>
+      <td>antiviral activity</td>
+      <td>ORT</td>
+      <td>intestinal</td>
+      <td>CY</td>
+      <td>clodronate</td>
+      <td>I.N.</td>
+      <td>kv/m</td>
+      <td>zoonotic transmission</td>
+      <td>neurotoxicity</td>
+      <td>steroid-induced</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

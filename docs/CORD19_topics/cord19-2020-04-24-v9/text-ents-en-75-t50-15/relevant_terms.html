@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 50</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>respiratory</td>
+      <td>influenza</td>
+      <td>children</td>
+      <td>vaccine</td>
+      <td>surveillance</td>
+      <td>age group</td>
+      <td>ILI</td>
+      <td>95</td>
+      <td>coverage</td>
+      <td>school</td>
+      <td>military</td>
+      <td>PUE</td>
+      <td>ED</td>
+      <td>staff</td>
+      <td>pertussis</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>%</td>
+      <td>SARI</td>
+      <td>incidence</td>
+      <td>vaccination</td>
+      <td>data</td>
+      <td>age</td>
+      <td>household</td>
+      <td>CI</td>
+      <td>pneumonia</td>
+      <td>pandemic</td>
+      <td>recruits</td>
+      <td>nursing</td>
+      <td>febrile</td>
+      <td>ICU</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>viruses</td>
+      <td>cases</td>
+      <td>years</td>
+      <td>effectiveness</td>
+      <td>system</td>
+      <td>poland</td>
+      <td>households</td>
+      <td>confidence interval</td>
+      <td>vaccination</td>
+      <td>2009</td>
+      <td>FRI</td>
+      <td>nhs</td>
+      <td>syndromic</td>
+      <td>229E</td>
+      <td>bordetella</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>virus</td>
+      <td>severe</td>
+      <td>aged</td>
+      <td>influenza</td>
+      <td>sentinel</td>
+      <td>season</td>
+      <td>child</td>
+      <td>interval</td>
+      <td>vietnam</td>
+      <td>schools</td>
+      <td>training</td>
+      <td>score</td>
+      <td>seizures</td>
+      <td>illnesses</td>
+      <td>states</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>illness</td>
+      <td>patients</td>
+      <td>months</td>
+      <td>influenza vaccination</td>
+      <td>ILI</td>
+      <td>epidemic</td>
+      <td>trial</td>
+      <td>TIV</td>
+      <td>empyema</td>
+      <td>ph1n1</td>
+      <td>meningitis</td>
+      <td>participants</td>
+      <td>ADEM</td>
+      <td>daycare</td>
+      <td>sales</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>viral</td>
+      <td>a(h1n1)pdm09</td>
+      <td>hospitalizations</td>
+      <td>VE</td>
+      <td>performance</td>
+      <td>-</td>
+      <td>prophylaxis</td>
+      <td>confidence</td>
+      <td>pneumococcal/lobar</td>
+      <td>breaks</td>
+      <td>definition</td>
+      <td>obese</td>
+      <td>emergency</td>
+      <td>coronavirus</td>
+      <td>united states</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>ARI</td>
+      <td>surveillance</td>
+      <td>infants</td>
+      <td>vaccinated</td>
+      <td>surveillance system</td>
+      <td>age groups</td>
+      <td>transmission</td>
+      <td>%</td>
+      <td>hib</td>
+      <td>yoa</td>
+      <td>definitions</td>
+      <td>A(H3N2</td>
+      <td>febrile seizures</td>
+      <td>older persons</td>
+      <td>b. pertussis</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>RSV</td>
+      <td>%</td>
+      <td><</td>
+      <td>%</td>
+      <td>systems</td>
+      <td>influenza</td>
+      <td>parents</td>
+      <td>‘</td>
+      <td>pneumococcal/lobar pneumonia</td>
+      <td>H1N1</td>
+      <td>LP</td>
+      <td>reporting</td>
+      <td>emergency department</td>
+      <td>pw</td>
+      <td>mosaic</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>pathogens</td>
+      <td>prevention</td>
+      <td>6</td>
+      <td>controls</td>
+      <td>epidemics</td>
+      <td>epidemiological</td>
+      <td>healthy</td>
+      <td>S.</td>
+      <td>HCP</td>
+      <td>A/H1N1</td>
+      <td>adenovirus</td>
+      <td>questionnaire</td>
+      <td>forecast</td>
+      <td>cov</td>
+      <td>n=</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>detected</td>
+      <td>influenza a</td>
+      <td>rates</td>
+      <td>status</td>
+      <td>timeliness</td>
+      <td>highest</td>
+      <td>masks</td>
+      <td>streptococcus</td>
+      <td>chest</td>
+      <td>sch-fri</td>
+      <td>specificity</td>
+      <td>residents</td>
+      <td>diagnoses</td>
+      <td>LDI</td>
+      <td>cruise</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>respiratory viruses</td>
+      <td>influenza a(h1n1)pdm09</td>
+      <td>5</td>
+      <td>influenza vaccine</td>
+      <td>correlation</td>
+      <td>cases</td>
+      <td>participants</td>
+      <td>influenzae</td>
+      <td>H1N1</td>
+      <td>A(H1N1</td>
+      <td>military recruits</td>
+      <td>symptom</td>
+      <td>department</td>
+      <td>EV</td>
+      <td>ALRI</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>infections</td>
+      <td>countries</td>
+      <td>hospitalization</td>
+      <td>risk</td>
+      <td>CDC</td>
+      <td>COVID-19</td>
+      <td>childcare</td>
+      <td>rsv-associated</td>
+      <td>central</td>
+      <td>beijing</td>
+      <td>sensitivity</td>
+      <td>material</td>
+      <td>syndromic surveillance</td>
+      <td>care</td>
+      <td>record</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>collected</td>
+      <td>information</td>
+      <td>hospitalized</td>
+      <td>estimates</td>
+      <td>health</td>
+      <td>nosocomial</td>
+      <td>costs</td>
+      <td>estimated</td>
+      <td>trang</td>
+      <td>illness</td>
+      <td>identifying</td>
+      <td>screening</td>
+      <td>drill</td>
+      <td>43</td>
+      <td>products</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>tested</td>
+      <td>case</td>
+      <td>population-based</td>
+      <td>hcws</td>
+      <td>influenza epidemics</td>
+      <td>seasons</td>
+      <td>economic</td>
+      <td>counts</td>
+      <td>nha</td>
+      <td>JIA</td>
+      <td>classes</td>
+      <td>authorized</td>
+      <td>values</td>
+      <td>OC</td>
+      <td>inpatient-ari</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>influenza</td>
+      <td>disease</td>
+      <td>rotavirus</td>
+      <td>high-risk</td>
+      <td>thresholds</td>
+      <td>group</td>
+      <td>outpatient visits</td>
+      <td>nepal</td>
+      <td>COP</td>
+      <td>school breaks</td>
+      <td>trainees</td>
+      <td>SUPPLEMENTARY</td>
+      <td>CD</td>
+      <td>intensive care unit</td>
+      <td>bordetella pertussis</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>syncytial</td>
+      <td>burden</td>
+      <td>2</td>
+      <td>received</td>
+      <td>influenzanet</td>
+      <td>strains</td>
+      <td>recruited</td>
+      <td>immunodeficiency</td>
+      <td>population</td>
+      <td>absenteeism</td>
+      <td>case</td>
+      <td>MATERIAL</td>
+      <td>syndromes</td>
+      <td>SHLCI</td>
+      <td>mers-cov</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>infection</td>
+      <td>influenza viruses</td>
+      <td>highest</td>
+      <td>vaccines</td>
+      <td>laboratory</td>
+      <td>subtype</td>
+      <td>visits</td>
+      <td>streptococcus pneumoniae</td>
+      <td>elderly</td>
+      <td>infected</td>
+      <td>case definitions</td>
+      <td>ELECTRONIC</td>
+      <td>influenza a(h1n1)pdm09 virus</td>
+      <td>unit</td>
+      <td>community-ari</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>swabs</td>
+      <td>epidemiology</td>
+      <td>persons</td>
+      <td>trivalent</td>
+      <td>activity</td>
+      <td>2020</td>
+      <td>intervention</td>
+      <td>pyogenes</td>
+      <td>hib vaccination</td>
+      <td>co‐infection</td>
+      <td>barracks</td>
+      <td>online version</td>
+      <td>syndromic surveillance system</td>
+      <td>pev</td>
+      <td>hazard</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>respiratory syncytial virus</td>
+      <td>sentinel</td>
+      <td>hospital</td>
+      <td>preventing</td>
+      <td>trends</td>
+      <td>groups</td>
+      <td>families</td>
+      <td>pneumoniae</td>
+      <td>nha trang</td>
+      <td>schoolchildren</td>
+      <td>ad</td>
+      <td>travelers</td>
+      <td>complaint</td>
+      <td>admitted to</td>
+      <td>ARI/ILI</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>acute</td>
+      <td>BACKGROUND</td>
+      <td>100,000</td>
+      <td>IVE</td>
+      <td>levels</td>
+      <td>confirmed</td>
+      <td>clinics</td>
+      <td>deaths</td>
+      <td>IV</td>
+      <td>pandemic strain</td>
+      <td>orvis</td>
+      <td>COAST</td>
+      <td>nanjing</td>
+      <td>intensive</td>
+      <td>united</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>rhinovirus</td>
+      <td>hospitals</td>
+      <td>age</td>
+      <td>unvaccinated</td>
+      <td>monitoring</td>
+      <td>genetic</td>
+      <td>workers</td>
+      <td>calls</td>
+      <td>khanh</td>
+      <td>alpha</td>
+      <td>peru</td>
+      <td>users</td>
+      <td>dispatch</td>
+      <td>admission</td>
+      <td>alaska</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>identified</td>
+      <td>acute</td>
+      <td>admissions</td>
+      <td>test-negative</td>
+      <td>sentinel sites</td>
+      <td>yamagata</td>
+      <td>impact</td>
+      <td>hcov</td>
+      <td>hoa</td>
+      <td>columbia</td>
+      <td>CRP</td>
+      <td>version</td>
+      <td>EVI</td>
+      <td>sera</td>
+      <td>ships</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>chain</td>
+      <td>lineage</td>
+      <td>rate</td>
+      <td>season</td>
+      <td>EISS</td>
+      <td>predominated</td>
+      <td>working</td>
+      <td>session</td>
+      <td>2005/06</td>
+      <td>GP-ILI</td>
+      <td>shortness</td>
+      <td>online</td>
+      <td>records</td>
+      <td>fatality</td>
+      <td>nova</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>polymerase</td>
+      <td>data</td>
+      <td>estimated</td>
+      <td>adults</td>
+      <td>datasets</td>
+      <td>virus</td>
+      <td>randomized</td>
+      <td>IHD</td>
+      <td>behaviors</td>
+      <td>barbados</td>
+      <td>lumbar</td>
+      <td>influenza a(h3n2</td>
+      <td>prescriptions</td>
+      <td>CVA21</td>
+      <td>scotia</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>symptoms</td>
+      <td>met</td>
+      <td>CMS</td>
+      <td>vaccination status</td>
+      <td>network</td>
+      <td>virological</td>
+      <td>ilis</td>
+      <td>influenza‐associated</td>
+      <td>self-defined</td>
+      <td>elementary</td>
+      <td>nicaragua</td>
+      <td>supplementary</td>
+      <td>visits</td>
+      <td>aden</td>
+      <td>passengers</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>human</td>
+      <td>influenza-positive</td>
+      <td>pediatric</td>
+      <td>negative</td>
+      <td>public</td>
+      <td>institute</td>
+      <td>efficacy</td>
+      <td>AMI</td>
+      <td>self-defined influenza</td>
+      <td>antibody</td>
+      <td>decreased</td>
+      <td>cent</td>
+      <td>daily</td>
+      <td>coryza</td>
+      <td>ill</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>clinical</td>
+      <td>B.</td>
+      <td>retrospective</td>
+      <td>prevent</td>
+      <td>surveillance systems</td>
+      <td>influenza-like viruses</td>
+      <td>mask</td>
+      <td>s. pyogenes</td>
+      <td>survey</td>
+      <td>attack</td>
+      <td>basic</td>
+      <td>corsica</td>
+      <td>excess</td>
+      <td>2017–2018</td>
+      <td>gastrointestinal</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>PCR</td>
+      <td>january</td>
+      <td>disease</td>
+      <td>therapy</td>
+      <td>influenza</td>
+      <td>A/H3N2/</td>
+      <td>healthcare</td>
+      <td>variation</td>
+      <td>korean</td>
+      <td>spring</td>
+      <td>case definition</td>
+      <td>underweight</td>
+      <td>1000</td>
+      <td>nasopharyngeal specimens</td>
+      <td>messages</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>samples</td>
+      <td>characteristics</td>
+      <td>complications</td>
+      <td>individual</td>
+      <td>timely</td>
+      <td>nosocomial influenza</td>
+      <td>community-based</td>
+      <td>analysis</td>
+      <td>elderly adults</td>
+      <td>pcr-confirmed</td>
+      <td>personnel</td>
+      <td>IRRISS</td>
+      <td>chief</td>
+      <td>facility</td>
+      <td>2009/2010</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>reaction</td>
+      <td>country</td>
+      <td>age-specific</td>
+      <td>adjusted</td>
+      <td>evaluation</td>
+      <td>26–44</td>
+      <td>poisson</td>
+      <td>000</td>
+      <td>trend</td>
+      <td>irrs</td>
+      <td>breath</td>
+      <td>west</td>
+      <td>SID-SSS</td>
+      <td>early onset</td>
+      <td>bronchiolitis</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>results</td>
+      <td>circulation</td>
+      <td>utilization</td>
+      <td>laboratory-confirmed</td>
+      <td>influenza surveillance</td>
+      <td>influenza b virus</td>
+      <td>health care workers</td>
+      <td>direct</td>
+      <td>preventive behaviors</td>
+      <td>british</td>
+      <td>royal</td>
+      <td>anterior</td>
+      <td>forecast model</td>
+      <td>elderly</td>
+      <td>x-ray</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>influenza‐like</td>
+      <td>africa</td>
+      <td>month</td>
+      <td>patients</td>
+      <td>stability</td>
+      <td>primary</td>
+      <td>controlling</td>
+      <td>linear</td>
+      <td>RCP</td>
+      <td>missed</td>
+      <td>etiological</td>
+      <td>AGI</td>
+      <td>measles</td>
+      <td>95%CI</td>
+      <td>acellular</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>children</td>
+      <td>outpatients</td>
+      <td>burden</td>
+      <td>control</td>
+      <td>ambulance</td>
+      <td>relative</td>
+      <td>centres</td>
+      <td>100</td>
+      <td>high-risk group</td>
+      <td>response</td>
+      <td>puncture</td>
+      <td>return</td>
+      <td>©</td>
+      <td>person</td>
+      <td>new york city</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>methods</td>
+      <td>CONCLUSIONS</td>
+      <td>year</td>
+      <td>comparing</td>
+      <td>gps</td>
+      <td>increase</td>
+      <td>qol</td>
+      <td>models</td>
+      <td>pandemic influenza a</td>
+      <td>school-based</td>
+      <td>.01</td>
+      <td>participate</td>
+      <td>NYC-DOHMH</td>
+      <td>isolates</td>
+      <td>LD-PCR</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>specimens</td>
+      <td>site</td>
+      <td>reduction</td>
+      <td>laboratory-confirmed influenza</td>
+      <td>weeks</td>
+      <td>influenza seasons</td>
+      <td>RR</td>
+      <td>rural nepal</td>
+      <td>barriers</td>
+      <td>ph1n1 virus</td>
+      <td>military personnel</td>
+      <td>lifegene</td>
+      <td>med</td>
+      <td>case-patients</td>
+      <td>air quality</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>multiplex</td>
+      <td>hospitalization</td>
+      <td>guatemala</td>
+      <td>uptake</td>
+      <td>week</td>
+      <td>viruses</td>
+      <td>$</td>
+      <td>clustering</td>
+      <td>CI95</td>
+      <td>seasonal vaccines</td>
+      <td>washes</td>
+      <td>grippeweb</td>
+      <td>model</td>
+      <td>staff members</td>
+      <td>cruise ships</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>respiratory pathogens</td>
+      <td>treatment</td>
+      <td>NIP</td>
+      <td>95</td>
+      <td>influenza activity</td>
+      <td>virological surveillance</td>
+      <td>AOM</td>
+      <td>rainy</td>
+      <td>seasonal</td>
+      <td>school absenteeism</td>
+      <td>nasal washes</td>
+      <td>returning</td>
+      <td>infectious</td>
+      <td>SETTING</td>
+      <td>community‐based</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>frequently</td>
+      <td>positive</td>
+      <td>thailand</td>
+      <td>free</td>
+      <td>generated</td>
+      <td>a/h1n1/pdm09</td>
+      <td>study</td>
+      <td>2.4</td>
+      <td>pandemic</td>
+      <td>pdmh1n1</td>
+      <td>ador</td>
+      <td>pue system</td>
+      <td>2012</td>
+      <td>10.8</td>
+      <td>whooping</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>influenza‐like illness</td>
+      <td>involved</td>
+      <td>HMPV</td>
+      <td>pan-negative</td>
+      <td>start</td>
+      <td>individuals</td>
+      <td>group</td>
+      <td>PY</td>
+      <td>recommendation</td>
+      <td>titers</td>
+      <td>lumbar puncture</td>
+      <td>collect</td>
+      <td>fever</td>
+      <td>frail</td>
+      <td>amman</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>RT-PCR</td>
+      <td>avian</td>
+      <td>incidences</td>
+      <td>virus interference</td>
+      <td>europe</td>
+      <td>aged</td>
+      <td>follow</td>
+      <td>olds</td>
+      <td>MENA-ISN</td>
+      <td>ifnα</td>
+      <td>febrile</td>
+      <td>research</td>
+      <td>WA</td>
+      <td>noninfluenza viruses</td>
+      <td>RM-PCR</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>etiology</td>
+      <td>egypt</td>
+      <td>estimate</td>
+      <td>interference</td>
+      <td>threshold</td>
+      <td>2016/2017</td>
+      <td>face</td>
+      <td>malawi</td>
+      <td>2003/04</td>
+      <td>serial interval</td>
+      <td>symptoms</td>
+      <td>criteria</td>
+      <td>TCD</td>
+      <td>elderly group</td>
+      <td>messaging</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>parainfluenza</td>
+      <td>METHODS</td>
+      <td>ALRTI</td>
+      <td>influenza vaccination status</td>
+      <td>based</td>
+      <td>2017/18</td>
+      <td>influenza-like</td>
+      <td>google flu trends</td>
+      <td>random</td>
+      <td>sch-dtm</td>
+      <td>predictive</td>
+      <td>ethics</td>
+      <td>guangdong</td>
+      <td>convalescent</td>
+      <td>OTC</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>metapneumovirus</td>
+      <td>respiratory</td>
+      <td>gastroenteritis</td>
+      <td>influenza vaccine effectiveness</td>
+      <td>general</td>
+      <td>2013/2014</td>
+      <td>prospective</td>
+      <td>hospital-attended</td>
+      <td>care-seeking</td>
+      <td>low‐dose</td>
+      <td>EU</td>
+      <td>parent-reported</td>
+      <td>HKU1</td>
+      <td>nasal congestion</td>
+      <td>cohort 1</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>study</td>
+      <td>system</td>
+      <td>1,000</td>
+      <td>older</td>
+      <td>epidemic</td>
+      <td>gene</td>
+      <td>=</td>
+      <td>sch-lcc</td>
+      <td>dew</td>
+      <td>30</td>
+      <td>environment</td>
+      <td>valid</td>
+      <td>ARIMA</td>
+      <td>HPIV</td>
+      <td>mers-cov.</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>temperature</td>
+      <td>ILI</td>
+      <td>taiwan</td>
+      <td>case-control</td>
+      <td>influenza-like illness</td>
+      <td>fatal</td>
+      <td>impacts</td>
+      <td>associated with</td>
+      <td>doctor</td>
+      <td>outbreak</td>
+      <td>RI</td>
+      <td>resident</td>
+      <td>papua</td>
+      <td>cultured</td>
+      <td>suspicion</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>positive</td>
+      <td>international</td>
+      <td>1</td>
+      <td>seasons</td>
+      <td>google</td>
+      <td>number</td>
+      <td>oseltamivir prophylaxis</td>
+      <td>estimate</td>
+      <td>era</td>
+      <td>caused</td>
+      <td>navy</td>
+      <td>biomaterials</td>
+      <td>hcov hku1</td>
+      <td>coronavirus strain</td>
+      <td>pertussis infection</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>presenting</td>
+      <td>brazil</td>
+      <td>METHODS</td>
+      <td>methods</td>
+      <td>tool</td>
+      <td>people</td>
+      <td>0·001</td>
+      <td>high</td>
+      <td>2009/10</td>
+      <td>seasonal</td>
+      <td>initiatives</td>
+      <td>pilgrimage</td>
+      <td>+</td>
+      <td>production</td>
+      <td>classifier</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>commonly</td>
+      <td>seasonal</td>
+      <td>data</td>
+      <td>groups</td>
+      <td>volunteers</td>
+      <td>14y</td>
+      <td>antiviral prophylaxis</td>
+      <td>incidence rate ratio</td>
+      <td>pain</td>
+      <td>community</td>
+      <td>ad-4</td>
+      <td>nursing home residents</td>
+      <td>validate</td>
+      <td>financial</td>
+      <td>march</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>assay</td>
+      <td>virus</td>
+      <td>non-hospitalized</td>
+      <td>influenza-negative</td>
+      <td>situational</td>
+      <td>2015/2016</td>
+      <td>par-ent-qol</td>
+      <td>serial</td>
+      <td>french population</td>
+      <td>island</td>
+      <td>confined</td>
+      <td>normal‐weight</td>
+      <td>guinea</td>
+      <td>clinical syndromes</td>
+      <td>laboratory</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>°</td>
+      <td>hemisphere</td>
+      <td>kenya</td>
+      <td>control groups</td>
+      <td>observations</td>
+      <td>51-</td>
+      <td>family members</td>
+      <td>clinic-based</td>
+      <td>etiologic</td>
+      <td>students</td>
+      <td>ri-cases</td>
+      <td>saxony</td>
+      <td>primary-care</td>
+      <td>strain</td>
+      <td>ship</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 29</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>viruses</td>
+      <td>fusion</td>
+      <td>sars-cov</td>
+      <td>virus</td>
+      <td>IFITM3</td>
+      <td>residues</td>
+      <td>DC-SIGN</td>
+      <td>budding</td>
+      <td>endocytosis</td>
+      <td>EBOV</td>
+      <td>cholesterol</td>
+      <td>HIV-1</td>
+      <td>feline</td>
+      <td>pseudotyped</td>
+      <td>RSV</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>entry</td>
+      <td>membrane</td>
+      <td>coronavirus</td>
+      <td>replication</td>
+      <td>IFITM</td>
+      <td>amino</td>
+      <td>cells</td>
+      <td>plasma</td>
+      <td>IBV</td>
+      <td>GP</td>
+      <td>rafts</td>
+      <td>env</td>
+      <td>cathepsin</td>
+      <td>VSV</td>
+      <td>vimentin</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>host</td>
+      <td>membrane fusion</td>
+      <td>spike</td>
+      <td>NDV</td>
+      <td>ifitms</td>
+      <td>domain</td>
+      <td>lines</td>
+      <td>release</td>
+      <td>PEDV</td>
+      <td>ebola</td>
+      <td>lipid</td>
+      <td>HIV</td>
+      <td>late</td>
+      <td>retroviral</td>
+      <td>sulfate</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>viral</td>
+      <td>membranes</td>
+      <td>proteases</td>
+      <td>effects</td>
+      <td>IAV</td>
+      <td>cytoplasmic</td>
+      <td>dendritic</td>
+      <td>plasma membrane</td>
+      <td>clathrin-mediated</td>
+      <td>filovirus</td>
+      <td>lipid rafts</td>
+      <td>CD4</td>
+      <td>endosomes</td>
+      <td>stomatitis</td>
+      <td>heparan</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>receptors</td>
+      <td>conformational</td>
+      <td>TMPRSS2</td>
+      <td>gc</td>
+      <td>restriction</td>
+      <td>mutants</td>
+      <td>infection</td>
+      <td>BST2</td>
+      <td>TGEV</td>
+      <td>tfr1</td>
+      <td>depletion</td>
+      <td>gp120</td>
+      <td>KSHV</td>
+      <td>SERINC5</td>
+      <td>HS</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>virus</td>
+      <td>peptide</td>
+      <td>respiratory</td>
+      <td>inhibition</td>
+      <td>ifitm proteins</td>
+      <td>mutant</td>
+      <td>c-type</td>
+      <td>NA</td>
+      <td>cells</td>
+      <td>filoviruses</td>
+      <td>mβcd</td>
+      <td>hiv-1 infection</td>
+      <td>endosomal</td>
+      <td>vesicular stomatitis virus</td>
+      <td>bacterial</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>cell</td>
+      <td>class</td>
+      <td>coronaviruses</td>
+      <td>HCV</td>
+      <td>tetherin</td>
+      <td>tail</td>
+      <td>cell lines</td>
+      <td>bud</td>
+      <td>vero cells</td>
+      <td>ebola virus</td>
+      <td>raft</td>
+      <td>immunodeficiency</td>
+      <td>trafficking</td>
+      <td>retroviruses</td>
+      <td>C3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>binding</td>
+      <td>peptides</td>
+      <td>cleavage</td>
+      <td>antiviral</td>
+      <td>IFITM1</td>
+      <td>residue</td>
+      <td>E2</td>
+      <td>membrane</td>
+      <td>clathrin</td>
+      <td>NPC1</td>
+      <td>PRRSV</td>
+      <td>antibodies</td>
+      <td>FIPV</td>
+      <td>vesicular</td>
+      <td>HPV16</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>receptor</td>
+      <td>proteins</td>
+      <td>influenza</td>
+      <td>cell-to-cell</td>
+      <td>antiviral</td>
+      <td>nipah</td>
+      <td>susceptibility</td>
+      <td>assembly</td>
+      <td>vero</td>
+      <td>fever</td>
+      <td>microdomains</td>
+      <td>gp41</td>
+      <td>recycling</td>
+      <td>assay</td>
+      <td>heparin</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>surface</td>
+      <td>structure</td>
+      <td>mers-cov</td>
+      <td>compounds</td>
+      <td>transmembrane</td>
+      <td>precursor</td>
+      <td>dendritic cells</td>
+      <td>particles</td>
+      <td>dynamin</td>
+      <td>TIM-1</td>
+      <td>cholesterol depletion</td>
+      <td>CD4(+</td>
+      <td>endosome</td>
+      <td>gene</td>
+      <td>HPV</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>attachment</td>
+      <td>viral</td>
+      <td>protease</td>
+      <td>drugs</td>
+      <td>3</td>
+      <td>amino acids</td>
+      <td>L-SIGN</td>
+      <td>components</td>
+      <td>ph</td>
+      <td>hemorrhagic</td>
+      <td>methyl-β-cyclodextrin</td>
+      <td>platelets</td>
+      <td>fcov</td>
+      <td>baculovirus</td>
+      <td>heparan sulfate</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>cellular</td>
+      <td>viral fusion proteins</td>
+      <td>syndrome</td>
+      <td>fluorescence</td>
+      <td>proteins</td>
+      <td>PR</td>
+      <td>lectin</td>
+      <td>virions</td>
+      <td>endocytic</td>
+      <td>PS</td>
+      <td>caveolae</td>
+      <td>CCR5</td>
+      <td>ADAM10</td>
+      <td>CCHFV</td>
+      <td>CD151</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>mechanisms</td>
+      <td>structural</td>
+      <td>cov</td>
+      <td>spread</td>
+      <td>interferon-induced</td>
+      <td>gag-pol</td>
+      <td>DC-SIGNR</td>
+      <td>virus particles</td>
+      <td>macropinocytosis</td>
+      <td>ebolavirus</td>
+      <td>membrane</td>
+      <td>lymphocytes</td>
+      <td>cathepsin b</td>
+      <td>vector</td>
+      <td>CD13</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>host cell</td>
+      <td>cellular membranes</td>
+      <td>SARS</td>
+      <td>RVFV</td>
+      <td>restrict</td>
+      <td>cysteine</td>
+      <td>lectins</td>
+      <td>M1</td>
+      <td>chloroquine</td>
+      <td>gps</td>
+      <td>phospholipids</td>
+      <td>=</td>
+      <td>reovirus</td>
+      <td>VSV-G</td>
+      <td>mtb</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>understanding</td>
+      <td>fusion protein</td>
+      <td>ACE2</td>
+      <td>inhibited</td>
+      <td>influenza a virus</td>
+      <td>cytoplasmic tail</td>
+      <td>line</td>
+      <td>vpu</td>
+      <td>nh(4)cl</td>
+      <td>C1</td>
+      <td>VZV</td>
+      <td>podoplanin</td>
+      <td>fapn</td>
+      <td>psav</td>
+      <td>hspgs</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>host cells</td>
+      <td>cell membranes</td>
+      <td>activation</td>
+      <td>pdcov</td>
+      <td>antiviral activity</td>
+      <td>PFV</td>
+      <td>dcs</td>
+      <td>released</td>
+      <td>entry</td>
+      <td>hemorrhagic fever</td>
+      <td>lipid raft</td>
+      <td>mabs</td>
+      <td>apilimod</td>
+      <td>vectors</td>
+      <td>autophagy</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>interactions</td>
+      <td>fusion peptide</td>
+      <td>acute</td>
+      <td>blocked</td>
+      <td>interferon-inducible</td>
+      <td>pol</td>
+      <td>NIH3T3</td>
+      <td>gag</td>
+      <td>PHEV</td>
+      <td>arenaviruses</td>
+      <td>IDE</td>
+      <td>risk</td>
+      <td>HSV-1</td>
+      <td>lentiviral</td>
+      <td>MV</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>proteins</td>
+      <td>domains</td>
+      <td>severe</td>
+      <td>shown</td>
+      <td>s-palmitoylation</td>
+      <td>palmitoylation</td>
+      <td>nih3t3 cells</td>
+      <td>particle</td>
+      <td>clathrin-mediated endocytosis</td>
+      <td>arenavirus</td>
+      <td>content</td>
+      <td>mab</td>
+      <td>eco-mlv</td>
+      <td>CHIKV</td>
+      <td>CD9</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>review</td>
+      <td>fusion proteins</td>
+      <td>HA</td>
+      <td>potent</td>
+      <td>viruses</td>
+      <td>niv</td>
+      <td>A-MLV</td>
+      <td>apical</td>
+      <td>lysosomotropic</td>
+      <td>ebolaviruses</td>
+      <td>cellular cholesterol</td>
+      <td>infants</td>
+      <td>tf10</td>
+      <td>VSVG</td>
+      <td>lecb</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>molecular</td>
+      <td>structures</td>
+      <td>sars-cov-2</td>
+      <td>significant</td>
+      <td>interferon</td>
+      <td>cleavage</td>
+      <td>lsectin</td>
+      <td>infected</td>
+      <td>enters</td>
+      <td>mice</td>
+      <td>DRM</td>
+      <td>CXCR4</td>
+      <td>fdc-sign</td>
+      <td>GP64</td>
+      <td>CPMV</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>tropism</td>
+      <td>protein</td>
+      <td>serine</td>
+      <td>inhibitor</td>
+      <td>microbat</td>
+      <td>c-terminal</td>
+      <td>CHO</td>
+      <td>supported</td>
+      <td>infection</td>
+      <td>marburg</td>
+      <td>reversed</td>
+      <td>HIV-2</td>
+      <td>cathepsins</td>
+      <td>FIV</td>
+      <td>HCMV</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>provide</td>
+      <td>trigger</td>
+      <td>S2</td>
+      <td>FQ</td>
+      <td>inhibit</td>
+      <td>protein</td>
+      <td>adhesion</td>
+      <td>pcs</td>
+      <td>gastroenteritis</td>
+      <td>niemann-pick</td>
+      <td>composition</td>
+      <td>HR</td>
+      <td>late endosomes</td>
+      <td>glycoprotein</td>
+      <td>growth</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>process</td>
+      <td>hydrophobic</td>
+      <td>furin</td>
+      <td>drug</td>
+      <td>IFITM2</td>
+      <td>sites</td>
+      <td>bound</td>
+      <td>nucleocapsid</td>
+      <td>internalized</td>
+      <td>ebov glycoprotein</td>
+      <td>ge</td>
+      <td>δcp</td>
+      <td>endocytic</td>
+      <td>transduction</td>
+      <td>hpv16 infection</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>cell surface</td>
+      <td>ph</td>
+      <td>hemagglutinin</td>
+      <td>inhibits</td>
+      <td>ifitm-mediated</td>
+      <td>substitutions</td>
+      <td>fatty</td>
+      <td>synthesized</td>
+      <td>industry</td>
+      <td>lassa</td>
+      <td>cholesterol-rich</td>
+      <td>Å</td>
+      <td>myosin</td>
+      <td>pseudotypes</td>
+      <td>neurons</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>molecules</td>
+      <td>enveloped</td>
+      <td>host cell proteases</td>
+      <td>target</td>
+      <td>LY6E</td>
+      <td>constructs</td>
+      <td>cell</td>
+      <td>viral components</td>
+      <td>internalization</td>
+      <td>catl</td>
+      <td>GP4</td>
+      <td>human immunodeficiency virus type 1</td>
+      <td>cpmps</td>
+      <td>tjs</td>
+      <td>mycobacterial</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>recent</td>
+      <td>conformational changes</td>
+      <td>proteolytic activation</td>
+      <td>cells</td>
+      <td>ctsw</td>
+      <td>fusion</td>
+      <td>cell-specific</td>
+      <td>lipid bilayer</td>
+      <td>porcine</td>
+      <td>filovirus entry</td>
+      <td>caveolin-1</td>
+      <td>HRC</td>
+      <td>II</td>
+      <td>henipavirus</td>
+      <td>HAE</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>cells</td>
+      <td>lipid</td>
+      <td>host</td>
+      <td>showed</td>
+      <td>activity</td>
+      <td>glycosylation</td>
+      <td>cancer</td>
+      <td>viral</td>
+      <td>pathway</td>
+      <td>filoviral</td>
+      <td>lipids</td>
+      <td>hiv-1 envelope</td>
+      <td>movement</td>
+      <td>exosomes</td>
+      <td>gags</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>development</td>
+      <td>change</td>
+      <td>acute respiratory syndrome coronavirus</td>
+      <td>syncytium</td>
+      <td>restricted</td>
+      <td>wild-type</td>
+      <td>human</td>
+      <td>protein</td>
+      <td>EV71</td>
+      <td>gp-mediated</td>
+      <td>hmpv</td>
+      <td>δsa immob</td>
+      <td>+</td>
+      <td>α-dg</td>
+      <td>a2ntd</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>viral entry</td>
+      <td>formation</td>
+      <td>east</td>
+      <td>CD81</td>
+      <td>IFN</td>
+      <td>fusion activity</td>
+      <td>expressing</td>
+      <td>enveloped</td>
+      <td>economic</td>
+      <td>gp/rvsv</td>
+      <td>plasma</td>
+      <td>t-cells</td>
+      <td>LCMV</td>
+      <td>reagents</td>
+      <td>stiffness</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>specific</td>
+      <td>BAR</td>
+      <td>covs</td>
+      <td>translation</td>
+      <td>spectrum</td>
+      <td>signal</td>
+      <td>M.</td>
+      <td>SFV</td>
+      <td>eps15</td>
+      <td>glycoprotein</td>
+      <td>infectivity</td>
+      <td>anti-sera</td>
+      <td>eco-mlv infection</td>
+      <td>retrovirus</td>
+      <td>proteoglycans</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>mediate</td>
+      <td>TM</td>
+      <td>middle</td>
+      <td>-</td>
+      <td>inhibition</td>
+      <td>activity</td>
+      <td>s-layer</td>
+      <td>virus</td>
+      <td>diarrhea</td>
+      <td>humans</td>
+      <td>membrane rafts</td>
+      <td>gpi-anchored</td>
+      <td>zika virus</td>
+      <td>transfer</td>
+      <td>sf6</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>studies</td>
+      <td>triggering</td>
+      <td>s protein</td>
+      <td>action</td>
+      <td>expression</td>
+      <td>acid</td>
+      <td>ezrin</td>
+      <td>lipid bilayers</td>
+      <td>CME</td>
+      <td>catb</td>
+      <td>drms</td>
+      <td>GL</td>
+      <td>accumulation</td>
+      <td>neutralizing</td>
+      <td>binding</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>infect</td>
+      <td>regions</td>
+      <td>proteolytic</td>
+      <td>decrease</td>
+      <td>FLUAV</td>
+      <td>GP-C</td>
+      <td>murine</td>
+      <td>internalisation</td>
+      <td>ammonium</td>
+      <td>MARV</td>
+      <td>cell membrane cholesterol</td>
+      <td>trx</td>
+      <td>feline aminopeptidase n</td>
+      <td>neonatal</td>
+      <td>phagocytosis</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>species</td>
+      <td>conformational change</td>
+      <td>spike protein</td>
+      <td>gn</td>
+      <td>ifitm-mediated restriction</td>
+      <td>XMRV</td>
+      <td>increased</td>
+      <td>sorting</td>
+      <td>YHV</td>
+      <td>TIM1</td>
+      <td>desmosterol</td>
+      <td>values</td>
+      <td>ca-074me</td>
+      <td>occludin</td>
+      <td>ATP1A1</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>discuss</td>
+      <td>hemifusion</td>
+      <td>pathogenicity</td>
+      <td>activity</td>
+      <td>ADAP2</td>
+      <td>mutagenesis</td>
+      <td>macrophages</td>
+      <td>vrnp</td>
+      <td>ammonium chloride</td>
+      <td>GP1</td>
+      <td>detergent-resistant</td>
+      <td>PT-1</td>
+      <td>intracellular</td>
+      <td>rvsv-δg</td>
+      <td>RGD</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>strategies</td>
+      <td>conserved</td>
+      <td>protein</td>
+      <td>hantavirus</td>
+      <td>GILT</td>
+      <td>region</td>
+      <td>PEG</td>
+      <td>virus budding</td>
+      <td>low</td>
+      <td>NW</td>
+      <td>MARC-145</td>
+      <td>neutralization</td>
+      <td>PPXY</td>
+      <td>gene transfer</td>
+      <td>JCV</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>recognition</td>
+      <td>viral fusion</td>
+      <td>MERS-S</td>
+      <td>10</td>
+      <td>IFITM5</td>
+      <td>SU</td>
+      <td>rendered</td>
+      <td>pr</td>
+      <td>PPRV</td>
+      <td>cytokine</td>
+      <td>cyhv-3</td>
+      <td>potency</td>
+      <td>DI</td>
+      <td>hev</td>
+      <td>GAG</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>describe</td>
+      <td>TMD</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>infected</td>
+      <td>human</td>
+      <td>MPER</td>
+      <td>ERK</td>
+      <td>forest</td>
+      <td>infectious bronchitis virus</td>
+      <td>entry</td>
+      <td>post-entry</td>
+      <td>transmission</td>
+      <td>tumv</td>
+      <td>particles</td>
+      <td>sulfated</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>infection</td>
+      <td>FP</td>
+      <td>cell</td>
+      <td>infectivity</td>
+      <td>bone</td>
+      <td>s glycoprotein</td>
+      <td>cdna</td>
+      <td>semliki</td>
+      <td>bronchitis</td>
+      <td>macrophages</td>
+      <td>effect</td>
+      <td>FIP1C</td>
+      <td>mir-36</td>
+      <td>glycoproteins</td>
+      <td>keratinocytes</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>insights</td>
+      <td>refolding</td>
+      <td>H3N2</td>
+      <td>reduces</td>
+      <td>influenza</td>
+      <td>position</td>
+      <td>permissive</td>
+      <td>surface</td>
+      <td>lysosomotropic agents</td>
+      <td>tim-1-deficient</td>
+      <td>significantly</td>
+      <td>anti-serum</td>
+      <td>pikfyve</td>
+      <td>sulfhydryl</td>
+      <td>receptor</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>approaches</td>
+      <td>crystal</td>
+      <td>human</td>
+      <td>channel</td>
+      <td>interferon-induced transmembrane proteins</td>
+      <td>fusogenicity</td>
+      <td>susceptible</td>
+      <td>infectious</td>
+      <td>PSV</td>
+      <td>zaire</td>
+      <td>ad41</td>
+      <td>HRC2</td>
+      <td>cathepsins b</td>
+      <td>penetrenes</td>
+      <td>oncogenic</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>animal</td>
+      <td>fusogens</td>
+      <td>SPINT2</td>
+      <td>infection</td>
+      <td>macaques</td>
+      <td>ghv</td>
+      <td>factor</td>
+      <td>lipid</td>
+      <td>transmissible gastroenteritis virus</td>
+      <td>catb/catl</td>
+      <td>ride</td>
+      <td>antibody-mediated</td>
+      <td>JAM-A</td>
+      <td>entry factor</td>
+      <td>patches</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>role</td>
+      <td>enveloped viruses</td>
+      <td>show</td>
+      <td>effect</td>
+      <td>entry</td>
+      <td>glycoprotein</td>
+      <td>dissemination</td>
+      <td>viral envelopes</td>
+      <td>bafilomycin</td>
+      <td>machupo</td>
+      <td>PICV</td>
+      <td>HRC1</td>
+      <td>tf</td>
+      <td>hiv-luc</td>
+      <td>lm</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>knowledge</td>
+      <td>domain</td>
+      <td>S1/S2</td>
+      <td>arb</td>
+      <td>orthologues</td>
+      <td>cys</td>
+      <td>3T3</td>
+      <td>diffusion</td>
+      <td>JV</td>
+      <td>MACV</td>
+      <td>corneal</td>
+      <td>MTCT</td>
+      <td>late domain</td>
+      <td>facilities</td>
+      <td>papillomaviruses</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>provided</td>
+      <td>stem</td>
+      <td>angiotensin-converting enzyme 2</td>
+      <td>treatment</td>
+      <td>interferon-induced transmembrane</td>
+      <td>cell-surface expression</td>
+      <td>hpiv2</td>
+      <td>enveloped viruses</td>
+      <td>endosomes</td>
+      <td>factors</td>
+      <td>PRV</td>
+      <td>cd4 receptor</td>
+      <td>tfr</td>
+      <td>feline immunodeficiency virus</td>
+      <td>host cells</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>chapter</td>
+      <td>envelope</td>
+      <td>pseudovirions</td>
+      <td>mechanism</td>
+      <td>IFITM1–3</td>
+      <td>hendra</td>
+      <td>expression</td>
+      <td>membranes</td>
+      <td>mrnv</td>
+      <td>virus</td>
+      <td>BRV</td>
+      <td>complex</td>
+      <td>pathway</td>
+      <td>vesicular stomatitis virus glycoprotein</td>
+      <td>pathogens</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>basis</td>
+      <td>prefusion</td>
+      <td>pandemic</td>
+      <td>authorized</td>
+      <td>isgs</td>
+      <td>double</td>
+      <td>bind</td>
+      <td>proteins</td>
+      <td>STIV</td>
+      <td>infection</td>
+      <td>acyl</td>
+      <td>vaccine</td>
+      <td>cellular trafficking</td>
+      <td>gp3-ha</td>
+      <td>previously</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>attach</td>
+      <td>viral membranes</td>
+      <td>HAT</td>
+      <td>cell-to-cell transmission</td>
+      <td>antagonism</td>
+      <td>cytoplasmic domain</td>
+      <td>enhanced</td>
+      <td>semliki forest virus</td>
+      <td>dynasore</td>
+      <td>in vivo</td>
+      <td>plasma membrane cholesterol</td>
+      <td>primate</td>
+      <td>pip6a-pmo</td>
+      <td>mxra8</td>
+      <td>infections</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>progress</td>
+      <td>class ii fusion proteins</td>
+      <td>angiotensin-converting</td>
+      <td>CTSL</td>
+      <td>replication</td>
+      <td>alanine</td>
+      <td>ratio</td>
+      <td>infectious virions</td>
+      <td>EV</td>
+      <td>receptor</td>
+      <td>cellular</td>
+      <td>expressed</td>
+      <td>ilvs</td>
+      <td>rhabdoviruses</td>
+      <td>subversion</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>utilize</td>
+      <td>mixing</td>
+      <td>host proteases</td>
+      <td>plant</td>
+      <td>ASFV</td>
+      <td>role</td>
+      <td>MEK</td>
+      <td>morphogenesis</td>
+      <td>caveolar</td>
+      <td>guanarito</td>
+      <td>role</td>
+      <td>t cells</td>
+      <td>peritonitis</td>
+      <td>h5anh</td>
+      <td>rho</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

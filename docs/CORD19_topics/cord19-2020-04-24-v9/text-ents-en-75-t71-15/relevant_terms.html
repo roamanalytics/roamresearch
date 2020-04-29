@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 71</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>RAS</td>
+      <td>ACE2</td>
+      <td>expression</td>
+      <td>COVID-19</td>
+      <td>DPP4</td>
+      <td>=</td>
+      <td>rats</td>
+      <td>cardiac</td>
+      <td>diabetic</td>
+      <td>ACE-2</td>
+      <td>amino</td>
+      <td>shedding</td>
+      <td>stroke</td>
+      <td>apod</td>
+      <td>></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>system</td>
+      <td>ACE</td>
+      <td>mice</td>
+      <td>arbs</td>
+      <td>DPP-4</td>
+      <td>HF</td>
+      <td>mg/kg</td>
+      <td>heart</td>
+      <td>renal</td>
+      <td>APN</td>
+      <td>lung</td>
+      <td>ADAM17</td>
+      <td>AT1R</td>
+      <td>HDL</td>
+      <td>de</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ang</td>
+      <td>enzyme</td>
+      <td>levels</td>
+      <td>aceis</td>
+      <td>agonists</td>
+      <td>sace2</td>
+      <td>musk</td>
+      <td>failure</td>
+      <td>urinary</td>
+      <td>IV</td>
+      <td>acid</td>
+      <td>pancreatic</td>
+      <td>ischemic</td>
+      <td>binding</td>
+      <td><</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>angiotensin</td>
+      <td>angiotensin</td>
+      <td>cells</td>
+      <td>sars-cov-2</td>
+      <td>inhibitors</td>
+      <td>patients</td>
+      <td>PF</td>
+      <td>cardiomyopathy</td>
+      <td>diabetes</td>
+      <td>DPP</td>
+      <td>acute lung injury</td>
+      <td>proximal</td>
+      <td>ischemic stroke</td>
+      <td>PDI</td>
+      <td>[pyr(1)]apelin-13((1–12</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>cardiovascular</td>
+      <td>angiotensin-converting</td>
+      <td>increased</td>
+      <td>infection</td>
+      <td>pparγ</td>
+      <td>activity</td>
+      <td>PH</td>
+      <td>myocarditis</td>
+      <td>diabetic nephropathy</td>
+      <td>aminopeptidase</td>
+      <td>acute</td>
+      <td>tubular cells</td>
+      <td>NGAL</td>
+      <td>PERC</td>
+      <td>pd(2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>axis</td>
+      <td>kidney</td>
+      <td>stress</td>
+      <td>viral</td>
+      <td>dipeptidyl</td>
+      <td>dogs</td>
+      <td>theaflavin</td>
+      <td>heart failure</td>
+      <td>dialysis</td>
+      <td>peptidases</td>
+      <td>intestinal</td>
+      <td>shed</td>
+      <td>EMMPRIN</td>
+      <td>TCA</td>
+      <td>el</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>II</td>
+      <td>angiotensin ii</td>
+      <td>mrna</td>
+      <td>patients</td>
+      <td>GLP-1</td>
+      <td>LV</td>
+      <td>administration</td>
+      <td>pompe</td>
+      <td>PRINS</td>
+      <td>meconium</td>
+      <td>gut</td>
+      <td>tubular</td>
+      <td>reperfusion</td>
+      <td>ACE(2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>renin</td>
+      <td>II</td>
+      <td>oxidative</td>
+      <td>mortality</td>
+      <td>dual</td>
+      <td>plasma</td>
+      <td>hepatic</td>
+      <td>dilated</td>
+      <td>nephropathy</td>
+      <td>enzymes</td>
+      <td>B0AT1</td>
+      <td>ang-(1</td>
+      <td>MMP-9</td>
+      <td>strains</td>
+      <td>±</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>receptor</td>
+      <td>SARS</td>
+      <td>decreased</td>
+      <td>price</td>
+      <td>effects</td>
+      <td>circulating</td>
+      <td>administered</td>
+      <td>death</td>
+      <td>transplant</td>
+      <td>dpp iv</td>
+      <td>ARDS</td>
+      <td>kda</td>
+      <td>infarct</td>
+      <td>LDL</td>
+      <td>los</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>-</td>
+      <td>angiotensin-converting enzyme</td>
+      <td>rat</td>
+      <td>virus</td>
+      <td>I50</td>
+      <td>sace2 activity</td>
+      <td>BLM</td>
+      <td>structure</td>
+      <td>SONFH</td>
+      <td>AD</td>
+      <td>neutral</td>
+      <td>islets</td>
+      <td>NAP9</td>
+      <td>ace-inhibitors</td>
+      <td>ECA2</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>ang ii</td>
+      <td>converting</td>
+      <td>protein</td>
+      <td>pandemic</td>
+      <td>side</td>
+      <td>IQR</td>
+      <td>protective effects</td>
+      <td>sars‐cov</td>
+      <td>patients</td>
+      <td>murf2</td>
+      <td>transporter</td>
+      <td>db/db</td>
+      <td>plaques</td>
+      <td>cgmp</td>
+      <td>[pyr(1)]apelin-13</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>pressure</td>
+      <td>role</td>
+      <td>effect</td>
+      <td>adjustments</td>
+      <td>dpp-4 inhibitors</td>
+      <td>CV</td>
+      <td>EPF</td>
+      <td>dilated cardiomyopathy</td>
+      <td>type 2 diabetes</td>
+      <td>material</td>
+      <td>B(0)AT1</td>
+      <td>calmodulin</td>
+      <td>ischemia</td>
+      <td>binding site</td>
+      <td>pk(i</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>hypertension</td>
+      <td>2</td>
+      <td>overexpression</td>
+      <td>ARB</td>
+      <td>dpp4i</td>
+      <td>CKD3</td>
+      <td>liver</td>
+      <td>replacement</td>
+      <td>ESRD</td>
+      <td>online</td>
+      <td>acute respiratory distress syndrome</td>
+      <td>ACE2</td>
+      <td>matrix</td>
+      <td>liquorice</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>effects</td>
+      <td>expression</td>
+      <td>hearts</td>
+      <td>blockers</td>
+      <td>side effects</td>
+      <td>aps</td>
+      <td>weeks</td>
+      <td>congestive heart failure</td>
+      <td>smad7</td>
+      <td>authorized</td>
+      <td>distress</td>
+      <td>mitochondrial</td>
+      <td>monocytes</td>
+      <td>rass</td>
+      <td>angiotensina</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>therapeutic</td>
+      <td>homologue</td>
+      <td>oxidative stress</td>
+      <td>%</td>
+      <td>compounds</td>
+      <td>pg/ml</td>
+      <td>insulin resistance</td>
+      <td>congestive</td>
+      <td>MHC</td>
+      <td>version</td>
+      <td>dietary</td>
+      <td>media</td>
+      <td>diminazene</td>
+      <td>affinity</td>
+      <td>xcace</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>7</td>
+      <td>human</td>
+      <td>cardiomyocytes</td>
+      <td>disease</td>
+      <td>treating</td>
+      <td>CHD</td>
+      <td>dose</td>
+      <td>myocardial</td>
+      <td>care</td>
+      <td>online version</td>
+      <td>influenza</td>
+      <td>β-cell</td>
+      <td>biomarkers</td>
+      <td>lipoproteins</td>
+      <td>apelin-13(f13a</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>review</td>
+      <td>carboxypeptidase</td>
+      <td>macrophages</td>
+      <td>covid-19 infection</td>
+      <td>linagliptin</td>
+      <td>OSA</td>
+      <td>muskrat</td>
+      <td>cardiac hypertrophy</td>
+      <td>apo</td>
+      <td>adenocarcinoma</td>
+      <td>collectrin</td>
+      <td>ectodomain</td>
+      <td>7)-mas</td>
+      <td>pain</td>
+      <td>=</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>role</td>
+      <td>angiotensin-converting enzyme 2</td>
+      <td>vascular</td>
+      <td>price adjustments</td>
+      <td>autophagy</td>
+      <td>%</td>
+      <td>insulin</td>
+      <td>DIZE</td>
+      <td>apo d</td>
+      <td>SUPPLEMENTARY</td>
+      <td>intestine</td>
+      <td>mouse</td>
+      <td>HD</td>
+      <td>toxicokinetics</td>
+      <td>potency</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>brain</td>
+      <td>active</td>
+      <td>MI</td>
+      <td>complications</td>
+      <td>drugs</td>
+      <td>5</td>
+      <td>group</td>
+      <td>rbcv</td>
+      <td>renoprotective</td>
+      <td>egfr</td>
+      <td>disorder</td>
+      <td>fragments</td>
+      <td>carotid</td>
+      <td>formula</td>
+      <td>xenopus</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>diseases</td>
+      <td>substrate</td>
+      <td>associated with</td>
+      <td>drugs</td>
+      <td>cardiometabolic</td>
+      <td>HFPEF</td>
+      <td>TIIA</td>
+      <td>GAA</td>
+      <td>mutation</td>
+      <td>HSP-60</td>
+      <td>uptake</td>
+      <td>assay</td>
+      <td>NAPSC</td>
+      <td>parachloromercuribenzoate</td>
+      <td>rodent</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>recent</td>
+      <td>protein</td>
+      <td>in vitro</td>
+      <td>CKD</td>
+      <td>oxldl</td>
+      <td>compared</td>
+      <td>resistance</td>
+      <td>aav6-hserca2a</td>
+      <td>class</td>
+      <td>gliadin</td>
+      <td>hartnup</td>
+      <td>lysates</td>
+      <td>adhesion</td>
+      <td>T24</td>
+      <td>mammals</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>mas</td>
+      <td>soluble</td>
+      <td>mouse</td>
+      <td>risk</td>
+      <td>peptidase-4</td>
+      <td>CONCLUSIONS</td>
+      <td>induced</td>
+      <td>B38-CAP</td>
+      <td>pancreas</td>
+      <td>supplementary</td>
+      <td>hypouricaemia</td>
+      <td>infused</td>
+      <td>stage</td>
+      <td>antihyperalgesic</td>
+      <td>silico</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>blood</td>
+      <td>activity</td>
+      <td>losartan</td>
+      <td>infected</td>
+      <td>μm</td>
+      <td><</td>
+      <td>diet</td>
+      <td>hypertrophy</td>
+      <td>non-diabetic</td>
+      <td>diabetic cardiomyopathy</td>
+      <td>injury</td>
+      <td>d-glucose</td>
+      <td>plaque</td>
+      <td>natriuretic</td>
+      <td>in silico</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>actions</td>
+      <td>data</td>
+      <td>serum</td>
+      <td>severe</td>
+      <td>HDMPPA</td>
+      <td>association</td>
+      <td>fat</td>
+      <td>acute myocarditis</td>
+      <td>portal hypertension</td>
+      <td>aminopeptidase n</td>
+      <td>acids</td>
+      <td>mitophagy</td>
+      <td>ace2-ang-(1</td>
+      <td>lipoprotein</td>
+      <td>mediante</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>studies</td>
+      <td>surface</td>
+      <td>transgenic</td>
+      <td>syndrome</td>
+      <td>KME</td>
+      <td>0.0001</td>
+      <td>oral</td>
+      <td>hserca2a</td>
+      <td>type</td>
+      <td>pic</td>
+      <td>H7N9</td>
+      <td>pancreatic islets</td>
+      <td>atherosclerosis</td>
+      <td>ANP</td>
+      <td>enzima</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>components</td>
+      <td>zinc</td>
+      <td>significantly</td>
+      <td>off-patent</td>
+      <td>inhibitor</td>
+      <td>measured</td>
+      <td>PRE</td>
+      <td>pompe disease</td>
+      <td>end-stage</td>
+      <td>SK</td>
+      <td>SLC6A19</td>
+      <td>T2DM</td>
+      <td>logistic</td>
+      <td>termed</td>
+      <td>en</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>renin-angiotensin</td>
+      <td>expressed</td>
+      <td>P2Y(2)R</td>
+      <td>AKI</td>
+      <td>cholesterol</td>
+      <td>levels</td>
+      <td>adipose tissue</td>
+      <td>sudden</td>
+      <td>western</td>
+      <td>activities</td>
+      <td>transport</td>
+      <td>disintegrin</td>
+      <td>cytokine</td>
+      <td>sterol</td>
+      <td>SRAA</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>mechanisms</td>
+      <td>demonstrate</td>
+      <td>IRS-1</td>
+      <td>diabetes</td>
+      <td>EC</td>
+      <td>BACKGROUND</td>
+      <td>livers</td>
+      <td>rabbit</td>
+      <td>GDM</td>
+      <td>members</td>
+      <td>influenza a</td>
+      <td>-</td>
+      <td>cytokines</td>
+      <td>toxicodynamics</td>
+      <td>apelin-17</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>cardiovascular disease</td>
+      <td>acute respiratory syndrome</td>
+      <td>injury</td>
+      <td>trend</td>
+      <td>AP-W</td>
+      <td>0.001</td>
+      <td>NAFLD</td>
+      <td>enzyme replacement therapy</td>
+      <td>microvascular</td>
+      <td>bronchoalveolar</td>
+      <td>small intestine</td>
+      <td>7</td>
+      <td>LPS</td>
+      <td>ace2 receptors</td>
+      <td>vertebrates</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>pulmonary</td>
+      <td>generate</td>
+      <td>observed</td>
+      <td>long-term</td>
+      <td>selective</td>
+      <td>participants</td>
+      <td>HFD</td>
+      <td>hypertrophic</td>
+      <td>4-HNE</td>
+      <td>murf2−/−</td>
+      <td>exercise</td>
+      <td>method</td>
+      <td>leukocytes</td>
+      <td>density</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>roles</td>
+      <td>site</td>
+      <td>cardiomyocyte</td>
+      <td>coronavirus</td>
+      <td>dipeptidyl peptidase 4</td>
+      <td>OB</td>
+      <td>high-fat</td>
+      <td>dysfunction</td>
+      <td>prednisone-use</td>
+      <td>pparγ1</td>
+      <td>form</td>
+      <td>native</td>
+      <td>infarct size</td>
+      <td>variability</td>
+      <td>conserved</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>function</td>
+      <td>substrates</td>
+      <td>FEB</td>
+      <td>antihypertensive</td>
+      <td>molecular</td>
+      <td>−</td>
+      <td>tgf-β1</td>
+      <td>cardiac function</td>
+      <td>renal transplant</td>
+      <td>hsp90</td>
+      <td>small</td>
+      <td>pkc-δ</td>
+      <td>ss-induced</td>
+      <td>forebrain</td>
+      <td>putative</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>disease</td>
+      <td>1–7</td>
+      <td>protein expression</td>
+      <td>acei</td>
+      <td>AP-N</td>
+      <td>MACE</td>
+      <td>wistar</td>
+      <td>therapy</td>
+      <td>urate</td>
+      <td>gas</td>
+      <td>respiratory</td>
+      <td>miro1</td>
+      <td>ifn‐β</td>
+      <td>partial</td>
+      <td>ace2s</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>2</td>
+      <td>act</td>
+      <td>exposed</td>
+      <td>2007</td>
+      <td>translation</td>
+      <td>tnfα</td>
+      <td>high-fat diet</td>
+      <td>patient</td>
+      <td>ABCB1</td>
+      <td>BAL</td>
+      <td>syndrome</td>
+      <td>phorbol</td>
+      <td>1166C</td>
+      <td>lipids</td>
+      <td>10,12,13</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>angiotensin-(1</td>
+      <td>cleavage</td>
+      <td>knockout</td>
+      <td>adjustment</td>
+      <td>dipeptidyl peptidase-4</td>
+      <td>predictor</td>
+      <td>CCL4</td>
+      <td>ventricular</td>
+      <td>hcmv-positive</td>
+      <td>hyperoxia</td>
+      <td>microbiota</td>
+      <td>constitutive</td>
+      <td>size</td>
+      <td>nps</td>
+      <td>estudios</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>central</td>
+      <td>appears</td>
+      <td>fibroblasts</td>
+      <td>expenditures</td>
+      <td>core</td>
+      <td>CKD5D</td>
+      <td>b.wt</td>
+      <td>hsβadr1</td>
+      <td>podocyte</td>
+      <td>MATERIAL</td>
+      <td>5-HT</td>
+      <td>619</td>
+      <td>magnetic</td>
+      <td>spinal</td>
+      <td>seminal</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>discovered</td>
+      <td>vasoconstrictor</td>
+      <td>exposed to</td>
+      <td>renin-angiotensin drugs</td>
+      <td>unique</td>
+      <td>TNFR2</td>
+      <td>infusion</td>
+      <td>stnx</td>
+      <td>groups</td>
+      <td>ACE-1</td>
+      <td>transporters</td>
+      <td>no effect</td>
+      <td>CMR</td>
+      <td>proteome</td>
+      <td>sources</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>discuss</td>
+      <td>chloride</td>
+      <td>HGF</td>
+      <td>2019</td>
+      <td>proliferator-activated</td>
+      <td>RESULTS</td>
+      <td>orally</td>
+      <td>3D</td>
+      <td>population</td>
+      <td>hyperoxic</td>
+      <td>l-isoleucine</td>
+      <td>T2D</td>
+      <td>SHR</td>
+      <td>angiotensin-generating</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>disorders</td>
+      <td>single</td>
+      <td>TI</td>
+      <td>patented</td>
+      <td>thiazolidinediones</td>
+      <td>controls</td>
+      <td>sprague</td>
+      <td>β(1)-ar</td>
+      <td>HSC</td>
+      <td>enkephalins</td>
+      <td>severe</td>
+      <td>immunoreactive</td>
+      <td>VCAM-1</td>
+      <td>outside-in</td>
+      <td>danio</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>pharmacological</td>
+      <td>cell</td>
+      <td>expressed</td>
+      <td>comorbidities</td>
+      <td>AP-A</td>
+      <td>METHODS</td>
+      <td>hemoglobin</td>
+      <td>infantile-onset</td>
+      <td>national</td>
+      <td>family members</td>
+      <td>acid-supplemented</td>
+      <td>high</td>
+      <td>neuroprotection</td>
+      <td>immobilized</td>
+      <td>nanomolar</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>enzyme</td>
+      <td>recently</td>
+      <td>ang</td>
+      <td>result</td>
+      <td>CD36</td>
+      <td>CONT</td>
+      <td>dawley</td>
+      <td>immunosuppression</td>
+      <td>stone</td>
+      <td>autism</td>
+      <td>neurogenesis</td>
+      <td>1</td>
+      <td>pneumonia</td>
+      <td>deficiency</td>
+      <td>reducción</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>pathologies</td>
+      <td>functions</td>
+      <td>results</td>
+      <td>coronavirus disease 2019</td>
+      <td>effective</td>
+      <td>diameter</td>
+      <td>bleomycin</td>
+      <td>hypertrophic cardiomyopathy</td>
+      <td>osteonecrosis</td>
+      <td>prolyl</td>
+      <td>membrane-anchored</td>
+      <td>mm</td>
+      <td>anxa1</td>
+      <td>lipid metabolism</td>
+      <td>se</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>ang 1–7</td>
+      <td>system</td>
+      <td>reduced</td>
+      <td>cytosolic</td>
+      <td>drug</td>
+      <td>TNFR1</td>
+      <td>male</td>
+      <td>survivors</td>
+      <td>microvascular thrombosis</td>
+      <td>peptidase</td>
+      <td>distal</td>
+      <td>nutrient</td>
+      <td>endothelial dysfunction</td>
+      <td>pancreas</td>
+      <td>non-mammalian</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>focus</td>
+      <td>angiotensin‐converting</td>
+      <td>study</td>
+      <td>risk factors</td>
+      <td>lipid</td>
+      <td>0.009</td>
+      <td>model</td>
+      <td>left</td>
+      <td>mhc class ii</td>
+      <td>lung</td>
+      <td>amino acids</td>
+      <td>PKC</td>
+      <td>logistic regression</td>
+      <td>metabolism</td>
+      <td><3</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>nervous</td>
+      <td>sensitive</td>
+      <td>overexpressing</td>
+      <td>medications</td>
+      <td>incretin</td>
+      <td>quartile</td>
+      <td>sensorimotor</td>
+      <td>infection</td>
+      <td>hcmv-negative</td>
+      <td><</td>
+      <td>viruses</td>
+      <td>7)/masr</td>
+      <td>analyze</td>
+      <td>disulfide</td>
+      <td>promoters</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>therapies</td>
+      <td>converts</td>
+      <td>suppressed</td>
+      <td>GBD2013</td>
+      <td>glucagon-like</td>
+      <td>cv disease</td>
+      <td>body weight</td>
+      <td>resolution</td>
+      <td>women</td>
+      <td>serum</td>
+      <td>luminal</td>
+      <td>phenylalanine</td>
+      <td>activators</td>
+      <td>microglia</td>
+      <td>exploration</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>angiotensin peptides</td>
+      <td>sites</td>
+      <td>exhibited</td>
+      <td>older</td>
+      <td>ppars</td>
+      <td>median</td>
+      <td>doses</td>
+      <td>serca2a</td>
+      <td>high-salt</td>
+      <td>transcription factors</td>
+      <td>2009</td>
+      <td>glucose-induced</td>
+      <td>post-stroke</td>
+      <td>appraises</td>
+      <td>ace-related</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>understood</td>
+      <td>kidney disease</td>
+      <td>compared</td>
+      <td>sars-cov</td>
+      <td>benefit</td>
+      <td>EF</td>
+      <td>occlusion</td>
+      <td>ways</td>
+      <td>rosiglitazone</td>
+      <td>aβ</td>
+      <td>tryptophan</td>
+      <td>β-cells</td>
+      <td>A1166C</td>
+      <td>GC-A</td>
+      <td>making</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>effector</td>
+      <td>cell surface</td>
+      <td>cardiomyocyte hypertrophy</td>
+      <td>sars-cov-2 infection</td>
+      <td>metabolism</td>
+      <td>independent</td>
+      <td>hepg2</td>
+      <td>rhythm</td>
+      <td>apob</td>
+      <td>bronchial</td>
+      <td>identified</td>
+      <td>fluids</td>
+      <td>small-vessel</td>
+      <td>exemplified</td>
+      <td>0.0005</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>knowledge</td>
+      <td>domain</td>
+      <td>fibrosis</td>
+      <td>chronic</td>
+      <td>inhibition</td>
+      <td>increased</td>
+      <td>streptozotocin</td>
+      <td>surflex-dock</td>
+      <td>rs1045642</td>
+      <td>CO(2</td>
+      <td>aspiration</td>
+      <td>biological fluids</td>
+      <td>ICAM-1</td>
+      <td>subspecies</td>
+      <td>tetraodon</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

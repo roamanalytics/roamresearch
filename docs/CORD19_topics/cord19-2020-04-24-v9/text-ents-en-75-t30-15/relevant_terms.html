@@ -1,0 +1,962 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Most Relevant Terms per Topic</title>
+
+<style>
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+td:nth-child(even){background-color: #f2f2f2;}
+
+td:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099FF;
+  color: white;
+}
+</style>
+
+</head>
+<body>
+<h2>Most Relevant Terms per Topic</h2>
+<h3>Abstracts with Biological Entities (English) - 75 Topics / Sub-Topic Model 30</h3>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th><a href="Topic_01.html" target="_blank">Topic 1</a></th>
+      <th><a href="Topic_02.html" target="_blank">Topic 2</a></th>
+      <th><a href="Topic_03.html" target="_blank">Topic 3</a></th>
+      <th><a href="Topic_04.html" target="_blank">Topic 4</a></th>
+      <th><a href="Topic_05.html" target="_blank">Topic 5</a></th>
+      <th><a href="Topic_06.html" target="_blank">Topic 6</a></th>
+      <th><a href="Topic_07.html" target="_blank">Topic 7</a></th>
+      <th><a href="Topic_08.html" target="_blank">Topic 8</a></th>
+      <th><a href="Topic_09.html" target="_blank">Topic 9</a></th>
+      <th><a href="Topic_10.html" target="_blank">Topic 10</a></th>
+      <th><a href="Topic_11.html" target="_blank">Topic 11</a></th>
+      <th><a href="Topic_12.html" target="_blank">Topic 12</a></th>
+      <th><a href="Topic_13.html" target="_blank">Topic 13</a></th>
+      <th><a href="Topic_14.html" target="_blank">Topic 14</a></th>
+      <th><a href="Topic_15.html" target="_blank">Topic 15</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>viruses</td>
+      <td>bat</td>
+      <td>host</td>
+      <td>coronavirus</td>
+      <td>cells</td>
+      <td>habitat</td>
+      <td>niv</td>
+      <td>birds</td>
+      <td>astroviruses</td>
+      <td>lyssavirus</td>
+      <td>macaques</td>
+      <td>sars-cov-2</td>
+      <td>hepatitis</td>
+      <td>bartonella</td>
+      <td>%</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>humans</td>
+      <td>samples</td>
+      <td>species</td>
+      <td>sars-cov</td>
+      <td>cell</td>
+      <td>spatial</td>
+      <td>nipah</td>
+      <td>avian</td>
+      <td>-</td>
+      <td>myotis</td>
+      <td>helvum</td>
+      <td>chimpanzees</td>
+      <td>rodents</td>
+      <td>world</td>
+      <td>T.</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>human</td>
+      <td>bats</td>
+      <td>cross-species</td>
+      <td>syndrome</td>
+      <td>immune</td>
+      <td>forest</td>
+      <td>nipah virus</td>
+      <td>influenza</td>
+      <td>astrovirus</td>
+      <td>adenoviruses</td>
+      <td>RVA</td>
+      <td>apes</td>
+      <td>rodent</td>
+      <td>leptospira</td>
+      <td>YOKV</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>zoonotic</td>
+      <td>detected</td>
+      <td>viral</td>
+      <td>respiratory</td>
+      <td>response</td>
+      <td>vampire</td>
+      <td>hev</td>
+      <td>wild birds</td>
+      <td>material</td>
+      <td>island</td>
+      <td>cynomolgus</td>
+      <td>masked</td>
+      <td>hantavirus</td>
+      <td>blood</td>
+      <td>consumption</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>disease</td>
+      <td>%</td>
+      <td>evolutionary</td>
+      <td>acute</td>
+      <td>lines</td>
+      <td>areas</td>
+      <td>hendra</td>
+      <td>wild</td>
+      <td>users</td>
+      <td>rabies</td>
+      <td>MHC</td>
+      <td>palm</td>
+      <td>rat</td>
+      <td>flies</td>
+      <td>respondents</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>transmission</td>
+      <td>analysis</td>
+      <td>cross-species transmission</td>
+      <td>severe</td>
+      <td>IFN</td>
+      <td>forests</td>
+      <td>hendra virus</td>
+      <td>ducks</td>
+      <td>MATERIAL</td>
+      <td>M.</td>
+      <td>rhesus</td>
+      <td>masked palm civets</td>
+      <td>rattus</td>
+      <td>spp</td>
+      <td>aavs</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>health</td>
+      <td>coronaviruses</td>
+      <td>sharing</td>
+      <td>mers-cov</td>
+      <td>receptor</td>
+      <td>community</td>
+      <td>henipavirus</td>
+      <td>poultry</td>
+      <td>SUPPLEMENTARY</td>
+      <td>EBLV-1</td>
+      <td>e. helvum</td>
+      <td>pangolins</td>
+      <td>shrews</td>
+      <td>α-gal</td>
+      <td>gondii</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>animal</td>
+      <td>sequences</td>
+      <td>adaptation</td>
+      <td>SARS</td>
+      <td>expression</td>
+      <td>urban</td>
+      <td>paramyxoviridae</td>
+      <td>bird</td>
+      <td>authorized</td>
+      <td>daubentonii</td>
+      <td>macaque</td>
+      <td>simian</td>
+      <td>HCV</td>
+      <td>parasites</td>
+      <td>foxes</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>diseases</td>
+      <td>species</td>
+      <td>pathogen</td>
+      <td>acute respiratory syndrome</td>
+      <td>replication</td>
+      <td>dynamics</td>
+      <td>sera</td>
+      <td>duck</td>
+      <td>ELECTRONIC</td>
+      <td>free-tailed</td>
+      <td>eidolon helvum</td>
+      <td>gorillas</td>
+      <td>norvegicus</td>
+      <td>=</td>
+      <td>letea</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>animals</td>
+      <td>phylogenetic</td>
+      <td>shifts</td>
+      <td>middle</td>
+      <td>antiviral</td>
+      <td>abundance</td>
+      <td>antibodies</td>
+      <td>anas</td>
+      <td>supplementary</td>
+      <td>colonies</td>
+      <td>E.</td>
+      <td>retroviruses</td>
+      <td>hantaviruses</td>
+      <td>α-gal epitopes</td>
+      <td>wild pigs</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>hosts</td>
+      <td>collected</td>
+      <td>temperature</td>
+      <td>east</td>
+      <td>culture</td>
+      <td>buildings</td>
+      <td>virus</td>
+      <td>IAV</td>
+      <td>online</td>
+      <td>brown</td>
+      <td>cynomolgus macaques</td>
+      <td>monkeys</td>
+      <td>bufavirus</td>
+      <td>artibeus</td>
+      <td>meat</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>wildlife</td>
+      <td>genome</td>
+      <td>hosts</td>
+      <td>horseshoe</td>
+      <td>cell lines</td>
+      <td>shedding</td>
+      <td>henipaviruses</td>
+      <td>markets</td>
+      <td>version</td>
+      <td>rabies virus</td>
+      <td>class</td>
+      <td>2019-ncov</td>
+      <td>hepadnaviruses</td>
+      <td>F.</td>
+      <td>RABV</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>virus</td>
+      <td>study</td>
+      <td>mammalian</td>
+      <td>betacoronaviruses</td>
+      <td>alecto</td>
+      <td>life history</td>
+      <td>malaysia</td>
+      <td>geese</td>
+      <td>pyvs</td>
+      <td>big</td>
+      <td>eidolon</td>
+      <td>SIV</td>
+      <td>small mammals</td>
+      <td>bartonella spp</td>
+      <td>residents</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>emerging</td>
+      <td>identified</td>
+      <td>understanding</td>
+      <td>covs</td>
+      <td>responses</td>
+      <td>deer</td>
+      <td>vaccine</td>
+      <td>wild bird</td>
+      <td>virome</td>
+      <td>mating</td>
+      <td>rotaviruses</td>
+      <td>immunodeficiency</td>
+      <td>hepatitis c virus</td>
+      <td>epitopes</td>
+      <td>bat bite</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>potential</td>
+      <td>gene</td>
+      <td>strong</td>
+      <td>rhinolophus</td>
+      <td>innate</td>
+      <td>bats</td>
+      <td>australia</td>
+      <td>chickens</td>
+      <td>article</td>
+      <td>europe</td>
+      <td>alleles</td>
+      <td>tmadv</td>
+      <td>HEV</td>
+      <td>mosquitoes</td>
+      <td>vegrandis</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>pathogens</td>
+      <td>covs</td>
+      <td>viral diversity</td>
+      <td>coronaviruses</td>
+      <td>receptors</td>
+      <td>population</td>
+      <td>horses</td>
+      <td>H5N1</td>
+      <td>online version</td>
+      <td>germany</td>
+      <td>LBV</td>
+      <td>civets</td>
+      <td>apodemus</td>
+      <td>ZIKV</td>
+      <td>orbivirus</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>reservoir</td>
+      <td>bat species</td>
+      <td>evolution</td>
+      <td>sars-like</td>
+      <td>bats</td>
+      <td>seasonal</td>
+      <td>family paramyxoviridae</td>
+      <td>wet</td>
+      <td>astroviridae</td>
+      <td>insectivorous</td>
+      <td>straw-colored</td>
+      <td>pangolin</td>
+      <td>vole</td>
+      <td>arctonyx</td>
+      <td>caninum</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>bats</td>
+      <td>sequence</td>
+      <td>events</td>
+      <td>cov</td>
+      <td>immune response</td>
+      <td>ecology</td>
+      <td>flying-foxes</td>
+      <td>influenza viruses</td>
+      <td>norovirus</td>
+      <td>frugivorous</td>
+      <td>fruit</td>
+      <td>selection</td>
+      <td>hepaciviruses</td>
+      <td>mosquito</td>
+      <td>guano</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>public</td>
+      <td>phylogenetic analysis</td>
+      <td>show</td>
+      <td>sars‐cov</td>
+      <td>bat</td>
+      <td>hypotheses</td>
+      <td>pteropus</td>
+      <td>influenza a viruses</td>
+      <td>metagenomic</td>
+      <td>seroprevalence</td>
+      <td>macaca</td>
+      <td>95</td>
+      <td>orthoreovirus</td>
+      <td>modern</td>
+      <td>vespertilionidae</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>infectious</td>
+      <td>diversity</td>
+      <td>network</td>
+      <td>HKU9</td>
+      <td>epithelial</td>
+      <td>pulses</td>
+      <td>days</td>
+      <td>CIV</td>
+      <td>picornaviridae</td>
+      <td>des</td>
+      <td>haplotypes</td>
+      <td>CI</td>
+      <td>rats</td>
+      <td>saliva</td>
+      <td>bite</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>infections</td>
+      <td>detection</td>
+      <td>virus</td>
+      <td>batcov</td>
+      <td>interferon</td>
+      <td>synanthropic</td>
+      <td>MARV</td>
+      <td>aavv‐6</td>
+      <td>contigs</td>
+      <td>brown bats</td>
+      <td>S.</td>
+      <td>ACE2</td>
+      <td>liver</td>
+      <td>hematophagous</td>
+      <td>XYBX1332</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>species</td>
+      <td>china</td>
+      <td>patterns</td>
+      <td>acute respiratory syndrome coronavirus</td>
+      <td>viral infection</td>
+      <td>life</td>
+      <td>fusion</td>
+      <td>epidemiology</td>
+      <td>single-stranded</td>
+      <td>erinaceus</td>
+      <td>rotavirus</td>
+      <td>COVID-19</td>
+      <td>hepatitis viruses</td>
+      <td>α1,3gt</td>
+      <td>yokose virus</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>reservoirs</td>
+      <td>strains</td>
+      <td>viral richness</td>
+      <td>middle east respiratory syndrome coronavirus</td>
+      <td>bat cells</td>
+      <td>environments</td>
+      <td>infection</td>
+      <td>wet markets</td>
+      <td>virus families</td>
+      <td>ABLV</td>
+      <td>rpmrv-yn2012</td>
+      <td>SFV</td>
+      <td>rattus norvegicus</td>
+      <td>bartonella species</td>
+      <td>t. gondii</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>including</td>
+      <td>sequencing</td>
+      <td>comparative</td>
+      <td>horseshoe bats</td>
+      <td>genes</td>
+      <td>migration</td>
+      <td>ebolavirus</td>
+      <td>deltacoronavirus</td>
+      <td>polyomavirus</td>
+      <td>europaeus</td>
+      <td>s. aureus</td>
+      <td>raccoons</td>
+      <td>kampar</td>
+      <td>MPXV</td>
+      <td>township</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>risk</td>
+      <td>polymerase</td>
+      <td>evolutionary history</td>
+      <td>middle east respiratory syndrome</td>
+      <td>cellular</td>
+      <td>mass</td>
+      <td>ELISA</td>
+      <td>δ-covs</td>
+      <td>caliciviruses</td>
+      <td>CCHFV</td>
+      <td>MRV</td>
+      <td>HIV-1</td>
+      <td>mammarenavirus</td>
+      <td>ectoparasites</td>
+      <td>terengganu</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>review</td>
+      <td>presence</td>
+      <td>diversity</td>
+      <td>sars-related</td>
+      <td>differences</td>
+      <td>body</td>
+      <td>henipavirus infection</td>
+      <td>swans</td>
+      <td>families</td>
+      <td>european</td>
+      <td>rhesus macaques</td>
+      <td>titi</td>
+      <td>arenaviruses</td>
+      <td>reptiles</td>
+      <td>yokose</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>studies</td>
+      <td>related</td>
+      <td>phylogeny</td>
+      <td>MERS</td>
+      <td>tract</td>
+      <td>vampire bats</td>
+      <td>bangladesh</td>
+      <td>pigeons</td>
+      <td>caliciviridae</td>
+      <td>EBLV-2</td>
+      <td>comoros</td>
+      <td>foamy</td>
+      <td>HBV</td>
+      <td>leptospira spp</td>
+      <td>bushmeat</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>public health</td>
+      <td>RNA</td>
+      <td>rna virus</td>
+      <td>protein</td>
+      <td>entry</td>
+      <td>tropical</td>
+      <td>mice</td>
+      <td>gammacoronaviruses</td>
+      <td>sapovirus</td>
+      <td>carnivore</td>
+      <td>histocompatibility</td>
+      <td>pangolin-cov</td>
+      <td>hepacivirus</td>
+      <td>new world</td>
+      <td>participants</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>recent</td>
+      <td>revealed</td>
+      <td>model</td>
+      <td>camels</td>
+      <td>p. alecto</td>
+      <td>habitats</td>
+      <td>antibody</td>
+      <td>deltacoronaviruses</td>
+      <td>calicivirus</td>
+      <td>maternity</td>
+      <td>straw-colored fruit bat</td>
+      <td>monkey</td>
+      <td>r. norvegicus</td>
+      <td>B.</td>
+      <td>N.</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>research</td>
+      <td>cov</td>
+      <td>range</td>
+      <td>epidemic</td>
+      <td>mechanisms</td>
+      <td>models</td>
+      <td>guinea</td>
+      <td>iavs</td>
+      <td>microbiome</td>
+      <td>lyssaviruses</td>
+      <td>rhesus macaque</td>
+      <td>simian immunodeficiency viruses</td>
+      <td>accov-jc34</td>
+      <td>haemoproteus</td>
+      <td>game</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>important</td>
+      <td>genus</td>
+      <td>richness</td>
+      <td>RBD</td>
+      <td>IRF7</td>
+      <td>affect</td>
+      <td>ng/ml</td>
+      <td>mallards</td>
+      <td>sapoviruses</td>
+      <td>astvs</td>
+      <td>inos</td>
+      <td>gorilla</td>
+      <td>arenavirus</td>
+      <td>amphibians</td>
+      <td>cynopterus</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>emergence</td>
+      <td>tested</td>
+      <td>rodents</td>
+      <td>sars-cov.</td>
+      <td>proteases</td>
+      <td>disturbance</td>
+      <td>brain</td>
+      <td>migratory</td>
+      <td>avastrovirus</td>
+      <td>RABV</td>
+      <td>TCR</td>
+      <td>MPV</td>
+      <td>discovered</td>
+      <td>FLAV</td>
+      <td>contacts</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>contact</td>
+      <td>RT-PCR</td>
+      <td>shift</td>
+      <td>chinese horseshoe bats</td>
+      <td>RIG-I</td>
+      <td>monodominant</td>
+      <td>neutralization</td>
+      <td>H1N1</td>
+      <td>gut</td>
+      <td>malagasy</td>
+      <td>VP7</td>
+      <td>endangered</td>
+      <td>betaretroviruses</td>
+      <td>kazakhstan</td>
+      <td>exposed</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>threat</td>
+      <td>alphacoronavirus</td>
+      <td>find</td>
+      <td>GCCDC1</td>
+      <td>furin</td>
+      <td>fragmented</td>
+      <td>developed</td>
+      <td>δ-cov</td>
+      <td>hunnivirus</td>
+      <td>brazilian</td>
+      <td>TRB</td>
+      <td>%</td>
+      <td>county</td>
+      <td>anti-gal</td>
+      <td>flying</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>viral</td>
+      <td>PCR</td>
+      <td>transmission</td>
+      <td>sl-covs</td>
+      <td>ifnγ</td>
+      <td>compared</td>
+      <td>virus-specific</td>
+      <td>waterfowl</td>
+      <td>positive-sense</td>
+      <td>lucifugus</td>
+      <td>picobirnavirus</td>
+      <td>sivsm</td>
+      <td>FUGV</td>
+      <td>captive-bred</td>
+      <td>medius</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>infection</td>
+      <td>group</td>
+      <td>RNA</td>
+      <td>lineage</td>
+      <td>DPP4</td>
+      <td>migratory</td>
+      <td>paramyxoviruses</td>
+      <td>mallard</td>
+      <td>wasp</td>
+      <td>pygmaeus</td>
+      <td>PRV</td>
+      <td>HRV3</td>
+      <td>pegivirus</td>
+      <td>mongooses</td>
+      <td>urbanized</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>future</td>
+      <td>analyses</td>
+      <td>infect</td>
+      <td>sarsr-covs</td>
+      <td>immune responses</td>
+      <td>scales</td>
+      <td>outbreaks</td>
+      <td>cloacal</td>
+      <td>016</td>
+      <td>tuberculata</td>
+      <td>aureus</td>
+      <td>ranbp2</td>
+      <td>liver samples</td>
+      <td>rhabdoviruses</td>
+      <td>genus flavivirus</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>direct</td>
+      <td>found</td>
+      <td>diversification</td>
+      <td>dromedary</td>
+      <td>interactions</td>
+      <td>spatiotemporal</td>
+      <td>biosafety</td>
+      <td>IBV</td>
+      <td>neotropical</td>
+      <td>e. europaeus</td>
+      <td>madagascar</td>
+      <td>melomys</td>
+      <td>hepatitis e virus</td>
+      <td>country</td>
+      <td>regularly</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>ebola</td>
+      <td>fecal</td>
+      <td>jumps</td>
+      <td>HKU4</td>
+      <td>infection</td>
+      <td>involvement</td>
+      <td>m102.4</td>
+      <td>H3N2</td>
+      <td>meles</td>
+      <td>prevalence</td>
+      <td>segments</td>
+      <td>masked palm civet</td>
+      <td>kampar virus</td>
+      <td>individuals</td>
+      <td>seropositivity</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>considered</td>
+      <td>sampled</td>
+      <td>parallel</td>
+      <td>sars-covs</td>
+      <td>antiviral activity</td>
+      <td>landscape</td>
+      <td>therapeutic</td>
+      <td>SA</td>
+      <td>diarrhea</td>
+      <td>madagascar</td>
+      <td>madagascariensis</td>
+      <td>paguma</td>
+      <td>cangyuan</td>
+      <td>jamaicensis</td>
+      <td>tcbat</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>cases</td>
+      <td>viruses</td>
+      <td>viral load</td>
+      <td>betacoronavirus</td>
+      <td>human cells</td>
+      <td>urban areas</td>
+      <td>cedv</td>
+      <td>HPAI</td>
+      <td>single-stranded rna viruses</td>
+      <td>western</td>
+      <td>VP4</td>
+      <td>ratg13</td>
+      <td>chevrieri</td>
+      <td>malaria</td>
+      <td>mining</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>animal species</td>
+      <td>phylogenetic analyses</td>
+      <td>load</td>
+      <td>china</td>
+      <td>tetherin</td>
+      <td>structure</td>
+      <td>paramyxoviridae family</td>
+      <td>H7N9</td>
+      <td>astrovirus infection</td>
+      <td>ces</td>
+      <td>B/03</td>
+      <td>paguma larvata</td>
+      <td>LRNV</td>
+      <td>old world</td>
+      <td>administered</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>host</td>
+      <td>obtained</td>
+      <td>kobuviruses</td>
+      <td>dromedary camels</td>
+      <td>attempts</td>
+      <td>distribution</td>
+      <td>1998</td>
+      <td>spread</td>
+      <td>mamastrovirus</td>
+      <td>reunion</td>
+      <td>mhc class i</td>
+      <td>marmosets</td>
+      <td>province</td>
+      <td>percomorf</td>
+      <td>fulni-ô</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>filoviruses</td>
+      <td>rdrp</td>
+      <td>viruses</td>
+      <td>sars‐cov.</td>
+      <td>autophagy</td>
+      <td>metabarcoding</td>
+      <td>1994</td>
+      <td>role</td>
+      <td>genomic organization</td>
+      <td>western europe</td>
+      <td>mulatta</td>
+      <td>HRSV</td>
+      <td>small</td>
+      <td>artibeus jamaicensis</td>
+      <td>setiu</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>bat</td>
+      <td>screened</td>
+      <td>host species</td>
+      <td>HKU5</td>
+      <td>stomatitis</td>
+      <td>reproductive</td>
+      <td>igg</td>
+      <td>domestic</td>
+      <td>unbiased</td>
+      <td>european bat species</td>
+      <td>microsatellite</td>
+      <td>acid</td>
+      <td>rodentia</td>
+      <td>CITES</td>
+      <td>untouched</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>discuss</td>
+      <td>bat coronaviruses</td>
+      <td>viral communities</td>
+      <td>horseshoe bat</td>
+      <td>permissive</td>
+      <td>predictive</td>
+      <td>pigs</td>
+      <td>asian</td>
+      <td>HMBOV2</td>
+      <td>mayotte</td>
+      <td>macaca fascicularis</td>
+      <td>trichomonads</td>
+      <td>genus</td>
+      <td>coevolutionary</td>
+      <td>transect</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>concern</td>
+      <td>swabs</td>
+      <td>wild mammals</td>
+      <td>bat-cov</td>
+      <td>btadvs</td>
+      <td>severity</td>
+      <td>infected</td>
+      <td>pfu/ml</td>
+      <td>s2</td>
+      <td>en</td>
+      <td>fascicularis</td>
+      <td>phase</td>
+      <td>TRS</td>
+      <td>carbohydrate</td>
+      <td>waterfalls</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>systems</td>
+      <td>rna-dependent</td>
+      <td>codon</td>
+      <td>s protein</td>
+      <td>scotophilus bat</td>
+      <td>otus</td>
+      <td>assay</td>
+      <td>gulls</td>
+      <td>rotundus</td>
+      <td>DWV</td>
+      <td>sites</td>
+      <td>polar</td>
+      <td>belinga</td>
+      <td>callitrichids</td>
+      <td>brachyotis</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>zoonotic pathogens</td>
+      <td>partial</td>
+      <td>nuclear</td>
+      <td>alimentary samples</td>
+      <td>VH</td>
+      <td>leaf</td>
+      <td>attachment</td>
+      <td>play</td>
+      <td>HMBOV1</td>
+      <td>astv</td>
+      <td>gastroenteritis</td>
+      <td>manis</td>
+      <td>rodent-</td>
+      <td>aedes</td>
+      <td>biomass</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>involved</td>
+      <td>coronavirus</td>
+      <td>mammals</td>
+      <td>alimentary</td>
+      <td>mammals</td>
+      <td>metacommunity</td>
+      <td>sulfate</td>
+      <td>barnacle</td>
+      <td>IFNA</td>
+      <td>kingdom</td>
+      <td>complex</td>
+      <td>V1V2</td>
+      <td>soricomorpha</td>
+      <td>artibeus lituratus</td>
+      <td>perceptions</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
