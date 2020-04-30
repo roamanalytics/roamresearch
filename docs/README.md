@@ -2,12 +2,12 @@
 
 ## Research Supplemental Website
 
-This website contains supplemental files from [Roam Analytics](https://roamanalytics.com/) Research blog posts, available at https://roamanalytics.com/research/
+This website contains supplemental files from [Roam Analytics](https://roamanalytics.com/) blog posts, available at [https://roamanalytics.com/research/](https://roamanalytics.com/research/)
 
 ### Inventory
 - [CORD19_topics](CORD19_topics/) - Extended, preliminary results described in the blog post [Organizing the Emerging COVID-19 Literature](https://roamanalytics.com/covid19-topics)
 
-Notebooks and code associated with these posts are available at https://github.com/roamanalytics/roamresearch/
+Notebooks and code associated with these posts are available at [https://github.com/roamanalytics/roamresearch/](https://github.com/roamanalytics/roamresearch/)
 
 ## Questions?
 

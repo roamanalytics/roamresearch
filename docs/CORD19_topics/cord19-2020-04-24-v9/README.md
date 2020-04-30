@@ -11,7 +11,7 @@ The web pages consist of:
 - Trends over time for each topic are shown as a heatmap (yearly prior to Jan 2020, and weekly afterwards).
 - Each of the topics is also modeled as [sub-topics](text-ents-en-75/subtopics.html). 
 
-Notebooks and code to generate the model are at https://github.com/roamanalytics/roamresearch/tree/master/BlogPosts/CORD19_topics/
+Notebooks and code to generate the model are at [https://github.com/roamanalytics/roamresearch/tree/master/BlogPosts/CORD19_topics/](https://github.com/roamanalytics/roamresearch/tree/master/BlogPosts/CORD19_topics/)
 
 ## Questions?
 
