@@ -103,12 +103,12 @@ def build_weighted_matrix(corpus, tokenizing_func=basic_tokenizer,
 def _window_based_iterator(toks, window_size, weighting_function):
     for i, w in enumerate(toks):
         yield w, w, 1
-        left = max([0, i-window_size])
+        left = max([0, i - window_size])
         for x in range(left, i):
-            yield w, toks[x],weighting_function(x)
-        right = min([i+1+window_size, len(toks)])
+            yield w, toks[x], weighting_function(abs(x - i))
+        right = min([i + 1 + window_size, len(toks)])
         for x in range(i+1, right):
-            yield w, toks[x], weighting_function(x)
+            yield w, toks[x], weighting_function(abs(x - i))
 
 
 def sequence_length_report(X, potential_max_length=50):
