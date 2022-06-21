@@ -2,7 +2,7 @@
 #  `pip install -r requirements`. Different OSes may require different
 #  installation procedures. We leave this numpy requirement here so
 #  pip-sync does not uninstall numpy.
-numpy == 1.10.4
+numpy == 1.22.0
 
 matplotlib == 1.5.1
 pandas == 0.18.0
